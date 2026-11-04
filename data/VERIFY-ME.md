@@ -1,0 +1,727 @@
+# Verify these athletes
+
+Every seed athlete ships with `verified: false`. The daily puzzle still uses them until `REQUIRE_VERIFIED=true`.
+Check the season line, then set `verified` to `true` in the JSON (or re-import from a checked CSV).
+
+## NBA (475)
+
+- [ ] `nba-lebron-james` **LeBron James** (SF) — 2012-13 Miami Heat {"ppg":26.8,"rpg":8,"apg":7.3,"fg":56.5}<br>2008-09 Cleveland Cavaliers {"ppg":28.4,"rpg":7.6,"apg":7.2,"fg":48.9}
+- [ ] `nba-stephen-curry` **Stephen Curry** (PG) — 2015-16 Golden State Warriors {"ppg":30.1,"rpg":5.4,"apg":6.7,"fg":50.4}<br>2020-21 Golden State Warriors {"ppg":32,"rpg":5.5,"apg":5.8,"fg":48.2}
+- [ ] `nba-kevin-durant` **Kevin Durant** (SF) — 2013-14 Oklahoma City Thunder {"ppg":32,"rpg":7.4,"apg":5.5,"fg":50.3}
+- [ ] `nba-russell-westbrook` **Russell Westbrook** (PG) — 2016-17 Oklahoma City Thunder {"ppg":31.6,"rpg":10.7,"apg":10.4,"fg":42.5}
+- [ ] `nba-james-harden` **James Harden** (SG) — 2018-19 Houston Rockets {"ppg":36.1,"rpg":6.6,"apg":7.5,"fg":44.2}
+- [ ] `nba-giannis-antetokounmpo` **Giannis Antetokounmpo** (PF) — 2019-20 Milwaukee Bucks {"ppg":29.5,"rpg":13.6,"apg":5.6,"fg":55.3}
+- [ ] `nba-nikola-jokic` **Nikola Jokic** (C) — 2021-22 Denver Nuggets {"ppg":27.1,"rpg":13.8,"apg":7.9,"fg":58.3}
+- [ ] `nba-luka-doncic` **Luka Doncic** (PG) — 2023-24 Dallas Mavericks {"ppg":33.9,"rpg":9.2,"apg":9.8,"fg":48.7}
+- [ ] `nba-joel-embiid` **Joel Embiid** (C) — 2022-23 Philadelphia 76ers {"ppg":33.1,"rpg":10.2,"apg":4.2,"fg":54.8}
+- [ ] `nba-jayson-tatum` **Jayson Tatum** (SF) — 2022-23 Boston Celtics {"ppg":30.1,"rpg":8.8,"apg":4.6,"fg":46.6}<br>2023-24 Boston Celtics {"ppg":26.9,"rpg":8.1,"apg":4.9,"fg":47.1}<br>2019-20 Boston Celtics {"ppg":23.4,"rpg":7,"apg":3,"fg":45}<br>2017-18 Boston Celtics {"ppg":13.9,"rpg":5,"apg":1.6,"fg":47.5}
+- [ ] `nba-michael-jordan` **Michael Jordan** (SG) — 1987-88 Chicago Bulls {"ppg":35,"rpg":5.5,"apg":5.9,"fg":53.5}<br>1995-96 Chicago Bulls {"ppg":30.4,"rpg":6.6,"apg":4.3,"fg":49.5}
+- [ ] `nba-kobe-bryant` **Kobe Bryant** (SG) — 2005-06 Los Angeles Lakers {"ppg":35.4,"rpg":5.3,"apg":4.5,"fg":45}
+- [ ] `nba-shaquille-oneal` **Shaquille O'Neal** (C) — 1999-00 Los Angeles Lakers {"ppg":29.7,"rpg":13.6,"apg":3.8,"fg":57.4}<br>2004-05 Miami Heat {"ppg":22.9,"rpg":10.4,"apg":2.7,"fg":60.1}
+- [ ] `nba-tim-duncan` **Tim Duncan** (PF) — 2001-02 San Antonio Spurs {"ppg":25.5,"rpg":12.7,"apg":3.7,"fg":50.8}
+- [ ] `nba-kareem-abdul-jabbar` **Kareem Abdul-Jabbar** (C) — 1971-72 Milwaukee Bucks {"ppg":34.8,"rpg":16.6,"apg":4.6,"fg":57.4}
+- [ ] `nba-magic-johnson` **Magic Johnson** (PG) — 1986-87 Los Angeles Lakers {"ppg":23.9,"rpg":6.3,"apg":12.2,"fg":52.2}
+- [ ] `nba-larry-bird` **Larry Bird** (SF) — 1984-85 Boston Celtics {"ppg":28.7,"rpg":10.5,"apg":6.6,"fg":52.2}
+- [ ] `nba-wilt-chamberlain` **Wilt Chamberlain** (C) — 1961-62 Philadelphia Warriors {"ppg":50.4,"rpg":25.7,"apg":2.4,"fg":50.6}
+- [ ] `nba-bill-russell` **Bill Russell** (C) — 1964-65 Boston Celtics {"ppg":14.1,"rpg":24.1,"apg":5.3,"fg":43.8}
+- [ ] `nba-oscar-robertson` **Oscar Robertson** (PG) — 1961-62 Cincinnati Royals {"ppg":30.8,"rpg":12.5,"apg":11.4,"fg":47.8}
+- [ ] `nba-dirk-nowitzki` **Dirk Nowitzki** (PF) — 2006-07 Dallas Mavericks {"ppg":24.6,"rpg":8.9,"apg":3.4,"fg":50.2}
+- [ ] `nba-steve-nash` **Steve Nash** (PG) — 2005-06 Phoenix Suns {"ppg":18.8,"rpg":4.2,"apg":10.5,"fg":51.2}
+- [ ] `nba-chris-paul` **Chris Paul** (PG) — 2008-09 New Orleans Hornets {"ppg":22.8,"rpg":5.5,"apg":11,"fg":50.4}<br>2007-08 New Orleans Hornets {"ppg":21.1,"rpg":4,"apg":11.6,"fg":48.8}<br>2021-22 Phoenix Suns {"ppg":14.7,"rpg":4.4,"apg":10.8,"fg":49.5}
+- [ ] `nba-dwyane-wade` **Dwyane Wade** (SG) — 2008-09 Miami Heat {"ppg":30.2,"rpg":5,"apg":7.5,"fg":49.1}<br>2005-06 Miami Heat {"ppg":27.2,"rpg":5.7,"apg":6.7,"fg":49.5}
+- [ ] `nba-kawhi-leonard` **Kawhi Leonard** (SF) — 2016-17 San Antonio Spurs {"ppg":25.5,"rpg":5.8,"apg":3.5,"fg":48.5}<br>2018-19 Toronto Raptors {"ppg":26.6,"rpg":7.3,"apg":3.3,"fg":49.6}<br>2015-16 San Antonio Spurs {"ppg":21.2,"rpg":6.8,"apg":2.5,"fg":50.6}
+- [ ] `nba-anthony-davis` **Anthony Davis** (PF) — 2017-18 New Orleans Pelicans {"ppg":28.1,"rpg":11.1,"apg":2.3,"fg":53.4}
+- [ ] `nba-damian-lillard` **Damian Lillard** (PG) — 2022-23 Portland Trail Blazers {"ppg":32.2,"rpg":4.8,"apg":7.3,"fg":46.3}<br>2019-20 Portland Trail Blazers {"ppg":30,"rpg":4.3,"apg":8,"fg":46.3}
+- [ ] `nba-kyrie-irving` **Kyrie Irving** (PG) — 2020-21 Brooklyn Nets {"ppg":26.9,"rpg":4.8,"apg":6,"fg":50.6}<br>2016-17 Cleveland Cavaliers {"ppg":25.2,"rpg":3.2,"apg":5.8,"fg":47.3}
+- [ ] `nba-kevin-garnett` **Kevin Garnett** (PF) — 2003-04 Minnesota Timberwolves {"ppg":24.2,"rpg":13.9,"apg":5,"fg":49.9}
+- [ ] `nba-allen-iverson` **Allen Iverson** (SG) — 2000-01 Philadelphia 76ers {"ppg":31.1,"rpg":3.8,"apg":4.6,"fg":42}
+- [ ] `nba-tracy-mcgrady` **Tracy McGrady** (SG) — 2002-03 Orlando Magic {"ppg":32.1,"rpg":6.5,"apg":5.5,"fg":45.7}
+- [ ] `nba-vince-carter` **Vince Carter** (SG) — 2000-01 Toronto Raptors {"ppg":27.6,"rpg":5.5,"apg":3.9,"fg":46}<br>2005-06 New Jersey Nets {"ppg":24.2,"rpg":5.8,"apg":4.3,"fg":43}
+- [ ] `nba-carmelo-anthony` **Carmelo Anthony** (SF) — 2012-13 New York Knicks {"ppg":28.7,"rpg":6.9,"apg":2.6,"fg":44.9}
+- [ ] `nba-dwight-howard` **Dwight Howard** (C) — 2010-11 Orlando Magic {"ppg":22.9,"rpg":14.1,"apg":1.4,"fg":59.3}
+- [ ] `nba-yao-ming` **Yao Ming** (C) — 2006-07 Houston Rockets {"ppg":25,"rpg":9.4,"apg":2,"fg":51.6}
+- [ ] `nba-pau-gasol` **Pau Gasol** (PF) — 2009-10 Los Angeles Lakers {"ppg":18.3,"rpg":11.3,"apg":3.4,"fg":53.6}
+- [ ] `nba-manu-ginobili` **Manu Ginobili** (SG) — 2007-08 San Antonio Spurs {"ppg":19.5,"rpg":4.8,"apg":4.5,"fg":46}
+- [ ] `nba-tony-parker` **Tony Parker** (PG) — 2012-13 San Antonio Spurs {"ppg":20.3,"rpg":3,"apg":7.6,"fg":52.2}
+- [ ] `nba-ray-allen` **Ray Allen** (SG) — 2006-07 Seattle SuperSonics {"ppg":26.4,"rpg":4.5,"apg":4.1,"fg":43.8}
+- [ ] `nba-paul-pierce` **Paul Pierce** (SF) — 2005-06 Boston Celtics {"ppg":26.8,"rpg":6.7,"apg":4.7,"fg":47.1}
+- [ ] `nba-kevin-love` **Kevin Love** (PF) — 2013-14 Minnesota Timberwolves {"ppg":26.1,"rpg":12.5,"apg":4.4,"fg":45.7}<br>2016-17 Cleveland Cavaliers {"ppg":19,"rpg":11.1,"apg":1.9,"fg":42.7}
+- [ ] `nba-blake-griffin` **Blake Griffin** (PF) — 2013-14 Los Angeles Clippers {"ppg":24.1,"rpg":9.5,"apg":3.9,"fg":52.8}
+- [ ] `nba-chris-bosh` **Chris Bosh** (PF) — 2009-10 Toronto Raptors {"ppg":24,"rpg":10.8,"apg":2.4,"fg":51.8}
+- [ ] `nba-alonzo-mourning` **Alonzo Mourning** (C) — 1999-00 Miami Heat {"ppg":21.7,"rpg":9.5,"apg":1.6,"fg":55.1}<br>2005-06 Miami Heat {"ppg":7.8,"rpg":5.5,"apg":0.2,"fg":59.6}
+- [ ] `nba-patrick-ewing` **Patrick Ewing** (C) — 1989-90 New York Knicks {"ppg":28.6,"rpg":10.9,"apg":2.2,"fg":55.1}<br>1992-93 New York Knicks {"ppg":24.2,"rpg":12.1,"apg":1.7,"fg":50.3}
+- [ ] `nba-hakeem-olajuwon` **Hakeem Olajuwon** (C) — 1993-94 Houston Rockets {"ppg":27.3,"rpg":11.9,"apg":3.6,"fg":52.8}
+- [ ] `nba-david-robinson` **David Robinson** (C) — 1993-94 San Antonio Spurs {"ppg":29.8,"rpg":10.7,"apg":4.8,"fg":50.7}
+- [ ] `nba-charles-barkley` **Charles Barkley** (PF) — 1992-93 Phoenix Suns {"ppg":25.6,"rpg":12.2,"apg":5.1,"fg":52}<br>1987-88 Philadelphia 76ers {"ppg":28.3,"rpg":11.9,"apg":3.2,"fg":58.7}
+- [ ] `nba-karl-malone` **Karl Malone** (PF) — 1996-97 Utah Jazz {"ppg":27.4,"rpg":9.9,"apg":4.5,"fg":55}
+- [ ] `nba-john-stockton` **John Stockton** (PG) — 1989-90 Utah Jazz {"ppg":17.2,"rpg":2.6,"apg":14.5,"fg":51.4}
+- [ ] `nba-clyde-drexler` **Clyde Drexler** (SG) — 1991-92 Portland Trail Blazers {"ppg":25,"rpg":6.6,"apg":6.7,"fg":47}
+- [ ] `nba-scottie-pippen` **Scottie Pippen** (SF) — 1993-94 Chicago Bulls {"ppg":22,"rpg":8.7,"apg":5.6,"fg":49.1}
+- [ ] `nba-dennis-rodman` **Dennis Rodman** (PF) — 1991-92 Detroit Pistons {"ppg":9.8,"rpg":18.7,"apg":2.3,"fg":53.9}
+- [ ] `nba-isiah-thomas` **Isiah Thomas** (PG) — 1984-85 Detroit Pistons {"ppg":21.2,"rpg":4.5,"apg":13.9,"fg":45.8}
+- [ ] `nba-reggie-miller` **Reggie Miller** (SG) — 1994-95 Indiana Pacers {"ppg":19.6,"rpg":2.6,"apg":3,"fg":46.2}
+- [ ] `nba-grant-hill` **Grant Hill** (SF) — 1996-97 Detroit Pistons {"ppg":21.4,"rpg":9,"apg":7.3,"fg":49.6}
+- [ ] `nba-jason-kidd` **Jason Kidd** (PG) — 2001-02 New Jersey Nets {"ppg":14.7,"rpg":7.3,"apg":9.9,"fg":39.1}<br>1998-99 Phoenix Suns {"ppg":16.9,"rpg":6.8,"apg":10.8,"fg":44.4}<br>2002-03 New Jersey Nets {"ppg":18.7,"rpg":6.3,"apg":8.9,"fg":41.4}
+- [ ] `nba-gary-payton` **Gary Payton** (PG) — 1999-00 Seattle SuperSonics {"ppg":24.2,"rpg":6.5,"apg":8.9,"fg":44.8}<br>2005-06 Miami Heat {"ppg":7.7,"rpg":2.9,"apg":3,"fg":42}<br>1994-95 Seattle SuperSonics {"ppg":20.6,"rpg":3.4,"apg":7.1,"fg":50.9}
+- [ ] `nba-shawn-kemp` **Shawn Kemp** (PF) — 1995-96 Seattle SuperSonics {"ppg":19.6,"rpg":11.4,"apg":2.2,"fg":56.1}<br>1993-94 Seattle SuperSonics {"ppg":18.1,"rpg":10.8,"apg":2.6,"fg":53.8}
+- [ ] `nba-dikembe-mutombo` **Dikembe Mutombo** (C) — 1994-95 Denver Nuggets {"ppg":11.5,"rpg":12.5,"apg":1.4,"fg":55.6}<br>2000-01 Atlanta Hawks {"ppg":9.1,"rpg":13.5,"apg":1,"fg":47.7}<br>1997-98 Atlanta Hawks {"ppg":13.4,"rpg":11.4,"apg":1,"fg":53.7}
+- [ ] `nba-moses-malone` **Moses Malone** (C) — 1982-83 Philadelphia 76ers {"ppg":24.5,"rpg":15.3,"apg":1.3,"fg":50.1}<br>1978-79 Houston Rockets {"ppg":24.8,"rpg":17.6,"apg":1.8,"fg":54}<br>1988-89 Atlanta Hawks {"ppg":20.2,"rpg":11.8,"apg":1.4,"fg":49.1}
+- [ ] `nba-julius-erving` **Julius Erving** (SF) — 1980-81 Philadelphia 76ers {"ppg":24.6,"rpg":8,"apg":4.4,"fg":52.1}
+- [ ] `nba-elgin-baylor` **Elgin Baylor** (SF) — 1961-62 Los Angeles Lakers {"ppg":38.3,"rpg":18.6,"apg":4.6,"fg":43.1}
+- [ ] `nba-jerry-west` **Jerry West** (SG) — 1965-66 Los Angeles Lakers {"ppg":31.3,"rpg":7.1,"apg":6.1,"fg":47.3}
+- [ ] `nba-rick-barry` **Rick Barry** (SF) — 1974-75 Golden State Warriors {"ppg":30.6,"rpg":5.7,"apg":6.2,"fg":46.4}
+- [ ] `nba-george-gervin` **George Gervin** (SG) — 1979-80 San Antonio Spurs {"ppg":33.1,"rpg":5.2,"apg":2.6,"fg":52.8}
+- [ ] `nba-walt-frazier` **Walt Frazier** (PG) — 1969-70 New York Knicks {"ppg":20.9,"rpg":6,"apg":8.2,"fg":51.8}
+- [ ] `nba-willis-reed` **Willis Reed** (C) — 1969-70 New York Knicks {"ppg":21.7,"rpg":13.9,"apg":2,"fg":50.7}
+- [ ] `nba-dave-cowens` **Dave Cowens** (C) — 1972-73 Boston Celtics {"ppg":20.5,"rpg":16.2,"apg":4.1,"fg":45.2}<br>1975-76 Boston Celtics {"ppg":19,"rpg":16,"apg":4.2,"fg":46.8}
+- [ ] `nba-bob-pettit` **Bob Pettit** (PF) — 1961-62 St. Louis Hawks {"ppg":31.1,"rpg":18.7,"apg":3.7,"fg":44.7}
+- [ ] `nba-bob-cousy` **Bob Cousy** (PG) — 1959-60 Boston Celtics {"ppg":19.4,"rpg":4.7,"apg":9.5,"fg":38.6}
+- [ ] `nba-bill-walton` **Bill Walton** (C) — 1977-78 Portland Trail Blazers {"ppg":18.9,"rpg":13.2,"apg":5,"fg":52.2}
+- [ ] `nba-pete-maravich` **Pete Maravich** (SG) — 1976-77 New Orleans Jazz {"ppg":31.1,"rpg":5.1,"apg":5.4,"fg":43.3}
+- [ ] `nba-bernard-king` **Bernard King** (SF) — 1984-85 New York Knicks {"ppg":32.9,"rpg":5.8,"apg":3.7,"fg":53}
+- [ ] `nba-dominique-wilkins` **Dominique Wilkins** (SF) — 1985-86 Atlanta Hawks {"ppg":30.3,"rpg":7.9,"apg":2.6,"fg":46.8}<br>1990-91 Atlanta Hawks {"ppg":25.9,"rpg":9,"apg":3.3,"fg":47}<br>1987-88 Atlanta Hawks {"ppg":30.7,"rpg":6.4,"apg":2.9,"fg":46.4}
+- [ ] `nba-alex-english` **Alex English** (SF) — 1982-83 Denver Nuggets {"ppg":28.4,"rpg":7.3,"apg":4.8,"fg":51.6}<br>1985-86 Denver Nuggets {"ppg":29.8,"rpg":5.1,"apg":4.1,"fg":50.4}
+- [ ] `nba-adrian-dantley` **Adrian Dantley** (SF) — 1983-84 Utah Jazz {"ppg":30.6,"rpg":5.7,"apg":3.9,"fg":55.8}
+- [ ] `nba-kevin-mchale` **Kevin McHale** (PF) — 1986-87 Boston Celtics {"ppg":26.1,"rpg":9.9,"apg":2.6,"fg":60.4}
+- [ ] `nba-mark-aguirre` **Mark Aguirre** (SF) — 1983-84 Dallas Mavericks {"ppg":29.5,"rpg":5.9,"apg":4.5,"fg":52.4}<br>1987-88 Dallas Mavericks {"ppg":25.1,"rpg":5.6,"apg":3.6,"fg":50.3}
+- [ ] `nba-jerry-stackhouse` **Jerry Stackhouse** (SG) — 2000-01 Detroit Pistons {"ppg":29.8,"rpg":3.9,"apg":5.1,"fg":40.2}
+- [ ] `nba-damon-stoudamire` **Damon Stoudamire** (PG) — 1995-96 Toronto Raptors {"ppg":19,"rpg":4,"apg":9.3,"fg":42.6}
+- [ ] `nba-shareef-abdur-rahim` **Shareef Abdur-Rahim** (PF) — 2000-01 Vancouver Grizzlies {"ppg":20.5,"rpg":9.1,"apg":3.1,"fg":47.2}<br>2003-04 Atlanta Hawks {"ppg":16.3,"rpg":7.1,"apg":2,"fg":46.8}
+- [ ] `nba-marcus-camby` **Marcus Camby** (C) — 2006-07 Denver Nuggets {"ppg":11.2,"rpg":11.7,"apg":1.4,"fg":47.3}
+- [ ] `nba-stephon-marbury` **Stephon Marbury** (PG) — 2004-05 New York Knicks {"ppg":21.7,"rpg":3,"apg":6.9,"fg":46.2}
+- [ ] `nba-antoine-walker` **Antoine Walker** (PF) — 2001-02 Boston Celtics {"ppg":22.1,"rpg":8.8,"apg":4.8,"fg":39.4}<br>2005-06 Miami Heat {"ppg":12.2,"rpg":5.5,"apg":2,"fg":40.3}
+- [ ] `nba-jermaine-oneal` **Jermaine O'Neal** (PF) — 2003-04 Indiana Pacers {"ppg":20.1,"rpg":10,"apg":2.1,"fg":43.4}
+- [ ] `nba-zach-randolph` **Zach Randolph** (PF) — 2010-11 Memphis Grizzlies {"ppg":20.1,"rpg":12.2,"apg":2.2,"fg":50.3}<br>2014-15 Memphis Grizzlies {"ppg":16.1,"rpg":10.5,"apg":2.2,"fg":48.5}
+- [ ] `nba-andrei-kirilenko` **Andrei Kirilenko** (SF) — 2003-04 Utah Jazz {"ppg":16.5,"rpg":8.1,"apg":3.1,"fg":44.3}<br>2005-06 Utah Jazz {"ppg":15.3,"rpg":8,"apg":4.3,"fg":49.7}
+- [ ] `nba-antawn-jamison` **Antawn Jamison** (PF) — 2004-05 Washington Wizards {"ppg":19.6,"rpg":7.6,"apg":2.3,"fg":43.7}<br>2011-12 Cleveland Cavaliers {"ppg":17.2,"rpg":6.3,"apg":2,"fg":40.3}
+- [ ] `nba-gilbert-arenas` **Gilbert Arenas** (PG) — 2005-06 Washington Wizards {"ppg":29.3,"rpg":3.5,"apg":6.1,"fg":44.7}
+- [ ] `nba-elton-brand` **Elton Brand** (PF) — 2005-06 Los Angeles Clippers {"ppg":24.7,"rpg":10,"apg":2.6,"fg":52.7}
+- [ ] `nba-brandon-roy` **Brandon Roy** (SG) — 2008-09 Portland Trail Blazers {"ppg":22.6,"rpg":4.7,"apg":5.1,"fg":48}<br>2009-10 Portland Trail Blazers {"ppg":21.5,"rpg":4.4,"apg":4.7,"fg":47.3}
+- [ ] `nba-victor-oladipo` **Victor Oladipo** (SG) — 2017-18 Indiana Pacers {"ppg":23.1,"rpg":5.2,"apg":4.3,"fg":47.7}
+- [ ] `nba-paul-george` **Paul George** (SF) — 2018-19 Oklahoma City Thunder {"ppg":28,"rpg":8.2,"apg":4.1,"fg":43.8}
+- [ ] `nba-derrick-rose` **Derrick Rose** (PG) — 2010-11 Chicago Bulls {"ppg":25,"rpg":4.1,"apg":7.7,"fg":44.5}
+- [ ] `nba-isaiah-thomas` **Isaiah Thomas** (PG) — 2016-17 Boston Celtics {"ppg":28.9,"rpg":2.7,"apg":5.9,"fg":46.3}
+- [ ] `nba-john-wall` **John Wall** (PG) — 2016-17 Washington Wizards {"ppg":23.1,"rpg":4.2,"apg":10.7,"fg":45.1}
+- [ ] `nba-kemba-walker` **Kemba Walker** (PG) — 2018-19 Charlotte Hornets {"ppg":25.6,"rpg":4.4,"apg":5.9,"fg":43.4}<br>2016-17 Charlotte Hornets {"ppg":23.2,"rpg":3.9,"apg":5.5,"fg":44.4}<br>2020-21 Boston Celtics {"ppg":19.3,"rpg":4,"apg":4.9,"fg":42}
+- [ ] `nba-lou-williams` **Lou Williams** (SG) — 2017-18 Los Angeles Clippers {"ppg":22.6,"rpg":2.5,"apg":5.3,"fg":43.5}
+- [ ] `nba-draymond-green` **Draymond Green** (PF) — 2015-16 Golden State Warriors {"ppg":14,"rpg":9.5,"apg":7.4,"fg":49}
+- [ ] `nba-klay-thompson` **Klay Thompson** (SG) — 2016-17 Golden State Warriors {"ppg":22.3,"rpg":3.7,"apg":2.1,"fg":46.8}
+- [ ] `nba-amare-stoudemire` **Amar'e Stoudemire** (PF) — 2007-08 Phoenix Suns {"ppg":25.2,"rpg":9.1,"apg":1.6,"fg":59}
+- [ ] `nba-shawn-marion` **Shawn Marion** (SF) — 2005-06 Phoenix Suns {"ppg":21.8,"rpg":11.8,"apg":1.7,"fg":52.5}
+- [ ] `nba-joe-johnson` **Joe Johnson** (SG) — 2009-10 Atlanta Hawks {"ppg":21.3,"rpg":4.6,"apg":4.9,"fg":45.8}
+- [ ] `nba-chris-webber` **Chris Webber** (PF) — 2000-01 Sacramento Kings {"ppg":27.1,"rpg":11.1,"apg":4.2,"fg":48.1}
+- [ ] `nba-peja-stojakovic` **Peja Stojakovic** (SF) — 2003-04 Sacramento Kings {"ppg":24.2,"rpg":6.3,"apg":2.1,"fg":48}
+- [ ] `nba-lamarcus-aldridge` **LaMarcus Aldridge** (PF) — 2014-15 Portland Trail Blazers {"ppg":23.4,"rpg":10.2,"apg":1.7,"fg":46.6}<br>2010-11 Portland Trail Blazers {"ppg":21.8,"rpg":8.8,"apg":2.1,"fg":50}<br>2017-18 San Antonio Spurs {"ppg":23.1,"rpg":8.5,"apg":2,"fg":51}
+- [ ] `nba-deron-williams` **Deron Williams** (PG) — 2007-08 Utah Jazz {"ppg":18.8,"rpg":3,"apg":10.5,"fg":50.7}<br>2009-10 Utah Jazz {"ppg":18.7,"rpg":4,"apg":10.5,"fg":46.9}<br>2016-17 Cleveland Cavaliers {"ppg":7.5,"rpg":2,"apg":3.6,"fg":45.7}
+- [ ] `nba-deandre-jordan` **DeAndre Jordan** (C) — 2014-15 Los Angeles Clippers {"ppg":11.5,"rpg":15,"apg":0.7,"fg":71}
+- [ ] `nba-jamal-crawford` **Jamal Crawford** (SG) — 2013-14 Los Angeles Clippers {"ppg":18.6,"rpg":2.5,"apg":3.2,"fg":41.6}
+- [ ] `nba-andrew-bynum` **Andrew Bynum** (C) — 2011-12 Los Angeles Lakers {"ppg":18.7,"rpg":11.8,"apg":1.4,"fg":55.8}
+- [ ] `nba-lamar-odom` **Lamar Odom** (PF) — 2010-11 Los Angeles Lakers {"ppg":14.4,"rpg":8.7,"apg":3,"fg":53}<br>2003-04 Miami Heat {"ppg":17.1,"rpg":9.7,"apg":4.1,"fg":43}
+- [ ] `nba-ron-artest` **Ron Artest** (SF) — 2003-04 Indiana Pacers {"ppg":18.3,"rpg":5.3,"apg":3.7,"fg":42.1}
+- [ ] `nba-ben-wallace` **Ben Wallace** (C) — 2002-03 Detroit Pistons {"ppg":6.9,"rpg":15.4,"apg":1.4,"fg":48.1}<br>2005-06 Detroit Pistons {"ppg":7.3,"rpg":11.3,"apg":1.9,"fg":51.2}
+- [ ] `nba-chauncey-billups` **Chauncey Billups** (PG) — 2005-06 Detroit Pistons {"ppg":18.5,"rpg":3.1,"apg":8.6,"fg":41.8}<br>2007-08 Detroit Pistons {"ppg":17,"rpg":2.7,"apg":6.8,"fg":44.8}
+- [ ] `nba-richard-hamilton` **Richard Hamilton** (SG) — 2005-06 Detroit Pistons {"ppg":20.1,"rpg":3.6,"apg":3.4,"fg":49.1}<br>2009-10 Detroit Pistons {"ppg":18.1,"rpg":2.7,"apg":4.4,"fg":40.9}
+- [ ] `nba-rasheed-wallace` **Rasheed Wallace** (PF) — 2001-02 Portland Trail Blazers {"ppg":19.3,"rpg":8.2,"apg":1.9,"fg":46.9}<br>2005-06 Detroit Pistons {"ppg":15.1,"rpg":6.8,"apg":2.3,"fg":43}
+- [ ] `nba-joakim-noah` **Joakim Noah** (C) — 2013-14 Chicago Bulls {"ppg":12.6,"rpg":11.3,"apg":5.4,"fg":47.5}
+- [ ] `nba-carlos-boozer` **Carlos Boozer** (PF) — 2010-11 Chicago Bulls {"ppg":17.5,"rpg":9.6,"apg":2.1,"fg":51}<br>2007-08 Utah Jazz {"ppg":21.1,"rpg":10.4,"apg":2.9,"fg":54.7}
+- [ ] `nba-kyle-korver` **Kyle Korver** (SF) — 2014-15 Atlanta Hawks {"ppg":12.1,"rpg":4.1,"apg":2.6,"fg":48.7}<br>2016-17 Cleveland Cavaliers {"ppg":10.2,"rpg":2.8,"apg":1.6,"fg":48.7}
+- [ ] `nba-al-horford` **Al Horford** (C) — 2010-11 Atlanta Hawks {"ppg":15.3,"rpg":9.3,"apg":3.5,"fg":55.7}<br>2023-24 Boston Celtics {"ppg":8.6,"rpg":6.4,"apg":2.6,"fg":51.1}<br>2021-22 Boston Celtics {"ppg":10.2,"rpg":7.7,"apg":3.4,"fg":46.7}
+- [ ] `nba-paul-millsap` **Paul Millsap** (PF) — 2015-16 Atlanta Hawks {"ppg":17.1,"rpg":9,"apg":3.3,"fg":47}<br>2010-11 Utah Jazz {"ppg":17.5,"rpg":7.6,"apg":2.5,"fg":53.1}
+- [ ] `nba-jeff-teague` **Jeff Teague** (PG) — 2014-15 Atlanta Hawks {"ppg":15.9,"rpg":2.5,"apg":7,"fg":46}
+- [ ] `nba-serge-ibaka` **Serge Ibaka** (PF) — 2012-13 Oklahoma City Thunder {"ppg":13.2,"rpg":7.7,"apg":0.5,"fg":57.3}<br>2019-20 Toronto Raptors {"ppg":15.4,"rpg":8.2,"apg":1.4,"fg":51.2}
+- [ ] `nba-andre-iguodala` **Andre Iguodala** (SF) — 2007-08 Philadelphia 76ers {"ppg":19.9,"rpg":5.4,"apg":4.8,"fg":45.6}<br>2014-15 Golden State Warriors {"ppg":12.8,"rpg":3.6,"apg":3.4,"fg":46.6}
+- [ ] `nba-tyson-chandler` **Tyson Chandler** (C) — 2011-12 New York Knicks {"ppg":11.3,"rpg":9.9,"apg":0.9,"fg":67.9}
+- [ ] `nba-leandro-barbosa` **Leandro Barbosa** (SG) — 2006-07 Phoenix Suns {"ppg":18.1,"rpg":2.7,"apg":4,"fg":49.8}<br>2015-16 Golden State Warriors {"ppg":6.4,"rpg":1.5,"apg":1.2,"fg":46.2}
+- [ ] `nba-boris-diaw` **Boris Diaw** (PF) — 2005-06 Phoenix Suns {"ppg":13.3,"rpg":6.9,"apg":6.2,"fg":52.6}<br>2013-14 San Antonio Spurs {"ppg":9.2,"rpg":4.1,"apg":2.8,"fg":52.1}
+- [ ] `nba-hedo-turkoglu` **Hedo Turkoglu** (SF) — 2007-08 Orlando Magic {"ppg":19.5,"rpg":5.7,"apg":5,"fg":45.6}
+- [ ] `nba-jameer-nelson` **Jameer Nelson** (PG) — 2008-09 Orlando Magic {"ppg":16.7,"rpg":3.5,"apg":5.4,"fg":50.3}
+- [ ] `nba-rashard-lewis` **Rashard Lewis** (SF) — 2004-05 Seattle SuperSonics {"ppg":20.5,"rpg":5.5,"apg":2.2,"fg":46.2}
+- [ ] `nba-zydrunas-ilgauskas` **Zydrunas Ilgauskas** (C) — 2002-03 Cleveland Cavaliers {"ppg":17.2,"rpg":7.5,"apg":1.6,"fg":44.1}
+- [ ] `nba-derek-fisher` **Derek Fisher** (PG) — 2008-09 Los Angeles Lakers {"ppg":9.9,"rpg":1.9,"apg":2.2,"fg":42.4}
+- [ ] `nba-antonio-mcdyess` **Antonio McDyess** (PF) — 2000-01 Denver Nuggets {"ppg":20.8,"rpg":12.1,"apg":2.2,"fg":48.5}
+- [ ] `nba-theo-ratliff` **Theo Ratliff** (C) — 2000-01 Philadelphia 76ers {"ppg":12.4,"rpg":7.5,"apg":0.8,"fg":49}
+- [ ] `nba-joe-smith` **Joe Smith** (PF) — 1996-97 Golden State Warriors {"ppg":18.7,"rpg":8.5,"apg":1.6,"fg":45.4}
+- [ ] `nba-mike-bibby` **Mike Bibby** (PG) — 2005-06 Sacramento Kings {"ppg":21.1,"rpg":2.9,"apg":5.4,"fg":43.2}
+- [ ] `nba-cuttino-mobley` **Cuttino Mobley** (SG) — 2002-03 Houston Rockets {"ppg":17.5,"rpg":4.3,"apg":2.7,"fg":43.8}
+- [ ] `nba-jason-richardson` **Jason Richardson** (SG) — 2005-06 Golden State Warriors {"ppg":23.2,"rpg":5,"apg":3,"fg":45.1}
+- [ ] `nba-baron-davis` **Baron Davis** (PG) — 2006-07 Golden State Warriors {"ppg":17.9,"rpg":4.4,"apg":8.1,"fg":43.9}<br>2003-04 New Orleans Hornets {"ppg":22.9,"rpg":4.3,"apg":7.5,"fg":39.5}<br>2001-02 Charlotte Hornets {"ppg":18.1,"rpg":4.3,"apg":8.5,"fg":37.5}
+- [ ] `nba-monta-ellis` **Monta Ellis** (SG) — 2009-10 Golden State Warriors {"ppg":25.5,"rpg":4,"apg":5.3,"fg":44.9}
+- [ ] `nba-gerald-wallace` **Gerald Wallace** (SF) — 2009-10 Charlotte Bobcats {"ppg":18.2,"rpg":10,"apg":2.1,"fg":48.4}<br>2005-06 Charlotte Bobcats {"ppg":15.2,"rpg":7.5,"apg":1.6,"fg":48.7}
+- [ ] `nba-david-west` **David West** (PF) — 2008-09 New Orleans Hornets {"ppg":21,"rpg":8.5,"apg":2.3,"fg":47.2}<br>2007-08 New Orleans Hornets {"ppg":20.6,"rpg":8.9,"apg":2.3,"fg":48.2}<br>2016-17 Golden State Warriors {"ppg":4.6,"rpg":3,"apg":2.2,"fg":53.6}
+- [ ] `nba-steve-francis` **Steve Francis** (PG) — 2002-03 Houston Rockets {"ppg":21.6,"rpg":6,"apg":6.4,"fg":41.7}
+- [ ] `nba-jason-terry` **Jason Terry** (SG) — 2005-06 Dallas Mavericks {"ppg":17.1,"rpg":2,"apg":3.8,"fg":47.1}
+- [ ] `nba-corey-maggette` **Corey Maggette** (SF) — 2004-05 Los Angeles Clippers {"ppg":22.2,"rpg":5.3,"apg":3.4,"fg":45.5}
+- [ ] `nba-detlef-schrempf` **Detlef Schrempf** (SF) — 1994-95 Seattle SuperSonics {"ppg":19.2,"rpg":6.2,"apg":3.8,"fg":51.4}<br>1992-93 Seattle SuperSonics {"ppg":19,"rpg":9.2,"apg":3.9,"fg":49.3}
+- [ ] `nba-glen-rice` **Glen Rice** (SF) — 1996-97 Charlotte Hornets {"ppg":26.8,"rpg":4,"apg":2,"fg":47.7}
+- [ ] `nba-mitch-richmond` **Mitch Richmond** (SG) — 1995-96 Sacramento Kings {"ppg":23.1,"rpg":3.8,"apg":4.1,"fg":44.7}<br>1988-89 Golden State Warriors {"ppg":22,"rpg":5.9,"apg":4.6,"fg":46.8}
+- [ ] `nba-vlade-divac` **Vlade Divac** (C) — 2000-01 Sacramento Kings {"ppg":12.3,"rpg":8.1,"apg":2.9,"fg":49.4}
+- [ ] `nba-tony-kukoc` **Toni Kukoc** (SF) — 1995-96 Chicago Bulls {"ppg":13.1,"rpg":4,"apg":3.5,"fg":49}
+- [ ] `nba-dennis-johnson` **Dennis Johnson** (SG) — 1984-85 Boston Celtics {"ppg":15.7,"rpg":4.2,"apg":6.8,"fg":46.2}<br>1978-79 Seattle SuperSonics {"ppg":15.9,"rpg":4.5,"apg":3.5,"fg":42.8}
+- [ ] `nba-robert-parish` **Robert Parish** (C) — 1986-87 Boston Celtics {"ppg":17.5,"rpg":10.6,"apg":1.8,"fg":55.6}
+- [ ] `nba-james-worthy` **James Worthy** (SF) — 1985-86 Los Angeles Lakers {"ppg":20,"rpg":5.2,"apg":2.7,"fg":57.9}
+- [ ] `nba-byron-scott` **Byron Scott** (SG) — 1987-88 Los Angeles Lakers {"ppg":21.7,"rpg":4.1,"apg":3.4,"fg":48.9}
+- [ ] `nba-ac-green` **A.C. Green** (PF) — 1990-91 Los Angeles Lakers {"ppg":13.2,"rpg":8.2,"apg":1.1,"fg":47.6}
+- [ ] `nba-mychal-thompson` **Mychal Thompson** (C) — 1986-87 Los Angeles Lakers {"ppg":15.7,"rpg":6.8,"apg":1.4,"fg":48}
+- [ ] `nba-fat-lever` **Fat Lever** (PG) — 1989-90 Denver Nuggets {"ppg":18.3,"rpg":9.3,"apg":6.5,"fg":44.3}
+- [ ] `nba-world-b-free` **World B. Free** (SG) — 1979-80 San Diego Clippers {"ppg":30.2,"rpg":3.5,"apg":4.2,"fg":47.4}<br>1980-81 Golden State Warriors {"ppg":24.7,"rpg":3.1,"apg":5.6,"fg":47.8}
+- [ ] `nba-artis-gilmore` **Artis Gilmore** (C) — 1981-82 Chicago Bulls {"ppg":18.5,"rpg":12.7,"apg":1.7,"fg":65.2}
+- [ ] `nba-spencer-haywood` **Spencer Haywood** (PF) — 1972-73 Seattle SuperSonics {"ppg":29.2,"rpg":12.9,"apg":2.5,"fg":47.6}
+- [ ] `nba-bob-mcadoo` **Bob McAdoo** (C) — 1974-75 Buffalo Braves {"ppg":34.5,"rpg":14.1,"apg":2.2,"fg":51.2}
+- [ ] `nba-nate-archibald` **Nate Archibald** (PG) — 1972-73 Kansas City-Omaha Kings {"ppg":34,"rpg":2.8,"apg":11.4,"fg":48.8}
+- [ ] `nba-earl-monroe` **Earl Monroe** (SG) — 1968-69 Baltimore Bullets {"ppg":25.8,"rpg":3.5,"apg":4.4,"fg":44}
+- [ ] `nba-dave-bing` **Dave Bing** (PG) — 1967-68 Detroit Pistons {"ppg":27.1,"rpg":4.6,"apg":6.4,"fg":44.1}
+- [ ] `nba-lenny-wilkens` **Lenny Wilkens** (PG) — 1968-69 Seattle SuperSonics {"ppg":22.4,"rpg":5.4,"apg":8.2,"fg":44}
+- [ ] `nba-hal-greer` **Hal Greer** (SG) — 1967-68 Philadelphia 76ers {"ppg":24.1,"rpg":5.4,"apg":4.5,"fg":47.8}
+- [ ] `nba-billy-cunningham` **Billy Cunningham** (SF) — 1969-70 Philadelphia 76ers {"ppg":26.1,"rpg":13.6,"apg":4.3,"fg":49.2}
+- [ ] `nba-chet-walker` **Chet Walker** (SF) — 1971-72 Chicago Bulls {"ppg":22,"rpg":6.1,"apg":2.3,"fg":51.2}
+- [ ] `nba-jerry-lucas` **Jerry Lucas** (PF) — 1968-69 Cincinnati Royals {"ppg":18.3,"rpg":18.4,"apg":3,"fg":55.1}
+- [ ] `nba-wes-unseld` **Wes Unseld** (C) — 1968-69 Baltimore Bullets {"ppg":13.8,"rpg":18.2,"apg":2.6,"fg":47.6}
+- [ ] `nba-elvin-hayes` **Elvin Hayes** (PF) — 1973-74 Capital Bullets {"ppg":21.4,"rpg":18.1,"apg":1.6,"fg":50.3}
+- [ ] `nba-nate-thurmond` **Nate Thurmond** (C) — 1967-68 San Francisco Warriors {"ppg":20.5,"rpg":22,"apg":4.2,"fg":43.2}
+- [ ] `nba-dave-debuschere` **Dave DeBusschere** (PF) — 1971-72 New York Knicks {"ppg":16.2,"rpg":11.2,"apg":3.2,"fg":44.6}
+- [ ] `nba-bailey-howell` **Bailey Howell** (SF) — 1965-66 Baltimore Bullets {"ppg":22.2,"rpg":9.2,"apg":2.6,"fg":48}
+- [ ] `nba-sam-jones` **Sam Jones** (SG) — 1964-65 Boston Celtics {"ppg":25.9,"rpg":5.1,"apg":2.8,"fg":45.2}
+- [ ] `nba-john-havlicek` **John Havlicek** (SF) — 1970-71 Boston Celtics {"ppg":28.9,"rpg":9,"apg":7.5,"fg":45}
+- [ ] `nba-jo-jo-white` **Jo Jo White** (PG) — 1974-75 Boston Celtics {"ppg":18.3,"rpg":4.1,"apg":5.6,"fg":45.7}
+- [ ] `nba-paul-westphal` **Paul Westphal** (SG) — 1977-78 Phoenix Suns {"ppg":25.2,"rpg":2.4,"apg":5.5,"fg":52.6}
+- [ ] `nba-walter-davis` **Walter Davis** (SG) — 1978-79 Phoenix Suns {"ppg":23.6,"rpg":4.3,"apg":4.6,"fg":56.1}
+- [ ] `nba-jack-sikma` **Jack Sikma** (C) — 1981-82 Seattle SuperSonics {"ppg":19.6,"rpg":12.7,"apg":3.4,"fg":47.9}
+- [ ] `nba-gus-williams` **Gus Williams** (PG) — 1981-82 Seattle SuperSonics {"ppg":23.4,"rpg":2.8,"apg":6.9,"fg":47.3}
+- [ ] `nba-marques-johnson` **Marques Johnson** (SF) — 1978-79 Milwaukee Bucks {"ppg":25.6,"rpg":7.6,"apg":3.3,"fg":55}
+- [ ] `nba-sidney-moncrief` **Sidney Moncrief** (SG) — 1982-83 Milwaukee Bucks {"ppg":22.5,"rpg":5.8,"apg":3.9,"fg":52.4}
+- [ ] `nba-bob-lanier` **Bob Lanier** (C) — 1973-74 Detroit Pistons {"ppg":22.5,"rpg":13.3,"apg":4.2,"fg":50.4}
+- [ ] `nba-bobby-jones` **Bobby Jones** (PF) — 1982-83 Philadelphia 76ers {"ppg":9,"rpg":5.8,"apg":2,"fg":54.3}
+- [ ] `nba-maurice-cheeks` **Maurice Cheeks** (PG) — 1985-86 Philadelphia 76ers {"ppg":15.4,"rpg":2.9,"apg":9.2,"fg":57}<br>1987-88 Philadelphia 76ers {"ppg":13.7,"rpg":2.6,"apg":7.9,"fg":57}
+- [ ] `nba-andrew-toney` **Andrew Toney** (SG) — 1982-83 Philadelphia 76ers {"ppg":19.7,"rpg":2.8,"apg":3.5,"fg":50.1}
+- [ ] `nba-calvin-murphy` **Calvin Murphy** (PG) — 1977-78 Houston Rockets {"ppg":25.6,"rpg":2.5,"apg":3.4,"fg":49}
+- [ ] `nba-rudy-tomjanovich` **Rudy Tomjanovich** (SF) — 1973-74 Houston Rockets {"ppg":24.5,"rpg":9,"apg":3.1,"fg":53.6}
+- [ ] `nba-kelly-tripucka` **Kelly Tripucka** (SF) — 1982-83 Detroit Pistons {"ppg":26.5,"rpg":4.6,"apg":3.1,"fg":46.6}
+- [ ] `nba-rolando-blackman` **Rolando Blackman** (SG) — 1986-87 Dallas Mavericks {"ppg":21,"rpg":3.5,"apg":3.3,"fg":49.3}
+- [ ] `nba-mark-price` **Mark Price** (PG) — 1992-93 Cleveland Cavaliers {"ppg":18.2,"rpg":2.7,"apg":8,"fg":48.4}
+- [ ] `nba-brad-daugherty` **Brad Daugherty** (C) — 1991-92 Cleveland Cavaliers {"ppg":21.5,"rpg":10.4,"apg":3.6,"fg":57}
+- [ ] `nba-larry-nance` **Larry Nance** (PF) — 1992-93 Cleveland Cavaliers {"ppg":16.5,"rpg":8.7,"apg":2.5,"fg":54.9}
+- [ ] `nba-craig-ehlo` **Craig Ehlo** (SG) — 1988-89 Cleveland Cavaliers {"ppg":7.4,"rpg":3.7,"apg":2.8,"fg":47.5}<br>1993-94 Atlanta Hawks {"ppg":9.3,"rpg":3.4,"apg":2.6,"fg":41.9}
+- [ ] `nba-ron-harper` **Ron Harper** (SG) — 1986-87 Cleveland Cavaliers {"ppg":22.9,"rpg":4.8,"apg":4.8,"fg":45.5}
+- [ ] `nba-hersey-hawkins` **Hersey Hawkins** (SG) — 1990-91 Philadelphia 76ers {"ppg":22.1,"rpg":3.9,"apg":3,"fg":47.2}<br>1988-89 Philadelphia 76ers {"ppg":15.1,"rpg":2.8,"apg":2.4,"fg":45.5}
+- [ ] `nba-jeff-hornacek` **Jeff Hornacek** (SG) — 1991-92 Phoenix Suns {"ppg":20.1,"rpg":4.7,"apg":5.1,"fg":51.2}
+- [ ] `nba-kevin-johnson` **Kevin Johnson** (PG) — 1990-91 Phoenix Suns {"ppg":22.2,"rpg":3.5,"apg":10.1,"fg":51.6}<br>1988-89 Phoenix Suns {"ppg":20.4,"rpg":4.2,"apg":12.2,"fg":50.5}
+- [ ] `nba-tom-chambers` **Tom Chambers** (PF) — 1989-90 Phoenix Suns {"ppg":27.2,"rpg":7,"apg":2.3,"fg":50.1}<br>1987-88 Seattle SuperSonics {"ppg":20.4,"rpg":6,"apg":2.6,"fg":46.6}<br>1988-89 Phoenix Suns {"ppg":25.7,"rpg":8.4,"apg":2.9,"fg":47.1}<br>1986-87 Seattle SuperSonics {"ppg":23.3,"rpg":6.6,"apg":2,"fg":45.6}
+- [ ] `nba-dan-majerle` **Dan Majerle** (SF) — 1992-93 Phoenix Suns {"ppg":16.9,"rpg":4.7,"apg":3.8,"fg":46.4}
+- [ ] `nba-charles-oakley` **Charles Oakley** (PF) — 1993-94 New York Knicks {"ppg":11.8,"rpg":11.8,"apg":2.7,"fg":47.6}
+- [ ] `nba-john-starks` **John Starks** (SG) — 1993-94 New York Knicks {"ppg":19,"rpg":3.1,"apg":5.9,"fg":42}
+- [ ] `nba-derek-harper` **Derek Harper** (PG) — 1993-94 New York Knicks {"ppg":16.6,"rpg":2.4,"apg":5.3,"fg":46.8}
+- [ ] `nba-anthony-mason` **Anthony Mason** (PF) — 1995-96 New York Knicks {"ppg":14.6,"rpg":9.3,"apg":4.4,"fg":56.3}
+- [ ] `nba-allan-houston` **Allan Houston** (SG) — 1999-00 New York Knicks {"ppg":19.7,"rpg":3.3,"apg":2.7,"fg":48.3}
+- [ ] `nba-latrell-sprewell` **Latrell Sprewell** (SG) — 1996-97 Golden State Warriors {"ppg":24.2,"rpg":4.6,"apg":6.3,"fg":44.9}
+- [ ] `nba-chris-mullin` **Chris Mullin** (SF) — 1988-89 Golden State Warriors {"ppg":26.5,"rpg":5.9,"apg":5.1,"fg":50.9}
+- [ ] `nba-tim-hardaway` **Tim Hardaway** (PG) — 1991-92 Golden State Warriors {"ppg":23,"rpg":3.8,"apg":10,"fg":46.1}
+- [ ] `nba-mookie-blaylock` **Mookie Blaylock** (PG) — 1993-94 Atlanta Hawks {"ppg":13.6,"rpg":5.2,"apg":9.7,"fg":41.1}<br>1996-97 Atlanta Hawks {"ppg":17.4,"rpg":5.3,"apg":5.9,"fg":43.2}
+- [ ] `nba-steve-smith` **Steve Smith** (SG) — 1994-95 Atlanta Hawks {"ppg":16.5,"rpg":3.4,"apg":3.5,"fg":42.8}<br>1997-98 Atlanta Hawks {"ppg":20.1,"rpg":4.2,"apg":3.7,"fg":45.4}
+- [ ] `nba-clifford-robinson` **Clifford Robinson** (PF) — 1993-94 Portland Trail Blazers {"ppg":20.1,"rpg":6.7,"apg":2.9,"fg":45.2}
+- [ ] `nba-terry-porter` **Terry Porter** (PG) — 1990-91 Portland Trail Blazers {"ppg":17,"rpg":3.6,"apg":8,"fg":50.3}
+- [ ] `nba-jerome-kersey` **Jerome Kersey** (SF) — 1988-89 Portland Trail Blazers {"ppg":17.5,"rpg":8.3,"apg":3.2,"fg":46.9}
+- [ ] `nba-buck-williams` **Buck Williams** (PF) — 1982-83 New Jersey Nets {"ppg":17,"rpg":12.5,"apg":1.5,"fg":58.8}
+- [ ] `nba-drazen-petrovic` **Drazen Petrovic** (SG) — 1992-93 New Jersey Nets {"ppg":22.3,"rpg":2.7,"apg":3.5,"fg":51.8}
+- [ ] `nba-kenny-anderson` **Kenny Anderson** (PG) — 1993-94 New Jersey Nets {"ppg":18.8,"rpg":4,"apg":9.6,"fg":41.7}
+- [ ] `nba-derrick-coleman` **Derrick Coleman** (PF) — 1993-94 New Jersey Nets {"ppg":20.2,"rpg":11.3,"apg":3.4,"fg":44.7}
+- [ ] `nba-keith-van-horn` **Keith Van Horn** (PF) — 2000-01 New Jersey Nets {"ppg":17.9,"rpg":7.1,"apg":1.7,"fg":43.5}
+- [ ] `nba-kenyon-martin` **Kenyon Martin** (PF) — 2003-04 New Jersey Nets {"ppg":16.7,"rpg":9.5,"apg":2.5,"fg":48.8}
+- [ ] `nba-richard-jefferson` **Richard Jefferson** (SF) — 2004-05 New Jersey Nets {"ppg":21.7,"rpg":6.8,"apg":3.8,"fg":45.8}<br>2015-16 Cleveland Cavaliers {"ppg":8,"rpg":2.8,"apg":1,"fg":45.8}
+- [ ] `nba-tayshaun-prince` **Tayshaun Prince** (SF) — 2007-08 Detroit Pistons {"ppg":13.2,"rpg":4.9,"apg":3.3,"fg":44.8}
+- [ ] `nba-mehmet-okur` **Mehmet Okur** (C) — 2005-06 Utah Jazz {"ppg":18,"rpg":9.1,"apg":2.4,"fg":52.7}
+- [ ] `nba-al-jefferson` **Al Jefferson** (C) — 2013-14 Charlotte Bobcats {"ppg":21.8,"rpg":10.8,"apg":2.1,"fg":49}
+- [ ] `nba-nicolas-batum` **Nicolas Batum** (SF) — 2015-16 Charlotte Hornets {"ppg":14.9,"rpg":6.1,"apg":5.8,"fg":42.6}<br>2012-13 Portland Trail Blazers {"ppg":14.3,"rpg":5.6,"apg":4.9,"fg":42.3}
+- [ ] `nba-marvin-williams` **Marvin Williams** (PF) — 2015-16 Charlotte Hornets {"ppg":11.7,"rpg":6.4,"apg":1.4,"fg":45.2}
+- [ ] `nba-stephen-jackson` **Stephen Jackson** (SF) — 2007-08 Golden State Warriors {"ppg":20.1,"rpg":4.4,"apg":4.1,"fg":41.4}
+- [ ] `nba-tyreke-evans` **Tyreke Evans** (SG) — 2009-10 Sacramento Kings {"ppg":20.1,"rpg":5.3,"apg":5.8,"fg":45.8}
+- [ ] `nba-demarcus-cousins` **DeMarcus Cousins** (C) — 2015-16 Sacramento Kings {"ppg":26.9,"rpg":11.5,"apg":3.3,"fg":45.1}
+- [ ] `nba-rudy-gay` **Rudy Gay** (SF) — 2010-11 Memphis Grizzlies {"ppg":19.8,"rpg":6.2,"apg":2.8,"fg":47.1}
+- [ ] `nba-mike-conley` **Mike Conley** (PG) — 2016-17 Memphis Grizzlies {"ppg":20.5,"rpg":3.5,"apg":6.3,"fg":46}<br>2022-23 Minnesota Timberwolves {"ppg":14,"rpg":2.9,"apg":6.1,"fg":44.6}
+- [ ] `nba-marc-gasol` **Marc Gasol** (C) — 2012-13 Memphis Grizzlies {"ppg":14.1,"rpg":7.8,"apg":4,"fg":49.4}<br>2018-19 Toronto Raptors {"ppg":9.1,"rpg":6.6,"apg":3.9,"fg":46.5}
+- [ ] `nba-tony-allen` **Tony Allen** (SG) — 2012-13 Memphis Grizzlies {"ppg":8.9,"rpg":4.6,"apg":1.2,"fg":44.5}
+- [ ] `nba-wesley-matthews` **Wesley Matthews** (SG) — 2014-15 Portland Trail Blazers {"ppg":15.9,"rpg":3.7,"apg":2.3,"fg":44.8}
+- [ ] `nba-robin-lopez` **Robin Lopez** (C) — 2014-15 Portland Trail Blazers {"ppg":9.6,"rpg":6.7,"apg":1,"fg":53.5}
+- [ ] `nba-cj-mccollum` **CJ McCollum** (SG) — 2020-21 Portland Trail Blazers {"ppg":23.1,"rpg":3.5,"apg":4.7,"fg":45.8}<br>2022-23 New Orleans Pelicans {"ppg":20.7,"rpg":4.4,"apg":5.7,"fg":43.7}
+- [ ] `nba-jusuf-nurkic` **Jusuf Nurkic** (C) — 2018-19 Portland Trail Blazers {"ppg":15.6,"rpg":10.4,"apg":3.2,"fg":50.8}
+- [ ] `nba-anfernee-simons` **Anfernee Simons** (SG) — 2022-23 Portland Trail Blazers {"ppg":21.1,"rpg":2.6,"apg":4.1,"fg":44.7}
+- [ ] `nba-jerami-grant` **Jerami Grant** (PF) — 2022-23 Portland Trail Blazers {"ppg":20.5,"rpg":4.5,"apg":2.4,"fg":45.6}
+- [ ] `nba-shai-gilgeous-alexander` **Shai Gilgeous-Alexander** (SG) — 2023-24 Oklahoma City Thunder {"ppg":30.1,"rpg":5.5,"apg":6.2,"fg":53.5}
+- [ ] `nba-chet-holmgren` **Chet Holmgren** (PF) — 2023-24 Oklahoma City Thunder {"ppg":16.5,"rpg":7.9,"apg":2.4,"fg":53}
+- [ ] `nba-jalen-williams` **Jalen Williams** (SF) — 2023-24 Oklahoma City Thunder {"ppg":19.1,"rpg":4,"apg":4.5,"fg":54}
+- [ ] `nba-josh-giddey` **Josh Giddey** (PG) — 2022-23 Oklahoma City Thunder {"ppg":16.6,"rpg":7.9,"apg":6.2,"fg":48.2}
+- [ ] `nba-luguentz-dort` **Luguentz Dort** (SG) — 2022-23 Oklahoma City Thunder {"ppg":13.7,"rpg":4.6,"apg":2.1,"fg":39.3}
+- [ ] `nba-isaiah-joe` **Isaiah Joe** (SG) — 2023-24 Oklahoma City Thunder {"ppg":9.5,"rpg":2.3,"apg":1.4,"fg":45.8}
+- [ ] `nba-aaron-wiggins` **Aaron Wiggins** (SG) — 2023-24 Oklahoma City Thunder {"ppg":6.9,"rpg":2.4,"apg":1.1,"fg":56.2}
+- [ ] `nba-jaylin-williams` **Jaylin Williams** (PF) — 2023-24 Oklahoma City Thunder {"ppg":6,"rpg":5.7,"apg":2.1,"fg":43.5}
+- [ ] `nba-cason-wallace` **Cason Wallace** (PG) — 2023-24 Oklahoma City Thunder {"ppg":6.8,"rpg":2.3,"apg":1.5,"fg":49}
+- [ ] `nba-victor-wembanyama` **Victor Wembanyama** (C) — 2023-24 San Antonio Spurs {"ppg":21.4,"rpg":10.6,"apg":3.9,"fg":46.5}
+- [ ] `nba-dejounte-murray` **Dejounte Murray** (PG) — 2021-22 San Antonio Spurs {"ppg":21.1,"rpg":8.3,"apg":9.2,"fg":46.2}<br>2022-23 Atlanta Hawks {"ppg":20.5,"rpg":5.3,"apg":6.1,"fg":46.4}
+- [ ] `nba-keldon-johnson` **Keldon Johnson** (SF) — 2022-23 San Antonio Spurs {"ppg":22,"rpg":5,"apg":2.9,"fg":45.2}
+- [ ] `nba-devin-vassell` **Devin Vassell** (SG) — 2022-23 San Antonio Spurs {"ppg":18.5,"rpg":3.9,"apg":3.6,"fg":44}
+- [ ] `nba-jeremy-sochan` **Jeremy Sochan** (PF) — 2023-24 San Antonio Spurs {"ppg":11.6,"rpg":6.4,"apg":3.4,"fg":45.3}
+- [ ] `nba-tre-jones` **Tre Jones** (PG) — 2022-23 San Antonio Spurs {"ppg":12.9,"rpg":3.8,"apg":6.6,"fg":45.6}
+- [ ] `nba-malaki-branham` **Malaki Branham** (SG) — 2022-23 San Antonio Spurs {"ppg":10.2,"rpg":2.8,"apg":1.9,"fg":42.2}
+- [ ] `nba-zach-collins` **Zach Collins** (C) — 2022-23 San Antonio Spurs {"ppg":11.6,"rpg":6.4,"apg":2.9,"fg":49.4}
+- [ ] `nba-doug-mcDermott` **Doug McDermott** (SF) — 2022-23 San Antonio Spurs {"ppg":10.2,"rpg":2.2,"apg":1.4,"fg":48.5}
+- [ ] `nba-romeo-langford` **Romeo Langford** (SG) — 2022-23 San Antonio Spurs {"ppg":6.9,"rpg":2.8,"apg":1,"fg":45.5}
+- [ ] `nba-paolo-banchero` **Paolo Banchero** (PF) — 2022-23 Orlando Magic {"ppg":20,"rpg":6.9,"apg":3.7,"fg":42.7}
+- [ ] `nba-franz-wagner` **Franz Wagner** (SF) — 2022-23 Orlando Magic {"ppg":18.6,"rpg":4.1,"apg":3.5,"fg":48.5}
+- [ ] `nba-wendell-carter` **Wendell Carter Jr.** (C) — 2022-23 Orlando Magic {"ppg":15.2,"rpg":8.7,"apg":2.3,"fg":52.5}
+- [ ] `nba-markelle-fultz` **Markelle Fultz** (PG) — 2020-21 Orlando Magic {"ppg":12.9,"rpg":3.1,"apg":5.5,"fg":39.4}
+- [ ] `nba-cole-anthony` **Cole Anthony** (PG) — 2022-23 Orlando Magic {"ppg":13,"rpg":4.8,"apg":3.9,"fg":45.5}
+- [ ] `nba-jalen-suggs` **Jalen Suggs** (SG) — 2023-24 Orlando Magic {"ppg":12.6,"rpg":3.1,"apg":2.7,"fg":47.1}
+- [ ] `nba-jonathan-isaac` **Jonathan Isaac** (PF) — 2019-20 Orlando Magic {"ppg":11.9,"rpg":6.8,"apg":1.4,"fg":47}
+- [ ] `nba-mo-bamba` **Mo Bamba** (C) — 2022-23 Orlando Magic {"ppg":6.7,"rpg":4.6,"apg":0.9,"fg":49}
+- [ ] `nba-gary-harris` **Gary Harris** (SG) — 2022-23 Orlando Magic {"ppg":8.3,"rpg":2,"apg":1.6,"fg":43.1}
+- [ ] `nba-bol-bol` **Bol Bol** (C) — 2022-23 Orlando Magic {"ppg":9.1,"rpg":5.9,"apg":1,"fg":54.6}
+- [ ] `nba-moritz-wagner` **Moritz Wagner** (PF) — 2022-23 Orlando Magic {"ppg":10.5,"rpg":4.5,"apg":1.5,"fg":50.4}
+- [ ] `nba-cade-cunningham` **Cade Cunningham** (PG) — 2023-24 Detroit Pistons {"ppg":22.7,"rpg":4.3,"apg":7.5,"fg":44.9}
+- [ ] `nba-jaden-ivey` **Jaden Ivey** (SG) — 2023-24 Detroit Pistons {"ppg":15.4,"rpg":3.4,"apg":3.8,"fg":42.6}
+- [ ] `nba-jalen-duren` **Jalen Duren** (C) — 2023-24 Detroit Pistons {"ppg":13.8,"rpg":11.6,"apg":2.4,"fg":61.9}
+- [ ] `nba-ausar-thompson` **Ausar Thompson** (SF) — 2023-24 Detroit Pistons {"ppg":8.8,"rpg":6.4,"apg":1.9,"fg":48.4}
+- [ ] `nba-isaiah-stewart` **Isaiah Stewart** (PF) — 2022-23 Detroit Pistons {"ppg":11.3,"rpg":8.1,"apg":1.2,"fg":54.2}
+- [ ] `nba-killian-hayes` **Killian Hayes** (PG) — 2022-23 Detroit Pistons {"ppg":8,"rpg":2.8,"apg":5.3,"fg":37.7}
+- [ ] `nba-bojan-bogdanovic` **Bojan Bogdanovic** (SF) — 2022-23 Detroit Pistons {"ppg":21.6,"rpg":3.8,"apg":2.6,"fg":48.8}
+- [ ] `nba-alec-burks` **Alec Burks** (SG) — 2022-23 Detroit Pistons {"ppg":12.8,"rpg":3.1,"apg":2.2,"fg":41.4}
+- [ ] `nba-marvin-bagley` **Marvin Bagley III** (PF) — 2022-23 Detroit Pistons {"ppg":12,"rpg":6.4,"apg":0.9,"fg":52.9}
+- [ ] `nba-jalen-green` **Jalen Green** (SG) — 2022-23 Houston Rockets {"ppg":22.1,"rpg":3.7,"apg":3.7,"fg":41.6}
+- [ ] `nba-alperen-sengun` **Alperen Sengun** (C) — 2023-24 Houston Rockets {"ppg":21.1,"rpg":9.3,"apg":5,"fg":53.7}
+- [ ] `nba-jabari-smith` **Jabari Smith Jr.** (PF) — 2023-24 Houston Rockets {"ppg":13.7,"rpg":8.1,"apg":1.6,"fg":45.4}
+- [ ] `nba-amen-thompson` **Amen Thompson** (SF) — 2023-24 Houston Rockets {"ppg":9.5,"rpg":6.6,"apg":2.6,"fg":53.6}
+- [ ] `nba-fred-vanvleet` **Fred VanVleet** (PG) — 2021-22 Toronto Raptors {"ppg":20.3,"rpg":4.4,"apg":6.7,"fg":40.3}<br>2022-23 Toronto Raptors {"ppg":19.3,"rpg":4.1,"apg":7.2,"fg":39.3}
+- [ ] `nba-scottie-barnes` **Scottie Barnes** (SF) — 2021-22 Toronto Raptors {"ppg":15.3,"rpg":7.5,"apg":3.5,"fg":49.2}<br>2022-23 Toronto Raptors {"ppg":15.3,"rpg":6.6,"apg":4.8,"fg":45.6}
+- [ ] `nba-og-anunoby` **OG Anunoby** (SF) — 2022-23 Toronto Raptors {"ppg":16.8,"rpg":5,"apg":2,"fg":47.6}<br>2021-22 Toronto Raptors {"ppg":17.1,"rpg":5.5,"apg":2.6,"fg":44.3}
+- [ ] `nba-pascal-siakam` **Pascal Siakam** (PF) — 2022-23 Toronto Raptors {"ppg":24.2,"rpg":7.8,"apg":5.8,"fg":48}<br>2023-24 Indiana Pacers {"ppg":21.3,"rpg":7.8,"apg":3.7,"fg":54}<br>2019-20 Toronto Raptors {"ppg":22.9,"rpg":7.3,"apg":3.5,"fg":45.3}
+- [ ] `nba-gary-trent` **Gary Trent Jr.** (SG) — 2021-22 Toronto Raptors {"ppg":18.3,"rpg":2.7,"apg":2,"fg":41.4}
+- [ ] `nba-jakob-poeltl` **Jakob Poeltl** (C) — 2022-23 Toronto Raptors {"ppg":12.5,"rpg":9.1,"apg":2.4,"fg":62.9}
+- [ ] `nba-precious-achiuwa` **Precious Achiuwa** (PF) — 2022-23 Toronto Raptors {"ppg":9.2,"rpg":6,"apg":0.9,"fg":48.5}
+- [ ] `nba-chris-boucher` **Chris Boucher** (PF) — 2021-22 Toronto Raptors {"ppg":9.4,"rpg":6.2,"apg":0.3,"fg":46.4}
+- [ ] `nba-malachi-flynn` **Malachi Flynn** (PG) — 2021-22 Toronto Raptors {"ppg":7.5,"rpg":2,"apg":2.5,"fg":41.3}
+- [ ] `nba-thaddeus-young` **Thaddeus Young** (PF) — 2019-20 Chicago Bulls {"ppg":12.9,"rpg":6.5,"apg":4,"fg":44.8}
+- [ ] `nba-zach-lavine` **Zach LaVine** (SG) — 2020-21 Chicago Bulls {"ppg":27.4,"rpg":5,"apg":4.9,"fg":50.7}
+- [ ] `nba-demar-derozan` **DeMar DeRozan** (SF) — 2016-17 Toronto Raptors {"ppg":27.3,"rpg":5.2,"apg":3.9,"fg":46.7}<br>2021-22 Chicago Bulls {"ppg":27.9,"rpg":5.2,"apg":4.9,"fg":50.4}<br>2018-19 San Antonio Spurs {"ppg":21.2,"rpg":6,"apg":6.2,"fg":48.1}
+- [ ] `nba-nikola-vucevic` **Nikola Vucevic** (C) — 2019-20 Orlando Magic {"ppg":19.6,"rpg":10.9,"apg":3.6,"fg":47.7}
+- [ ] `nba-lonzo-ball` **Lonzo Ball** (PG) — 2020-21 New Orleans Pelicans {"ppg":14.6,"rpg":4.8,"apg":5.7,"fg":41.4}
+- [ ] `nba-patrick-williams` **Patrick Williams** (PF) — 2022-23 Chicago Bulls {"ppg":10.2,"rpg":4,"apg":1.2,"fg":46.4}
+- [ ] `nba-coby-white` **Coby White** (PG) — 2023-24 Chicago Bulls {"ppg":19.1,"rpg":4.5,"apg":5.1,"fg":44.7}
+- [ ] `nba-ayo-dosunmu` **Ayo Dosunmu** (SG) — 2022-23 Chicago Bulls {"ppg":8.6,"rpg":2.8,"apg":2.6,"fg":49.3}
+- [ ] `nba-alex-caruso` **Alex Caruso** (SG) — 2022-23 Chicago Bulls {"ppg":5.6,"rpg":2.9,"apg":2.9,"fg":45.5}
+- [ ] `nba-andre-drummond` **Andre Drummond** (C) — 2015-16 Detroit Pistons {"ppg":16.2,"rpg":14.8,"apg":0.8,"fg":52.1}
+- [ ] `nba-greg-monroe` **Greg Monroe** (C) — 2014-15 Detroit Pistons {"ppg":15.9,"rpg":10.2,"apg":2.1,"fg":49.6}
+- [ ] `nba-brandon-knight` **Brandon Knight** (PG) — 2015-16 Phoenix Suns {"ppg":19.6,"rpg":3.9,"apg":5.1,"fg":43}
+- [ ] `nba-eric-bledsoe` **Eric Bledsoe** (PG) — 2018-19 Milwaukee Bucks {"ppg":15.9,"rpg":4.6,"apg":5.5,"fg":48.4}
+- [ ] `nba-khris-middleton` **Khris Middleton** (SF) — 2019-20 Milwaukee Bucks {"ppg":20.9,"rpg":6.2,"apg":4.3,"fg":49.7}
+- [ ] `nba-jrue-holiday` **Jrue Holiday** (PG) — 2022-23 Milwaukee Bucks {"ppg":19.3,"rpg":5.1,"apg":7.4,"fg":47.9}<br>2023-24 Boston Celtics {"ppg":12.5,"rpg":5.4,"apg":4.8,"fg":42.9}
+- [ ] `nba-brook-lopez` **Brook Lopez** (C) — 2022-23 Milwaukee Bucks {"ppg":15.9,"rpg":6.7,"apg":1.3,"fg":53.1}
+- [ ] `nba-bobby-portis` **Bobby Portis** (PF) — 2022-23 Milwaukee Bucks {"ppg":14.1,"rpg":9.6,"apg":1.5,"fg":49.6}
+- [ ] `nba-pat-connaughton` **Pat Connaughton** (SG) — 2021-22 Milwaukee Bucks {"ppg":9.9,"rpg":4.2,"apg":1.3,"fg":45.8}
+- [ ] `nba-grayson-allen` **Grayson Allen** (SG) — 2020-21 Memphis Grizzlies {"ppg":10.6,"rpg":3,"apg":2.2,"fg":44.8}
+- [ ] `nba-donte-divincenzo` **Donte DiVincenzo** (SG) — 2023-24 New York Knicks {"ppg":15.5,"rpg":3.7,"apg":2.7,"fg":44.3}
+- [ ] `nba-julius-randle` **Julius Randle** (PF) — 2020-21 New York Knicks {"ppg":24.1,"rpg":10.2,"apg":6,"fg":45.6}<br>2022-23 New York Knicks {"ppg":25.1,"rpg":10,"apg":4.1,"fg":45.9}
+- [ ] `nba-rj-barrett` **RJ Barrett** (SF) — 2022-23 New York Knicks {"ppg":19.6,"rpg":5,"apg":2.8,"fg":43.4}
+- [ ] `nba-mitchell-robinson` **Mitchell Robinson** (C) — 2022-23 New York Knicks {"ppg":7.4,"rpg":9.4,"apg":0.9,"fg":67.1}
+- [ ] `nba-immanuel-quickley` **Immanuel Quickley** (PG) — 2022-23 New York Knicks {"ppg":14.9,"rpg":4.2,"apg":3.4,"fg":44.8}
+- [ ] `nba-josh-hart` **Josh Hart** (SG) — 2023-24 New York Knicks {"ppg":9.4,"rpg":8.3,"apg":4.1,"fg":43.4}
+- [ ] `nba-quentin-grimes` **Quentin Grimes** (SG) — 2022-23 New York Knicks {"ppg":11.3,"rpg":3.2,"apg":2.1,"fg":46.8}
+- [ ] `nba-obi-toppin` **Obi Toppin** (PF) — 2022-23 New York Knicks {"ppg":7.4,"rpg":2.8,"apg":1,"fg":56}<br>2023-24 Indiana Pacers {"ppg":10.3,"rpg":3.9,"apg":1.6,"fg":56.7}
+- [ ] `nba-isaiah-hartenstein` **Isaiah Hartenstein** (C) — 2023-24 New York Knicks {"ppg":7.8,"rpg":8.3,"apg":2.5,"fg":64.4}
+- [ ] `nba-jalen-brunson` **Jalen Brunson** (PG) — 2023-24 New York Knicks {"ppg":28.7,"rpg":3.6,"apg":6.7,"fg":47.9}
+- [ ] `nba-mikal-bridges` **Mikal Bridges** (SF) — 2021-22 Phoenix Suns {"ppg":14.2,"rpg":4.2,"apg":2.3,"fg":53.4}
+- [ ] `nba-deandre-ayton` **Deandre Ayton** (C) — 2020-21 Phoenix Suns {"ppg":14.4,"rpg":10.5,"apg":1.4,"fg":62.6}
+- [ ] `nba-cameron-johnson` **Cameron Johnson** (SF) — 2022-23 Phoenix Suns {"ppg":15.1,"rpg":4.1,"apg":2,"fg":45.2}
+- [ ] `nba-devin-booker` **Devin Booker** (SG) — 2021-22 Phoenix Suns {"ppg":26.8,"rpg":5,"apg":4.8,"fg":46.6}
+- [ ] `nba-jae-crowder` **Jae Crowder** (SF) — 2021-22 Phoenix Suns {"ppg":9.4,"rpg":5.3,"apg":1.9,"fg":39.9}
+- [ ] `nba-landry-shamet` **Landry Shamet** (SG) — 2020-21 Phoenix Suns {"ppg":9.3,"rpg":1.8,"apg":1.6,"fg":40.8}
+- [ ] `nba-torrey-craig` **Torrey Craig** (SF) — 2021-22 Phoenix Suns {"ppg":6.9,"rpg":4,"apg":1.1,"fg":46}
+- [ ] `nba-ja-morant` **Ja Morant** (PG) — 2021-22 Memphis Grizzlies {"ppg":27.4,"rpg":5.7,"apg":6.7,"fg":49.3}
+- [ ] `nba-jaren-jackson` **Jaren Jackson Jr.** (PF) — 2022-23 Memphis Grizzlies {"ppg":18.6,"rpg":6.8,"apg":1,"fg":50.6}
+- [ ] `nba-desmond-bane` **Desmond Bane** (SG) — 2022-23 Memphis Grizzlies {"ppg":21.5,"rpg":5,"apg":4.4,"fg":47.9}
+- [ ] `nba-steven-adams` **Steven Adams** (C) — 2017-18 Oklahoma City Thunder {"ppg":13.9,"rpg":9,"apg":1.2,"fg":62.9}
+- [ ] `nba-tyus-jones` **Tyus Jones** (PG) — 2022-23 Memphis Grizzlies {"ppg":10.3,"rpg":2.5,"apg":5.3,"fg":43}
+- [ ] `nba-brandon-clarke` **Brandon Clarke** (PF) — 2021-22 Memphis Grizzlies {"ppg":10.4,"rpg":5.3,"apg":1.3,"fg":60.7}
+- [ ] `nba-dillon-brooks` **Dillon Brooks** (SF) — 2021-22 Memphis Grizzlies {"ppg":18.4,"rpg":3.5,"apg":2.8,"fg":43.2}
+- [ ] `nba-kyle-anderson` **Kyle Anderson** (SF) — 2021-22 Memphis Grizzlies {"ppg":7.6,"rpg":5.8,"apg":2.7,"fg":44.6}<br>2023-24 Minnesota Timberwolves {"ppg":6.4,"rpg":3.5,"apg":4.2,"fg":46}<br>2017-18 San Antonio Spurs {"ppg":7.9,"rpg":5.4,"apg":2.7,"fg":52.7}
+- [ ] `nba-xavier-tillman` **Xavier Tillman** (PF) — 2021-22 Memphis Grizzlies {"ppg":6.7,"rpg":4.6,"apg":1.3,"fg":49.8}<br>2023-24 Boston Celtics {"ppg":4.6,"rpg":2.5,"apg":0.8,"fg":48.4}
+- [ ] `nba-ziaire-williams` **Ziaire Williams** (SF) — 2022-23 Memphis Grizzlies {"ppg":5.9,"rpg":2.1,"apg":0.9,"fg":39.6}
+- [ ] `nba-jake-laravia` **Jake LaRavia** (PF) — 2022-23 Memphis Grizzlies {"ppg":6,"rpg":2.8,"apg":1.1,"fg":42.8}
+- [ ] `nba-david-roddy` **David Roddy** (SF) — 2022-23 Memphis Grizzlies {"ppg":6.8,"rpg":2.8,"apg":0.8,"fg":42.9}
+- [ ] `nba-kennedy-chandler` **Kennedy Chandler** (PG) — 2022-23 Memphis Grizzlies {"ppg":4,"rpg":1.4,"apg":2.1,"fg":39.2}
+- [ ] `nba-santi-aldama` **Santi Aldama** (PF) — 2022-23 Memphis Grizzlies {"ppg":9,"rpg":4.8,"apg":1.3,"fg":43.5}
+- [ ] `nba-brandon-ingram` **Brandon Ingram** (SF) — 2019-20 New Orleans Pelicans {"ppg":23.8,"rpg":6.1,"apg":4.2,"fg":46.3}
+- [ ] `nba-zion-williamson` **Zion Williamson** (PF) — 2020-21 New Orleans Pelicans {"ppg":27,"rpg":7.2,"apg":3.7,"fg":61.1}
+- [ ] `nba-herb-jones` **Herb Jones** (SF) — 2022-23 New Orleans Pelicans {"ppg":9.8,"rpg":4,"apg":2.5,"fg":47.5}
+- [ ] `nba-trey-murphy` **Trey Murphy III** (SF) — 2023-24 New Orleans Pelicans {"ppg":14.8,"rpg":4.9,"apg":2.2,"fg":44.1}
+- [ ] `nba-jonas-valanciunas` **Jonas Valanciunas** (C) — 2021-22 New Orleans Pelicans {"ppg":17.8,"rpg":11.4,"apg":2.6,"fg":54.4}
+- [ ] `nba-larry-nance-jr` **Larry Nance Jr.** (PF) — 2021-22 New Orleans Pelicans {"ppg":9.3,"rpg":5.4,"apg":2.6,"fg":53.4}
+- [ ] `nba-devonte-graham` **Devonte' Graham** (PG) — 2020-21 Charlotte Hornets {"ppg":14.8,"rpg":2.7,"apg":5.4,"fg":37.5}
+- [ ] `nba-pj-washington` **P.J. Washington** (PF) — 2022-23 Charlotte Hornets {"ppg":15.7,"rpg":4.9,"apg":2.4,"fg":44.4}
+- [ ] `nba-terry-rozier` **Terry Rozier** (PG) — 2021-22 Charlotte Hornets {"ppg":19.3,"rpg":4.7,"apg":4.5,"fg":44.4}<br>2018-19 Boston Celtics {"ppg":9,"rpg":3.9,"apg":2.9,"fg":38.7}
+- [ ] `nba-gordon-hayward` **Gordon Hayward** (SF) — 2016-17 Utah Jazz {"ppg":21.9,"rpg":5.4,"apg":3.5,"fg":47.1}<br>2019-20 Boston Celtics {"ppg":17.5,"rpg":6.7,"apg":4.1,"fg":50}
+- [ ] `nba-lauri-markkanen` **Lauri Markkanen** (PF) — 2022-23 Utah Jazz {"ppg":25.6,"rpg":8.6,"apg":1.9,"fg":49.9}
+- [ ] `nba-jordan-clarkson` **Jordan Clarkson** (SG) — 2020-21 Utah Jazz {"ppg":18.4,"rpg":4,"apg":2.5,"fg":42.5}
+- [ ] `nba-collin-sexton` **Collin Sexton** (PG) — 2020-21 Cleveland Cavaliers {"ppg":24.3,"rpg":3.1,"apg":4.4,"fg":47.5}
+- [ ] `nba-darius-garland` **Darius Garland** (PG) — 2021-22 Cleveland Cavaliers {"ppg":21.7,"rpg":3.3,"apg":8.6,"fg":46.2}
+- [ ] `nba-jarrett-allen` **Jarrett Allen** (C) — 2021-22 Cleveland Cavaliers {"ppg":16.1,"rpg":10.8,"apg":1.6,"fg":67.7}
+- [ ] `nba-evan-mobley` **Evan Mobley** (PF) — 2022-23 Cleveland Cavaliers {"ppg":16.2,"rpg":9,"apg":2.8,"fg":55.4}
+- [ ] `nba-donovan-mitchell` **Donovan Mitchell** (SG) — 2022-23 Cleveland Cavaliers {"ppg":28.3,"rpg":4.3,"apg":4.4,"fg":48.4}
+- [ ] `nba-caris-levert` **Caris LeVert** (SG) — 2021-22 Cleveland Cavaliers {"ppg":13.6,"rpg":3.8,"apg":3.9,"fg":41.6}
+- [ ] `nba-ricky-rubio` **Ricky Rubio** (PG) — 2013-14 Minnesota Timberwolves {"ppg":9.5,"rpg":4.2,"apg":8.6,"fg":38.1}
+- [ ] `nba-karl-anthony-towns` **Karl-Anthony Towns** (C) — 2021-22 Minnesota Timberwolves {"ppg":24.6,"rpg":9.8,"apg":3.6,"fg":52.9}
+- [ ] `nba-anthony-edwards` **Anthony Edwards** (SG) — 2023-24 Minnesota Timberwolves {"ppg":25.9,"rpg":5.4,"apg":5.1,"fg":46.1}
+- [ ] `nba-rudy-gobert` **Rudy Gobert** (C) — 2020-21 Utah Jazz {"ppg":14.3,"rpg":13.5,"apg":1.3,"fg":67.4}
+- [ ] `nba-jaden-mcdaniels` **Jaden McDaniels** (SF) — 2023-24 Minnesota Timberwolves {"ppg":10.5,"rpg":3.1,"apg":1.4,"fg":48.9}
+- [ ] `nba-naz-reid` **Naz Reid** (C) — 2023-24 Minnesota Timberwolves {"ppg":13.5,"rpg":5.2,"apg":1.3,"fg":51.7}
+- [ ] `nba-nickeil-alexander-walker` **Nickeil Alexander-Walker** (SG) — 2023-24 Minnesota Timberwolves {"ppg":8,"rpg":2,"apg":2.5,"fg":43.9}
+- [ ] `nba-monte-morris` **Monte Morris** (PG) — 2022-23 Washington Wizards {"ppg":10.3,"rpg":3,"apg":5.3,"fg":48}
+- [ ] `nba-bradley-beal` **Bradley Beal** (SG) — 2020-21 Washington Wizards {"ppg":31.3,"rpg":4.7,"apg":4.4,"fg":48.5}
+- [ ] `nba-kristaps-porzingis` **Kristaps Porzingis** (PF) — 2017-18 New York Knicks {"ppg":22.7,"rpg":6.6,"apg":1.2,"fg":43.9}<br>2023-24 Boston Celtics {"ppg":20.1,"rpg":7.2,"apg":2,"fg":51.6}
+- [ ] `nba-trae-young` **Trae Young** (PG) — 2021-22 Atlanta Hawks {"ppg":28.4,"rpg":3.7,"apg":9.7,"fg":46}
+- [ ] `nba-clint-capela` **Clint Capela** (C) — 2020-21 Atlanta Hawks {"ppg":15.2,"rpg":14.3,"apg":0.8,"fg":59.4}
+- [ ] `nba-john-collins` **John Collins** (PF) — 2019-20 Atlanta Hawks {"ppg":21.6,"rpg":10.1,"apg":1.5,"fg":58.3}
+- [ ] `nba-bogdan-bogdanovic` **Bogdan Bogdanovic** (SG) — 2022-23 Atlanta Hawks {"ppg":14,"rpg":3.1,"apg":2.8,"fg":44.7}
+- [ ] `nba-onyeka-okongwu` **Onyeka Okongwu** (C) — 2022-23 Atlanta Hawks {"ppg":9.9,"rpg":7.2,"apg":1,"fg":63.8}
+- [ ] `nba-saddiq-bey` **Saddiq Bey** (SF) — 2021-22 Detroit Pistons {"ppg":16.1,"rpg":5.4,"apg":2.8,"fg":39.6}
+- [ ] `nba-kevin-knox` **Kevin Knox** (SF) — 2018-19 New York Knicks {"ppg":12.8,"rpg":4.5,"apg":1,"fg":37}
+- [ ] `nba-dennis-smith` **Dennis Smith Jr.** (PG) — 2017-18 Dallas Mavericks {"ppg":15.2,"rpg":3.8,"apg":5.2,"fg":39.5}
+- [ ] `nba-josh-richardson` **Josh Richardson** (SG) — 2019-20 Philadelphia 76ers {"ppg":13.7,"rpg":3.2,"apg":2.9,"fg":43}
+- [ ] `nba-tobias-harris` **Tobias Harris** (SF) — 2018-19 Los Angeles Clippers {"ppg":20.9,"rpg":7.9,"apg":2.7,"fg":48.7}
+- [ ] `nba-ben-simmons` **Ben Simmons** (PG) — 2019-20 Philadelphia 76ers {"ppg":16.4,"rpg":7.8,"apg":8,"fg":58}
+- [ ] `nba-tyrese-maxey` **Tyrese Maxey** (PG) — 2023-24 Philadelphia 76ers {"ppg":25.9,"rpg":3.7,"apg":6.2,"fg":45}
+- [ ] `nba-buddy-hield` **Buddy Hield** (SG) — 2020-21 Sacramento Kings {"ppg":16.6,"rpg":4.7,"apg":3.6,"fg":40.6}<br>2023-24 Indiana Pacers {"ppg":12.1,"rpg":3.2,"apg":1.8,"fg":43.8}
+- [ ] `nba-domantas-sabonis` **Domantas Sabonis** (C) — 2023-24 Sacramento Kings {"ppg":19.4,"rpg":13.7,"apg":8.2,"fg":59.4}
+- [ ] `nba-tyrese-haliburton` **Tyrese Haliburton** (PG) — 2023-24 Indiana Pacers {"ppg":20.1,"rpg":3.9,"apg":10.9,"fg":47.7}
+- [ ] `nba-myles-turner` **Myles Turner** (C) — 2022-23 Indiana Pacers {"ppg":18,"rpg":7.5,"apg":1.4,"fg":54.8}
+- [ ] `nba-bennedict-mathurin` **Bennedict Mathurin** (SG) — 2022-23 Indiana Pacers {"ppg":16.7,"rpg":4.1,"apg":1.5,"fg":43.4}
+- [ ] `nba-andrew-nembhard` **Andrew Nembhard** (PG) — 2023-24 Indiana Pacers {"ppg":9.2,"rpg":2.1,"apg":4.1,"fg":49.8}
+- [ ] `nba-aaron-nesmith` **Aaron Nesmith** (SF) — 2023-24 Indiana Pacers {"ppg":12.2,"rpg":3.8,"apg":1.5,"fg":49.6}
+- [ ] `nba-jalen-smith` **Jalen Smith** (PF) — 2022-23 Indiana Pacers {"ppg":9.4,"rpg":5.8,"apg":1,"fg":47.6}
+- [ ] `nba-isaiah-jackson` **Isaiah Jackson** (PF) — 2022-23 Indiana Pacers {"ppg":7.2,"rpg":4.1,"apg":0.5,"fg":56.3}
+- [ ] `nba-t-j-mcconnell` **T.J. McConnell** (PG) — 2022-23 Indiana Pacers {"ppg":8.7,"rpg":3.1,"apg":5.3,"fg":46.5}
+- [ ] `nba-aaron-holiday` **Aaron Holiday** (PG) — 2020-21 Indiana Pacers {"ppg":7.9,"rpg":1.3,"apg":1.9,"fg":39}
+- [ ] `nba-malcolm-brogdon` **Malcolm Brogdon** (PG) — 2018-19 Milwaukee Bucks {"ppg":15.6,"rpg":4.5,"apg":3.2,"fg":50.5}<br>2022-23 Boston Celtics {"ppg":14.9,"rpg":4.2,"apg":3.7,"fg":48.4}
+- [ ] `nba-kyle-lowry` **Kyle Lowry** (PG) — 2016-17 Toronto Raptors {"ppg":22.4,"rpg":4.8,"apg":7,"fg":46.4}
+- [ ] `nba-norman-powell` **Norman Powell** (SG) — 2020-21 Toronto Raptors {"ppg":16.6,"rpg":3,"apg":1.8,"fg":48.4}
+- [ ] `nba-danny-green` **Danny Green** (SG) — 2013-14 San Antonio Spurs {"ppg":9.1,"rpg":3.4,"apg":1.5,"fg":43.2}
+- [ ] `nba-patty-mills` **Patty Mills** (PG) — 2016-17 San Antonio Spurs {"ppg":9.5,"rpg":1.8,"apg":3.5,"fg":44}
+- [ ] `nba-tiago-splitter` **Tiago Splitter** (C) — 2013-14 San Antonio Spurs {"ppg":8.2,"rpg":6.4,"apg":1.5,"fg":52.3}
+- [ ] `nba-marco-belinelli` **Marco Belinelli** (SG) — 2013-14 San Antonio Spurs {"ppg":11.4,"rpg":2.8,"apg":2.2,"fg":48.5}
+- [ ] `nba-cory-joseph` **Cory Joseph** (PG) — 2014-15 San Antonio Spurs {"ppg":6.8,"rpg":2.4,"apg":2.4,"fg":50.4}
+- [ ] `nba-derrick-white` **Derrick White** (SG) — 2021-22 Boston Celtics {"ppg":11.2,"rpg":3.9,"apg":3.5,"fg":42.9}<br>2023-24 Boston Celtics {"ppg":15.2,"rpg":4.2,"apg":5.2,"fg":46.1}
+- [ ] `nba-jaylen-brown` **Jaylen Brown** (SF) — 2022-23 Boston Celtics {"ppg":26.6,"rpg":6.9,"apg":3.5,"fg":49.1}<br>2020-21 Boston Celtics {"ppg":24.7,"rpg":6,"apg":3.4,"fg":48.4}<br>2017-18 Boston Celtics {"ppg":14.5,"rpg":4.9,"apg":1.6,"fg":46.5}
+- [ ] `nba-sam-hauser` **Sam Hauser** (SF) — 2023-24 Boston Celtics {"ppg":9,"rpg":3.5,"apg":1,"fg":44.6}
+- [ ] `nba-payton-pritchard` **Payton Pritchard** (PG) — 2023-24 Boston Celtics {"ppg":9.6,"rpg":3.2,"apg":3.4,"fg":46.8}
+- [ ] `nba-luke-kornet` **Luke Kornet** (C) — 2023-24 Boston Celtics {"ppg":5.3,"rpg":4.1,"apg":1.1,"fg":70}
+- [ ] `nba-oshae-brissett` **Oshae Brissett** (SF) — 2022-23 Boston Celtics {"ppg":6.2,"rpg":3.8,"apg":0.8,"fg":45.4}
+- [ ] `nba-grant-williams` **Grant Williams** (PF) — 2022-23 Boston Celtics {"ppg":8.1,"rpg":4.6,"apg":1.7,"fg":45.4}
+- [ ] `nba-marcus-smart` **Marcus Smart** (PG) — 2021-22 Boston Celtics {"ppg":12.1,"rpg":3.8,"apg":5.9,"fg":41.8}<br>2018-19 Boston Celtics {"ppg":8.9,"rpg":2.9,"apg":4,"fg":42.2}
+- [ ] `nba-robert-williams` **Robert Williams III** (C) — 2021-22 Boston Celtics {"ppg":10,"rpg":9.6,"apg":2,"fg":73.6}
+- [ ] `nba-daniel-theis` **Daniel Theis** (C) — 2020-21 Boston Celtics {"ppg":9.5,"rpg":5.3,"apg":1.6,"fg":55.2}
+- [ ] `nba-tristan-thompson` **Tristan Thompson** (C) — 2015-16 Cleveland Cavaliers {"ppg":7.8,"rpg":9,"apg":0.8,"fg":58.8}
+- [ ] `nba-jr-smith` **J.R. Smith** (SG) — 2015-16 Cleveland Cavaliers {"ppg":12.4,"rpg":2.8,"apg":1.7,"fg":41.5}
+- [ ] `nba-matthew-dellavedova` **Matthew Dellavedova** (PG) — 2014-15 Cleveland Cavaliers {"ppg":4.8,"rpg":1.9,"apg":3,"fg":36.2}
+- [ ] `nba-imane-shumpert` **Iman Shumpert** (SG) — 2015-16 Cleveland Cavaliers {"ppg":5.8,"rpg":3.8,"apg":1.7,"fg":37.4}
+- [ ] `nba-timofey-mozgov` **Timofey Mozgov** (C) — 2014-15 Cleveland Cavaliers {"ppg":9.5,"rpg":6,"apg":0.5,"fg":55.6}
+- [ ] `nba-channing-frye` **Channing Frye** (PF) — 2016-17 Cleveland Cavaliers {"ppg":9.1,"rpg":3.9,"apg":0.6,"fg":45.9}
+- [ ] `nba-andrew-bogut` **Andrew Bogut** (C) — 2015-16 Golden State Warriors {"ppg":5.4,"rpg":7,"apg":2.3,"fg":62.7}
+- [ ] `nba-shaun-livingston` **Shaun Livingston** (PG) — 2015-16 Golden State Warriors {"ppg":6.3,"rpg":2.2,"apg":3,"fg":48.6}
+- [ ] `nba-festus-ezeli` **Festus Ezeli** (C) — 2014-15 Golden State Warriors {"ppg":4.4,"rpg":5.3,"apg":0.2,"fg":54.7}
+- [ ] `nba-marreese-speights` **Marreese Speights** (PF) — 2015-16 Golden State Warriors {"ppg":7.1,"rpg":3.3,"apg":0.8,"fg":43.2}
+- [ ] `nba-ian-clark` **Ian Clark** (SG) — 2016-17 Golden State Warriors {"ppg":6.8,"rpg":1.6,"apg":1.2,"fg":48.7}
+- [ ] `nba-zaza-pachulia` **Zaza Pachulia** (C) — 2016-17 Golden State Warriors {"ppg":6.2,"rpg":5.1,"apg":1.6,"fg":53.4}
+- [ ] `nba-javale-mcgee` **JaVale McGee** (C) — 2016-17 Golden State Warriors {"ppg":6.1,"rpg":3.2,"apg":0.2,"fg":65.2}
+- [ ] `nba-patrick-mccaw` **Patrick McCaw** (SG) — 2016-17 Golden State Warriors {"ppg":4,"rpg":1.4,"apg":1.1,"fg":43.3}
+- [ ] `nba-matt-barnes` **Matt Barnes** (SF) — 2016-17 Golden State Warriors {"ppg":5.7,"rpg":4.6,"apg":2.3,"fg":42.2}
+- [ ] `nba-anderson-varejao` **Anderson Varejao** (C) — 2012-13 Cleveland Cavaliers {"ppg":14.1,"rpg":14.4,"apg":3.4,"fg":51.4}<br>2009-10 Cleveland Cavaliers {"ppg":8.6,"rpg":7.6,"apg":1.1,"fg":57.2}
+- [ ] `nba-mo-williams` **Mo Williams** (PG) — 2008-09 Cleveland Cavaliers {"ppg":17.8,"rpg":3.4,"apg":4.1,"fg":46.7}
+- [ ] `nba-delonte-west` **Delonte West** (SG) — 2008-09 Cleveland Cavaliers {"ppg":11.7,"rpg":3.2,"apg":3.5,"fg":45.6}
+- [ ] `nba-udonis-haslem` **Udonis Haslem** (PF) — 2005-06 Miami Heat {"ppg":9.3,"rpg":7.8,"apg":1.2,"fg":50.8}
+- [ ] `nba-jason-williams` **Jason Williams** (PG) — 2005-06 Miami Heat {"ppg":12.3,"rpg":2.4,"apg":4.9,"fg":44.2}
+- [ ] `nba-james-posey` **James Posey** (SF) — 2005-06 Miami Heat {"ppg":7.2,"rpg":4.8,"apg":1.3,"fg":40.6}
+- [ ] `nba-derek-anderson` **Derek Anderson** (SG) — 1999-00 Los Angeles Clippers {"ppg":13.7,"rpg":3.3,"apg":3.4,"fg":40.6}
+- [ ] `nba-eddie-jones` **Eddie Jones** (SG) — 1999-00 Charlotte Hornets {"ppg":20.1,"rpg":4.8,"apg":4.2,"fg":42.7}
+- [ ] `nba-jamal-mashburn` **Jamal Mashburn** (SF) — 1999-00 Charlotte Hornets {"ppg":18.6,"rpg":5.7,"apg":3.1,"fg":44.2}
+- [ ] `nba-elden-campbell` **Elden Campbell** (C) — 1999-00 Charlotte Hornets {"ppg":12.7,"rpg":7.6,"apg":1.4,"fg":45.6}
+- [ ] `nba-david-wesley` **David Wesley** (PG) — 1999-00 Charlotte Hornets {"ppg":13.6,"rpg":2.7,"apg":5.8,"fg":42.6}
+- [ ] `nba-bobby-phills` **Bobby Phills** (SG) — 1999-00 Charlotte Hornets {"ppg":11.3,"rpg":3,"apg":2.5,"fg":45.8}
+- [ ] `nba-eddie-robinson` **Eddie Robinson** (PF) — 2000-01 Charlotte Hornets {"ppg":7.6,"rpg":5.4,"apg":0.6,"fg":48.8}
+- [ ] `nba-p-j-brown` **P.J. Brown** (PF) — 2001-02 Charlotte Hornets {"ppg":8.4,"rpg":9,"apg":1.3,"fg":50.4}
+- [ ] `nba-stacey-augmon` **Stacey Augmon** (SF) — 1993-94 Atlanta Hawks {"ppg":14.8,"rpg":4.9,"apg":2.2,"fg":51}
+- [ ] `nba-christian-laettner` **Christian Laettner** (PF) — 1996-97 Atlanta Hawks {"ppg":18.1,"rpg":8.8,"apg":2.7,"fg":48.6}
+- [ ] `nba-tyrone-corbin` **Tyrone Corbin** (SF) — 1993-94 Atlanta Hawks {"ppg":8.4,"rpg":4.8,"apg":1.6,"fg":45.7}
+- [ ] `nba-adam-keefe` **Adam Keefe** (PF) — 1994-95 Atlanta Hawks {"ppg":6.5,"rpg":4.8,"apg":0.7,"fg":52.3}
+- [ ] `nba-grant-long` **Grant Long** (PF) — 1994-95 Atlanta Hawks {"ppg":11,"rpg":7.6,"apg":1.8,"fg":44.8}
+- [ ] `nba-ken-norman` **Ken Norman** (SF) — 1993-94 Atlanta Hawks {"ppg":13.8,"rpg":6.1,"apg":2.4,"fg":45.1}
+- [ ] `nba-duane-ferrell` **Duane Ferrell** (SF) — 1993-94 Atlanta Hawks {"ppg":8.4,"rpg":2.1,"apg":1,"fg":46.5}
+- [ ] `nba-kevin-willis` **Kevin Willis** (PF) — 1991-92 Atlanta Hawks {"ppg":18.3,"rpg":15.5,"apg":2.1,"fg":48.3}<br>1987-88 Atlanta Hawks {"ppg":11.6,"rpg":10,"apg":0.8,"fg":51.8}
+- [ ] `nba-doc-rivers` **Doc Rivers** (PG) — 1990-91 Atlanta Hawks {"ppg":15.2,"rpg":3.5,"apg":4.3,"fg":43.5}<br>1987-88 Atlanta Hawks {"ppg":14.2,"rpg":3.1,"apg":9.3,"fg":45.3}
+- [ ] `nba-spud-webb` **Spud Webb** (PG) — 1985-86 Atlanta Hawks {"ppg":7.8,"rpg":1.6,"apg":4.3,"fg":45.5}<br>1987-88 Atlanta Hawks {"ppg":6,"rpg":1.8,"apg":4.1,"fg":47.5}
+- [ ] `nba-john-battle` **John Battle** (SG) — 1990-91 Atlanta Hawks {"ppg":13.6,"rpg":2,"apg":2.7,"fg":46.1}<br>1987-88 Atlanta Hawks {"ppg":10.6,"rpg":1.7,"apg":1.9,"fg":45.4}
+- [ ] `nba-reggie-theus` **Reggie Theus** (SG) — 1989-90 Atlanta Hawks {"ppg":18.1,"rpg":3.1,"apg":5.3,"fg":43.9}
+- [ ] `nba-jon-koncak` **Jon Koncak** (C) — 1989-90 Atlanta Hawks {"ppg":4,"rpg":5.3,"apg":0.8,"fg":48}
+- [ ] `nba-cliff-levingston` **Cliff Levingston** (PF) — 1986-87 Atlanta Hawks {"ppg":8,"rpg":5.3,"apg":0.8,"fg":52.3}<br>1985-86 Atlanta Hawks {"ppg":8.2,"rpg":6.1,"apg":0.7,"fg":50.3}
+- [ ] `nba-antoine-carr` **Antoine Carr** (PF) — 1987-88 Atlanta Hawks {"ppg":8.9,"rpg":4,"apg":1.3,"fg":50.6}<br>1986-87 Atlanta Hawks {"ppg":6.4,"rpg":3.3,"apg":0.9,"fg":52}
+- [ ] `nba-randy-wittman` **Randy Wittman** (SG) — 1986-87 Atlanta Hawks {"ppg":5.4,"rpg":1.2,"apg":1.6,"fg":45}<br>1985-86 Atlanta Hawks {"ppg":4.8,"rpg":1.1,"apg":1.4,"fg":46.8}
+- [ ] `nba-scott-hastings` **Scott Hastings** (PF) — 1986-87 Atlanta Hawks {"ppg":2.5,"rpg":2,"apg":0.5,"fg":43}<br>1985-86 Atlanta Hawks {"ppg":3.1,"rpg":2.4,"apg":0.6,"fg":44}
+- [ ] `nba-tree-rollins` **Tree Rollins** (C) — 1986-87 Atlanta Hawks {"ppg":5.4,"rpg":6.8,"apg":0.4,"fg":54.6}
+- [ ] `nba-eddie-johnson` **Eddie Johnson** (SF) — 1990-91 Seattle SuperSonics {"ppg":18,"rpg":4,"apg":2.2,"fg":47.8}<br>1988-89 Phoenix Suns {"ppg":21.5,"rpg":4.4,"apg":2.6,"fg":48}<br>1987-88 Phoenix Suns {"ppg":17.7,"rpg":4.4,"apg":2.7,"fg":46.9}
+- [ ] `nba-xavier-mcdaniel` **Xavier McDaniel** (SF) — 1987-88 Seattle SuperSonics {"ppg":21.4,"rpg":6.6,"apg":2.9,"fg":48.8}<br>1986-87 Seattle SuperSonics {"ppg":23,"rpg":8.6,"apg":2.8,"fg":49.1}
+- [ ] `nba-dale-ellis` **Dale Ellis** (SG) — 1988-89 Seattle SuperSonics {"ppg":27.5,"rpg":4.2,"apg":2,"fg":50.1}<br>1986-87 Seattle SuperSonics {"ppg":24.9,"rpg":5.5,"apg":2.9,"fg":51.6}
+- [ ] `nba-nate-mcMillan` **Nate McMillan** (PG) — 1993-94 Seattle SuperSonics {"ppg":6.7,"rpg":4,"apg":5.3,"fg":44.5}<br>1986-87 Seattle SuperSonics {"ppg":5.5,"rpg":4,"apg":5,"fg":47.5}
+- [ ] `nba-sam-perkins` **Sam Perkins** (PF) — 1992-93 Seattle SuperSonics {"ppg":13.5,"rpg":6,"apg":1.6,"fg":45.9}
+- [ ] `nba-ricky-pierce` **Ricky Pierce** (SG) — 1991-92 Seattle SuperSonics {"ppg":15.7,"rpg":2.6,"apg":2,"fg":47.5}
+- [ ] `nba-michael-cage` **Michael Cage** (PF) — 1992-93 Seattle SuperSonics {"ppg":7.2,"rpg":8.2,"apg":0.6,"fg":50.7}
+- [ ] `nba-derrick-mckey` **Derrick McKey** (SF) — 1992-93 Seattle SuperSonics {"ppg":13.4,"rpg":4.2,"apg":2.6,"fg":49.6}
+- [ ] `nba-arman-gilliam` **Armon Gilliam** (PF) — 1990-91 Philadelphia 76ers {"ppg":15.1,"rpg":7.8,"apg":1.1,"fg":46.6}
+- [ ] `nba-cliff-robinson` **Cliff Robinson** (PF) — 1987-88 Philadelphia 76ers {"ppg":8,"rpg":5,"apg":0.8,"fg":46}
+- [ ] `nba-david-wingate` **David Wingate** (SG) — 1987-88 Philadelphia 76ers {"ppg":8.8,"rpg":2.4,"apg":2.6,"fg":44}
+- [ ] `nba-ben-coleman` **Ben Coleman** (PF) — 1987-88 Philadelphia 76ers {"ppg":8.5,"rpg":4.8,"apg":1,"fg":47}
+- [ ] `nba-mike-giminski` **Mike Gminski** (C) — 1987-88 Philadelphia 76ers {"ppg":12.4,"rpg":7.8,"apg":1.4,"fg":50.4}
+- [ ] `nba-gerald-henderson` **Gerald Henderson** (SG) — 1985-86 Seattle SuperSonics {"ppg":13.4,"rpg":2.5,"apg":3.2,"fg":47}
+- [ ] `nba-alton-lister` **Alton Lister** (C) — 1986-87 Seattle SuperSonics {"ppg":11.6,"rpg":9.4,"apg":0.8,"fg":50.4}
+- [ ] `nba-russ-schoene` **Russ Schoene** (PF) — 1986-87 Seattle SuperSonics {"ppg":6.5,"rpg":3.8,"apg":0.8,"fg":48}
+- [ ] `nba-clemon-johnson` **Clemon Johnson** (C) — 1986-87 Seattle SuperSonics {"ppg":3.5,"rpg":4.2,"apg":0.4,"fg":48}
+
+## WNBA (0)
+
+
+## NFL (229)
+
+- [ ] `nfl-patrick-mahomes` **Patrick Mahomes** (QB) — 2018 Kansas City Chiefs {"passYds":5097,"passTd":50,"interceptions":12,"rating":113.8}
+- [ ] `nfl-tom-brady` **Tom Brady** (QB) — 2007 New England Patriots {"passYds":4806,"passTd":50,"interceptions":8,"rating":117.2}
+- [ ] `nfl-peyton-manning` **Peyton Manning** (QB) — 2004 Indianapolis Colts {"passYds":4557,"passTd":49,"interceptions":10,"rating":121.1}<br>2013 Denver Broncos {"passYds":5477,"passTd":55,"interceptions":10,"rating":115.1}
+- [ ] `nfl-aaron-rodgers` **Aaron Rodgers** (QB) — 2011 Green Bay Packers {"passYds":4643,"passTd":45,"interceptions":6,"rating":122.5}<br>2020 Green Bay Packers {"passYds":4299,"passTd":48,"interceptions":5,"rating":121.5}
+- [ ] `nfl-drew-brees` **Drew Brees** (QB) — 2011 New Orleans Saints {"passYds":5476,"passTd":46,"interceptions":14,"rating":110.6}
+- [ ] `nfl-dan-marino` **Dan Marino** (QB) — 1984 Miami Dolphins {"passYds":5084,"passTd":48,"interceptions":17,"rating":108.9}
+- [ ] `nfl-joe-montana` **Joe Montana** (QB) — 1989 San Francisco 49ers {"passYds":3521,"passTd":26,"interceptions":8,"rating":112.4}
+- [ ] `nfl-steve-young` **Steve Young** (QB) — 1994 San Francisco 49ers {"passYds":3969,"passTd":35,"interceptions":10,"rating":112.8}
+- [ ] `nfl-kurt-warner` **Kurt Warner** (QB) — 1999 St. Louis Rams {"passYds":4353,"passTd":41,"interceptions":13,"rating":109.2}
+- [ ] `nfl-brett-favre` **Brett Favre** (QB) — 2009 Minnesota Vikings {"passYds":4202,"passTd":33,"interceptions":7,"rating":107.2}
+- [ ] `nfl-matt-ryan` **Matt Ryan** (QB) — 2016 Atlanta Falcons {"passYds":4944,"passTd":38,"interceptions":7,"rating":117.1}
+- [ ] `nfl-andrew-luck` **Andrew Luck** (QB) — 2014 Indianapolis Colts {"passYds":4761,"passTd":40,"interceptions":16,"rating":96.5}
+- [ ] `nfl-cam-newton` **Cam Newton** (QB) — 2015 Carolina Panthers {"passYds":3837,"passTd":35,"interceptions":10,"rating":99.4}
+- [ ] `nfl-russell-wilson` **Russell Wilson** (QB) — 2020 Seattle Seahawks {"passYds":4212,"passTd":40,"interceptions":13,"rating":105.1}
+- [ ] `nfl-lamar-jackson` **Lamar Jackson** (QB) — 2019 Baltimore Ravens {"passYds":3127,"passTd":36,"interceptions":6,"rating":113.3}<br>2023 Baltimore Ravens {"passYds":3678,"passTd":24,"interceptions":7,"rating":102.7}
+- [ ] `nfl-josh-allen` **Josh Allen** (QB) — 2020 Buffalo Bills {"passYds":4544,"passTd":37,"interceptions":10,"rating":107.2}
+- [ ] `nfl-joe-burrow` **Joe Burrow** (QB) — 2021 Cincinnati Bengals {"passYds":4611,"passTd":34,"interceptions":14,"rating":108.3}
+- [ ] `nfl-justin-herbert` **Justin Herbert** (QB) — 2021 Los Angeles Chargers {"passYds":5014,"passTd":38,"interceptions":15,"rating":97.7}
+- [ ] `nfl-matthew-stafford` **Matthew Stafford** (QB) — 2011 Detroit Lions {"passYds":5038,"passTd":41,"interceptions":16,"rating":97.2}
+- [ ] `nfl-cj-stroud` **C.J. Stroud** (QB) — 2023 Houston Texans {"passYds":4108,"passTd":23,"interceptions":5,"rating":100.8}
+- [ ] `nfl-tua-tagovailoa` **Tua Tagovailoa** (QB) — 2023 Miami Dolphins {"passYds":4624,"passTd":29,"interceptions":14,"rating":101.1}
+- [ ] `nfl-deshaun-watson` **Deshaun Watson** (QB) — 2020 Houston Texans {"passYds":4823,"passTd":33,"interceptions":7,"rating":112.4}
+- [ ] `nfl-ben-roethlisberger` **Ben Roethlisberger** (QB) — 2018 Pittsburgh Steelers {"passYds":5129,"passTd":34,"interceptions":16,"rating":96.5}
+- [ ] `nfl-daunte-culpepper` **Daunte Culpepper** (QB) — 2004 Minnesota Vikings {"passYds":4717,"passTd":39,"interceptions":11,"rating":110.9}
+- [ ] `nfl-philip-rivers` **Philip Rivers** (QB) — 2008 San Diego Chargers {"passYds":4009,"passTd":34,"interceptions":11,"rating":105.5}
+- [ ] `nfl-warren-moon` **Warren Moon** (QB) — 1990 Houston Oilers {"passYds":4689,"passTd":33,"interceptions":13,"rating":96.8}
+- [ ] `nfl-dan-fouts` **Dan Fouts** (QB) — 1981 San Diego Chargers {"passYds":4802,"passTd":33,"interceptions":17,"rating":90.6}
+- [ ] `nfl-john-elway` **John Elway** (QB) — 1993 Denver Broncos {"passYds":4030,"passTd":25,"interceptions":10,"rating":92.8}
+- [ ] `nfl-steve-mcnair` **Steve McNair** (QB) — 2003 Tennessee Titans {"passYds":3215,"passTd":24,"interceptions":7,"rating":100.4}
+- [ ] `nfl-troy-aikman` **Troy Aikman** (QB) — 1995 Dallas Cowboys {"passYds":3304,"passTd":16,"interceptions":7,"rating":93.6}
+- [ ] `nfl-jim-kelly` **Jim Kelly** (QB) — 1991 Buffalo Bills {"passYds":3844,"passTd":33,"interceptions":17,"rating":97.6}
+- [ ] `nfl-johnny-unitas` **Johnny Unitas** (QB) — 1960 Baltimore Colts {"passYds":3099,"passTd":25,"interceptions":24,"rating":73.7}
+- [ ] `nfl-joe-namath` **Joe Namath** (QB) — 1967 New York Jets {"passYds":4007,"passTd":26,"interceptions":28,"rating":73.8}
+- [ ] `nfl-roger-staubach` **Roger Staubach** (QB) — 1971 Dallas Cowboys {"passYds":1882,"passTd":15,"interceptions":4,"rating":104.8}
+- [ ] `nfl-terry-bradshaw` **Terry Bradshaw** (QB) — 1978 Pittsburgh Steelers {"passYds":2915,"passTd":28,"interceptions":20,"rating":84.7}
+- [ ] `nfl-bart-starr` **Bart Starr** (QB) — 1966 Green Bay Packers {"passYds":2257,"passTd":14,"interceptions":3,"rating":105}
+- [ ] `nfl-fran-tarkenton` **Fran Tarkenton** (QB) — 1975 Minnesota Vikings {"passYds":2994,"passTd":25,"interceptions":13,"rating":91.8}
+- [ ] `nfl-ya-tittle` **Y.A. Tittle** (QB) — 1963 New York Giants {"passYds":3145,"passTd":36,"interceptions":14,"rating":104.8}
+- [ ] `nfl-boomer-esiason` **Boomer Esiason** (QB) — 1988 Cincinnati Bengals {"passYds":3572,"passTd":28,"interceptions":14,"rating":97.4}
+- [ ] `nfl-rich-gannon` **Rich Gannon** (QB) — 2002 Oakland Raiders {"passYds":4689,"passTd":26,"interceptions":10,"rating":97.3}
+- [ ] `nfl-tony-romo` **Tony Romo** (QB) — 2014 Dallas Cowboys {"passYds":3705,"passTd":34,"interceptions":9,"rating":113.2}
+- [ ] `nfl-dak-prescott` **Dak Prescott** (QB) — 2016 Dallas Cowboys {"passYds":3667,"passTd":23,"interceptions":4,"rating":104.9}
+- [ ] `nfl-kirk-cousins` **Kirk Cousins** (QB) — 2016 Washington Redskins {"passYds":4917,"passTd":25,"interceptions":12,"rating":97.2}
+- [ ] `nfl-jalen-hurts` **Jalen Hurts** (QB) — 2022 Philadelphia Eagles {"passYds":3701,"passTd":22,"interceptions":6,"rating":101.5}
+- [ ] `nfl-kyler-murray` **Kyler Murray** (QB) — 2020 Arizona Cardinals {"passYds":3971,"passTd":26,"interceptions":12,"rating":94.3}
+- [ ] `nfl-trevor-lawrence` **Trevor Lawrence** (QB) — 2022 Jacksonville Jaguars {"passYds":4113,"passTd":25,"interceptions":8,"rating":95.2}
+- [ ] `nfl-baker-mayfield` **Baker Mayfield** (QB) — 2020 Cleveland Browns {"passYds":3563,"passTd":26,"interceptions":8,"rating":95.9}
+- [ ] `nfl-eric-dickerson` **Eric Dickerson** (RB) — 1984 Los Angeles Rams {"rushYds":2105,"rushTd":14,"ypc":5.6}
+- [ ] `nfl-oj-simpson` **O.J. Simpson** (RB) — 1973 Buffalo Bills {"rushYds":2003,"rushTd":12,"ypc":6}
+- [ ] `nfl-barry-sanders` **Barry Sanders** (RB) — 1997 Detroit Lions {"rushYds":2053,"rushTd":11,"ypc":6.1}
+- [ ] `nfl-emmitt-smith` **Emmitt Smith** (RB) — 1995 Dallas Cowboys {"rushYds":1773,"rushTd":25,"ypc":4.6}
+- [ ] `nfl-ladainian-tomlinson` **LaDainian Tomlinson** (RB) — 2006 San Diego Chargers {"rushYds":1815,"rushTd":28,"ypc":5.2}
+- [ ] `nfl-jim-brown` **Jim Brown** (RB) — 1963 Cleveland Browns {"rushYds":1863,"rushTd":12,"ypc":6.4}
+- [ ] `nfl-walter-payton` **Walter Payton** (RB) — 1977 Chicago Bears {"rushYds":1852,"rushTd":14,"ypc":5.5}
+- [ ] `nfl-marshall-faulk` **Marshall Faulk** (RB) — 1999 St. Louis Rams {"rushYds":1381,"rushTd":7,"ypc":5.5}
+- [ ] `nfl-chris-johnson` **Chris Johnson** (RB) — 2009 Tennessee Titans {"rushYds":2006,"rushTd":14,"ypc":5.6}
+- [ ] `nfl-derrick-henry` **Derrick Henry** (RB) — 2020 Tennessee Titans {"rushYds":2027,"rushTd":17,"ypc":5.4}<br>2024 Baltimore Ravens {"rushYds":1921,"rushTd":16,"ypc":5.6}
+- [ ] `nfl-shaun-alexander` **Shaun Alexander** (RB) — 2005 Seattle Seahawks {"rushYds":1880,"rushTd":27,"ypc":5.1}
+- [ ] `nfl-priest-holmes` **Priest Holmes** (RB) — 2003 Kansas City Chiefs {"rushYds":1420,"rushTd":27,"ypc":4.8}
+- [ ] `nfl-terrell-davis` **Terrell Davis** (RB) — 1998 Denver Broncos {"rushYds":2008,"rushTd":21,"ypc":5.1}
+- [ ] `nfl-jamal-lewis` **Jamal Lewis** (RB) — 2003 Baltimore Ravens {"rushYds":2066,"rushTd":14,"ypc":5.3}
+- [ ] `nfl-earl-campbell` **Earl Campbell** (RB) — 1980 Houston Oilers {"rushYds":1934,"rushTd":13,"ypc":5.2}
+- [ ] `nfl-curtis-martin` **Curtis Martin** (RB) — 2004 New York Jets {"rushYds":1697,"rushTd":12,"ypc":4.6}
+- [ ] `nfl-adrian-peterson` **Adrian Peterson** (RB) — 2012 Minnesota Vikings {"rushYds":2097,"rushTd":12,"ypc":6}
+- [ ] `nfl-frank-gore` **Frank Gore** (RB) — 2006 San Francisco 49ers {"rushYds":1695,"rushTd":8,"ypc":5.4}
+- [ ] `nfl-saquon-barkley` **Saquon Barkley** (RB) — 2018 New York Giants {"rushYds":1307,"rushTd":11,"ypc":5}<br>2024 Philadelphia Eagles {"rushYds":2005,"rushTd":13,"ypc":5.8}
+- [ ] `nfl-christian-mccaffrey` **Christian McCaffrey** (RB) — 2019 Carolina Panthers {"rushYds":1387,"rushTd":15,"ypc":4.8}
+- [ ] `nfl-edgerrin-james` **Edgerrin James** (RB) — 1999 Indianapolis Colts {"rushYds":1553,"rushTd":13,"ypc":4.2}
+- [ ] `nfl-ahman-green` **Ahman Green** (RB) — 2003 Green Bay Packers {"rushYds":1883,"rushTd":15,"ypc":5}
+- [ ] `nfl-ezekiel-elliott` **Ezekiel Elliott** (RB) — 2016 Dallas Cowboys {"rushYds":1631,"rushTd":15,"ypc":5.1}
+- [ ] `nfl-jonathan-taylor` **Jonathan Taylor** (RB) — 2021 Indianapolis Colts {"rushYds":1811,"rushTd":18,"ypc":5.5}
+- [ ] `nfl-nick-chubb` **Nick Chubb** (RB) — 2019 Cleveland Browns {"rushYds":1494,"rushTd":8,"ypc":5}
+- [ ] `nfl-lesean-mccoy` **LeSean McCoy** (RB) — 2013 Philadelphia Eagles {"rushYds":1607,"rushTd":9,"ypc":5.1}
+- [ ] `nfl-jamaal-charles` **Jamaal Charles** (RB) — 2010 Kansas City Chiefs {"rushYds":1467,"rushTd":5,"ypc":6.4}
+- [ ] `nfl-marshawn-lynch` **Marshawn Lynch** (RB) — 2012 Seattle Seahawks {"rushYds":1590,"rushTd":11,"ypc":5}
+- [ ] `nfl-jerome-bettis` **Jerome Bettis** (RB) — 1996 Pittsburgh Steelers {"rushYds":1431,"rushTd":11,"ypc":4.1}
+- [ ] `nfl-franco-harris` **Franco Harris** (RB) — 1972 Pittsburgh Steelers {"rushYds":1055,"rushTd":10,"ypc":5.6}
+- [ ] `nfl-tony-dorsett` **Tony Dorsett** (RB) — 1981 Dallas Cowboys {"rushYds":1646,"rushTd":4,"ypc":4.6}
+- [ ] `nfl-marcus-allen` **Marcus Allen** (RB) — 1985 Los Angeles Raiders {"rushYds":1759,"rushTd":11,"ypc":4.6}
+- [ ] `nfl-thurman-thomas` **Thurman Thomas** (RB) — 1991 Buffalo Bills {"rushYds":1407,"rushTd":7,"ypc":4.9}
+- [ ] `nfl-roger-craig` **Roger Craig** (RB) — 1988 San Francisco 49ers {"rushYds":1502,"rushTd":9,"ypc":4.6}
+- [ ] `nfl-ricky-williams` **Ricky Williams** (RB) — 2002 Miami Dolphins {"rushYds":1853,"rushTd":16,"ypc":4.8}
+- [ ] `nfl-clinton-portis` **Clinton Portis** (RB) — 2003 Denver Broncos {"rushYds":1591,"rushTd":14,"ypc":5.5}
+- [ ] `nfl-tiki-barber` **Tiki Barber** (RB) — 2005 New York Giants {"rushYds":1860,"rushTd":9,"ypc":5.2}
+- [ ] `nfl-corey-dillon` **Corey Dillon** (RB) — 2004 New England Patriots {"rushYds":1635,"rushTd":12,"ypc":4.7}
+- [ ] `nfl-deangelo-williams` **DeAngelo Williams** (RB) — 2008 Carolina Panthers {"rushYds":1515,"rushTd":18,"ypc":5.5}
+- [ ] `nfl-arian-foster` **Arian Foster** (RB) — 2010 Houston Texans {"rushYds":1616,"rushTd":16,"ypc":4.9}
+- [ ] `nfl-alfred-morris` **Alfred Morris** (RB) — 2012 Washington Redskins {"rushYds":1613,"rushTd":13,"ypc":4.8}
+- [ ] `nfl-doug-martin` **Doug Martin** (RB) — 2012 Tampa Bay Buccaneers {"rushYds":1454,"rushTd":11,"ypc":4.6}
+- [ ] `nfl-todd-gurley` **Todd Gurley** (RB) — 2017 Los Angeles Rams {"rushYds":1305,"rushTd":13,"ypc":4.7}
+- [ ] `nfl-dalvin-cook` **Dalvin Cook** (RB) — 2020 Minnesota Vikings {"rushYds":1557,"rushTd":16,"ypc":5}
+- [ ] `nfl-josh-jacobs` **Josh Jacobs** (RB) — 2022 Las Vegas Raiders {"rushYds":1653,"rushTd":12,"ypc":4.9}
+- [ ] `nfl-leveon-bell` **Le'Veon Bell** (RB) — 2014 Pittsburgh Steelers {"rushYds":1361,"rushTd":8,"ypc":4.7}
+- [ ] `nfl-larry-csonka` **Larry Csonka** (RB) — 1972 Miami Dolphins {"rushYds":1117,"rushTd":6,"ypc":5.2}
+- [ ] `nfl-fred-taylor` **Fred Taylor** (RB) — 2000 Jacksonville Jaguars {"rushYds":1399,"rushTd":12,"ypc":4.8}
+- [ ] `nfl-joe-mixon` **Joe Mixon** (RB) — 2021 Cincinnati Bengals {"rushYds":1205,"rushTd":13,"ypc":4.1}
+- [ ] `nfl-najee-harris` **Najee Harris** (RB) — 2021 Pittsburgh Steelers {"rushYds":1200,"rushTd":7,"ypc":3.9}
+- [ ] `nfl-austin-ekeler` **Austin Ekeler** (RB) — 2022 Los Angeles Chargers {"rushYds":915,"rushTd":13,"ypc":4.5}
+- [ ] `nfl-alvin-kamara` **Alvin Kamara** (RB) — 2020 New Orleans Saints {"rushYds":932,"rushTd":16,"ypc":5}
+- [ ] `nfl-leonard-fournette` **Leonard Fournette** (RB) — 2017 Jacksonville Jaguars {"rushYds":1040,"rushTd":9,"ypc":3.9}
+- [ ] `nfl-breece-hall` **Breece Hall** (RB) — 2023 New York Jets {"rushYds":994,"rushTd":5,"ypc":4.5}
+- [ ] `nfl-kenneth-walker` **Kenneth Walker III** (RB) — 2022 Seattle Seahawks {"rushYds":1050,"rushTd":9,"ypc":4.6}
+- [ ] `nfl-dameon-pierce` **Dameon Pierce** (RB) — 2022 Houston Texans {"rushYds":939,"rushTd":4,"ypc":4.3}
+- [ ] `nfl-rhamondre-stevenson` **Rhamondre Stevenson** (RB) — 2022 New England Patriots {"rushYds":1040,"rushTd":5,"ypc":5}
+- [ ] `nfl-james-cook` **James Cook** (RB) — 2024 Buffalo Bills {"rushYds":1009,"rushTd":16,"ypc":4.7}
+- [ ] `nfl-kyren-williams` **Kyren Williams** (RB) — 2023 Los Angeles Rams {"rushYds":1144,"rushTd":12,"ypc":5}
+- [ ] `nfl-isiah-pacheco` **Isiah Pacheco** (RB) — 2022 Kansas City Chiefs {"rushYds":830,"rushTd":5,"ypc":4.6}
+- [ ] `nfl-jaylen-warren` **Jaylen Warren** (RB) — 2023 Pittsburgh Steelers {"rushYds":784,"rushTd":4,"ypc":5.2}
+- [ ] `nfl-bijan-robinson` **Bijan Robinson** (RB) — 2023 Atlanta Falcons {"rushYds":976,"rushTd":4,"ypc":4.6}
+- [ ] `nfl-jahmyr-gibbs` **Jahmyr Gibbs** (RB) — 2023 Detroit Lions {"rushYds":945,"rushTd":10,"ypc":5.2}
+- [ ] `nfl-devon-achane` **De'Von Achane** (RB) — 2023 Miami Dolphins {"rushYds":800,"rushTd":8,"ypc":7.8}
+- [ ] `nfl-tyrone-tracy` **Tyrone Tracy Jr.** (RB) — 2024 New York Giants {"rushYds":839,"rushTd":5,"ypc":4.4}
+- [ ] `nfl-bucky-irving` **Bucky Irving** (RB) — 2024 Tampa Bay Buccaneers {"rushYds":1122,"rushTd":8,"ypc":5.4}
+- [ ] `nfl-jerry-rice` **Jerry Rice** (WR) — 1995 San Francisco 49ers {"receptions":122,"recYds":1848,"recTd":15}
+- [ ] `nfl-calvin-johnson` **Calvin Johnson** (WR) — 2012 Detroit Lions {"receptions":122,"recYds":1964,"recTd":5}
+- [ ] `nfl-cooper-kupp` **Cooper Kupp** (WR) — 2021 Los Angeles Rams {"receptions":145,"recYds":1947,"recTd":16}
+- [ ] `nfl-michael-thomas` **Michael Thomas** (WR) — 2019 New Orleans Saints {"receptions":149,"recYds":1725,"recTd":9}
+- [ ] `nfl-justin-jefferson` **Justin Jefferson** (WR) — 2022 Minnesota Vikings {"receptions":128,"recYds":1809,"recTd":8}
+- [ ] `nfl-tyreek-hill` **Tyreek Hill** (WR) — 2023 Miami Dolphins {"receptions":119,"recYds":1799,"recTd":13}
+- [ ] `nfl-davante-adams` **Davante Adams** (WR) — 2020 Green Bay Packers {"receptions":115,"recYds":1374,"recTd":18}
+- [ ] `nfl-julio-jones` **Julio Jones** (WR) — 2015 Atlanta Falcons {"receptions":136,"recYds":1871,"recTd":8}
+- [ ] `nfl-randy-moss` **Randy Moss** (WR) — 2007 New England Patriots {"receptions":98,"recYds":1493,"recTd":23}
+- [ ] `nfl-terrell-owens` **Terrell Owens** (WR) — 2007 Dallas Cowboys {"receptions":81,"recYds":1355,"recTd":15}
+- [ ] `nfl-marvin-harrison` **Marvin Harrison** (WR) — 2002 Indianapolis Colts {"receptions":143,"recYds":1722,"recTd":11}
+- [ ] `nfl-larry-fitzgerald` **Larry Fitzgerald** (WR) — 2008 Arizona Cardinals {"receptions":96,"recYds":1431,"recTd":12}
+- [ ] `nfl-antonio-brown` **Antonio Brown** (WR) — 2015 Pittsburgh Steelers {"receptions":136,"recYds":1834,"recTd":10}
+- [ ] `nfl-andre-johnson` **Andre Johnson** (WR) — 2012 Houston Texans {"receptions":112,"recYds":1598,"recTd":4}
+- [ ] `nfl-cris-carter` **Cris Carter** (WR) — 1995 Minnesota Vikings {"receptions":122,"recYds":1371,"recTd":17}
+- [ ] `nfl-sterling-sharpe` **Sterling Sharpe** (WR) — 1994 Green Bay Packers {"receptions":94,"recYds":1119,"recTd":18}
+- [ ] `nfl-deandre-hopkins` **DeAndre Hopkins** (WR) — 2017 Houston Texans {"receptions":96,"recYds":1378,"recTd":13}
+- [ ] `nfl-stefon-diggs` **Stefon Diggs** (WR) — 2020 Buffalo Bills {"receptions":127,"recYds":1535,"recTd":8}
+- [ ] `nfl-jamarr-chase` **Ja'Marr Chase** (WR) — 2021 Cincinnati Bengals {"receptions":81,"recYds":1455,"recTd":13}
+- [ ] `nfl-ceedee-lamb` **CeeDee Lamb** (WR) — 2023 Dallas Cowboys {"receptions":135,"recYds":1749,"recTd":12}
+- [ ] `nfl-amon-ra-st-brown` **Amon-Ra St. Brown** (WR) — 2023 Detroit Lions {"receptions":119,"recYds":1515,"recTd":10}
+- [ ] `nfl-puka-nacua` **Puka Nacua** (WR) — 2023 Los Angeles Rams {"receptions":105,"recYds":1486,"recTd":6}
+- [ ] `nfl-aj-brown` **A.J. Brown** (WR) — 2022 Philadelphia Eagles {"receptions":88,"recYds":1496,"recTd":11}
+- [ ] `nfl-devonta-smith` **DeVonta Smith** (WR) — 2022 Philadelphia Eagles {"receptions":95,"recYds":1196,"recTd":7}
+- [ ] `nfl-dk-metcalf` **DK Metcalf** (WR) — 2020 Seattle Seahawks {"receptions":83,"recYds":1303,"recTd":10}
+- [ ] `nfl-deebo-samuel` **Deebo Samuel** (WR) — 2021 San Francisco 49ers {"receptions":77,"recYds":1405,"recTd":6}
+- [ ] `nfl-jaylen-waddle` **Jaylen Waddle** (WR) — 2022 Miami Dolphins {"receptions":75,"recYds":1356,"recTd":8}
+- [ ] `nfl-garrett-wilson` **Garrett Wilson** (WR) — 2022 New York Jets {"receptions":83,"recYds":1103,"recTd":4}
+- [ ] `nfl-odell-beckham` **Odell Beckham Jr.** (WR) — 2014 New York Giants {"receptions":91,"recYds":1305,"recTd":12}
+- [ ] `nfl-dez-bryant` **Dez Bryant** (WR) — 2014 Dallas Cowboys {"receptions":88,"recYds":1320,"recTd":16}
+- [ ] `nfl-demaryius-thomas` **Demaryius Thomas** (WR) — 2013 Denver Broncos {"receptions":92,"recYds":1430,"recTd":14}
+- [ ] `nfl-wes-welker` **Wes Welker** (WR) — 2011 New England Patriots {"receptions":122,"recYds":1569,"recTd":9}
+- [ ] `nfl-julian-edelman` **Julian Edelman** (WR) — 2016 New England Patriots {"receptions":98,"recYds":1106,"recTd":3}
+- [ ] `nfl-torry-holt` **Torry Holt** (WR) — 2003 St. Louis Rams {"receptions":117,"recYds":1696,"recTd":12}
+- [ ] `nfl-isaac-bruce` **Isaac Bruce** (WR) — 1995 St. Louis Rams {"receptions":119,"recYds":1781,"recTd":13}
+- [ ] `nfl-chad-johnson` **Chad Johnson** (WR) — 2005 Cincinnati Bengals {"receptions":97,"recYds":1432,"recTd":9}
+- [ ] `nfl-hines-ward` **Hines Ward** (WR) — 2002 Pittsburgh Steelers {"receptions":112,"recYds":1329,"recTd":12}
+- [ ] `nfl-reggie-wayne` **Reggie Wayne** (WR) — 2007 Indianapolis Colts {"receptions":104,"recYds":1510,"recTd":10}
+- [ ] `nfl-anquan-boldin` **Anquan Boldin** (WR) — 2003 Arizona Cardinals {"receptions":101,"recYds":1377,"recTd":8}
+- [ ] `nfl-steve-smith` **Steve Smith Sr.** (WR) — 2005 Carolina Panthers {"receptions":103,"recYds":1563,"recTd":12}
+- [ ] `nfl-michael-irvin` **Michael Irvin** (WR) — 1995 Dallas Cowboys {"receptions":111,"recYds":1603,"recTd":10}
+- [ ] `nfl-tim-brown` **Tim Brown** (WR) — 1997 Oakland Raiders {"receptions":104,"recYds":1286,"recTd":5}
+- [ ] `nfl-art-monk` **Art Monk** (WR) — 1984 Washington Redskins {"receptions":106,"recYds":1372,"recTd":7}
+- [ ] `nfl-james-lofton` **James Lofton** (WR) — 1984 Green Bay Packers {"receptions":62,"recYds":1361,"recTd":7}
+- [ ] `nfl-steve-largent` **Steve Largent** (WR) — 1985 Seattle Seahawks {"receptions":79,"recYds":1287,"recTd":6}
+- [ ] `nfl-rod-smith` **Rod Smith** (WR) — 2000 Denver Broncos {"receptions":100,"recYds":1602,"recTd":8}
+- [ ] `nfl-keenan-allen` **Keenan Allen** (WR) — 2017 Los Angeles Chargers {"receptions":102,"recYds":1393,"recTd":6}
+- [ ] `nfl-allen-robinson` **Allen Robinson** (WR) — 2015 Jacksonville Jaguars {"receptions":80,"recYds":1400,"recTd":14}
+- [ ] `nfl-mike-evans` **Mike Evans** (WR) — 2016 Tampa Bay Buccaneers {"receptions":96,"recYds":1321,"recTd":12}
+- [ ] `nfl-aj-green` **A.J. Green** (WR) — 2012 Cincinnati Bengals {"receptions":97,"recYds":1350,"recTd":11}
+- [ ] `nfl-chris-godwin` **Chris Godwin** (WR) — 2019 Tampa Bay Buccaneers {"receptions":86,"recYds":1333,"recTd":9}
+- [ ] `nfl-tee-higgins` **Tee Higgins** (WR) — 2021 Cincinnati Bengals {"receptions":74,"recYds":1081,"recTd":6}
+- [ ] `nfl-nico-collins` **Nico Collins** (WR) — 2023 Houston Texans {"receptions":80,"recYds":1297,"recTd":8}
+- [ ] `nfl-george-pickens` **George Pickens** (WR) — 2023 Pittsburgh Steelers {"receptions":63,"recYds":1140,"recTd":5}
+- [ ] `nfl-chris-olave` **Chris Olave** (WR) — 2023 New Orleans Saints {"receptions":87,"recYds":1123,"recTd":5}
+- [ ] `nfl-drake-london` **Drake London** (WR) — 2023 Atlanta Falcons {"receptions":69,"recYds":905,"recTd":2}
+- [ ] `nfl-jordan-addison` **Jordan Addison** (WR) — 2023 Minnesota Vikings {"receptions":70,"recYds":911,"recTd":10}
+- [ ] `nfl-rome-odunze` **Rome Odunze** (WR) — 2024 Chicago Bears {"receptions":54,"recYds":734,"recTd":3}
+- [ ] `nfl-malik-nabers` **Malik Nabers** (WR) — 2024 New York Giants {"receptions":109,"recYds":1204,"recTd":7}
+- [ ] `nfl-brian-thomas` **Brian Thomas Jr.** (WR) — 2024 Jacksonville Jaguars {"receptions":87,"recYds":1282,"recTd":10}
+- [ ] `nfl-tony-gonzalez` **Tony Gonzalez** (TE) — 2004 Kansas City Chiefs {"receptions":102,"recYds":1258,"recTd":7}<br>2012 Atlanta Falcons {"receptions":93,"recYds":930,"recTd":8}
+- [ ] `nfl-rob-gronkowski` **Rob Gronkowski** (TE) — 2011 New England Patriots {"receptions":90,"recYds":1327,"recTd":17}<br>2014 New England Patriots {"receptions":82,"recYds":1124,"recTd":12}
+- [ ] `nfl-travis-kelce` **Travis Kelce** (TE) — 2020 Kansas City Chiefs {"receptions":105,"recYds":1416,"recTd":11}<br>2018 Kansas City Chiefs {"receptions":103,"recYds":1336,"recTd":10}
+- [ ] `nfl-george-kittle` **George Kittle** (TE) — 2018 San Francisco 49ers {"receptions":88,"recYds":1377,"recTd":5}<br>2023 San Francisco 49ers {"receptions":65,"recYds":1020,"recTd":6}
+- [ ] `nfl-mark-andrews` **Mark Andrews** (TE) — 2021 Baltimore Ravens {"receptions":107,"recYds":1361,"recTd":9}<br>2019 Baltimore Ravens {"receptions":64,"recYds":852,"recTd":10}
+- [ ] `nfl-jason-witten` **Jason Witten** (TE) — 2007 Dallas Cowboys {"receptions":96,"recYds":1145,"recTd":7}<br>2012 Dallas Cowboys {"receptions":110,"recYds":1039,"recTd":3}
+- [ ] `nfl-antonio-gates` **Antonio Gates** (TE) — 2004 San Diego Chargers {"receptions":81,"recYds":964,"recTd":13}<br>2009 San Diego Chargers {"receptions":79,"recYds":1157,"recTd":8}
+- [ ] `nfl-shannon-sharpe` **Shannon Sharpe** (TE) — 1996 Denver Broncos {"receptions":80,"recYds":1062,"recTd":10}<br>2003 Denver Broncos {"receptions":62,"recYds":770,"recTd":8}
+- [ ] `nfl-kellen-winslow` **Kellen Winslow** (TE) — 1980 San Diego Chargers {"receptions":89,"recYds":1290,"recTd":9}
+- [ ] `nfl-mike-ditka` **Mike Ditka** (TE) — 1961 Chicago Bears {"receptions":56,"recYds":1076,"recTd":12}
+- [ ] `nfl-ozzie-newsome` **Ozzie Newsome** (TE) — 1984 Cleveland Browns {"receptions":89,"recYds":1001,"recTd":5}
+- [ ] `nfl-jimmy-graham` **Jimmy Graham** (TE) — 2011 New Orleans Saints {"receptions":99,"recYds":1310,"recTd":11}
+- [ ] `nfl-vernon-davis` **Vernon Davis** (TE) — 2013 San Francisco 49ers {"receptions":52,"recYds":850,"recTd":13}
+- [ ] `nfl-dallas-clark` **Dallas Clark** (TE) — 2009 Indianapolis Colts {"receptions":100,"recYds":1106,"recTd":10}
+- [ ] `nfl-greg-olsen` **Greg Olsen** (TE) — 2015 Carolina Panthers {"receptions":77,"recYds":1104,"recTd":7}<br>2016 Carolina Panthers {"receptions":80,"recYds":1073,"recTd":3}
+- [ ] `nfl-zach-ertz` **Zach Ertz** (TE) — 2018 Philadelphia Eagles {"receptions":116,"recYds":1163,"recTd":8}
+- [ ] `nfl-tj-hockenson` **T.J. Hockenson** (TE) — 2023 Minnesota Vikings {"receptions":95,"recYds":960,"recTd":5}
+- [ ] `nfl-sam-laporta` **Sam LaPorta** (TE) — 2023 Detroit Lions {"receptions":86,"recYds":889,"recTd":10}<br>2024 Detroit Lions {"receptions":60,"recYds":726,"recTd":6}
+- [ ] `nfl-kyle-pitts` **Kyle Pitts** (TE) — 2021 Atlanta Falcons {"receptions":68,"recYds":1026,"recTd":1}
+- [ ] `nfl-evan-engram` **Evan Engram** (TE) — 2022 Jacksonville Jaguars {"receptions":73,"recYds":766,"recTd":4}
+- [ ] `nfl-dallas-goedert` **Dallas Goedert** (TE) — 2021 Philadelphia Eagles {"receptions":56,"recYds":830,"recTd":5}
+- [ ] `nfl-brock-bowers` **Brock Bowers** (TE) — 2024 Las Vegas Raiders {"receptions":112,"recYds":1194,"recTd":5}
+- [ ] `nfl-jake-ferguson` **Jake Ferguson** (TE) — 2023 Dallas Cowboys {"receptions":71,"recYds":761,"recTd":5}
+- [ ] `nfl-cole-kmet` **Cole Kmet** (TE) — 2023 Chicago Bears {"receptions":73,"recYds":719,"recTd":6}
+- [ ] `nfl-pat-freiermuth` **Pat Freiermuth** (TE) — 2021 Pittsburgh Steelers {"receptions":60,"recYds":497,"recTd":7}
+- [ ] `nfl-david-njoku` **David Njoku** (TE) — 2023 Cleveland Browns {"receptions":81,"recYds":882,"recTd":6}
+- [ ] `nfl-hunter-henry` **Hunter Henry** (TE) — 2016 San Diego Chargers {"receptions":36,"recYds":478,"recTd":8}
+- [ ] `nfl-austin-hooper` **Austin Hooper** (TE) — 2018 Atlanta Falcons {"receptions":71,"recYds":660,"recTd":4}
+- [ ] `nfl-jared-cook` **Jared Cook** (TE) — 2018 Oakland Raiders {"receptions":68,"recYds":896,"recTd":6}
+- [ ] `nfl-jordan-reed` **Jordan Reed** (TE) — 2015 Washington Redskins {"receptions":87,"recYds":952,"recTd":11}
+- [ ] `nfl-delanie-walker` **Delanie Walker** (TE) — 2015 Tennessee Titans {"receptions":94,"recYds":1088,"recTd":6}
+- [ ] `nfl-ben-coates` **Ben Coates** (TE) — 1994 New England Patriots {"receptions":96,"recYds":1174,"recTd":7}
+- [ ] `nfl-jeremy-shockey` **Jeremy Shockey** (TE) — 2005 New York Giants {"receptions":65,"recYds":891,"recTd":7}
+- [ ] `nfl-heath-miller` **Heath Miller** (TE) — 2012 Pittsburgh Steelers {"receptions":71,"recYds":816,"recTd":8}
+- [ ] `nfl-martellus-bennett` **Martellus Bennett** (TE) — 2014 Chicago Bears {"receptions":90,"recYds":916,"recTd":6}
+- [ ] `nfl-charles-clay` **Charles Clay** (TE) — 2013 Miami Dolphins {"receptions":69,"recYds":759,"recTd":6}
+- [ ] `nfl-jordan-cameron` **Jordan Cameron** (TE) — 2013 Cleveland Browns {"receptions":80,"recYds":917,"recTd":7}
+- [ ] `nfl-coby-fleener` **Coby Fleener** (TE) — 2014 Indianapolis Colts {"receptions":51,"recYds":774,"recTd":8}
+- [ ] `nfl-dwayne-allen` **Dwayne Allen** (TE) — 2012 Indianapolis Colts {"receptions":45,"recYds":521,"recTd":3}
+- [ ] `nfl-ryan-griffin` **Ryan Griffin** (TE) — 2015 Houston Texans {"receptions":34,"recYds":402,"recTd":2}
+- [ ] `nfl-gary-barnidge` **Gary Barnidge** (TE) — 2015 Cleveland Browns {"receptions":79,"recYds":1043,"recTd":9}
+- [ ] `nfl-tyler-eifert` **Tyler Eifert** (TE) — 2015 Cincinnati Bengals {"receptions":52,"recYds":615,"recTd":13}
+- [ ] `nfl-eric-ebron` **Eric Ebron** (TE) — 2018 Indianapolis Colts {"receptions":66,"recYds":750,"recTd":13}
+- [ ] `nfl-noah-fant` **Noah Fant** (TE) — 2019 Denver Broncos {"receptions":40,"recYds":562,"recTd":3}
+- [ ] `nfl-hayden-hurst` **Hayden Hurst** (TE) — 2019 Baltimore Ravens {"receptions":30,"recYds":349,"recTd":2}
+- [ ] `nfl-mike-gesicki` **Mike Gesicki** (TE) — 2020 Miami Dolphins {"receptions":53,"recYds":703,"recTd":6}
+- [ ] `nfl-dawson-knox` **Dawson Knox** (TE) — 2022 Buffalo Bills {"receptions":48,"recYds":517,"recTd":6}
+- [ ] `nfl-dalton-kincaid` **Dalton Kincaid** (TE) — 2023 Buffalo Bills {"receptions":73,"recYds":673,"recTd":2}
+- [ ] `nfl-luke-musgrave` **Luke Musgrave** (TE) — 2023 Green Bay Packers {"receptions":34,"recYds":352,"recTd":1}
+- [ ] `nfl-tucker-kraft` **Tucker Kraft** (TE) — 2024 Green Bay Packers {"receptions":50,"recYds":707,"recTd":7}
+- [ ] `nfl-cade-otton` **Cade Otton** (TE) — 2023 Tampa Bay Buccaneers {"receptions":47,"recYds":455,"recTd":4}
+- [ ] `nfl-juwan-johnson` **Juwan Johnson** (TE) — 2022 New Orleans Saints {"receptions":42,"recYds":508,"recTd":7}
+- [ ] `nfl-isaiah-likely` **Isaiah Likely** (TE) — 2024 Baltimore Ravens {"receptions":42,"recYds":477,"recTd":6}
+- [ ] `nfl-charlie-kolar` **Charlie Kolar** (TE) — 2024 Baltimore Ravens {"receptions":18,"recYds":217,"recTd":2}
+- [ ] `nfl-chig-okonkwo` **Chigoziem Okonkwo** (TE) — 2022 Tennessee Titans {"receptions":32,"recYds":450,"recTd":3}
+- [ ] `nfl-trey-mcbride` **Trey McBride** (TE) — 2023 Arizona Cardinals {"receptions":81,"recYds":825,"recTd":3}
+
+## MLB (0)
+
+
+## NHL (0)
+
+
+## Premier League (0)
+
+
