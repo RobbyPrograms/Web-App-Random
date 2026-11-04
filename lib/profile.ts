@@ -22,8 +22,8 @@ export function isSupabaseConfigured(): boolean {
 
 export function isAdminConfigured(): boolean {
   return (
-    usable(process.env.NEXT_PUBLIC_SUPABASE_URL, ["your-project"]) &&
-    usable(process.env.SUPABASE_SERVICE_ROLE_KEY, ["your-service-role"])
+    usable(process.env["NEXT_PUBLIC_SUPABASE_URL"], ["your-project"]) &&
+    usable(process.env["SUPABASE_SERVICE_ROLE_KEY"], ["your-service-role"])
   );
 }
 

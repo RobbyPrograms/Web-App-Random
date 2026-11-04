@@ -1,0 +1,24 @@
+{
+  "id": "id",
+  "name": "name",
+  "aliases": "aliases",
+  "position": "position",
+  "heightInches": "height_inches",
+  "birthCountry": "country",
+  "college": "college",
+  "draftYear": "draft_year",
+  "draftPick": "draft_pick",
+  "jerseyNumbers": "jerseys",
+  "year": "season",
+  "team": "team",
+  "stats": {
+    "ppg": "ppg",
+    "rpg": "rpg",
+    "apg": "apg",
+    "fg": "fg"
+  },
+  "headline": "headline",
+  "facts": "facts",
+  "origin": "origin",
+  "verified": "verified"
+}

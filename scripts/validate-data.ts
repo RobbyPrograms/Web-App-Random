@@ -1,15 +1,10 @@
 import { writeFileSync } from "node:fs";
 import { ZodError } from "zod";
 import { normalizeText } from "../lib/fuzzy";
-import type { Athlete, SportConfig } from "../sports/types";
-import { epl } from "../sports/epl/config";
-import { mlb } from "../sports/mlb/config";
-import { nba } from "../sports/nba/config";
-import { nfl } from "../sports/nfl/config";
-import { nhl } from "../sports/nhl/config";
-import { wnba } from "../sports/wnba/config";
+import type { Athlete } from "../sports/types";
+import { getAllSports } from "../sports/registry";
 
-const sports: SportConfig[] = [nba, wnba, nfl, mlb, nhl, epl];
+const sports = getAllSports();
 
 interface Issue {
   sport: string;

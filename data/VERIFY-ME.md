@@ -481,8 +481,195 @@ Check the season line, then set `verified` to `true` in the JSON (or re-import f
 - [ ] `nba-russ-schoene` **Russ Schoene** (PF) — 1986-87 Seattle SuperSonics {"ppg":6.5,"rpg":3.8,"apg":0.8,"fg":48}
 - [ ] `nba-clemon-johnson` **Clemon Johnson** (C) — 1986-87 Seattle SuperSonics {"ppg":3.5,"rpg":4.2,"apg":0.4,"fg":48}
 
-## WNBA (0)
+## WNBA (187)
 
+- [ ] `wnba-diana-taurasi` **Diana Taurasi** (G) — 2006 Phoenix Mercury {"ppg":25.3,"rpg":3.6,"apg":4.1,"fg":45.2}<br>2010 Phoenix Mercury {"ppg":22.6,"rpg":4.3,"apg":4.7,"fg":42.7}<br>2014 Phoenix Mercury {"ppg":16.2,"rpg":3.8,"apg":5.6,"fg":45.4}<br>2018 Phoenix Mercury {"ppg":20.7,"rpg":3.5,"apg":5.3,"fg":44.6}<br>2022 Phoenix Mercury {"ppg":16.7,"rpg":3.4,"apg":3.9,"fg":37.3}
+- [ ] `wnba-sue-bird` **Sue Bird** (G) — 2006 Seattle Storm {"ppg":11.4,"rpg":3,"apg":4.8,"fg":41.1}<br>2010 Seattle Storm {"ppg":11.1,"rpg":2.7,"apg":5.8,"fg":43.4}<br>2014 Seattle Storm {"ppg":10.6,"rpg":2.2,"apg":4,"fg":38.6}<br>2018 Seattle Storm {"ppg":10.1,"rpg":1.7,"apg":7.1,"fg":46.6}<br>2022 Seattle Storm {"ppg":7.8,"rpg":1.9,"apg":6,"fg":40.3}
+- [ ] `wnba-breanna-stewart` **Breanna Stewart** (F) — 2018 Seattle Storm {"ppg":21.8,"rpg":8.4,"apg":2.5,"fg":52.9}<br>2022 Seattle Storm {"ppg":21.8,"rpg":7.6,"apg":2.9,"fg":47.2}
+- [ ] `wnba-aja-wilson` **A'ja Wilson** (C) — 2018 Las Vegas Aces {"ppg":20.7,"rpg":8,"apg":2.2,"fg":46.2}<br>2022 Las Vegas Aces {"ppg":19.5,"rpg":9.4,"apg":2.1,"fg":50.1}
+- [ ] `wnba-maya-moore` **Maya Moore** (F) — 2014 Minnesota Lynx {"ppg":23.9,"rpg":8.1,"apg":3.4,"fg":48.1}<br>2018 Minnesota Lynx {"ppg":18,"rpg":5.1,"apg":2.6,"fg":42.3}
+- [ ] `wnba-brittney-griner` **Brittney Griner** (C) — 2014 Phoenix Mercury {"ppg":15.6,"rpg":8,"apg":1.6,"fg":57.8}<br>2018 Phoenix Mercury {"ppg":20.5,"rpg":7.7,"apg":2.1,"fg":54.4}
+- [ ] `wnba-candace-parker` **Candace Parker** (F) — 2014 Los Angeles Sparks {"ppg":19.4,"rpg":7.1,"apg":4.3,"fg":46.9}<br>2018 Los Angeles Sparks {"ppg":17.9,"rpg":8.2,"apg":4.7,"fg":47.1}<br>2022 Chicago Sky {"ppg":13.2,"rpg":8.6,"apg":4.5,"fg":45.8}
+- [ ] `wnba-elena-delle-donne` **Elena Delle Donne** (F) — 2014 Chicago Sky {"ppg":17.9,"rpg":4,"apg":1.1,"fg":42.9}<br>2018 Washington Mystics {"ppg":20.7,"rpg":7.2,"apg":2.3,"fg":48.8}<br>2022 Washington Mystics {"ppg":17.2,"rpg":6.3,"apg":2.3,"fg":48}
+- [ ] `wnba-sylvia-fowles` **Sylvia Fowles** (C) — 2010 Chicago Sky {"ppg":17.8,"rpg":9.9,"apg":1.5,"fg":58.2}<br>2014 Chicago Sky {"ppg":13.4,"rpg":10.2,"apg":0.6,"fg":54.6}<br>2018 Minnesota Lynx {"ppg":17.7,"rpg":11.9,"apg":2.2,"fg":61.9}<br>2022 Minnesota Lynx {"ppg":14.4,"rpg":9.8,"apg":1.2,"fg":62.2}
+- [ ] `wnba-tina-charles` **Tina Charles** (C) — 2010 Connecticut Sun {"ppg":15.5,"rpg":11.7,"apg":1.5,"fg":48.7}<br>2014 New York Liberty {"ppg":17.4,"rpg":9.4,"apg":2.2,"fg":46.2}<br>2018 New York Liberty {"ppg":19.7,"rpg":7,"apg":2.7,"fg":47.3}<br>2022 Seattle Storm {"ppg":12.6,"rpg":7.4,"apg":1.8,"fg":47.7}
+- [ ] `wnba-skylar-diggins` **Skylar Diggins-Smith** (G) — 2014 Tulsa Shock {"ppg":20.1,"rpg":2.5,"apg":5,"fg":42.4}<br>2018 Dallas Wings {"ppg":17.9,"rpg":3.3,"apg":6.2,"fg":40.3}<br>2022 Phoenix Mercury {"ppg":19.7,"rpg":4,"apg":5.5,"fg":42.9}
+- [ ] `wnba-jewell-loyd` **Jewell Loyd** (G) — 2018 Seattle Storm {"ppg":15.5,"rpg":4.6,"apg":3.7,"fg":42.3}<br>2022 Seattle Storm {"ppg":16.3,"rpg":2.6,"apg":3.4,"fg":39.6}
+- [ ] `wnba-nneka-ogwumike` **Nneka Ogwumike** (F) — 2014 Los Angeles Sparks {"ppg":15.8,"rpg":7.1,"apg":1.5,"fg":52}<br>2018 Los Angeles Sparks {"ppg":15.5,"rpg":6.8,"apg":2,"fg":52.5}<br>2022 Los Angeles Sparks {"ppg":18.1,"rpg":6.6,"apg":2,"fg":54.4}
+- [ ] `wnba-courtney-vandersloot` **Courtney Vandersloot** (G) — 2014 Chicago Sky {"ppg":6.8,"rpg":2.2,"apg":5.7,"fg":40.2}<br>2018 Chicago Sky {"ppg":12.5,"rpg":3.7,"apg":8.6,"fg":48.9}<br>2022 Chicago Sky {"ppg":11.8,"rpg":3.9,"apg":6.5,"fg":48.1}
+- [ ] `wnba-chelsea-gray` **Chelsea Gray** (G) — 2018 Los Angeles Sparks {"ppg":14.9,"rpg":3.4,"apg":5.1,"fg":48.4}<br>2022 Las Vegas Aces {"ppg":13.7,"rpg":3.2,"apg":6.1,"fg":49.1}
+- [ ] `wnba-kelsey-plum` **Kelsey Plum** (G) — 2018 Las Vegas Aces {"ppg":9.5,"rpg":2.4,"apg":4,"fg":46.7}<br>2022 Las Vegas Aces {"ppg":20.2,"rpg":2.7,"apg":5.1,"fg":46}
+- [ ] `wnba-jonquel-jones` **Jonquel Jones** (C) — 2018 Connecticut Sun {"ppg":11.8,"rpg":5.5,"apg":1.7,"fg":55}<br>2022 Connecticut Sun {"ppg":14.6,"rpg":8.6,"apg":1.8,"fg":51.3}
+- [ ] `wnba-alyssa-thomas` **Alyssa Thomas** (F) — 2014 Connecticut Sun {"ppg":10.1,"rpg":5.1,"apg":1.5,"fg":43.6}<br>2018 Connecticut Sun {"ppg":10.3,"rpg":8.1,"apg":4.2,"fg":46.4}<br>2022 Connecticut Sun {"ppg":13.4,"rpg":8.2,"apg":6.1,"fg":50}
+- [ ] `wnba-seimone-augustus` **Seimone Augustus** (F) — 2006 Minnesota Lynx {"ppg":21.9,"rpg":3.8,"apg":1.5,"fg":45.6}<br>2010 Minnesota Lynx {"ppg":16.9,"rpg":3.2,"apg":1.9,"fg":42.9}<br>2014 Minnesota Lynx {"ppg":16.5,"rpg":3.6,"apg":2.4,"fg":51.1}<br>2018 Minnesota Lynx {"ppg":10.8,"rpg":1.8,"apg":2.6,"fg":46.7}
+- [ ] `wnba-cappie-pondexter` **Cappie Pondexter** (G) — 2006 Phoenix Mercury {"ppg":19.5,"rpg":3.3,"apg":3.1,"fg":44.2}<br>2010 New York Liberty {"ppg":21.4,"rpg":4.5,"apg":4.9,"fg":48.3}<br>2014 New York Liberty {"ppg":13.2,"rpg":3.4,"apg":3.9,"fg":38.8}<br>2018 Indiana Fever {"ppg":10.2,"rpg":2.4,"apg":2.6,"fg":38.9}
+- [ ] `wnba-tamika-catchings` **Tamika Catchings** (F) — 2006 Indiana Fever {"ppg":16.3,"rpg":7.5,"apg":3.7,"fg":40.7}<br>2010 Indiana Fever {"ppg":18.2,"rpg":7.1,"apg":4,"fg":48.4}<br>2014 Indiana Fever {"ppg":16.1,"rpg":6.4,"apg":1.9,"fg":44.6}
+- [ ] `wnba-lindsay-whalen` **Lindsay Whalen** (G) — 2006 Connecticut Sun {"ppg":9,"rpg":3.7,"apg":4.6,"fg":38.9}<br>2010 Minnesota Lynx {"ppg":12.6,"rpg":4,"apg":5.6,"fg":41}<br>2014 Minnesota Lynx {"ppg":14.1,"rpg":4.2,"apg":5.5,"fg":48}<br>2018 Minnesota Lynx {"ppg":5.7,"rpg":2.6,"apg":3.1,"fg":36.3}
+- [ ] `wnba-lauren-jackson` **Lauren Jackson** (C) — 2006 Seattle Storm {"ppg":19.4,"rpg":7.6,"apg":1.6,"fg":53.5}<br>2010 Seattle Storm {"ppg":20.5,"rpg":8.3,"apg":1.2,"fg":46.2}
+- [ ] `wnba-sheryl-swoopes` **Sheryl Swoopes** (F) — 1998 Houston Comets {"ppg":15.6,"rpg":5.1,"apg":2.1,"fg":42.7}<br>2006 Houston Comets {"ppg":15.5,"rpg":5.9,"apg":3.7,"fg":41.3}
+- [ ] `wnba-lisa-leslie` **Lisa Leslie** (C) — 1998 Los Angeles Sparks {"ppg":19.6,"rpg":10.2,"apg":2.5,"fg":47.8}<br>2006 Los Angeles Sparks {"ppg":20,"rpg":9.5,"apg":3.2,"fg":51.1}
+- [ ] `wnba-tina-thompson` **Tina Thompson** (F) — 1998 Houston Comets {"ppg":12.7,"rpg":7.1,"apg":0.9,"fg":41.9}<br>2006 Houston Comets {"ppg":18.7,"rpg":5.6,"apg":2.2,"fg":45.7}<br>2010 Los Angeles Sparks {"ppg":16.6,"rpg":6.2,"apg":1.8,"fg":44.6}
+- [ ] `wnba-cynthia-cooper` **Cynthia Cooper** (G) — 1998 Houston Comets {"ppg":22.7,"rpg":3.7,"apg":4.4,"fg":44.6}
+- [ ] `wnba-becky-hammon` **Becky Hammon** (G) — 2006 New York Liberty {"ppg":14.7,"rpg":3,"apg":3.7,"fg":42.5}<br>2010 San Antonio Silver Stars {"ppg":15.1,"rpg":2.9,"apg":5.4,"fg":44.2}<br>2014 San Antonio Stars {"ppg":8.3,"rpg":1.4,"apg":4.2,"fg":41.7}
+- [ ] `wnba-katie-douglas` **Katie Douglas** (G) — 2006 Connecticut Sun {"ppg":16.4,"rpg":3.8,"apg":2.5,"fg":44.3}<br>2010 Indiana Fever {"ppg":13.7,"rpg":3.4,"apg":3.3,"fg":44.9}<br>2014 Connecticut Sun {"ppg":13.1,"rpg":3.3,"apg":2.2,"fg":35.8}
+- [ ] `wnba-katie-smith` **Katie Smith** (G) — 2006 Detroit Shock {"ppg":11.7,"rpg":2.7,"apg":3.3,"fg":40.7}<br>2010 Washington Mystics {"ppg":9.5,"rpg":2.1,"apg":2.6,"fg":39.5}
+- [ ] `wnba-deanna-nolan` **Deanna Nolan** (G) — 2006 Detroit Shock {"ppg":13.8,"rpg":4.5,"apg":3.6,"fg":40.5}
+- [ ] `wnba-swin-cash` **Swin Cash** (F) — 2006 Detroit Shock {"ppg":10.5,"rpg":4.9,"apg":3.1,"fg":38.4}<br>2010 Seattle Storm {"ppg":13.8,"rpg":6,"apg":2,"fg":43.5}<br>2014 Atlanta Dream {"ppg":1.5,"rpg":0.9,"apg":0.7,"fg":23.3}
+- [ ] `wnba-alana-beard` **Alana Beard** (G) — 2006 Washington Mystics {"ppg":19.2,"rpg":4.7,"apg":3.1,"fg":49.5}<br>2014 Los Angeles Sparks {"ppg":8.5,"rpg":2.6,"apg":2.5,"fg":46.3}<br>2018 Los Angeles Sparks {"ppg":4,"rpg":3.3,"apg":1.7,"fg":39.2}
+- [ ] `wnba-angel-mccoughtry` **Angel McCoughtry** (F) — 2010 Atlanta Dream {"ppg":21.1,"rpg":4.9,"apg":3.1,"fg":40.8}<br>2014 Atlanta Dream {"ppg":18.5,"rpg":5.2,"apg":3.6,"fg":42}<br>2018 Atlanta Dream {"ppg":16.5,"rpg":6,"apg":3,"fg":42}
+- [ ] `wnba-candice-dupree` **Candice Dupree** (F) — 2006 Chicago Sky {"ppg":13.7,"rpg":5.5,"apg":1.8,"fg":45.7}<br>2010 Phoenix Mercury {"ppg":15.7,"rpg":7.6,"apg":1.3,"fg":66.4}<br>2014 Phoenix Mercury {"ppg":14.5,"rpg":7.6,"apg":2.4,"fg":53.3}<br>2018 Indiana Fever {"ppg":14.2,"rpg":6.4,"apg":1.7,"fg":48.8}
+- [ ] `wnba-dewanna-bonner` **DeWanna Bonner** (F) — 2010 Phoenix Mercury {"ppg":12,"rpg":6.1,"apg":1.3,"fg":46.5}<br>2014 Phoenix Mercury {"ppg":10.4,"rpg":4.1,"apg":2.3,"fg":45.9}<br>2018 Phoenix Mercury {"ppg":17.3,"rpg":7.2,"apg":3.2,"fg":45.2}<br>2022 Connecticut Sun {"ppg":13.5,"rpg":4.7,"apg":2.8,"fg":43.9}
+- [ ] `wnba-yolanda-griffith` **Yolanda Griffith** (C) — 2006 Sacramento Monarchs {"ppg":12,"rpg":6.4,"apg":1.6,"fg":45.7}
+- [ ] `wnba-ticha-penicheiro` **Ticha Penicheiro** (G) — 1998 Sacramento Monarchs {"ppg":6.3,"rpg":4.7,"apg":7.5,"fg":33.3}<br>2006 Sacramento Monarchs {"ppg":5.4,"rpg":2.7,"apg":3.4,"fg":33.9}<br>2010 Los Angeles Sparks {"ppg":4.9,"rpg":4,"apg":6.9,"fg":41}
+- [ ] `wnba-chamique-holdsclaw` **Chamique Holdsclaw** (F) — 2006 Los Angeles Sparks {"ppg":15,"rpg":6.1,"apg":2.2,"fg":47}<br>2010 San Antonio Silver Stars {"ppg":13.6,"rpg":5.3,"apg":2,"fg":49.4}
+- [ ] `wnba-monique-currie` **Monique Currie** (F) — 2006 Charlotte Sting {"ppg":10,"rpg":3.9,"apg":2.6,"fg":33.2}<br>2010 Washington Mystics {"ppg":14.1,"rpg":4.8,"apg":1.6,"fg":43.6}<br>2014 Washington Mystics {"ppg":9.9,"rpg":4.6,"apg":1.5,"fg":39.3}<br>2018 Washington Mystics {"ppg":6.6,"rpg":3,"apg":0.8,"fg":39.5}
+- [ ] `wnba-crystal-langhorne` **Crystal Langhorne** (F) — 2010 Washington Mystics {"ppg":16.3,"rpg":9.7,"apg":1.1,"fg":58.9}<br>2014 Seattle Storm {"ppg":12.9,"rpg":7.4,"apg":1,"fg":57.1}<br>2018 Seattle Storm {"ppg":4.6,"rpg":3,"apg":0.3,"fg":50}
+- [ ] `wnba-sophia-young-malcolm` **Sophia Young-Malcolm** (F) — 2006 San Antonio Silver Stars {"ppg":12,"rpg":7.6,"apg":1.5,"fg":41.6}<br>2010 San Antonio Silver Stars {"ppg":15.3,"rpg":5.2,"apg":2.4,"fg":50.1}<br>2014 San Antonio Stars {"ppg":8.2,"rpg":4.6,"apg":1.5,"fg":46.9}
+- [ ] `wnba-jia-perkins` **Jia Perkins** (G) — 2006 Chicago Sky {"ppg":9.4,"rpg":3.6,"apg":3.2,"fg":35.1}<br>2010 Chicago Sky {"ppg":10.7,"rpg":2.9,"apg":2.4,"fg":39.6}<br>2014 San Antonio Stars {"ppg":12.5,"rpg":2.3,"apg":1.7,"fg":44.2}
+- [ ] `wnba-sancho-lyttle` **Sancho Lyttle** (F) — 2006 Houston Comets {"ppg":3.7,"rpg":3.9,"apg":0.3,"fg":46}<br>2010 Atlanta Dream {"ppg":12.8,"rpg":9.9,"apg":2.2,"fg":48.4}<br>2014 Atlanta Dream {"ppg":12.2,"rpg":9,"apg":2.4,"fg":45.9}<br>2018 Phoenix Mercury {"ppg":7.9,"rpg":5.3,"apg":1.4,"fg":54}
+- [ ] `wnba-iziane-castro-marques` **Iziane Castro Marques** (G) — 2006 Seattle Storm {"ppg":7.2,"rpg":2.1,"apg":1.4,"fg":46.9}<br>2010 Atlanta Dream {"ppg":16.9,"rpg":1.7,"apg":2.6,"fg":44.4}
+- [ ] `wnba-rebekkah-brunson` **Rebekkah Brunson** (F) — 2006 Sacramento Monarchs {"ppg":6.8,"rpg":5.6,"apg":0.5,"fg":46.1}<br>2010 Minnesota Lynx {"ppg":11.3,"rpg":10.3,"apg":0.8,"fg":42.9}<br>2018 Minnesota Lynx {"ppg":7.2,"rpg":6.8,"apg":2.4,"fg":40.5}
+- [ ] `wnba-monica-wright` **Monica Wright** (G) — 2010 Minnesota Lynx {"ppg":11.1,"rpg":2.9,"apg":1.5,"fg":37}<br>2014 Minnesota Lynx {"ppg":5.8,"rpg":2.2,"apg":2.1,"fg":41.9}
+- [ ] `wnba-janel-mccarville` **Janel McCarville** (C) — 2006 Charlotte Sting {"ppg":4.5,"rpg":3.5,"apg":0.8,"fg":45.8}<br>2010 New York Liberty {"ppg":8.8,"rpg":5.9,"apg":2.2,"fg":46.2}<br>2014 Minnesota Lynx {"ppg":7.9,"rpg":4.8,"apg":3.1,"fg":45.7}
+- [ ] `wnba-essence-carson` **Essence Carson** (G) — 2010 New York Liberty {"ppg":3.7,"rpg":1.6,"apg":0.7,"fg":40.7}<br>2014 New York Liberty {"ppg":3.3,"rpg":1.7,"apg":0.9,"fg":35.4}<br>2018 Los Angeles Sparks {"ppg":7.5,"rpg":2.6,"apg":0.9,"fg":43.5}
+- [ ] `wnba-nicole-powell` **Nicole Powell** (F) — 2006 Sacramento Monarchs {"ppg":9.6,"rpg":3.9,"apg":1.8,"fg":37.5}<br>2010 New York Liberty {"ppg":9.3,"rpg":4.2,"apg":2.2,"fg":38.9}<br>2014 Seattle Storm {"ppg":2.2,"rpg":1.8,"apg":0.3,"fg":26.1}
+- [ ] `wnba-leilani-mitchell` **Leilani Mitchell** (G) — 2010 New York Liberty {"ppg":9.3,"rpg":2.6,"apg":3.8,"fg":44.1}<br>2018 Phoenix Mercury {"ppg":4.4,"rpg":1.4,"apg":2.3,"fg":35.1}
+- [ ] `wnba-penny-taylor` **Penny Taylor** (F) — 2006 Phoenix Mercury {"ppg":13.9,"rpg":5.7,"apg":2.6,"fg":44.5}<br>2010 Phoenix Mercury {"ppg":15.9,"rpg":4.4,"apg":5,"fg":50.9}<br>2014 Phoenix Mercury {"ppg":10.5,"rpg":3.1,"apg":3.1,"fg":47.9}
+- [ ] `wnba-erin-phillips` **Erin Phillips** (G) — 2006 Connecticut Sun {"ppg":5.4,"rpg":2.1,"apg":2.4,"fg":39.3}<br>2014 Phoenix Mercury {"ppg":5.8,"rpg":1.6,"apg":2.2,"fg":43.5}
+- [ ] `wnba-margo-dydek` **Margo Dydek** (C) — 1998 Utah Starzz {"ppg":12.9,"rpg":7.6,"apg":1.8,"fg":48.2}<br>2006 Connecticut Sun {"ppg":9.4,"rpg":6.1,"apg":1.2,"fg":49.4}
+- [ ] `wnba-asjha-jones` **Asjha Jones** (F) — 2006 Connecticut Sun {"ppg":11.1,"rpg":5.4,"apg":1.4,"fg":46.4}<br>2010 Connecticut Sun {"ppg":10.8,"rpg":4.9,"apg":2.2,"fg":44.8}
+- [ ] `wnba-taj-mcwilliams-franklin` **Taj McWilliams-Franklin** (F) — 2006 Connecticut Sun {"ppg":12.8,"rpg":9.6,"apg":2.5,"fg":49.8}<br>2010 New York Liberty {"ppg":10.6,"rpg":5.4,"apg":2,"fg":51.1}
+- [ ] `wnba-nykesha-sales` **Nykesha Sales** (G) — 2006 Connecticut Sun {"ppg":13,"rpg":3.7,"apg":2.7,"fg":42.9}
+- [ ] `wnba-ivory-latta` **Ivory Latta** (G) — 2010 Tulsa Shock {"ppg":12.4,"rpg":1.4,"apg":3.9,"fg":42.2}<br>2014 Washington Mystics {"ppg":12.8,"rpg":2.4,"apg":3.3,"fg":39.5}
+- [ ] `wnba-emma-meesseman` **Emma Meesseman** (F) — 2014 Washington Mystics {"ppg":10.1,"rpg":6.4,"apg":2.5,"fg":52}<br>2022 Chicago Sky {"ppg":12.4,"rpg":5.6,"apg":3.8,"fg":57.1}
+- [ ] `wnba-stefanie-dolson` **Stefanie Dolson** (C) — 2014 Washington Mystics {"ppg":6,"rpg":4.4,"apg":1.2,"fg":49.2}<br>2018 Chicago Sky {"ppg":9.7,"rpg":4.6,"apg":3,"fg":46.7}<br>2022 New York Liberty {"ppg":8.1,"rpg":4.8,"apg":1.8,"fg":49.3}
+- [ ] `wnba-bria-hartley` **Bria Hartley** (G) — 2014 Washington Mystics {"ppg":9.7,"rpg":2.1,"apg":3.1,"fg":38}<br>2018 New York Liberty {"ppg":8.5,"rpg":2.9,"apg":3.6,"fg":38.9}
+- [ ] `wnba-briann-january` **Briann January** (G) — 2010 Indiana Fever {"ppg":7.4,"rpg":2,"apg":3.1,"fg":37.1}<br>2014 Indiana Fever {"ppg":10.3,"rpg":1.6,"apg":3.7,"fg":38.7}<br>2018 Phoenix Mercury {"ppg":7,"rpg":2.1,"apg":3.3,"fg":42.3}<br>2022 Seattle Storm {"ppg":3.7,"rpg":1,"apg":2.4,"fg":37.7}
+- [ ] `wnba-natasha-howard` **Natasha Howard** (F) — 2014 Indiana Fever {"ppg":7,"rpg":3.1,"apg":0.6,"fg":44.3}<br>2018 Seattle Storm {"ppg":13.2,"rpg":6.4,"apg":1,"fg":54.7}<br>2022 New York Liberty {"ppg":15.1,"rpg":7.3,"apg":2.3,"fg":48.2}
+- [ ] `wnba-alysha-clark` **Alysha Clark** (F) — 2014 Seattle Storm {"ppg":4.2,"rpg":2.1,"apg":0.6,"fg":44.8}<br>2018 Seattle Storm {"ppg":7.4,"rpg":3.5,"apg":1.9,"fg":48}<br>2022 Washington Mystics {"ppg":8,"rpg":4.5,"apg":2,"fg":46.4}
+- [ ] `wnba-jordin-canada` **Jordin Canada** (G) — 2018 Seattle Storm {"ppg":5.7,"rpg":1.5,"apg":3.3,"fg":35.7}<br>2022 Los Angeles Sparks {"ppg":9.2,"rpg":2.3,"apg":5.5,"fg":38.4}
+- [ ] `wnba-kayla-mcbride` **Kayla McBride** (G) — 2014 San Antonio Stars {"ppg":13,"rpg":2.3,"apg":1.7,"fg":40.6}<br>2018 Las Vegas Aces {"ppg":18.2,"rpg":3.9,"apg":3.5,"fg":44.9}<br>2022 Minnesota Lynx {"ppg":13.3,"rpg":2.8,"apg":2.1,"fg":40.5}
+- [ ] `wnba-dearica-hamby` **Dearica Hamby** (F) — 2018 Las Vegas Aces {"ppg":7.4,"rpg":3.6,"apg":1.2,"fg":52.6}<br>2022 Las Vegas Aces {"ppg":9.3,"rpg":7.1,"apg":1.1,"fg":46.6}
+- [ ] `wnba-jackie-young` **Jackie Young** (G) — 2022 Las Vegas Aces {"ppg":15.9,"rpg":4.4,"apg":3.9,"fg":47.6}
+- [ ] `wnba-sabrina-ionescu` **Sabrina Ionescu** (G) — 2022 New York Liberty {"ppg":17.4,"rpg":7.1,"apg":6.3,"fg":41.1}
+- [ ] `wnba-rhyne-howard` **Rhyne Howard** (G) — 2022 Atlanta Dream {"ppg":16.2,"rpg":4.5,"apg":2.8,"fg":36.1}
+- [ ] `wnba-cheyenne-parker-tyus` **Cheyenne Parker-Tyus** (F) — 2018 Chicago Sky {"ppg":10,"rpg":5.8,"apg":0.7,"fg":53.1}<br>2022 Atlanta Dream {"ppg":11.8,"rpg":6.2,"apg":2,"fg":50}
+- [ ] `wnba-allisha-gray` **Allisha Gray** (G) — 2018 Dallas Wings {"ppg":9.2,"rpg":3.4,"apg":2.4,"fg":40.3}<br>2022 Dallas Wings {"ppg":13.3,"rpg":4.8,"apg":2.5,"fg":42.3}
+- [ ] `wnba-arike-ogunbowale` **Arike Ogunbowale** (G) — 2022 Dallas Wings {"ppg":19.7,"rpg":3.3,"apg":3.6,"fg":40}
+- [ ] `wnba-azura-stevens` **Azura Stevens** (F) — 2018 Dallas Wings {"ppg":8.9,"rpg":4.6,"apg":1.3,"fg":43}<br>2022 Chicago Sky {"ppg":10.6,"rpg":3.9,"apg":0.8,"fg":47.2}
+- [ ] `wnba-moriah-jefferson` **Moriah Jefferson** (G) — 2018 Las Vegas Aces {"ppg":5.4,"rpg":1.3,"apg":2.1,"fg":37.9}<br>2022 Minnesota Lynx {"ppg":10.8,"rpg":2.5,"apg":4.9,"fg":45.2}
+- [ ] `wnba-liz-cambage` **Liz Cambage** (C) — 2018 Dallas Wings {"ppg":23,"rpg":9.7,"apg":2.3,"fg":58.9}<br>2022 Los Angeles Sparks {"ppg":13,"rpg":6.4,"apg":2.1,"fg":50.9}
+- [ ] `wnba-allie-quigley` **Allie Quigley** (G) — 2014 Chicago Sky {"ppg":11.2,"rpg":2.2,"apg":1.9,"fg":44.4}<br>2018 Chicago Sky {"ppg":15.4,"rpg":2.4,"apg":2.5,"fg":46.6}<br>2022 Chicago Sky {"ppg":11.4,"rpg":2.5,"apg":2.9,"fg":42.8}
+- [ ] `wnba-diamond-deshields` **Diamond DeShields** (G) — 2018 Chicago Sky {"ppg":14.4,"rpg":4.9,"apg":2.2,"fg":42.5}<br>2022 Phoenix Mercury {"ppg":13.1,"rpg":3.8,"apg":2.2,"fg":38.8}
+- [ ] `wnba-gabby-williams` **Gabby Williams** (F) — 2018 Chicago Sky {"ppg":7.3,"rpg":4.3,"apg":1.6,"fg":43.2}<br>2022 Seattle Storm {"ppg":7.5,"rpg":5,"apg":3.1,"fg":44.4}
+- [ ] `wnba-kahleah-copper` **Kahleah Copper** (G) — 2018 Chicago Sky {"ppg":7.1,"rpg":2.2,"apg":0.6,"fg":39.7}<br>2022 Chicago Sky {"ppg":15.7,"rpg":5.7,"apg":2.3,"fg":48.1}
+- [ ] `wnba-natasha-cloud` **Natasha Cloud** (G) — 2018 Washington Mystics {"ppg":8.6,"rpg":3.2,"apg":4.6,"fg":43.6}<br>2022 Washington Mystics {"ppg":10.7,"rpg":3.6,"apg":7,"fg":39.9}
+- [ ] `wnba-ariel-atkins` **Ariel Atkins** (G) — 2018 Washington Mystics {"ppg":11.3,"rpg":2.4,"apg":2.1,"fg":43.2}<br>2022 Washington Mystics {"ppg":14.6,"rpg":3.3,"apg":2.3,"fg":42}
+- [ ] `wnba-kristi-toliver` **Kristi Toliver** (G) — 2010 Los Angeles Sparks {"ppg":8.6,"rpg":2.2,"apg":1.3,"fg":43.8}<br>2014 Los Angeles Sparks {"ppg":11.8,"rpg":2.1,"apg":4.1,"fg":44.2}<br>2018 Washington Mystics {"ppg":13.9,"rpg":2.3,"apg":4.4,"fg":43.3}
+- [ ] `wnba-brittney-sykes` **Brittney Sykes** (G) — 2018 Atlanta Dream {"ppg":9.7,"rpg":3.5,"apg":2.3,"fg":41.1}<br>2022 Los Angeles Sparks {"ppg":12.7,"rpg":3.7,"apg":3.7,"fg":43.3}
+- [ ] `wnba-tiffany-hayes` **Tiffany Hayes** (G) — 2014 Atlanta Dream {"ppg":12.9,"rpg":3,"apg":2.5,"fg":46.6}<br>2018 Atlanta Dream {"ppg":17.2,"rpg":3.6,"apg":2.7,"fg":44.1}
+- [ ] `wnba-elizabeth-williams` **Elizabeth Williams** (C) — 2018 Atlanta Dream {"ppg":9.1,"rpg":5.8,"apg":1.4,"fg":54.8}<br>2022 Washington Mystics {"ppg":5.4,"rpg":3.8,"apg":0.5,"fg":48.2}
+- [ ] `wnba-jessica-breland` **Jessica Breland** (F) — 2014 Chicago Sky {"ppg":9.7,"rpg":6.8,"apg":1.9,"fg":46.1}<br>2018 Atlanta Dream {"ppg":8.3,"rpg":7.9,"apg":2,"fg":42.8}
+- [ ] `wnba-alex-bentley` **Alex Bentley** (G) — 2014 Connecticut Sun {"ppg":12.2,"rpg":1.7,"apg":3.7,"fg":43.3}<br>2018 Connecticut Sun {"ppg":10,"rpg":1.4,"apg":3.2,"fg":39.6}
+- [ ] `wnba-renee-montgomery` **Renee Montgomery** (G) — 2010 Connecticut Sun {"ppg":13.3,"rpg":2.2,"apg":4.1,"fg":40.1}<br>2014 Connecticut Sun {"ppg":6.7,"rpg":0.8,"apg":2.4,"fg":37.3}<br>2018 Atlanta Dream {"ppg":10.3,"rpg":1.7,"apg":3.7,"fg":38.9}
+- [ ] `wnba-chiney-ogwumike` **Chiney Ogwumike** (F) — 2014 Connecticut Sun {"ppg":15.5,"rpg":8.5,"apg":0.6,"fg":53.7}<br>2018 Connecticut Sun {"ppg":14.4,"rpg":7.3,"apg":1,"fg":60.3}<br>2022 Los Angeles Sparks {"ppg":7,"rpg":5.5,"apg":1.1,"fg":46.6}
+- [ ] `wnba-kelsey-bone` **Kelsey Bone** (C) — 2014 Connecticut Sun {"ppg":9.3,"rpg":5.3,"apg":1.4,"fg":45.1}<br>2018 Las Vegas Aces {"ppg":2.8,"rpg":2.2,"apg":1.2,"fg":50}
+- [ ] `wnba-kelsey-mitchell` **Kelsey Mitchell** (G) — 2018 Indiana Fever {"ppg":12.7,"rpg":1.8,"apg":2.7,"fg":34.6}<br>2022 Indiana Fever {"ppg":18.4,"rpg":1.9,"apg":4.2,"fg":43.8}
+- [ ] `wnba-tiffany-mitchell` **Tiffany Mitchell** (G) — 2018 Indiana Fever {"ppg":9.1,"rpg":3.1,"apg":2.3,"fg":37.1}<br>2022 Indiana Fever {"ppg":6.5,"rpg":1.2,"apg":1.2,"fg":45.1}
+- [ ] `wnba-victoria-vivians` **Victoria Vivians** (G) — 2018 Indiana Fever {"ppg":8.9,"rpg":3.1,"apg":1.2,"fg":40.4}<br>2022 Indiana Fever {"ppg":9.8,"rpg":3.6,"apg":2.4,"fg":33.6}
+- [ ] `wnba-erica-wheeler` **Erica Wheeler** (G) — 2018 Indiana Fever {"ppg":7.8,"rpg":2.9,"apg":4.1,"fg":35.1}<br>2022 Atlanta Dream {"ppg":8.4,"rpg":3.1,"apg":3.9,"fg":35.5}
+- [ ] `wnba-natalie-achonwa` **Natalie Achonwa** (F) — 2018 Indiana Fever {"ppg":10.3,"rpg":6.9,"apg":1.4,"fg":52.7}<br>2022 Minnesota Lynx {"ppg":5.3,"rpg":4.1,"apg":1.7,"fg":51.6}
+- [ ] `wnba-lexie-brown` **Lexie Brown** (G) — 2018 Connecticut Sun {"ppg":1.7,"rpg":0.8,"apg":0.5,"fg":27.3}<br>2022 Los Angeles Sparks {"ppg":7.1,"rpg":2.3,"apg":2.1,"fg":44.1}
+- [ ] `wnba-courtney-williams` **Courtney Williams** (G) — 2018 Connecticut Sun {"ppg":12.6,"rpg":5.9,"apg":3,"fg":45.6}<br>2022 Connecticut Sun {"ppg":11.1,"rpg":4.6,"apg":3.3,"fg":42.6}
+- [ ] `wnba-shekinna-stricklen` **Shekinna Stricklen** (G) — 2014 Seattle Storm {"ppg":7.2,"rpg":2.1,"apg":0.7,"fg":43}<br>2018 Connecticut Sun {"ppg":6.6,"rpg":2.3,"apg":0.5,"fg":43}
+- [ ] `wnba-brionna-jones` **Brionna Jones** (C) — 2018 Connecticut Sun {"ppg":3.1,"rpg":2,"apg":0.2,"fg":46.9}<br>2022 Connecticut Sun {"ppg":13.8,"rpg":5.1,"apg":1.2,"fg":56.9}
+- [ ] `wnba-layshia-clarendon` **Layshia Clarendon** (G) — 2014 Indiana Fever {"ppg":4.2,"rpg":1.4,"apg":1.2,"fg":40.2}<br>2018 Atlanta Dream {"ppg":4.3,"rpg":2.1,"apg":1.7,"fg":32.9}
+- [ ] `wnba-jasmine-thomas` **Jasmine Thomas** (G) — 2014 Atlanta Dream {"ppg":4.8,"rpg":2.1,"apg":1.6,"fg":32.3}<br>2018 Connecticut Sun {"ppg":12.9,"rpg":3.3,"apg":4.8,"fg":39.8}
+- [ ] `wnba-damiris-dantas` **Damiris Dantas** (F) — 2014 Minnesota Lynx {"ppg":6,"rpg":5.1,"apg":1.2,"fg":51.1}<br>2018 Atlanta Dream {"ppg":5.4,"rpg":2.4,"apg":0.8,"fg":43.3}<br>2022 Minnesota Lynx {"ppg":5.1,"rpg":3.8,"apg":1.9,"fg":30.4}
+- [ ] `wnba-jantel-lavender` **Jantel Lavender** (C) — 2014 Los Angeles Sparks {"ppg":11.9,"rpg":6.3,"apg":1.5,"fg":52.7}<br>2018 Los Angeles Sparks {"ppg":5.2,"rpg":3.7,"apg":0.7,"fg":42.8}<br>2022 Seattle Storm {"ppg":3.8,"rpg":3.3,"apg":0.9,"fg":40.9}
+- [ ] `wnba-dawn-staley` **Dawn Staley** (G) — 2006 Houston Comets {"ppg":7.4,"rpg":2.2,"apg":3.9,"fg":42}
+- [ ] `wnba-mwadi-mabika` **Mwadi Mabika** (G) — 1998 Los Angeles Sparks {"ppg":8.2,"rpg":4.4,"apg":1.5,"fg":33.9}<br>2006 Los Angeles Sparks {"ppg":8.5,"rpg":2,"apg":1.5,"fg":37.7}
+- [ ] `wnba-delisha-milton-jones` **DeLisha Milton-Jones** (F) — 2006 Washington Mystics {"ppg":14.6,"rpg":4.9,"apg":2.1,"fg":47.2}<br>2010 Los Angeles Sparks {"ppg":15.4,"rpg":4.7,"apg":2.5,"fg":47}<br>2014 New York Liberty {"ppg":5.7,"rpg":2.5,"apg":1.1,"fg":40.4}
+- [ ] `wnba-temeka-johnson` **Temeka Johnson** (G) — 2006 Los Angeles Sparks {"ppg":8,"rpg":3,"apg":5,"fg":40.2}<br>2010 Phoenix Mercury {"ppg":9.2,"rpg":3.2,"apg":4.7,"fg":41.1}<br>2014 Seattle Storm {"ppg":5.8,"rpg":2.1,"apg":3.2,"fg":36.1}
+- [ ] `wnba-cheryl-ford` **Cheryl Ford** (F) — 2006 Detroit Shock {"ppg":13.8,"rpg":11.3,"apg":1.4,"fg":49.8}
+- [ ] `wnba-ruth-riley` **Ruth Riley** (C) — 2006 Detroit Shock {"ppg":7.3,"rpg":4.9,"apg":1.5,"fg":45.6}<br>2010 San Antonio Silver Stars {"ppg":3.8,"rpg":2.3,"apg":1,"fg":53.7}
+- [ ] `wnba-kara-braxton` **Kara Braxton** (C) — 2006 Detroit Shock {"ppg":4.3,"rpg":3.4,"apg":0.8,"fg":40.6}<br>2010 Tulsa Shock {"ppg":9.3,"rpg":4.6,"apg":1.3,"fg":50}
+- [ ] `wnba-michelle-snow` **Michelle Snow** (C) — 2006 Houston Comets {"ppg":13,"rpg":7.9,"apg":1.4,"fg":51}<br>2010 San Antonio Silver Stars {"ppg":10.4,"rpg":6.2,"apg":1.6,"fg":57.4}
+- [ ] `wnba-roneeka-hodges` **Roneeka Hodges** (G) — 2006 Houston Comets {"ppg":7.5,"rpg":2,"apg":1,"fg":40.1}<br>2010 San Antonio Silver Stars {"ppg":7.7,"rpg":3.2,"apg":1.4,"fg":35.7}<br>2014 Tulsa Shock {"ppg":5.3,"rpg":1.8,"apg":1.4,"fg":34.6}
+- [ ] `wnba-tanisha-wright` **Tanisha Wright** (G) — 2006 Seattle Storm {"ppg":3.8,"rpg":1.8,"apg":1.2,"fg":35.3}<br>2010 Seattle Storm {"ppg":9.2,"rpg":3.3,"apg":4.5,"fg":41}<br>2014 Seattle Storm {"ppg":8,"rpg":2.3,"apg":3.6,"fg":41.7}<br>2018 Minnesota Lynx {"ppg":4.3,"rpg":1.6,"apg":2,"fg":38.3}
+- [ ] `wnba-janell-burse` **Janell Burse** (C) — 2006 Seattle Storm {"ppg":11.1,"rpg":6.6,"apg":0.8,"fg":51.1}
+- [ ] `wnba-betty-lennox` **Betty Lennox** (G) — 2006 Seattle Storm {"ppg":13.7,"rpg":4,"apg":2.1,"fg":45.2}
+- [ ] `wnba-wendy-palmer` **Wendy Palmer** (F) — 1998 Utah Starzz {"ppg":13.5,"rpg":6.6,"apg":1.1,"fg":47.2}
+- [ ] `wnba-teresa-weatherspoon` **Teresa Weatherspoon** (G) — 1998 New York Liberty {"ppg":6.8,"rpg":4,"apg":6.4,"fg":38.8}
+- [ ] `wnba-rebecca-lobo` **Rebecca Lobo** (C) — 1998 New York Liberty {"ppg":11.7,"rpg":6.9,"apg":1.5,"fg":48.4}
+- [ ] `wnba-kym-hampton` **Kym Hampton** (C) — 1998 New York Liberty {"ppg":9.1,"rpg":6,"apg":0.9,"fg":45.2}
+- [ ] `wnba-sophia-witherspoon` **Sophia Witherspoon** (G) — 1998 New York Liberty {"ppg":13.8,"rpg":3,"apg":1.9,"fg":40.1}
+- [ ] `wnba-crystal-robinson` **Crystal Robinson** (G) — 2006 Washington Mystics {"ppg":7.4,"rpg":2.6,"apg":1.8,"fg":40.2}
+- [ ] `wnba-janeth-arcain` **Janeth Arcain** (F) — 1998 Houston Comets {"ppg":6.8,"rpg":3.6,"apg":0.9,"fg":42.6}
+- [ ] `wnba-kim-perrot` **Kim Perrot** (G) — 1998 Houston Comets {"ppg":8.5,"rpg":3.1,"apg":4.7,"fg":40.4}
+- [ ] `wnba-andrea-stinson` **Andrea Stinson** (G) — 1998 Charlotte Sting {"ppg":15,"rpg":4.6,"apg":4.5,"fg":41.8}
+- [ ] `wnba-vickie-johnson` **Vickie Johnson** (G) — 1998 New York Liberty {"ppg":12.5,"rpg":3.8,"apg":2.5,"fg":44.6}<br>2006 San Antonio Silver Stars {"ppg":9.9,"rpg":4.9,"apg":3.6,"fg":37.5}
+- [ ] `wnba-tamecka-dixon` **Tamecka Dixon** (G) — 1998 Los Angeles Sparks {"ppg":16.2,"rpg":2.5,"apg":2.5,"fg":43.8}<br>2006 Houston Comets {"ppg":7,"rpg":2.6,"apg":2.3,"fg":40.4}
+- [ ] `wnba-tamika-whitmore` **Tamika Whitmore** (F) — 2006 Indiana Fever {"ppg":15.5,"rpg":4.9,"apg":1.8,"fg":45.7}
+- [ ] `wnba-marie-ferdinand-harris` **Marie Ferdinand-Harris** (G) — 2010 Los Angeles Sparks {"ppg":8.9,"rpg":2.7,"apg":1.2,"fg":40.9}
+- [ ] `wnba-mistie-bass` **Mistie Bass** (F) — 2006 Houston Comets {"ppg":2.9,"rpg":2.4,"apg":0.6,"fg":53.1}<br>2010 Chicago Sky {"ppg":4.9,"rpg":3.9,"apg":1.1,"fg":52.7}<br>2014 Phoenix Mercury {"ppg":4.4,"rpg":3.2,"apg":0.5,"fg":50.9}
+- [ ] `wnba-scholanda-dorrell` **Scholanda Dorrell** (G) — 2006 Sacramento Monarchs {"ppg":5.2,"rpg":1.1,"apg":0.5,"fg":37.2}<br>2010 Tulsa Shock {"ppg":11.9,"rpg":2.4,"apg":1.7,"fg":40.2}
+- [ ] `wnba-shanna-zolman` **Shanna Zolman** (G) — 2006 San Antonio Silver Stars {"ppg":6.6,"rpg":1.2,"apg":1,"fg":37.9}<br>2010 Tulsa Shock {"ppg":9.7,"rpg":1.4,"apg":1.6,"fg":40.4}
+- [ ] `wnba-tully-bevilaqua` **Tully Bevilaqua** (G) — 2006 Indiana Fever {"ppg":6.6,"rpg":2.3,"apg":2.3,"fg":41.1}<br>2010 Indiana Fever {"ppg":3.9,"rpg":2.1,"apg":1.6,"fg":38.3}
+- [ ] `wnba-anna-cruz` **Anna Cruz** (G) — 2014 New York Liberty {"ppg":7.7,"rpg":3.5,"apg":3.6,"fg":46.2}
+- [ ] `wnba-glory-johnson` **Glory Johnson** (F) — 2014 Tulsa Shock {"ppg":14.7,"rpg":9.2,"apg":1.4,"fg":44.9}<br>2018 Dallas Wings {"ppg":8,"rpg":6,"apg":1.3,"fg":41.7}
+- [ ] `wnba-odyssey-sims` **Odyssey Sims** (G) — 2014 Tulsa Shock {"ppg":16.7,"rpg":2.8,"apg":4.2,"fg":40.6}<br>2018 Los Angeles Sparks {"ppg":8.2,"rpg":2.5,"apg":2.8,"fg":38.8}
+- [ ] `wnba-courtney-paris` **Courtney Paris** (C) — 2014 Tulsa Shock {"ppg":9.2,"rpg":10.2,"apg":1.1,"fg":57.4}<br>2018 Seattle Storm {"ppg":2.1,"rpg":3.9,"apg":0.6,"fg":53.3}
+- [ ] `wnba-epiphanny-prince` **Epiphanny Prince** (G) — 2010 Chicago Sky {"ppg":9.8,"rpg":2,"apg":2.7,"fg":42.7}<br>2014 Chicago Sky {"ppg":15,"rpg":3,"apg":3.8,"fg":38.3}<br>2018 New York Liberty {"ppg":8.4,"rpg":1.6,"apg":1.7,"fg":39.3}<br>2022 Seattle Storm {"ppg":3.9,"rpg":1,"apg":1.8,"fg":35.5}
+- [ ] `wnba-lindsey-harding` **Lindsey Harding** (G) — 2010 Washington Mystics {"ppg":12.1,"rpg":3,"apg":4,"fg":44.5}<br>2014 Los Angeles Sparks {"ppg":5.7,"rpg":1.8,"apg":3.2,"fg":33.3}
+- [ ] `wnba-kelly-miller` **Kelly Miller** (G) — 2006 Phoenix Mercury {"ppg":11,"rpg":5.3,"apg":3.5,"fg":42.1}<br>2010 Atlanta Dream {"ppg":3.6,"rpg":1.9,"apg":2.6,"fg":29}
+- [ ] `wnba-tracy-reid` **Tracy Reid** (F) — 1998 Charlotte Sting {"ppg":13.8,"rpg":5.2,"apg":1.5,"fg":48.7}
+- [ ] `wnba-kara-lawson` **Kara Lawson** (G) — 2006 Sacramento Monarchs {"ppg":8.1,"rpg":1.9,"apg":1.6,"fg":39.7}<br>2010 Connecticut Sun {"ppg":8.3,"rpg":2.6,"apg":3.5,"fg":40.9}<br>2014 Washington Mystics {"ppg":7,"rpg":2.9,"apg":2.5,"fg":37.9}
+- [ ] `wnba-riquna-williams` **Riquna Williams** (G) — 2018 Los Angeles Sparks {"ppg":7.1,"rpg":1.4,"apg":0.7,"fg":40.7}<br>2022 Las Vegas Aces {"ppg":6.7,"rpg":2,"apg":1.2,"fg":38.1}
+- [ ] `wnba-tierra-ruffin-pratt` **Tierra Ruffin-Pratt** (G) — 2014 Washington Mystics {"ppg":4.5,"rpg":2.9,"apg":1.3,"fg":38.3}<br>2018 Washington Mystics {"ppg":5.5,"rpg":2,"apg":1.5,"fg":34.1}
+- [ ] `wnba-kayla-thornton` **Kayla Thornton** (F) — 2018 Dallas Wings {"ppg":9.2,"rpg":4,"apg":1.8,"fg":44.7}<br>2022 Dallas Wings {"ppg":8,"rpg":5.9,"apg":1.8,"fg":46.9}
+- [ ] `wnba-monique-billings` **Monique Billings** (F) — 2018 Atlanta Dream {"ppg":3.3,"rpg":2.8,"apg":0.4,"fg":44.1}<br>2022 Atlanta Dream {"ppg":6.5,"rpg":6.3,"apg":1.1,"fg":47}
+- [ ] `wnba-tianna-hawkins` **Tianna Hawkins** (F) — 2014 Washington Mystics {"ppg":4.2,"rpg":3,"apg":0.5,"fg":47.9}<br>2018 Washington Mystics {"ppg":6.3,"rpg":3.5,"apg":0.8,"fg":44.3}<br>2022 Washington Mystics {"ppg":4.9,"rpg":2.4,"apg":0.8,"fg":38.6}
+- [ ] `wnba-erika-de-souza` **Erika de Souza** (C) — 2010 Atlanta Dream {"ppg":12.4,"rpg":8.3,"apg":0.9,"fg":57.1}<br>2014 Atlanta Dream {"ppg":13.8,"rpg":8.7,"apg":1.2,"fg":54.5}
+- [ ] `wnba-helen-darling` **Helen Darling** (G) — 2006 Charlotte Sting {"ppg":5.4,"rpg":2,"apg":2.8,"fg":37}<br>2010 San Antonio Silver Stars {"ppg":1.9,"rpg":1,"apg":1.4,"fg":30}
+- [ ] `wnba-barbara-farris` **Barbara Farris** (F) — 2006 New York Liberty {"ppg":7.7,"rpg":5.2,"apg":1.5,"fg":43}
+- [ ] `wnba-danielle-robinson` **Danielle Robinson** (G) — 2014 San Antonio Stars {"ppg":12.9,"rpg":3.5,"apg":5.3,"fg":45.7}<br>2018 Minnesota Lynx {"ppg":6.5,"rpg":1.8,"apg":3.3,"fg":44.5}<br>2022 Indiana Fever {"ppg":7.4,"rpg":2.9,"apg":3.8,"fg":41.9}
+- [ ] `wnba-nikki-teasley` **Nikki Teasley** (G) — 2006 Washington Mystics {"ppg":10.7,"rpg":2.6,"apg":5.4,"fg":37.1}
+- [ ] `wnba-shannon-johnson` **Shannon Johnson** (G) — 2006 San Antonio Silver Stars {"ppg":9.9,"rpg":3,"apg":3.7,"fg":40.6}
+- [ ] `wnba-elena-baranova` **Elena Baranova** (C) — 1998 Utah Starzz {"ppg":12.9,"rpg":9.3,"apg":3.5,"fg":42}
+- [ ] `wnba-eva-nemcova` **Eva Nemcova** (F) — 1998 Cleveland Rockers {"ppg":11.9,"rpg":3.7,"apg":2.2,"fg":46.6}
+- [ ] `wnba-michele-timms` **Michele Timms** (G) — 1998 Phoenix Mercury {"ppg":6.9,"rpg":2.5,"apg":5.3,"fg":31.8}
+- [ ] `wnba-jennifer-gillom` **Jennifer Gillom** (C) — 1998 Phoenix Mercury {"ppg":20.9,"rpg":7.3,"apg":1.4,"fg":46.5}
+- [ ] `wnba-penny-toler` **Penny Toler** (G) — 1998 Los Angeles Sparks {"ppg":12.3,"rpg":3.5,"apg":4.8,"fg":41.5}
+- [ ] `wnba-sandy-brondello` **Sandy Brondello** (G) — 1998 Detroit Shock {"ppg":14.2,"rpg":2.9,"apg":3.3,"fg":42.8}
+- [ ] `wnba-suzie-mcconnell-serio` **Suzie McConnell Serio** (G) — 1998 Cleveland Rockers {"ppg":8.6,"rpg":2.2,"apg":6.4,"fg":45.5}
+- [ ] `wnba-merlakia-jones` **Merlakia Jones** (G) — 1998 Cleveland Rockers {"ppg":9.5,"rpg":3.2,"apg":1.3,"fg":46.4}
+- [ ] `wnba-adia-barnes` **Adia Barnes** (F) — 1998 Sacramento Monarchs {"ppg":7.6,"rpg":2.9,"apg":0.8,"fg":39.5}
+- [ ] `wnba-nikki-mccray` **Nikki McCray** (G) — 1998 Washington Mystics {"ppg":17.7,"rpg":2.9,"apg":3.1,"fg":41.8}
+- [ ] `wnba-tammy-sutton-brown` **Tammy Sutton-Brown** (C) — 2006 Charlotte Sting {"ppg":11.2,"rpg":5.9,"apg":0.7,"fg":48.8}<br>2010 Indiana Fever {"ppg":8.1,"rpg":5.1,"apg":0.9,"fg":45}
+- [ ] `wnba-chasity-melvin` **Chasity Melvin** (C) — 2006 Washington Mystics {"ppg":11.9,"rpg":6.6,"apg":1.3,"fg":52}<br>2010 Washington Mystics {"ppg":5.2,"rpg":4.7,"apg":0.7,"fg":43.4}
+- [ ] `wnba-sheri-sam` **Sheri Sam** (G) — 2006 Charlotte Sting {"ppg":10.6,"rpg":5.1,"apg":2.6,"fg":39.9}
+- [ ] `wnba-tangela-smith` **Tangela Smith** (C) — 1998 Sacramento Monarchs {"ppg":9.6,"rpg":4.6,"apg":1.1,"fg":40.3}<br>2006 Charlotte Sting {"ppg":13.1,"rpg":5.3,"apg":1.5,"fg":42.1}<br>2010 Phoenix Mercury {"ppg":9.2,"rpg":5.2,"apg":0.9,"fg":39.5}
+- [ ] `wnba-rachel-banham` **Rachel Banham** (G) — 2018 Connecticut Sun {"ppg":5.2,"rpg":0.9,"apg":1.5,"fg":41.4}<br>2022 Minnesota Lynx {"ppg":7.9,"rpg":1.3,"apg":2.3,"fg":43}
+- [ ] `wnba-rebecca-allen` **Rebecca Allen** (F) — 2018 New York Liberty {"ppg":3.8,"rpg":1.7,"apg":0.3,"fg":37.6}<br>2022 New York Liberty {"ppg":7,"rpg":3.4,"apg":1.2,"fg":37.9}
+- [ ] `wnba-kia-vaughn` **Kia Vaughn** (C) — 2010 New York Liberty {"ppg":2.1,"rpg":1.4,"apg":0.3,"fg":34.8}<br>2014 Washington Mystics {"ppg":9,"rpg":6.3,"apg":1.2,"fg":45.8}<br>2018 New York Liberty {"ppg":5.7,"rpg":4,"apg":0.7,"fg":53.3}<br>2022 Atlanta Dream {"ppg":2.5,"rpg":3.2,"apg":0.9,"fg":40}
+- [ ] `wnba-aerial-powers` **Aerial Powers** (G) — 2018 Dallas Wings {"ppg":6.2,"rpg":2.5,"apg":0.9,"fg":36.6}<br>2022 Minnesota Lynx {"ppg":14.4,"rpg":4.7,"apg":2.9,"fg":38.5}
+- [ ] `wnba-myisha-hines-allen` **Myisha Hines-Allen** (F) — 2018 Washington Mystics {"ppg":3.8,"rpg":2.9,"apg":0.4,"fg":45}<br>2022 Washington Mystics {"ppg":8.9,"rpg":5.3,"apg":1.9,"fg":41.5}
+- [ ] `wnba-teaira-mccowan` **Teaira McCowan** (C) — 2022 Dallas Wings {"ppg":11,"rpg":7,"apg":0.8,"fg":60.2}
+- [ ] `wnba-marina-mabrey` **Marina Mabrey** (G) — 2022 Dallas Wings {"ppg":13.6,"rpg":3.6,"apg":3.7,"fg":42}
+- [ ] `wnba-brianna-turner` **Brianna Turner** (F) — 2022 Phoenix Mercury {"ppg":4.3,"rpg":6.8,"apg":2.3,"fg":60.7}
+- [ ] `wnba-nia-coffey` **Nia Coffey** (F) — 2018 Las Vegas Aces {"ppg":5.3,"rpg":2.4,"apg":0.6,"fg":38}<br>2022 Atlanta Dream {"ppg":6.4,"rpg":5.2,"apg":0.8,"fg":34.7}
+- [ ] `wnba-sophie-cunningham` **Sophie Cunningham** (G) — 2022 Phoenix Mercury {"ppg":12.6,"rpg":4.4,"apg":1.6,"fg":44.9}
+- [ ] `wnba-jessica-shepard` **Jessica Shepard** (F) — 2022 Minnesota Lynx {"ppg":8.1,"rpg":7.4,"apg":3,"fg":50.2}
+- [ ] `wnba-natisha-hiedeman` **Natisha Hiedeman** (G) — 2022 Connecticut Sun {"ppg":9.1,"rpg":1.8,"apg":3.3,"fg":43.1}
+- [ ] `wnba-ezi-magbegor` **Ezi Magbegor** (C) — 2022 Seattle Storm {"ppg":9.5,"rpg":5.6,"apg":1.4,"fg":55}
+- [ ] `wnba-crystal-dangerfield` **Crystal Dangerfield** (G) — 2022 New York Liberty {"ppg":5.4,"rpg":2.1,"apg":2.5,"fg":39.5}
+- [ ] `wnba-nalyssa-smith` **NaLyssa Smith** (F) — 2022 Indiana Fever {"ppg":13.5,"rpg":7.9,"apg":1.4,"fg":41.9}
+- [ ] `wnba-kayla-alexander` **Kayla Alexander** (C) — 2014 San Antonio Stars {"ppg":2.8,"rpg":2,"apg":0.2,"fg":43.4}<br>2018 Indiana Fever {"ppg":2.7,"rpg":2.2,"apg":0.2,"fg":54.1}
+- [ ] `wnba-kaleena-mosqueda-lewis` **Kaleena Mosqueda-Lewis** (F) — 2018 Seattle Storm {"ppg":5.1,"rpg":1.5,"apg":0.8,"fg":41.2}
+- [ ] `wnba-sami-whitcomb` **Sami Whitcomb** (G) — 2018 Seattle Storm {"ppg":2.9,"rpg":0.9,"apg":0.5,"fg":34.9}<br>2022 New York Liberty {"ppg":6.5,"rpg":2.3,"apg":2.3,"fg":36.8}
+- [ ] `wnba-mercedes-russell` **Mercedes Russell** (C) — 2018 Seattle Storm {"ppg":1.6,"rpg":1.4,"apg":0.1,"fg":48.4}
+- [ ] `wnba-betnijah-laney-hamilton` **Betnijah Laney-Hamilton** (G) — 2018 Connecticut Sun {"ppg":2.7,"rpg":1.7,"apg":0.7,"fg":47.1}
 
 ## NFL (229)
 
@@ -716,12 +903,1413 @@ Check the season line, then set `verified` to `true` in the JSON (or re-import f
 - [ ] `nfl-chig-okonkwo` **Chigoziem Okonkwo** (TE) — 2022 Tennessee Titans {"receptions":32,"recYds":450,"recTd":3}
 - [ ] `nfl-trey-mcbride` **Trey McBride** (TE) — 2023 Arizona Cardinals {"receptions":81,"recYds":825,"recTd":3}
 
-## MLB (0)
+## MLB (166)
 
+- [ ] `mlb-barry-bonds` **Barry Bonds** (OF) — 2001 San Francisco Giants {"avg":0.328,"hr":73,"rbi":137,"ops":1.379}<br>2002 San Francisco Giants {"avg":0.37,"hr":46,"rbi":110,"ops":1.381}<br>2004 San Francisco Giants {"avg":0.362,"hr":45,"rbi":101,"ops":1.422}
+- [ ] `mlb-aaron-judge` **Aaron Judge** (OF) — 2022 New York Yankees {"avg":0.311,"hr":62,"rbi":131,"ops":1.111}<br>2024 New York Yankees {"avg":0.322,"hr":58,"rbi":144,"ops":1.159}
+- [ ] `mlb-babe-ruth` **Babe Ruth** (OF) — 1927 New York Yankees {"avg":0.356,"hr":60,"rbi":164,"ops":1.258}<br>1921 New York Yankees {"avg":0.378,"hr":59,"rbi":171,"ops":1.359}
+- [ ] `mlb-lou-gehrig` **Lou Gehrig** (1B) — 1927 New York Yankees {"avg":0.373,"hr":47,"rbi":175,"ops":1.24}<br>1931 New York Yankees {"avg":0.341,"hr":46,"rbi":184,"ops":1.194}
+- [ ] `mlb-ted-williams` **Ted Williams** (OF) — 1941 Boston Red Sox {"avg":0.406,"hr":37,"rbi":120,"ops":1.287}<br>1957 Boston Red Sox {"avg":0.388,"hr":38,"rbi":87,"ops":1.257}
+- [ ] `mlb-willie-mays` **Willie Mays** (OF) — 1954 New York Giants {"avg":0.345,"hr":41,"rbi":110,"ops":1.078}<br>1965 San Francisco Giants {"avg":0.317,"hr":52,"rbi":112,"ops":1.043}
+- [ ] `mlb-hank-aaron` **Hank Aaron** (OF) — 1957 Milwaukee Braves {"avg":0.322,"hr":44,"rbi":132,"ops":0.978}<br>1971 Atlanta Braves {"avg":0.327,"hr":47,"rbi":118,"ops":1.079}
+- [ ] `mlb-mickey-mantle` **Mickey Mantle** (OF) — 1956 New York Yankees {"avg":0.353,"hr":52,"rbi":130,"ops":1.169}<br>1961 New York Yankees {"avg":0.317,"hr":54,"rbi":128,"ops":1.135}
+- [ ] `mlb-joe-dimaggio` **Joe DiMaggio** (OF) — 1941 New York Yankees {"avg":0.357,"hr":30,"rbi":125,"ops":1.083}
+- [ ] `mlb-stan-musial` **Stan Musial** (OF) — 1948 St. Louis Cardinals {"avg":0.376,"hr":39,"rbi":131,"ops":1.152}
+- [ ] `mlb-roberto-clemente` **Roberto Clemente** (OF) — 1967 Pittsburgh Pirates {"avg":0.357,"hr":23,"rbi":110,"ops":0.954}
+- [ ] `mlb-frank-robinson` **Frank Robinson** (OF) — 1966 Baltimore Orioles {"avg":0.316,"hr":49,"rbi":122,"ops":1.047}
+- [ ] `mlb-carl-yastrzemski` **Carl Yastrzemski** (OF) — 1967 Boston Red Sox {"avg":0.326,"hr":44,"rbi":121,"ops":1.04}
+- [ ] `mlb-harmon-killebrew` **Harmon Killebrew** (1B) — 1969 Minnesota Twins {"avg":0.276,"hr":49,"rbi":140,"ops":1.011}
+- [ ] `mlb-willie-mccovey` **Willie McCovey** (1B) — 1969 San Francisco Giants {"avg":0.32,"hr":45,"rbi":126,"ops":1.108}
+- [ ] `mlb-ernie-banks` **Ernie Banks** (SS) — 1958 Chicago Cubs {"avg":0.313,"hr":47,"rbi":129,"ops":1.035}
+- [ ] `mlb-mike-schmidt` **Mike Schmidt** (3B) — 1980 Philadelphia Phillies {"avg":0.286,"hr":48,"rbi":121,"ops":1.004}
+- [ ] `mlb-george-brett` **George Brett** (3B) — 1980 Kansas City Royals {"avg":0.39,"hr":24,"rbi":118,"ops":1.118}<br>1985 Kansas City Royals {"avg":0.335,"hr":30,"rbi":112,"ops":0.964}
+- [ ] `mlb-rod-carew` **Rod Carew** (1B) — 1977 Minnesota Twins {"avg":0.388,"hr":14,"rbi":100,"ops":1.019}
+- [ ] `mlb-tony-gwynn` **Tony Gwynn** (OF) — 1994 San Diego Padres {"avg":0.394,"hr":12,"rbi":64,"ops":1.022}<br>1987 San Diego Padres {"avg":0.37,"hr":7,"rbi":54,"ops":0.961}
+- [ ] `mlb-rickey-henderson` **Rickey Henderson** (OF) — 1990 Oakland Athletics {"avg":0.325,"hr":28,"rbi":61,"ops":1.016}<br>1982 Oakland Athletics {"avg":0.267,"hr":10,"rbi":51,"ops":0.765}
+- [ ] `mlb-cal-ripken` **Cal Ripken Jr.** (SS) — 1991 Baltimore Orioles {"avg":0.323,"hr":34,"rbi":114,"ops":0.94}<br>1983 Baltimore Orioles {"avg":0.318,"hr":27,"rbi":102,"ops":0.89}
+- [ ] `mlb-ken-griffey-jr` **Ken Griffey Jr.** (OF) — 1997 Seattle Mariners {"avg":0.304,"hr":56,"rbi":147,"ops":1.028}<br>1998 Seattle Mariners {"avg":0.284,"hr":56,"rbi":146,"ops":0.976}
+- [ ] `mlb-albert-pujols` **Albert Pujols** (1B) — 2009 St. Louis Cardinals {"avg":0.327,"hr":47,"rbi":135,"ops":1.101}<br>2003 St. Louis Cardinals {"avg":0.359,"hr":43,"rbi":124,"ops":1.106}
+- [ ] `mlb-miguel-cabrera` **Miguel Cabrera** (3B) — 2012 Detroit Tigers {"avg":0.33,"hr":44,"rbi":139,"ops":0.999}<br>2013 Detroit Tigers {"avg":0.348,"hr":44,"rbi":137,"ops":1.078}
+- [ ] `mlb-david-ortiz` **David Ortiz** (DH) — 2006 Boston Red Sox {"avg":0.287,"hr":54,"rbi":137,"ops":1.049}<br>2016 Boston Red Sox {"avg":0.315,"hr":38,"rbi":127,"ops":1.021}
+- [ ] `mlb-derek-jeter` **Derek Jeter** (SS) — 1999 New York Yankees {"avg":0.349,"hr":24,"rbi":102,"ops":0.99}
+- [ ] `mlb-ichiro-suzuki` **Ichiro Suzuki** (OF) — 2004 Seattle Mariners {"avg":0.372,"hr":8,"rbi":60,"ops":0.869}<br>2001 Seattle Mariners {"avg":0.35,"hr":8,"rbi":69,"ops":0.838}
+- [ ] `mlb-vladimir-guerrero` **Vladimir Guerrero** (OF) — 2000 Montreal Expos {"avg":0.345,"hr":44,"rbi":123,"ops":1.074}
+- [ ] `mlb-manny-ramirez` **Manny Ramirez** (OF) — 1999 Cleveland Indians {"avg":0.333,"hr":44,"rbi":165,"ops":1.105}<br>2004 Boston Red Sox {"avg":0.308,"hr":43,"rbi":130,"ops":1.009}
+- [ ] `mlb-jim-thome` **Jim Thome** (1B) — 2002 Cleveland Indians {"avg":0.304,"hr":52,"rbi":118,"ops":1.122}
+- [ ] `mlb-frank-thomas` **Frank Thomas** (1B) — 1994 Chicago White Sox {"avg":0.353,"hr":38,"rbi":101,"ops":1.217}<br>2000 Chicago White Sox {"avg":0.328,"hr":43,"rbi":143,"ops":1.075}
+- [ ] `mlb-chipper-jones` **Chipper Jones** (3B) — 1999 Atlanta Braves {"avg":0.319,"hr":45,"rbi":110,"ops":1.074}
+- [ ] `mlb-nomar-garciaparra` **Nomar Garciaparra** (SS) — 2000 Boston Red Sox {"avg":0.372,"hr":21,"rbi":96,"ops":1.033}
+- [ ] `mlb-alex-rodriguez` **Alex Rodriguez** (SS) — 1996 Seattle Mariners {"avg":0.358,"hr":36,"rbi":123,"ops":1.045}<br>2002 Texas Rangers {"avg":0.3,"hr":57,"rbi":142,"ops":1.015}
+- [ ] `mlb-juan-gonzalez` **Juan Gonzalez** (OF) — 1998 Texas Rangers {"avg":0.318,"hr":45,"rbi":157,"ops":0.996}
+- [ ] `mlb-sammy-sosa` **Sammy Sosa** (OF) — 1998 Chicago Cubs {"avg":0.308,"hr":66,"rbi":158,"ops":1.024}<br>2001 Chicago Cubs {"avg":0.328,"hr":64,"rbi":160,"ops":1.174}
+- [ ] `mlb-mark-mcgwire` **Mark McGwire** (1B) — 1998 St. Louis Cardinals {"avg":0.299,"hr":70,"rbi":147,"ops":1.222}<br>1999 St. Louis Cardinals {"avg":0.278,"hr":65,"rbi":147,"ops":1.12}
+- [ ] `mlb-jose-canseco` **Jose Canseco** (OF) — 1988 Oakland Athletics {"avg":0.307,"hr":42,"rbi":124,"ops":0.956}
+- [ ] `mlb-reggie-jackson` **Reggie Jackson** (OF) — 1969 Oakland Athletics {"avg":0.275,"hr":47,"rbi":118,"ops":0.901}
+- [ ] `mlb-pete-rose` **Pete Rose** (OF) — 1973 Cincinnati Reds {"avg":0.338,"hr":5,"rbi":64,"ops":0.838}
+- [ ] `mlb-johnny-bench` **Johnny Bench** (C) — 1970 Cincinnati Reds {"avg":0.293,"hr":45,"rbi":148,"ops":0.976}
+- [ ] `mlb-yogi-berra` **Yogi Berra** (C) — 1950 New York Yankees {"avg":0.322,"hr":28,"rbi":124,"ops":0.915}
+- [ ] `mlb-roy-campanella` **Roy Campanella** (C) — 1953 Brooklyn Dodgers {"avg":0.312,"hr":41,"rbi":142,"ops":0.978}
+- [ ] `mlb-mike-piazza` **Mike Piazza** (C) — 1997 Los Angeles Dodgers {"avg":0.362,"hr":40,"rbi":124,"ops":1.07}
+- [ ] `mlb-ivan-rodriguez` **Ivan Rodriguez** (C) — 1999 Texas Rangers {"avg":0.332,"hr":35,"rbi":113,"ops":0.996}
+- [ ] `mlb-joe-mauer` **Joe Mauer** (C) — 2009 Minnesota Twins {"avg":0.365,"hr":28,"rbi":96,"ops":1.031}
+- [ ] `mlb-buster-posey` **Buster Posey** (C) — 2012 San Francisco Giants {"avg":0.336,"hr":24,"rbi":103,"ops":0.957}
+- [ ] `mlb-bryce-harper` **Bryce Harper** (OF) — 2015 Washington Nationals {"avg":0.33,"hr":42,"rbi":99,"ops":1.109}
+- [ ] `mlb-mike-trout` **Mike Trout** (OF) — 2012 Los Angeles Angels of Anaheim {"avg":0.326,"hr":30,"rbi":83,"ops":0.963}<br>2019 Los Angeles Angels {"avg":0.291,"hr":45,"rbi":104,"ops":1.083}
+- [ ] `mlb-shohei-ohtani` **Shohei Ohtani** (DH) — 2024 Los Angeles Dodgers {"avg":0.31,"hr":54,"rbi":130,"ops":1.036}<br>2023 Los Angeles Angels {"avg":0.304,"hr":44,"rbi":95,"ops":1.066}
+- [ ] `mlb-ronald-acuna` **Ronald Acuna Jr.** (OF) — 2023 Atlanta Braves {"avg":0.337,"hr":41,"rbi":106,"ops":1.012}
+- [ ] `mlb-mookie-betts` **Mookie Betts** (OF) — 2018 Boston Red Sox {"avg":0.346,"hr":32,"rbi":80,"ops":1.078}
+- [ ] `mlb-freddie-freeman` **Freddie Freeman** (1B) — 2023 Los Angeles Dodgers {"avg":0.331,"hr":29,"rbi":102,"ops":0.976}
+- [ ] `mlb-jose-altuve` **Jose Altuve** (2B) — 2017 Houston Astros {"avg":0.346,"hr":24,"rbi":81,"ops":0.957}
+- [ ] `mlb-nolan-arenado` **Nolan Arenado** (3B) — 2015 Colorado Rockies {"avg":0.287,"hr":42,"rbi":130,"ops":0.898}
+- [ ] `mlb-paul-goldschmidt` **Paul Goldschmidt** (1B) — 2022 St. Louis Cardinals {"avg":0.317,"hr":35,"rbi":115,"ops":0.981}
+- [ ] `mlb-corey-seager` **Corey Seager** (SS) — 2016 Los Angeles Dodgers {"avg":0.308,"hr":26,"rbi":72,"ops":0.877}<br>2023 Texas Rangers {"avg":0.327,"hr":33,"rbi":96,"ops":0.914}
+- [ ] `mlb-giancarlo-stanton` **Giancarlo Stanton** (OF) — 2017 Miami Marlins {"avg":0.281,"hr":59,"rbi":132,"ops":1.007}
+- [ ] `mlb-juan-soto` **Juan Soto** (OF) — 2021 Washington Nationals {"avg":0.313,"hr":29,"rbi":95,"ops":0.999}
+- [ ] `mlb-vladimir-guerrero-jr` **Vladimir Guerrero Jr.** (1B) — 2021 Toronto Blue Jays {"avg":0.311,"hr":48,"rbi":111,"ops":1.002}
+- [ ] `mlb-willie-stargell` **Willie Stargell** (1B) — 1971 Pittsburgh Pirates {"avg":0.295,"hr":48,"rbi":125,"ops":1.026}<br>1979 Pittsburgh Pirates {"avg":0.281,"hr":32,"rbi":82,"ops":0.906}
+- [ ] `mlb-jim-rice` **Jim Rice** (OF) — 1978 Boston Red Sox {"avg":0.315,"hr":46,"rbi":139,"ops":0.97}
+- [ ] `mlb-george-foster` **George Foster** (OF) — 1977 Cincinnati Reds {"avg":0.32,"hr":52,"rbi":149,"ops":1.013}
+- [ ] `mlb-eddie-murray` **Eddie Murray** (1B) — 1983 Baltimore Orioles {"avg":0.306,"hr":33,"rbi":111,"ops":0.899}
+- [ ] `mlb-robin-yount` **Robin Yount** (SS) — 1982 Milwaukee Brewers {"avg":0.331,"hr":29,"rbi":114,"ops":0.957}
+- [ ] `mlb-paul-molitor` **Paul Molitor** (DH) — 1987 Milwaukee Brewers {"avg":0.353,"hr":16,"rbi":75,"ops":0.968}
+- [ ] `mlb-ryne-sandberg` **Ryne Sandberg** (2B) — 1984 Chicago Cubs {"avg":0.314,"hr":19,"rbi":84,"ops":0.867}
+- [ ] `mlb-joe-morgan` **Joe Morgan** (2B) — 1975 Cincinnati Reds {"avg":0.327,"hr":17,"rbi":94,"ops":0.974}
+- [ ] `mlb-lou-brock` **Lou Brock** (OF) — 1974 St. Louis Cardinals {"avg":0.306,"hr":3,"rbi":48,"ops":0.741}
+- [ ] `mlb-andre-dawson` **Andre Dawson** (OF) — 1987 Chicago Cubs {"avg":0.287,"hr":49,"rbi":137,"ops":0.896}
+- [ ] `mlb-tony-perez` **Tony Perez** (1B) — 1970 Cincinnati Reds {"avg":0.317,"hr":40,"rbi":129,"ops":0.99}
+- [ ] `mlb-carlton-fisk` **Carlton Fisk** (C) — 1985 Chicago White Sox {"avg":0.238,"hr":37,"rbi":107,"ops":0.819}
+- [ ] `mlb-jeff-bagwell` **Jeff Bagwell** (1B) — 1994 Houston Astros {"avg":0.368,"hr":39,"rbi":116,"ops":1.201}
+- [ ] `mlb-todd-helton` **Todd Helton** (1B) — 2000 Colorado Rockies {"avg":0.372,"hr":42,"rbi":147,"ops":1.162}
+- [ ] `mlb-larry-walker` **Larry Walker** (OF) — 1997 Colorado Rockies {"avg":0.366,"hr":49,"rbi":130,"ops":1.172}
+- [ ] `mlb-edgar-martinez` **Edgar Martinez** (DH) — 1995 Seattle Mariners {"avg":0.356,"hr":29,"rbi":113,"ops":1.107}
+- [ ] `mlb-jason-giambi` **Jason Giambi** (1B) — 2000 Oakland Athletics {"avg":0.333,"hr":43,"rbi":137,"ops":1.123}
+- [ ] `mlb-ryan-howard` **Ryan Howard** (1B) — 2006 Philadelphia Phillies {"avg":0.313,"hr":58,"rbi":149,"ops":1.084}
+- [ ] `mlb-joey-votto` **Joey Votto** (1B) — 2010 Cincinnati Reds {"avg":0.324,"hr":37,"rbi":113,"ops":1.024}
+- [ ] `mlb-josh-hamilton` **Josh Hamilton** (OF) — 2010 Texas Rangers {"avg":0.359,"hr":32,"rbi":100,"ops":1.044}
+- [ ] `mlb-jose-bautista` **Jose Bautista** (OF) — 2010 Toronto Blue Jays {"avg":0.26,"hr":54,"rbi":124,"ops":0.995}
+- [ ] `mlb-adrian-beltre` **Adrian Beltre** (3B) — 2004 Los Angeles Dodgers {"avg":0.334,"hr":48,"rbi":121,"ops":1.017}
+- [ ] `mlb-don-mattingly` **Don Mattingly** (1B) — 1985 New York Yankees {"avg":0.324,"hr":35,"rbi":145,"ops":0.939}<br>1984 New York Yankees {"avg":0.343,"hr":23,"rbi":110,"ops":0.934}
+- [ ] `mlb-kirby-puckett` **Kirby Puckett** (OF) — 1988 Minnesota Twins {"avg":0.356,"hr":24,"rbi":121,"ops":0.956}
+- [ ] `mlb-al-kaline` **Al Kaline** (OF) — 1955 Detroit Tigers {"avg":0.34,"hr":27,"rbi":102,"ops":0.964}
+- [ ] `mlb-brooks-robinson` **Brooks Robinson** (3B) — 1964 Baltimore Orioles {"avg":0.317,"hr":28,"rbi":118,"ops":0.889}
+- [ ] `mlb-roger-maris` **Roger Maris** (OF) — 1961 New York Yankees {"avg":0.269,"hr":61,"rbi":141,"ops":0.992}
+- [ ] `mlb-jimmie-foxx` **Jimmie Foxx** (1B) — 1932 Philadelphia Athletics {"avg":0.364,"hr":58,"rbi":169,"ops":1.218}
+- [ ] `mlb-jackie-robinson` **Jackie Robinson** (2B) — 1949 Brooklyn Dodgers {"avg":0.342,"hr":16,"rbi":124,"ops":0.96}
+- [ ] `mlb-hack-wilson` **Hack Wilson** (OF) — 1930 Chicago Cubs {"avg":0.356,"hr":56,"rbi":191,"ops":1.177}
+- [ ] `mlb-kris-bryant` **Kris Bryant** (3B) — 2016 Chicago Cubs {"avg":0.292,"hr":39,"rbi":102,"ops":0.939}
+- [ ] `mlb-pete-alonso` **Pete Alonso** (1B) — 2019 New York Mets {"avg":0.26,"hr":53,"rbi":120,"ops":0.941}
+- [ ] `mlb-wade-boggs` **Wade Boggs** (3B) — 1985 Boston Red Sox {"avg":0.368,"hr":8,"rbi":78,"ops":0.974}
+- [ ] `mlb-roberto-alomar` **Roberto Alomar** (2B) — 1999 Cleveland Indians {"avg":0.323,"hr":24,"rbi":120,"ops":0.94}
+- [ ] `mlb-duke-snider` **Duke Snider** (OF) — 1955 Brooklyn Dodgers {"avg":0.309,"hr":42,"rbi":136,"ops":0.989}
+- [ ] `mlb-mel-ott` **Mel Ott** (OF) — 1929 New York Giants {"avg":0.328,"hr":42,"rbi":151,"ops":1.034}
+- [ ] `mlb-tony-oliva` **Tony Oliva** (OF) — 1964 Minnesota Twins {"avg":0.323,"hr":32,"rbi":94,"ops":0.916}
+- [ ] `mlb-eddie-mathews` **Eddie Mathews** (3B) — 1953 Milwaukee Braves {"avg":0.302,"hr":47,"rbi":135,"ops":1.004}
+- [ ] `mlb-pedro-martinez` **Pedro Martinez** (SP) — 2000 Boston Red Sox {"era":1.74,"wins":18,"strikeouts":284,"whip":0.74}<br>1999 Boston Red Sox {"era":2.07,"wins":23,"strikeouts":313,"whip":0.92}<br>1997 Montreal Expos {"era":1.9,"wins":17,"strikeouts":305,"whip":0.93}
+- [ ] `mlb-sandy-koufax` **Sandy Koufax** (SP) — 1965 Los Angeles Dodgers {"era":2.04,"wins":26,"strikeouts":382,"whip":0.86}<br>1963 Los Angeles Dodgers {"era":1.88,"wins":25,"strikeouts":306,"whip":0.88}<br>1966 Los Angeles Dodgers {"era":1.73,"wins":27,"strikeouts":317,"whip":0.99}
+- [ ] `mlb-bob-gibson` **Bob Gibson** (SP) — 1968 St. Louis Cardinals {"era":1.12,"wins":22,"strikeouts":268,"whip":0.85}<br>1970 St. Louis Cardinals {"era":3.12,"wins":23,"strikeouts":274,"whip":1.09}
+- [ ] `mlb-nolan-ryan` **Nolan Ryan** (SP) — 1973 California Angels {"era":2.87,"wins":21,"strikeouts":383,"whip":1.08}<br>1974 California Angels {"era":2.89,"wins":22,"strikeouts":367,"whip":1.15}
+- [ ] `mlb-randy-johnson` **Randy Johnson** (SP) — 2002 Arizona Diamondbacks {"era":2.32,"wins":24,"strikeouts":334,"whip":1.03}<br>2001 Arizona Diamondbacks {"era":2.49,"wins":21,"strikeouts":372,"whip":1.01}
+- [ ] `mlb-greg-maddux` **Greg Maddux** (SP) — 1995 Atlanta Braves {"era":1.63,"wins":19,"strikeouts":181,"whip":0.81}
+- [ ] `mlb-roger-clemens` **Roger Clemens** (SP) — 1986 Boston Red Sox {"era":2.48,"wins":24,"strikeouts":238,"whip":0.97}<br>1997 Toronto Blue Jays {"era":2.05,"wins":21,"strikeouts":292,"whip":1.03}
+- [ ] `mlb-tom-seaver` **Tom Seaver** (SP) — 1969 New York Mets {"era":2.21,"wins":25,"strikeouts":208,"whip":1.04}<br>1971 New York Mets {"era":1.76,"wins":20,"strikeouts":289,"whip":0.95}
+- [ ] `mlb-steve-carlton` **Steve Carlton** (SP) — 1972 Philadelphia Phillies {"era":1.97,"wins":27,"strikeouts":310,"whip":0.99}<br>1980 Philadelphia Phillies {"era":2.34,"wins":24,"strikeouts":286,"whip":1.1}
+- [ ] `mlb-bob-feller` **Bob Feller** (SP) — 1946 Cleveland Indians {"era":2.18,"wins":26,"strikeouts":348,"whip":1.15}<br>1940 Cleveland Indians {"era":2.61,"wins":27,"strikeouts":261,"whip":1.13}
+- [ ] `mlb-juan-marichal` **Juan Marichal** (SP) — 1968 San Francisco Giants {"era":2.43,"wins":26,"strikeouts":218,"whip":0.99}<br>1963 San Francisco Giants {"era":2.41,"wins":25,"strikeouts":248,"whip":0.96}
+- [ ] `mlb-don-drysdale` **Don Drysdale** (SP) — 1962 Los Angeles Dodgers {"era":2.83,"wins":25,"strikeouts":232,"whip":1.07}
+- [ ] `mlb-whitey-ford` **Whitey Ford** (SP) — 1961 New York Yankees {"era":3.21,"wins":25,"strikeouts":209,"whip":1.15}
+- [ ] `mlb-catfish-hunter` **Catfish Hunter** (SP) — 1974 Oakland Athletics {"era":2.49,"wins":25,"strikeouts":143,"whip":1.08}
+- [ ] `mlb-jim-palmer` **Jim Palmer** (SP) — 1975 Baltimore Orioles {"era":2.09,"wins":23,"strikeouts":193,"whip":1.05}
+- [ ] `mlb-tom-glavine` **Tom Glavine** (SP) — 1991 Atlanta Braves {"era":2.55,"wins":20,"strikeouts":192,"whip":1.09}<br>1998 Atlanta Braves {"era":2.47,"wins":20,"strikeouts":157,"whip":1.12}
+- [ ] `mlb-john-smoltz` **John Smoltz** (SP) — 1996 Atlanta Braves {"era":2.94,"wins":24,"strikeouts":276,"whip":1}
+- [ ] `mlb-curt-schilling` **Curt Schilling** (SP) — 2001 Arizona Diamondbacks {"era":2.98,"wins":22,"strikeouts":293,"whip":1.05}
+- [ ] `mlb-roy-halladay` **Roy Halladay** (SP) — 2010 Philadelphia Phillies {"era":2.44,"wins":21,"strikeouts":219,"whip":1.04}<br>2003 Toronto Blue Jays {"era":3.25,"wins":22,"strikeouts":204,"whip":1.07}
+- [ ] `mlb-justin-verlander` **Justin Verlander** (SP) — 2011 Detroit Tigers {"era":2.4,"wins":24,"strikeouts":250,"whip":0.92}
+- [ ] `mlb-max-scherzer` **Max Scherzer** (SP) — 2018 Washington Nationals {"era":2.53,"wins":18,"strikeouts":300,"whip":0.91}<br>2013 Detroit Tigers {"era":2.9,"wins":21,"strikeouts":240,"whip":0.97}
+- [ ] `mlb-clayton-kershaw` **Clayton Kershaw** (SP) — 2014 Los Angeles Dodgers {"era":1.77,"wins":21,"strikeouts":239,"whip":0.86}<br>2013 Los Angeles Dodgers {"era":1.83,"wins":16,"strikeouts":232,"whip":0.92}
+- [ ] `mlb-jacob-degrom` **Jacob deGrom** (SP) — 2018 New York Mets {"era":1.7,"wins":10,"strikeouts":269,"whip":0.91}<br>2019 New York Mets {"era":2.43,"wins":11,"strikeouts":255,"whip":0.97}
+- [ ] `mlb-gerrit-cole` **Gerrit Cole** (SP) — 2019 Houston Astros {"era":2.5,"wins":20,"strikeouts":326,"whip":0.89}
+- [ ] `mlb-chris-sale` **Chris Sale** (SP) — 2017 Boston Red Sox {"era":2.9,"wins":17,"strikeouts":308,"whip":0.97}
+- [ ] `mlb-felix-hernandez` **Felix Hernandez** (SP) — 2010 Seattle Mariners {"era":2.27,"wins":13,"strikeouts":232,"whip":1.06}
+- [ ] `mlb-johan-santana` **Johan Santana** (SP) — 2004 Minnesota Twins {"era":2.61,"wins":20,"strikeouts":265,"whip":0.92}<br>2006 Minnesota Twins {"era":2.77,"wins":19,"strikeouts":245,"whip":1}
+- [ ] `mlb-tim-lincecum` **Tim Lincecum** (SP) — 2008 San Francisco Giants {"era":2.62,"wins":18,"strikeouts":265,"whip":1.17}<br>2009 San Francisco Giants {"era":2.48,"wins":15,"strikeouts":261,"whip":1.05}
+- [ ] `mlb-dwight-gooden` **Dwight Gooden** (SP) — 1985 New York Mets {"era":1.53,"wins":24,"strikeouts":268,"whip":0.97}
+- [ ] `mlb-ron-guidry` **Ron Guidry** (SP) — 1978 New York Yankees {"era":1.74,"wins":25,"strikeouts":248,"whip":0.95}
+- [ ] `mlb-vida-blue` **Vida Blue** (SP) — 1971 Oakland Athletics {"era":1.82,"wins":24,"strikeouts":301,"whip":0.95}
+- [ ] `mlb-denny-mclain` **Denny McLain** (SP) — 1968 Detroit Tigers {"era":1.96,"wins":31,"strikeouts":280,"whip":0.95}
+- [ ] `mlb-gaylord-perry` **Gaylord Perry** (SP) — 1972 Cleveland Indians {"era":1.92,"wins":24,"strikeouts":234,"whip":0.98}<br>1978 San Diego Padres {"era":2.73,"wins":21,"strikeouts":154,"whip":1.12}
+- [ ] `mlb-fergie-jenkins` **Fergie Jenkins** (SP) — 1971 Chicago Cubs {"era":2.77,"wins":24,"strikeouts":263,"whip":0.99}
+- [ ] `mlb-mike-scott` **Mike Scott** (SP) — 1986 Houston Astros {"era":2.22,"wins":18,"strikeouts":306,"whip":0.92}
+- [ ] `mlb-barry-zito` **Barry Zito** (SP) — 2002 Oakland Athletics {"era":2.75,"wins":23,"strikeouts":182,"whip":1.15}
+- [ ] `mlb-zack-greinke` **Zack Greinke** (SP) — 2009 Kansas City Royals {"era":2.16,"wins":16,"strikeouts":242,"whip":1.07}
+- [ ] `mlb-jake-arrieta` **Jake Arrieta** (SP) — 2015 Chicago Cubs {"era":1.77,"wins":22,"strikeouts":236,"whip":0.86}
+- [ ] `mlb-orel-hershiser` **Orel Hershiser** (SP) — 1988 Los Angeles Dodgers {"era":2.26,"wins":23,"strikeouts":178,"whip":1.05}
+- [ ] `mlb-fernando-valenzuela` **Fernando Valenzuela** (SP) — 1981 Los Angeles Dodgers {"era":2.48,"wins":13,"strikeouts":180,"whip":1.05}
+- [ ] `mlb-bob-welch` **Bob Welch** (SP) — 1990 Oakland Athletics {"era":2.95,"wins":27,"strikeouts":127,"whip":1.22}
+- [ ] `mlb-bret-saberhagen` **Bret Saberhagen** (SP) — 1989 Kansas City Royals {"era":2.16,"wins":23,"strikeouts":193,"whip":0.99}
+- [ ] `mlb-dizzy-dean` **Dizzy Dean** (SP) — 1934 St. Louis Cardinals {"era":2.66,"wins":30,"strikeouts":195,"whip":1.17}
+- [ ] `mlb-lefty-grove` **Lefty Grove** (SP) — 1931 Philadelphia Athletics {"era":2.06,"wins":31,"strikeouts":175,"whip":1.08}
+- [ ] `mlb-carl-hubbell` **Carl Hubbell** (SP) — 1933 New York Giants {"era":1.66,"wins":23,"strikeouts":156,"whip":1.02}<br>1936 New York Giants {"era":2.31,"wins":26,"strikeouts":159,"whip":1.06}
+- [ ] `mlb-cliff-lee` **Cliff Lee** (SP) — 2008 Cleveland Indians {"era":2.54,"wins":22,"strikeouts":170,"whip":1.11}
+- [ ] `mlb-cc-sabathia` **CC Sabathia** (SP) — 2010 New York Yankees {"era":3.18,"wins":21,"strikeouts":197,"whip":1.19}
+- [ ] `mlb-david-price` **David Price** (SP) — 2012 Tampa Bay Rays {"era":2.56,"wins":20,"strikeouts":205,"whip":1.1}
+- [ ] `mlb-blake-snell` **Blake Snell** (SP) — 2018 Tampa Bay Rays {"era":1.89,"wins":21,"strikeouts":221,"whip":0.97}
+- [ ] `mlb-corey-kluber` **Corey Kluber** (SP) — 2014 Cleveland Indians {"era":2.44,"wins":18,"strikeouts":269,"whip":1.04}<br>2017 Cleveland Indians {"era":2.25,"wins":18,"strikeouts":265,"whip":0.87}
+- [ ] `mlb-madison-bumgarner` **Madison Bumgarner** (SP) — 2014 San Francisco Giants {"era":2.98,"wins":18,"strikeouts":219,"whip":1.09}
+- [ ] `mlb-stephen-strasburg` **Stephen Strasburg** (SP) — 2019 Washington Nationals {"era":3.32,"wins":18,"strikeouts":251,"whip":1.04}
+- [ ] `mlb-mark-prior` **Mark Prior** (SP) — 2003 Chicago Cubs {"era":2.43,"wins":18,"strikeouts":245,"whip":1.03}
+- [ ] `mlb-kerry-wood` **Kerry Wood** (SP) — 1998 Chicago Cubs {"era":3.4,"wins":13,"strikeouts":233,"whip":1.21}
+- [ ] `mlb-mariano-rivera` **Mariano Rivera** (RP) — 2005 New York Yankees {"era":1.38,"wins":7,"strikeouts":80,"whip":0.87}
+- [ ] `mlb-trevor-hoffman` **Trevor Hoffman** (RP) — 1998 San Diego Padres {"era":1.48,"wins":4,"strikeouts":86,"whip":0.91}
+- [ ] `mlb-dennis-eckersley` **Dennis Eckersley** (RP) — 1990 Oakland Athletics {"era":0.61,"wins":4,"strikeouts":73,"whip":0.61}
+- [ ] `mlb-eric-gagne` **Eric Gagne** (RP) — 2003 Los Angeles Dodgers {"era":1.2,"wins":2,"strikeouts":137,"whip":0.69}
+- [ ] `mlb-billy-wagner` **Billy Wagner** (RP) — 1999 Houston Astros {"era":1.57,"wins":4,"strikeouts":124,"whip":0.78}
+- [ ] `mlb-craig-kimbrel` **Craig Kimbrel** (RP) — 2012 Atlanta Braves {"era":1.01,"wins":3,"strikeouts":116,"whip":0.65}
+- [ ] `mlb-jonathan-papelbon` **Jonathan Papelbon** (RP) — 2006 Boston Red Sox {"era":0.92,"wins":4,"strikeouts":75,"whip":0.78}
+- [ ] `mlb-kenley-jansen` **Kenley Jansen** (RP) — 2017 Los Angeles Dodgers {"era":1.32,"wins":5,"strikeouts":109,"whip":0.75}
+- [ ] `mlb-goose-gossage` **Goose Gossage** (RP) — 1975 Chicago White Sox {"era":1.84,"wins":9,"strikeouts":130,"whip":1.05}
+- [ ] `mlb-rollie-fingers` **Rollie Fingers** (RP) — 1981 Milwaukee Brewers {"era":1.04,"wins":6,"strikeouts":61,"whip":0.92}
+- [ ] `mlb-don-newcombe` **Don Newcombe** (SP) — 1956 Brooklyn Dodgers {"era":3.06,"wins":27,"strikeouts":139,"whip":1.15}
+- [ ] `mlb-hal-newhouser` **Hal Newhouser** (SP) — 1945 Detroit Tigers {"era":1.81,"wins":25,"strikeouts":212,"whip":0.97}
+- [ ] `mlb-phil-niekro` **Phil Niekro** (SP) — 1979 Atlanta Braves {"era":3.39,"wins":21,"strikeouts":208,"whip":1.28}
 
-## NHL (0)
+## NHL (1096)
 
+- [ ] `nhl-wayne-gretzky` **Wayne Gretzky** (C) — 1982 Edmonton Oilers {"goals":92,"assists":120,"points":212,"plusMinus":81}<br>1986 Edmonton Oilers {"goals":52,"assists":163,"points":215,"plusMinus":71}<br>1984 Edmonton Oilers {"goals":87,"assists":118,"points":205,"plusMinus":76}<br>1989 Los Angeles Kings {"goals":54,"assists":114,"points":168,"plusMinus":15}
+- [ ] `nhl-mario-lemieux` **Mario Lemieux** (C) — 1989 Pittsburgh Penguins {"goals":85,"assists":114,"points":199,"plusMinus":41}<br>1993 Pittsburgh Penguins {"goals":69,"assists":91,"points":160,"plusMinus":55}<br>2001 Pittsburgh Penguins {"goals":35,"assists":41,"points":76,"plusMinus":19}<br>1988 Pittsburgh Penguins {"goals":70,"assists":98,"points":168,"plusMinus":23}<br>1992 Pittsburgh Penguins {"goals":44,"assists":87,"points":131,"plusMinus":27}
+- [ ] `nhl-connor-mcdavid` **Connor McDavid** (C) — 2023 Edmonton Oilers {"goals":64,"assists":89,"points":153,"plusMinus":22}<br>2024 Edmonton Oilers {"goals":32,"assists":100,"points":132,"plusMinus":15}<br>2017 Edmonton Oilers {"goals":30,"assists":70,"points":100,"plusMinus":27}<br>2016 Edmonton Oilers {"goals":16,"assists":32,"points":48,"plusMinus":1}<br>2018 Edmonton Oilers {"goals":41,"assists":67,"points":108,"plusMinus":20}<br>2019 Edmonton Oilers {"goals":41,"assists":75,"points":116,"plusMinus":3}<br>2021 Edmonton Oilers {"goals":33,"assists":72,"points":105,"plusMinus":21}<br>2022 Edmonton Oilers {"goals":44,"assists":79,"points":123,"plusMinus":28}<br>2020 Edmonton Oilers {"goals":34,"assists":63,"points":97,"plusMinus":13}
+- [ ] `nhl-alexander-ovechkin` **Alexander Ovechkin** (LW) — 2008 Washington Capitals {"goals":65,"assists":47,"points":112,"plusMinus":28}<br>2006 Washington Capitals {"goals":52,"assists":54,"points":106,"plusMinus":2}
+- [ ] `nhl-sidney-crosby` **Sidney Crosby** (C) — 2007 Pittsburgh Penguins {"goals":36,"assists":84,"points":120,"plusMinus":10}<br>2010 Pittsburgh Penguins {"goals":51,"assists":58,"points":109,"plusMinus":15}<br>2006 Pittsburgh Penguins {"goals":39,"assists":63,"points":102,"plusMinus":13}<br>2009 Pittsburgh Penguins {"goals":33,"assists":70,"points":103,"plusMinus":3}<br>2014 Pittsburgh Penguins {"goals":36,"assists":68,"points":104,"plusMinus":18}<br>2017 Pittsburgh Penguins {"goals":44,"assists":45,"points":89,"plusMinus":17}<br>2019 Pittsburgh Penguins {"goals":35,"assists":65,"points":100,"plusMinus":18}<br>2022 Pittsburgh Penguins {"goals":31,"assists":53,"points":84,"plusMinus":10}<br>2024 Pittsburgh Penguins {"goals":42,"assists":52,"points":94,"plusMinus":10}<br>2008 Pittsburgh Penguins {"goals":24,"assists":48,"points":72,"plusMinus":18}<br>2011 Pittsburgh Penguins {"goals":32,"assists":34,"points":66,"plusMinus":15}
+- [ ] `nhl-auston-matthews` **Auston Matthews** (C) — 2022 Toronto Maple Leafs {"goals":60,"assists":46,"points":106,"plusMinus":20}<br>2021 Toronto Maple Leafs {"goals":41,"assists":25,"points":66,"plusMinus":21}
+- [ ] `nhl-leon-draisaitl` **Leon Draisaitl** (C) — 2020 Edmonton Oilers {"goals":43,"assists":67,"points":110,"plusMinus":18}<br>2023 Edmonton Oilers {"goals":52,"assists":76,"points":128,"plusMinus":6}<br>2017 Edmonton Oilers {"goals":29,"assists":48,"points":77,"plusMinus":7}<br>2016 Edmonton Oilers {"goals":19,"assists":23,"points":42,"plusMinus":2}<br>2018 Edmonton Oilers {"goals":25,"assists":45,"points":70,"plusMinus":6}<br>2019 Edmonton Oilers {"goals":50,"assists":55,"points":105,"plusMinus":2}<br>2021 Edmonton Oilers {"goals":31,"assists":53,"points":84,"plusMinus":29}<br>2022 Edmonton Oilers {"goals":55,"assists":55,"points":110,"plusMinus":17}<br>2024 Edmonton Oilers {"goals":41,"assists":65,"points":106,"plusMinus":26}
+- [ ] `nhl-nathan-mackinnon` **Nathan MacKinnon** (C) — 2024 Colorado Avalanche {"goals":51,"assists":89,"points":140,"plusMinus":24}<br>2022 Colorado Avalanche {"goals":32,"assists":56,"points":88,"plusMinus":22}<br>2014 Colorado Avalanche {"goals":24,"assists":39,"points":63,"plusMinus":20}
+- [ ] `nhl-nikita-kucherov` **Nikita Kucherov** (RW) — 2019 Tampa Bay Lightning {"goals":41,"assists":87,"points":128,"plusMinus":24}<br>2024 Tampa Bay Lightning {"goals":44,"assists":100,"points":144,"plusMinus":8}<br>2018 Tampa Bay Lightning {"goals":39,"assists":61,"points":100,"plusMinus":15}
+- [ ] `nhl-patrick-kane` **Patrick Kane** (RW) — 2016 Chicago Blackhawks {"goals":46,"assists":60,"points":106,"plusMinus":17}<br>2010 Chicago Blackhawks {"goals":30,"assists":58,"points":88,"plusMinus":16}<br>2019 Chicago Blackhawks {"goals":44,"assists":66,"points":110,"plusMinus":2}<br>2013 Chicago Blackhawks {"goals":23,"assists":32,"points":55,"plusMinus":11}<br>2021 Chicago Blackhawks {"goals":15,"assists":51,"points":66,"plusMinus":4}<br>2015 Chicago Blackhawks {"goals":27,"assists":37,"points":64,"plusMinus":10}<br>2011 Chicago Blackhawks {"goals":27,"assists":46,"points":73,"plusMinus":7}
+- [ ] `nhl-steven-stamkos` **Steven Stamkos** (C) — 2010 Tampa Bay Lightning {"goals":51,"assists":44,"points":95,"plusMinus":2}<br>2012 Tampa Bay Lightning {"goals":60,"assists":37,"points":97,"plusMinus":7}<br>2019 Tampa Bay Lightning {"goals":45,"assists":53,"points":98,"plusMinus":4}
+- [ ] `nhl-evgeni-malkin` **Evgeni Malkin** (C) — 2009 Pittsburgh Penguins {"goals":35,"assists":78,"points":113,"plusMinus":17}<br>2012 Pittsburgh Penguins {"goals":50,"assists":59,"points":109,"plusMinus":18}<br>2008 Pittsburgh Penguins {"goals":47,"assists":59,"points":106,"plusMinus":16}<br>2007 Pittsburgh Penguins {"goals":33,"assists":52,"points":85,"plusMinus":2}<br>2014 Pittsburgh Penguins {"goals":27,"assists":53,"points":80,"plusMinus":10}<br>2017 Pittsburgh Penguins {"goals":33,"assists":39,"points":72,"plusMinus":18}<br>2019 Pittsburgh Penguins {"goals":21,"assists":51,"points":72,"plusMinus":6}<br>2022 Pittsburgh Penguins {"goals":20,"assists":22,"points":42,"plusMinus":4}<br>2024 Pittsburgh Penguins {"goals":27,"assists":40,"points":67,"plusMinus":5}<br>2011 Pittsburgh Penguins {"goals":37,"assists":52,"points":89,"plusMinus":12}
+- [ ] `nhl-jaromir-jagr` **Jaromir Jagr** (RW) — 1996 Pittsburgh Penguins {"goals":62,"assists":87,"points":149,"plusMinus":31}<br>1999 Pittsburgh Penguins {"goals":44,"assists":83,"points":127,"plusMinus":17}<br>1995 Pittsburgh Penguins {"goals":32,"assists":38,"points":70,"plusMinus":14}<br>1992 Pittsburgh Penguins {"goals":32,"assists":37,"points":69,"plusMinus":14}<br>2001 Pittsburgh Penguins {"goals":52,"assists":69,"points":121,"plusMinus":19}<br>2006 New York Rangers {"goals":54,"assists":69,"points":123,"plusMinus":34}<br>2008 New York Rangers {"goals":25,"assists":46,"points":71,"plusMinus":10}<br>2012 Philadelphia Flyers {"goals":19,"assists":35,"points":54,"plusMinus":4}<br>2002 Washington Capitals {"goals":31,"assists":48,"points":79,"plusMinus":12}<br>2004 Washington Capitals {"goals":24,"assists":30,"points":54,"plusMinus":6}
+- [ ] `nhl-steve-yzerman` **Steve Yzerman** (C) — 1989 Detroit Red Wings {"goals":65,"assists":90,"points":155,"plusMinus":17}<br>1998 Detroit Red Wings {"goals":24,"assists":45,"points":69,"plusMinus":22}<br>2002 Detroit Red Wings {"goals":13,"assists":35,"points":48,"plusMinus":11}<br>1996 Detroit Red Wings {"goals":36,"assists":59,"points":95,"plusMinus":14}<br>1993 Detroit Red Wings {"goals":58,"assists":79,"points":137,"plusMinus":14}
+- [ ] `nhl-joe-sakic` **Joe Sakic** (C) — 2001 Colorado Avalanche {"goals":54,"assists":64,"points":118,"plusMinus":30}<br>1996 Colorado Avalanche {"goals":51,"assists":69,"points":120,"plusMinus":14}<br>1988 Quebec Nordiques {"goals":23,"assists":39,"points":62,"plusMinus":6}<br>1993 Quebec Nordiques {"goals":48,"assists":57,"points":105,"plusMinus":14}<br>2004 Colorado Avalanche {"goals":33,"assists":54,"points":87,"plusMinus":11}<br>2007 Colorado Avalanche {"goals":36,"assists":64,"points":100,"plusMinus":24}
+- [ ] `nhl-peter-forsberg` **Peter Forsberg** (C) — 2003 Colorado Avalanche {"goals":29,"assists":77,"points":106,"plusMinus":52}<br>1996 Colorado Avalanche {"goals":30,"assists":86,"points":116,"plusMinus":26}<br>2006 Philadelphia Flyers {"goals":19,"assists":56,"points":75,"plusMinus":14}<br>2004 Colorado Avalanche {"goals":18,"assists":37,"points":55,"plusMinus":8}
+- [ ] `nhl-ray-bourque` **Ray Bourque** (D) — 1987 Boston Bruins {"goals":23,"assists":72,"points":95,"plusMinus":44}<br>1984 Boston Bruins {"goals":31,"assists":65,"points":96,"plusMinus":51}<br>1988 Boston Bruins {"goals":17,"assists":64,"points":81,"plusMinus":34}<br>1994 Boston Bruins {"goals":20,"assists":71,"points":91,"plusMinus":26}<br>1999 Boston Bruins {"goals":10,"assists":47,"points":57,"plusMinus":16}<br>2001 Colorado Avalanche {"goals":7,"assists":52,"points":59,"plusMinus":10}
+- [ ] `nhl-nicklas-lidstrom` **Nicklas Lidstrom** (D) — 2008 Detroit Red Wings {"goals":10,"assists":60,"points":70,"plusMinus":40}<br>2002 Detroit Red Wings {"goals":9,"assists":41,"points":50,"plusMinus":13}
+- [ ] `nhl-bobby-orr` **Bobby Orr** (D) — 1971 Boston Bruins {"goals":37,"assists":102,"points":139,"plusMinus":124}<br>1975 Boston Bruins {"goals":46,"assists":89,"points":135,"plusMinus":80}<br>1970 Boston Bruins {"goals":33,"assists":87,"points":120,"plusMinus":54}<br>1974 Boston Bruins {"goals":32,"assists":90,"points":122,"plusMinus":84}
+- [ ] `nhl-paul-coffey` **Paul Coffey** (D) — 1986 Edmonton Oilers {"goals":48,"assists":90,"points":138,"plusMinus":61}<br>1989 Pittsburgh Penguins {"goals":30,"assists":83,"points":113,"plusMinus":10}<br>1984 Edmonton Oilers {"goals":40,"assists":86,"points":126,"plusMinus":52}<br>1990 Pittsburgh Penguins {"goals":29,"assists":74,"points":103,"plusMinus":24}<br>1995 Detroit Red Wings {"goals":14,"assists":44,"points":58,"plusMinus":18}<br>1991 Pittsburgh Penguins {"goals":24,"assists":69,"points":93,"plusMinus":28}<br>1992 Los Angeles Kings {"goals":10,"assists":48,"points":58,"plusMinus":8}
+- [ ] `nhl-erik-karlsson` **Erik Karlsson** (D) — 2023 San Jose Sharks {"goals":25,"assists":76,"points":101,"plusMinus":10}<br>2012 Ottawa Senators {"goals":19,"assists":59,"points":78,"plusMinus":16}<br>2024 Pittsburgh Penguins {"goals":11,"assists":45,"points":56,"plusMinus":4}
+- [ ] `nhl-cale-makar` **Cale Makar** (D) — 2022 Colorado Avalanche {"goals":28,"assists":58,"points":86,"plusMinus":22}
+- [ ] `nhl-victor-hedman` **Victor Hedman** (D) — 2020 Tampa Bay Lightning {"goals":11,"assists":44,"points":55,"plusMinus":27}<br>2021 Tampa Bay Lightning {"goals":9,"assists":36,"points":45,"plusMinus":14}<br>2018 Tampa Bay Lightning {"goals":17,"assists":46,"points":63,"plusMinus":32}
+- [ ] `nhl-duncan-keith` **Duncan Keith** (D) — 2015 Chicago Blackhawks {"goals":10,"assists":45,"points":55,"plusMinus":12}<br>2010 Chicago Blackhawks {"goals":14,"assists":55,"points":69,"plusMinus":21}<br>2016 Chicago Blackhawks {"goals":9,"assists":43,"points":52,"plusMinus":16}<br>2011 Chicago Blackhawks {"goals":7,"assists":38,"points":45,"plusMinus":10}
+- [ ] `nhl-chris-pronger` **Chris Pronger** (D) — 2000 St. Louis Blues {"goals":14,"assists":48,"points":62,"plusMinus":52}<br>2007 Anaheim Ducks {"goals":13,"assists":46,"points":59,"plusMinus":27}<br>1998 St. Louis Blues {"goals":9,"assists":27,"points":36,"plusMinus":47}<br>2003 St. Louis Blues {"goals":5,"assists":33,"points":38,"plusMinus":22}<br>2010 Philadelphia Flyers {"goals":10,"assists":45,"points":55,"plusMinus":22}
+- [ ] `nhl-al-macinnis` **Al MacInnis** (D) — 1989 Calgary Flames {"goals":16,"assists":58,"points":74,"plusMinus":43}<br>1999 St. Louis Blues {"goals":20,"assists":42,"points":62,"plusMinus":33}<br>1996 St. Louis Blues {"goals":17,"assists":44,"points":61,"plusMinus":14}
+- [ ] `nhl-brian-leetch` **Brian Leetch** (D) — 1992 New York Rangers {"goals":22,"assists":80,"points":102,"plusMinus":25}<br>1994 New York Rangers {"goals":23,"assists":58,"points":81,"plusMinus":22}<br>1989 New York Rangers {"goals":23,"assists":48,"points":71,"plusMinus":25}
+- [ ] `nhl-denis-potvin` **Denis Potvin** (D) — 1976 New York Islanders {"goals":31,"assists":67,"points":98,"plusMinus":47}<br>1981 New York Islanders {"goals":20,"assists":56,"points":76,"plusMinus":38}<br>1974 New York Islanders {"goals":17,"assists":37,"points":54,"plusMinus":20}
+- [ ] `nhl-gordie-howe` **Gordie Howe** (RW) — 1969 Detroit Red Wings {"goals":44,"assists":59,"points":103,"plusMinus":45}<br>1953 Detroit Red Wings {"goals":49,"assists":46,"points":95,"plusMinus":30}<br>1957 Detroit Red Wings {"goals":44,"assists":45,"points":89,"plusMinus":20}
+- [ ] `nhl-maurice-richard` **Maurice Richard** (RW) — 1945 Montreal Canadiens {"goals":50,"assists":23,"points":73,"plusMinus":28}<br>1955 Montreal Canadiens {"goals":38,"assists":36,"points":74,"plusMinus":20}
+- [ ] `nhl-jean-beliveau` **Jean Beliveau** (C) — 1956 Montreal Canadiens {"goals":47,"assists":41,"points":88,"plusMinus":30}<br>1971 Montreal Canadiens {"goals":25,"assists":51,"points":76,"plusMinus":30}<br>1955 Montreal Canadiens {"goals":37,"assists":36,"points":73,"plusMinus":20}
+- [ ] `nhl-bobby-hull` **Bobby Hull** (LW) — 1966 Chicago Black Hawks {"goals":54,"assists":43,"points":97,"plusMinus":32}<br>1972 Chicago Black Hawks {"goals":50,"assists":43,"points":93,"plusMinus":26}<br>1969 Chicago Black Hawks {"goals":58,"assists":49,"points":107,"plusMinus":26}<br>1962 Chicago Black Hawks {"goals":50,"assists":34,"points":84,"plusMinus":26}
+- [ ] `nhl-stan-mikita` **Stan Mikita** (C) — 1967 Chicago Black Hawks {"goals":35,"assists":62,"points":97,"plusMinus":28}<br>1968 Chicago Black Hawks {"goals":40,"assists":47,"points":87,"plusMinus":14}<br>1964 Chicago Black Hawks {"goals":39,"assists":50,"points":89,"plusMinus":14}<br>1962 Chicago Black Hawks {"goals":25,"assists":52,"points":77,"plusMinus":14}
+- [ ] `nhl-phil-esposito` **Phil Esposito** (C) — 1971 Boston Bruins {"goals":76,"assists":76,"points":152,"plusMinus":71}<br>1974 Boston Bruins {"goals":68,"assists":77,"points":145,"plusMinus":51}<br>1969 Boston Bruins {"goals":49,"assists":77,"points":126,"plusMinus":55}
+- [ ] `nhl-guy-lafleur` **Guy Lafleur** (RW) — 1977 Montreal Canadiens {"goals":56,"assists":80,"points":136,"plusMinus":78}<br>1978 Montreal Canadiens {"goals":60,"assists":72,"points":132,"plusMinus":73}
+- [ ] `nhl-marcel-dionne` **Marcel Dionne** (C) — 1980 Los Angeles Kings {"goals":53,"assists":84,"points":137,"plusMinus":34}<br>1975 Detroit Red Wings {"goals":47,"assists":74,"points":121,"plusMinus":14}<br>1977 Los Angeles Kings {"goals":53,"assists":69,"points":122,"plusMinus":14}<br>1981 Los Angeles Kings {"goals":58,"assists":77,"points":135,"plusMinus":14}
+- [ ] `nhl-mike-bossy` **Mike Bossy** (RW) — 1981 New York Islanders {"goals":68,"assists":51,"points":119,"plusMinus":38}<br>1982 New York Islanders {"goals":64,"assists":83,"points":147,"plusMinus":69}<br>1978 New York Islanders {"goals":53,"assists":38,"points":91,"plusMinus":31}<br>1986 New York Islanders {"goals":61,"assists":62,"points":123,"plusMinus":30}
+- [ ] `nhl-bryan-trottier` **Bryan Trottier** (C) — 1979 New York Islanders {"goals":47,"assists":87,"points":134,"plusMinus":76}<br>1982 New York Islanders {"goals":50,"assists":79,"points":129,"plusMinus":70}<br>1976 New York Islanders {"goals":32,"assists":63,"points":95,"plusMinus":44}<br>1992 Pittsburgh Penguins {"goals":11,"assists":18,"points":29,"plusMinus":4}
+- [ ] `nhl-denis-savard` **Denis Savard** (C) — 1988 Chicago Blackhawks {"goals":44,"assists":87,"points":131,"plusMinus":4}
+- [ ] `nhl-brett-hull` **Brett Hull** (RW) — 1991 St. Louis Blues {"goals":86,"assists":45,"points":131,"plusMinus":23}<br>2002 Detroit Red Wings {"goals":30,"assists":33,"points":63,"plusMinus":18}<br>1999 Dallas Stars {"goals":32,"assists":26,"points":58,"plusMinus":19}<br>1990 St. Louis Blues {"goals":72,"assists":41,"points":113,"plusMinus":24}<br>1992 St. Louis Blues {"goals":70,"assists":39,"points":109,"plusMinus":19}<br>1994 St. Louis Blues {"goals":57,"assists":40,"points":97,"plusMinus":18}<br>1993 St. Louis Blues {"goals":54,"assists":47,"points":101,"plusMinus":18}<br>1989 St. Louis Blues {"goals":41,"assists":43,"points":84,"plusMinus":14}<br>2000 Dallas Stars {"goals":24,"assists":35,"points":59,"plusMinus":10}
+- [ ] `nhl-teemu-selanne` **Teemu Selanne** (RW) — 1993 Winnipeg Jets {"goals":76,"assists":56,"points":132,"plusMinus":8}<br>1997 Mighty Ducks of Anaheim {"goals":51,"assists":58,"points":109,"plusMinus":28}<br>1996 Mighty Ducks of Anaheim {"goals":40,"assists":68,"points":108,"plusMinus":14}<br>2007 Anaheim Ducks {"goals":48,"assists":46,"points":94,"plusMinus":26}<br>2004 Colorado Avalanche {"goals":16,"assists":16,"points":32,"plusMinus":4}
+- [ ] `nhl-jarri-kurri` **Jari Kurri** (RW) — 1985 Edmonton Oilers {"goals":71,"assists":64,"points":135,"plusMinus":76}
+- [ ] `nhl-mark-messier` **Mark Messier** (C) — 1990 Edmonton Oilers {"goals":45,"assists":84,"points":129,"plusMinus":19}<br>1994 New York Rangers {"goals":26,"assists":58,"points":84,"plusMinus":25}<br>1984 Edmonton Oilers {"goals":37,"assists":64,"points":101,"plusMinus":36}
+- [ ] `nhl-luc-robitaille` **Luc Robitaille** (LW) — 1993 Los Angeles Kings {"goals":63,"assists":62,"points":125,"plusMinus":18}<br>2002 Detroit Red Wings {"goals":30,"assists":20,"points":50,"plusMinus":9}<br>1995 Pittsburgh Penguins {"goals":23,"assists":19,"points":42,"plusMinus":4}<br>1987 Los Angeles Kings {"goals":45,"assists":39,"points":84,"plusMinus":10}<br>2000 Los Angeles Kings {"goals":36,"assists":38,"points":74,"plusMinus":8}<br>1999 Los Angeles Kings {"goals":39,"assists":35,"points":74,"plusMinus":8}
+- [ ] `nhl-brendan-shanahan` **Brendan Shanahan** (LW) — 1997 Detroit Red Wings {"goals":47,"assists":41,"points":88,"plusMinus":32}<br>2002 Detroit Red Wings {"goals":37,"assists":38,"points":75,"plusMinus":23}<br>1994 St. Louis Blues {"goals":52,"assists":50,"points":102,"plusMinus":18}<br>1993 St. Louis Blues {"goals":51,"assists":43,"points":94,"plusMinus":18}
+- [ ] `nhl-sergei-fedorov` **Sergei Fedorov** (C) — 1994 Detroit Red Wings {"goals":56,"assists":64,"points":120,"plusMinus":48}<br>2002 Detroit Red Wings {"goals":19,"assists":29,"points":48,"plusMinus":20}<br>1997 Detroit Red Wings {"goals":30,"assists":33,"points":63,"plusMinus":29}<br>1995 Detroit Red Wings {"goals":20,"assists":30,"points":50,"plusMinus":6}<br>2008 Columbus Blue Jackets {"goals":9,"assists":22,"points":31,"plusMinus":2}
+- [ ] `nhl-pavel-bure` **Pavel Bure** (RW) — 1994 Vancouver Canucks {"goals":60,"assists":47,"points":107,"plusMinus":1}<br>1993 Vancouver Canucks {"goals":60,"assists":50,"points":110,"plusMinus":35}<br>2001 Florida Panthers {"goals":59,"assists":33,"points":92,"plusMinus":20}<br>2000 Florida Panthers {"goals":58,"assists":36,"points":94,"plusMinus":25}
+- [ ] `nhl-alex-mogilny` **Alexander Mogilny** (RW) — 1993 Buffalo Sabres {"goals":76,"assists":51,"points":127,"plusMinus":7}
+- [ ] `nhl-eric-lindros` **Eric Lindros** (C) — 1995 Philadelphia Flyers {"goals":29,"assists":41,"points":70,"plusMinus":27}<br>1996 Philadelphia Flyers {"goals":47,"assists":68,"points":115,"plusMinus":26}<br>1999 Philadelphia Flyers {"goals":40,"assists":53,"points":93,"plusMinus":35}<br>1994 Philadelphia Flyers {"goals":26,"assists":41,"points":67,"plusMinus":8}<br>1997 Philadelphia Flyers {"goals":32,"assists":47,"points":79,"plusMinus":31}
+- [ ] `nhl-john-leclair` **John LeClair** (LW) — 1998 Philadelphia Flyers {"goals":51,"assists":36,"points":87,"plusMinus":30}<br>1993 Montreal Canadiens {"goals":19,"assists":25,"points":44,"plusMinus":11}<br>1996 Philadelphia Flyers {"goals":51,"assists":46,"points":97,"plusMinus":20}<br>1997 Philadelphia Flyers {"goals":50,"assists":47,"points":97,"plusMinus":44}
+- [ ] `nhl-peter-bondra` **Peter Bondra** (RW) — 1998 Washington Capitals {"goals":52,"assists":26,"points":78,"plusMinus":14}<br>1995 Washington Capitals {"goals":34,"assists":9,"points":43,"plusMinus":7}<br>2000 Washington Capitals {"goals":21,"assists":24,"points":45,"plusMinus":6}<br>2003 Washington Capitals {"goals":30,"assists":26,"points":56,"plusMinus":6}<br>1996 Washington Capitals {"goals":52,"assists":26,"points":78,"plusMinus":11}
+- [ ] `nhl-keith-tkachuk` **Keith Tkachuk** (LW) — 1997 Phoenix Coyotes {"goals":52,"assists":34,"points":86,"plusMinus":12}<br>2003 St. Louis Blues {"goals":31,"assists":24,"points":55,"plusMinus":6}<br>1994 Winnipeg Jets {"goals":41,"assists":40,"points":81,"plusMinus":12}<br>1996 Winnipeg Jets {"goals":50,"assists":48,"points":98,"plusMinus":11}
+- [ ] `nhl-jeremy-roenick` **Jeremy Roenick** (C) — 1993 Chicago Blackhawks {"goals":50,"assists":57,"points":107,"plusMinus":14}<br>2002 Phoenix Coyotes {"goals":21,"assists":46,"points":67,"plusMinus":4}<br>1994 Chicago Blackhawks {"goals":46,"assists":61,"points":107,"plusMinus":14}<br>1992 Chicago Blackhawks {"goals":53,"assists":50,"points":103,"plusMinus":23}<br>2004 Philadelphia Flyers {"goals":19,"assists":28,"points":47,"plusMinus":6}
+- [ ] `nhl-mike-modano` **Mike Modano** (C) — 1994 Dallas Stars {"goals":50,"assists":43,"points":93,"plusMinus":19}<br>1999 Dallas Stars {"goals":34,"assists":47,"points":81,"plusMinus":29}<br>2003 Dallas Stars {"goals":28,"assists":57,"points":85,"plusMinus":12}<br>2006 Dallas Stars {"goals":22,"assists":50,"points":72,"plusMinus":10}<br>2007 Dallas Stars {"goals":22,"assists":29,"points":51,"plusMinus":6}<br>1991 Minnesota North Stars {"goals":28,"assists":36,"points":64,"plusMinus":6}
+- [ ] `nhl-pierre-turgeon` **Pierre Turgeon** (C) — 1993 New York Islanders {"goals":58,"assists":74,"points":132,"plusMinus":5}<br>1994 New York Islanders {"goals":38,"assists":56,"points":94,"plusMinus":4}<br>1992 New York Islanders {"goals":38,"assists":49,"points":87,"plusMinus":4}<br>2000 St. Louis Blues {"goals":26,"assists":40,"points":66,"plusMinus":8}<br>2001 St. Louis Blues {"goals":30,"assists":52,"points":82,"plusMinus":10}<br>1996 Montreal Canadiens {"goals":38,"assists":58,"points":96,"plusMinus":8}
+- [ ] `nhl-adam-oates` **Adam Oates** (C) — 1993 Boston Bruins {"goals":45,"assists":97,"points":142,"plusMinus":15}<br>1991 St. Louis Blues {"goals":25,"assists":90,"points":115,"plusMinus":15}<br>1990 St. Louis Blues {"goals":23,"assists":79,"points":102,"plusMinus":14}<br>2000 Washington Capitals {"goals":15,"assists":56,"points":71,"plusMinus":8}<br>2001 Washington Capitals {"goals":13,"assists":48,"points":61,"plusMinus":6}<br>1994 Boston Bruins {"goals":32,"assists":80,"points":112,"plusMinus":12}
+- [ ] `nhl-doug-gilmour` **Doug Gilmour** (C) — 1993 Toronto Maple Leafs {"goals":32,"assists":95,"points":127,"plusMinus":32}<br>1989 Calgary Flames {"goals":26,"assists":59,"points":85,"plusMinus":45}<br>1994 Toronto Maple Leafs {"goals":27,"assists":84,"points":111,"plusMinus":25}<br>1995 Toronto Maple Leafs {"goals":10,"assists":23,"points":33,"plusMinus":6}
+- [ ] `nhl-mats-sundin` **Mats Sundin** (C) — 1994 Toronto Maple Leafs {"goals":32,"assists":53,"points":85,"plusMinus":2}<br>2002 Toronto Maple Leafs {"goals":41,"assists":39,"points":80,"plusMinus":6}<br>1999 Toronto Maple Leafs {"goals":31,"assists":52,"points":83,"plusMinus":14}<br>1990 Quebec Nordiques {"goals":23,"assists":36,"points":59,"plusMinus":6}<br>1993 Quebec Nordiques {"goals":47,"assists":67,"points":114,"plusMinus":14}<br>1995 Toronto Maple Leafs {"goals":23,"assists":24,"points":47,"plusMinus":6}<br>1997 Toronto Maple Leafs {"goals":41,"assists":53,"points":94,"plusMinus":6}<br>2007 Toronto Maple Leafs {"goals":27,"assists":49,"points":76,"plusMinus":6}<br>2004 Toronto Maple Leafs {"goals":31,"assists":44,"points":75,"plusMinus":6}
+- [ ] `nhl-daniel-alfredsson` **Daniel Alfredsson** (RW) — 2006 Ottawa Senators {"goals":43,"assists":60,"points":103,"plusMinus":29}<br>2007 Ottawa Senators {"goals":29,"assists":58,"points":87,"plusMinus":42}
+- [ ] `nhl-marian-hossa` **Marian Hossa** (RW) — 2009 Detroit Red Wings {"goals":40,"assists":31,"points":71,"plusMinus":27}<br>2013 Chicago Blackhawks {"goals":17,"assists":14,"points":31,"plusMinus":20}<br>2010 Chicago Blackhawks {"goals":24,"assists":27,"points":51,"plusMinus":24}<br>2016 Chicago Blackhawks {"goals":13,"assists":20,"points":33,"plusMinus":10}<br>2015 Chicago Blackhawks {"goals":22,"assists":39,"points":61,"plusMinus":17}<br>2011 Chicago Blackhawks {"goals":25,"assists":32,"points":57,"plusMinus":12}<br>2008 Pittsburgh Penguins {"goals":29,"assists":37,"points":66,"plusMinus":11}
+- [ ] `nhl-henrik-zetterberg` **Henrik Zetterberg** (C) — 2008 Detroit Red Wings {"goals":43,"assists":49,"points":92,"plusMinus":30}<br>2013 Detroit Red Wings {"goals":11,"assists":37,"points":48,"plusMinus":2}
+- [ ] `nhl-pavel-datsyuk` **Pavel Datsyuk** (C) — 2008 Detroit Red Wings {"goals":31,"assists":66,"points":97,"plusMinus":41}<br>2009 Detroit Red Wings {"goals":32,"assists":65,"points":97,"plusMinus":34}
+- [ ] `nhl-nicklas-backstrom` **Nicklas Backstrom** (C) — 2010 Washington Capitals {"goals":33,"assists":68,"points":101,"plusMinus":37}
+- [ ] `nhl-evgeny-kuznetsov` **Evgeny Kuznetsov** (C) — 2018 Washington Capitals {"goals":27,"assists":56,"points":83,"plusMinus":3}<br>2016 Washington Capitals {"goals":20,"assists":57,"points":77,"plusMinus":27}
+- [ ] `nhl-alex-semin` **Alexander Semin** (LW) — 2009 Washington Capitals {"goals":34,"assists":45,"points":79,"plusMinus":22}
+- [ ] `nhl-ilya-kovalchuk` **Ilya Kovalchuk** (LW) — 2010 New Jersey Devils {"goals":41,"assists":44,"points":85,"plusMinus":10}<br>2012 New Jersey Devils {"goals":37,"assists":46,"points":83,"plusMinus":10}<br>2011 New Jersey Devils {"goals":31,"assists":29,"points":60,"plusMinus":10}
+- [ ] `nhl-zach-parise` **Zach Parise** (LW) — 2009 New Jersey Devils {"goals":45,"assists":49,"points":94,"plusMinus":30}<br>2012 New Jersey Devils {"goals":31,"assists":38,"points":69,"plusMinus":10}<br>2014 Minnesota Wild {"goals":29,"assists":27,"points":56,"plusMinus":10}<br>2015 Minnesota Wild {"goals":33,"assists":29,"points":62,"plusMinus":21}<br>2008 New Jersey Devils {"goals":32,"assists":33,"points":65,"plusMinus":13}<br>2011 New Jersey Devils {"goals":21,"assists":27,"points":48,"plusMinus":6}
+- [ ] `nhl-joe-thornton` **Joe Thornton** (C) — 2006 San Jose Sharks {"goals":29,"assists":96,"points":125,"plusMinus":31}<br>2016 San Jose Sharks {"goals":19,"assists":63,"points":82,"plusMinus":25}<br>2007 San Jose Sharks {"goals":22,"assists":92,"points":114,"plusMinus":24}<br>2010 San Jose Sharks {"goals":20,"assists":69,"points":89,"plusMinus":17}<br>2003 Boston Bruins {"goals":36,"assists":65,"points":101,"plusMinus":12}<br>2004 Boston Bruins {"goals":23,"assists":50,"points":73,"plusMinus":8}
+- [ ] `nhl-patrick-marleau` **Patrick Marleau** (LW) — 2010 San Jose Sharks {"goals":44,"assists":39,"points":83,"plusMinus":21}<br>2000 San Jose Sharks {"goals":17,"assists":23,"points":40,"plusMinus":6}<br>2006 San Jose Sharks {"goals":34,"assists":52,"points":86,"plusMinus":12}
+- [ ] `nhl-joe-pavelski` **Joe Pavelski** (C) — 2014 San Jose Sharks {"goals":41,"assists":38,"points":79,"plusMinus":23}<br>2022 Dallas Stars {"goals":27,"assists":54,"points":81,"plusMinus":22}<br>2016 San Jose Sharks {"goals":38,"assists":40,"points":78,"plusMinus":10}<br>2010 San Jose Sharks {"goals":25,"assists":26,"points":51,"plusMinus":10}
+- [ ] `nhl-logan-couture` **Logan Couture** (C) — 2019 San Jose Sharks {"goals":27,"assists":43,"points":70,"plusMinus":5}<br>2016 San Jose Sharks {"goals":15,"assists":21,"points":36,"plusMinus":8}<br>2011 San Jose Sharks {"goals":32,"assists":24,"points":56,"plusMinus":18}
+- [ ] `nhl-brent-burns` **Brent Burns** (D) — 2017 San Jose Sharks {"goals":29,"assists":47,"points":76,"plusMinus":19}<br>2023 Carolina Hurricanes {"goals":18,"assists":43,"points":61,"plusMinus":19}<br>2016 San Jose Sharks {"goals":27,"assists":48,"points":75,"plusMinus":9}<br>2011 Minnesota Wild {"goals":17,"assists":29,"points":46,"plusMinus":8}<br>2008 Minnesota Wild {"goals":15,"assists":28,"points":43,"plusMinus":8}<br>2010 Minnesota Wild {"goals":3,"assists":17,"points":20,"plusMinus":6}
+- [ ] `nhl-drew-doughty` **Drew Doughty** (D) — 2016 Los Angeles Kings {"goals":14,"assists":37,"points":51,"plusMinus":24}<br>2012 Los Angeles Kings {"goals":10,"assists":26,"points":36,"plusMinus":14}
+- [ ] `nhl-anze-kopitar` **Anze Kopitar** (C) — 2018 Los Angeles Kings {"goals":35,"assists":57,"points":92,"plusMinus":21}<br>2016 Los Angeles Kings {"goals":25,"assists":49,"points":74,"plusMinus":34}
+- [ ] `nhl-jeff-carter` **Jeff Carter** (C) — 2009 Philadelphia Flyers {"goals":46,"assists":38,"points":84,"plusMinus":22}<br>2012 Los Angeles Kings {"goals":21,"assists":18,"points":39,"plusMinus":6}<br>2010 Philadelphia Flyers {"goals":33,"assists":28,"points":61,"plusMinus":8}<br>2022 Pittsburgh Penguins {"goals":19,"assists":26,"points":45,"plusMinus":4}
+- [ ] `nhl-mike-richards` **Mike Richards** (C) — 2008 Philadelphia Flyers {"goals":28,"assists":47,"points":75,"plusMinus":11}<br>2012 Los Angeles Kings {"goals":18,"assists":26,"points":44,"plusMinus":4}<br>2010 Philadelphia Flyers {"goals":31,"assists":31,"points":62,"plusMinus":10}
+- [ ] `nhl-claude-giroux` **Claude Giroux** (C) — 2018 Philadelphia Flyers {"goals":34,"assists":68,"points":102,"plusMinus":10}<br>2012 Philadelphia Flyers {"goals":28,"assists":65,"points":93,"plusMinus":6}
+- [ ] `nhl-jakub-voracek` **Jakub Voracek** (RW) — 2015 Philadelphia Flyers {"goals":22,"assists":59,"points":81,"plusMinus":1}<br>2011 Columbus Blue Jackets {"goals":14,"assists":32,"points":46,"plusMinus":4}
+- [ ] `nhl-sean-couturier` **Sean Couturier** (C) — 2020 Philadelphia Flyers {"goals":22,"assists":37,"points":59,"plusMinus":21}
+- [ ] `nhl-jonathan-toews` **Jonathan Toews** (C) — 2013 Chicago Blackhawks {"goals":23,"assists":25,"points":48,"plusMinus":28}<br>2019 Chicago Blackhawks {"goals":35,"assists":46,"points":81,"plusMinus":21}<br>2010 Chicago Blackhawks {"goals":25,"assists":45,"points":70,"plusMinus":22}<br>2016 Chicago Blackhawks {"goals":28,"assists":30,"points":58,"plusMinus":16}<br>2015 Chicago Blackhawks {"goals":28,"assists":38,"points":66,"plusMinus":30}<br>2011 Chicago Blackhawks {"goals":32,"assists":44,"points":76,"plusMinus":25}
+- [ ] `nhl-corey-crawford` **Corey Crawford** (G) — 2013 Chicago Blackhawks {"wins":19,"gaa":1.94,"savePct":0.926,"shutouts":3}<br>2016 Chicago Blackhawks {"wins":35,"gaa":2.37,"savePct":0.924,"shutouts":7}<br>2015 Chicago Blackhawks {"wins":32,"gaa":2.27,"savePct":0.924,"shutouts":2}<br>2011 Chicago Blackhawks {"wins":33,"gaa":2.3,"savePct":0.917,"shutouts":4}
+- [ ] `nhl-marc-andre-fleury` **Marc-Andre Fleury** (G) — 2016 Pittsburgh Penguins {"wins":35,"gaa":2.29,"savePct":0.921,"shutouts":5}<br>2021 Chicago Blackhawks {"wins":26,"gaa":2.86,"savePct":0.907,"shutouts":4}<br>2008 Pittsburgh Penguins {"wins":35,"gaa":2.33,"savePct":0.921,"shutouts":4}<br>2009 Pittsburgh Penguins {"wins":35,"gaa":2.67,"savePct":0.912,"shutouts":4}<br>2017 Pittsburgh Penguins {"wins":18,"gaa":3.02,"savePct":0.909,"shutouts":1}<br>2011 Pittsburgh Penguins {"wins":36,"gaa":2.32,"savePct":0.918,"shutouts":3}<br>2022 Minnesota Wild {"wins":28,"gaa":2.71,"savePct":0.908,"shutouts":3}<br>2023 Minnesota Wild {"wins":24,"gaa":2.85,"savePct":0.908,"shutouts":2}
+- [ ] `nhl-matt-murray` **Matt Murray** (G) — 2016 Pittsburgh Penguins {"wins":22,"gaa":2,"savePct":0.93,"shutouts":4}<br>2017 Pittsburgh Penguins {"wins":32,"gaa":2.41,"savePct":0.923,"shutouts":4}<br>2019 Pittsburgh Penguins {"wins":29,"gaa":2.69,"savePct":0.919,"shutouts":4}
+- [ ] `nhl-kris-letang` **Kris Letang** (D) — 2016 Pittsburgh Penguins {"goals":16,"assists":51,"points":67,"plusMinus":13}<br>2009 Pittsburgh Penguins {"goals":10,"assists":23,"points":33,"plusMinus":7}<br>2019 Pittsburgh Penguins {"goals":16,"assists":40,"points":56,"plusMinus":13}<br>2022 Pittsburgh Penguins {"goals":10,"assists":58,"points":68,"plusMinus":12}<br>2024 Pittsburgh Penguins {"goals":10,"assists":41,"points":51,"plusMinus":8}<br>2011 Pittsburgh Penguins {"goals":8,"assists":42,"points":50,"plusMinus":15}
+- [ ] `nhl-jake-guentzel` **Jake Guentzel** (LW) — 2018 Pittsburgh Penguins {"goals":22,"assists":26,"points":48,"plusMinus":10}<br>2017 Pittsburgh Penguins {"goals":16,"assists":17,"points":33,"plusMinus":7}<br>2019 Pittsburgh Penguins {"goals":40,"assists":36,"points":76,"plusMinus":13}<br>2022 Pittsburgh Penguins {"goals":40,"assists":44,"points":84,"plusMinus":13}<br>2024 Pittsburgh Penguins {"goals":22,"assists":30,"points":52,"plusMinus":6}
+- [ ] `nhl-phil-kessel` **Phil Kessel** (RW) — 2016 Pittsburgh Penguins {"goals":26,"assists":33,"points":59,"plusMinus":9}<br>2017 Pittsburgh Penguins {"goals":23,"assists":47,"points":70,"plusMinus":3}<br>2019 Pittsburgh Penguins {"goals":27,"assists":55,"points":82,"plusMinus":2}
+- [ ] `nhl-tyler-seguin` **Tyler Seguin** (C) — 2014 Dallas Stars {"goals":37,"assists":47,"points":84,"plusMinus":16}<br>2022 Dallas Stars {"goals":24,"assists":25,"points":49,"plusMinus":4}
+- [ ] `nhl-jamie-benn` **Jamie Benn** (LW) — 2015 Dallas Stars {"goals":35,"assists":52,"points":87,"plusMinus":8}<br>2016 Dallas Stars {"goals":41,"assists":48,"points":89,"plusMinus":7}<br>2012 Dallas Stars {"goals":26,"assists":37,"points":63,"plusMinus":15}
+- [ ] `nhl-jason-robertson` **Jason Robertson** (LW) — 2023 Dallas Stars {"goals":46,"assists":63,"points":109,"plusMinus":22}<br>2024 Dallas Stars {"goals":29,"assists":51,"points":80,"plusMinus":19}
+- [ ] `nhl-miro-heiskanen` **Miro Heiskanen** (D) — 2023 Dallas Stars {"goals":11,"assists":38,"points":49,"plusMinus":16}<br>2024 Dallas Stars {"goals":9,"assists":45,"points":54,"plusMinus":8}
+- [ ] `nhl-roepe-hintz` **Roope Hintz** (C) — 2023 Dallas Stars {"goals":37,"assists":38,"points":75,"plusMinus":24}
+- [ ] `nhl-mikko-rantanen` **Mikko Rantanen** (RW) — 2023 Colorado Avalanche {"goals":55,"assists":50,"points":105,"plusMinus":18}
+- [ ] `nhl-gabriel-landeskog` **Gabriel Landeskog** (LW) — 2022 Colorado Avalanche {"goals":30,"assists":29,"points":59,"plusMinus":31}<br>2014 Colorado Avalanche {"goals":26,"assists":39,"points":65,"plusMinus":21}
+- [ ] `nhl-valeri-nichushkin` **Valeri Nichushkin** (RW) — 2022 Colorado Avalanche {"goals":25,"assists":27,"points":52,"plusMinus":8}
+- [ ] `nhl-devon-toews` **Devon Toews** (D) — 2022 Colorado Avalanche {"goals":13,"assists":44,"points":57,"plusMinus":38}
+- [ ] `nhl-brayden-point` **Brayden Point** (C) — 2020 Tampa Bay Lightning {"goals":25,"assists":39,"points":64,"plusMinus":26}
+- [ ] `nhl-andrei-vasilevskiy` **Andrei Vasilevskiy** (G) — 2021 Tampa Bay Lightning {"wins":42,"gaa":2.21,"savePct":0.925,"shutouts":5}<br>2019 Tampa Bay Lightning {"wins":39,"gaa":2.4,"savePct":0.925,"shutouts":6}
+- [ ] `nhl-brad-marchand` **Brad Marchand** (LW) — 2017 Boston Bruins {"goals":39,"assists":46,"points":85,"plusMinus":18}
+- [ ] `nhl-patrice-bergeron` **Patrice Bergeron** (C) — 2022 Boston Bruins {"goals":25,"assists":40,"points":65,"plusMinus":26}
+- [ ] `nhl-david-pastrnak` **David Pastrnak** (RW) — 2023 Boston Bruins {"goals":61,"assists":52,"points":113,"plusMinus":34}
+- [ ] `nhl-zdeno-chara` **Zdeno Chara** (D) — 2011 Boston Bruins {"goals":14,"assists":30,"points":44,"plusMinus":33}
+- [ ] `nhl-tim-thomas` **Tim Thomas** (G) — 2011 Boston Bruins {"wins":35,"gaa":2,"savePct":0.938,"shutouts":9}
+- [ ] `nhl-tuukka-rask` **Tuukka Rask** (G) — 2014 Boston Bruins {"wins":36,"gaa":2.04,"savePct":0.93,"shutouts":7}
+- [ ] `nhl-patrick-roy` **Patrick Roy** (G) — 2002 Colorado Avalanche {"wins":32,"gaa":1.94,"savePct":0.925,"shutouts":9}<br>1993 Montreal Canadiens {"wins":31,"gaa":2.36,"savePct":0.92,"shutouts":4}<br>1986 Montreal Canadiens {"wins":23,"gaa":3.35,"savePct":0.875,"shutouts":1}<br>1989 Montreal Canadiens {"wins":33,"gaa":2.47,"savePct":0.908,"shutouts":4}<br>1994 Montreal Canadiens {"wins":35,"gaa":2.5,"savePct":0.918,"shutouts":7}<br>2001 Colorado Avalanche {"wins":40,"gaa":2.21,"savePct":0.913,"shutouts":4}
+- [ ] `nhl-martin-brodeur` **Martin Brodeur** (G) — 2007 New Jersey Devils {"wins":48,"gaa":2.18,"savePct":0.922,"shutouts":12}<br>2003 New Jersey Devils {"wins":41,"gaa":2.02,"savePct":0.914,"shutouts":9}<br>2000 New Jersey Devils {"wins":43,"gaa":1.95,"savePct":0.91,"shutouts":6}<br>2012 New Jersey Devils {"wins":31,"gaa":2.41,"savePct":0.912,"shutouts":3}<br>2010 New Jersey Devils {"wins":45,"gaa":2.24,"savePct":0.916,"shutouts":9}<br>2011 New Jersey Devils {"wins":23,"gaa":2.45,"savePct":0.903,"shutouts":6}
+- [ ] `nhl-dominik-hasek` **Dominik Hasek** (G) — 1998 Buffalo Sabres {"wins":33,"gaa":2.09,"savePct":0.932,"shutouts":13}<br>1999 Buffalo Sabres {"wins":30,"gaa":1.87,"savePct":0.937,"shutouts":9}<br>2002 Detroit Red Wings {"wins":41,"gaa":2.17,"savePct":0.915,"shutouts":5}<br>1994 Buffalo Sabres {"wins":30,"gaa":1.95,"savePct":0.93,"shutouts":7}<br>1997 Buffalo Sabres {"wins":37,"gaa":2.27,"savePct":0.93,"shutouts":5}
+- [ ] `nhl-ed-belfour` **Ed Belfour** (G) — 1991 Chicago Blackhawks {"wins":43,"gaa":2.47,"savePct":0.91,"shutouts":4}<br>1999 Dallas Stars {"wins":35,"gaa":1.99,"savePct":0.917,"shutouts":5}<br>2003 Toronto Maple Leafs {"wins":37,"gaa":2.26,"savePct":0.922,"shutouts":7}<br>1993 Chicago Blackhawks {"wins":41,"gaa":2.59,"savePct":0.906,"shutouts":7}<br>1992 Chicago Blackhawks {"wins":21,"gaa":2.7,"savePct":0.91,"shutouts":1}<br>1995 Chicago Blackhawks {"wins":22,"gaa":2.28,"savePct":0.906,"shutouts":5}<br>2004 Toronto Maple Leafs {"wins":34,"gaa":2.13,"savePct":0.918,"shutouts":10}<br>2006 Toronto Maple Leafs {"wins":22,"gaa":3.29,"savePct":0.896,"shutouts":0}<br>2000 Dallas Stars {"wins":33,"gaa":2.1,"savePct":0.919,"shutouts":4}<br>2002 Dallas Stars {"wins":21,"gaa":2.31,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-grant-fuhr` **Grant Fuhr** (G) — 1988 Edmonton Oilers {"wins":40,"gaa":3.43,"savePct":0.881,"shutouts":4}<br>1984 Edmonton Oilers {"wins":32,"gaa":3.91,"savePct":0.88,"shutouts":1}<br>1996 St. Louis Blues {"wins":30,"gaa":2.87,"savePct":0.9,"shutouts":3}
+- [ ] `nhl-billy-smith` **Billy Smith** (G) — 1982 New York Islanders {"wins":32,"gaa":2.97,"savePct":0.9,"shutouts":2}<br>1983 New York Islanders {"wins":18,"gaa":2.87,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-ken-dryden` **Ken Dryden** (G) — 1976 Montreal Canadiens {"wins":42,"gaa":2.03,"savePct":0.927,"shutouts":8}<br>1977 Montreal Canadiens {"wins":41,"gaa":2.14,"savePct":0.92,"shutouts":10}<br>1971 Montreal Canadiens {"wins":6,"gaa":2.24,"savePct":0.91,"shutouts":0}
+- [ ] `nhl-bernie-parent` **Bernie Parent** (G) — 1974 Philadelphia Flyers {"wins":47,"gaa":1.89,"savePct":0.91,"shutouts":12}<br>1975 Philadelphia Flyers {"wins":44,"gaa":2.03,"savePct":0.91,"shutouts":12}
+- [ ] `nhl-tony-esposito` **Tony Esposito** (G) — 1970 Chicago Black Hawks {"wins":38,"gaa":2.17,"savePct":0.91,"shutouts":15}<br>1972 Chicago Black Hawks {"wins":31,"gaa":1.77,"savePct":0.91,"shutouts":9}
+- [ ] `nhl-terry-sawchuk` **Terry Sawchuk** (G) — 1952 Detroit Red Wings {"wins":44,"gaa":1.9,"savePct":0.91,"shutouts":12}<br>1955 Detroit Red Wings {"wins":40,"gaa":1.86,"savePct":0.91,"shutouts":12}
+- [ ] `nhl-jacques-plante` **Jacques Plante** (G) — 1962 Montreal Canadiens {"wins":42,"gaa":2.37,"savePct":0.91,"shutouts":4}<br>1959 Montreal Canadiens {"wins":44,"gaa":2.16,"savePct":0.92,"shutouts":9}
+- [ ] `nhl-glenn-hall` **Glenn Hall** (G) — 1963 Chicago Black Hawks {"wins":33,"gaa":2.51,"savePct":0.91,"shutouts":5}<br>1956 Detroit Red Wings {"wins":30,"gaa":2.11,"savePct":0.91,"shutouts":12}<br>1964 Chicago Black Hawks {"wins":34,"gaa":2.3,"savePct":0.91,"shutouts":7}
+- [ ] `nhl-roberto-luongo` **Roberto Luongo** (G) — 2011 Vancouver Canucks {"wins":38,"gaa":2.11,"savePct":0.928,"shutouts":4}<br>2007 Vancouver Canucks {"wins":47,"gaa":2.29,"savePct":0.921,"shutouts":5}
+- [ ] `nhl-henrik-lundqvist` **Henrik Lundqvist** (G) — 2012 New York Rangers {"wins":39,"gaa":1.97,"savePct":0.93,"shutouts":8}<br>2014 New York Rangers {"wins":33,"gaa":2.36,"savePct":0.92,"shutouts":5}<br>2006 New York Rangers {"wins":30,"gaa":2.24,"savePct":0.922,"shutouts":2}<br>2017 New York Rangers {"wins":31,"gaa":2.74,"savePct":0.91,"shutouts":2}
+- [ ] `nhl-carey-price` **Carey Price** (G) — 2015 Montreal Canadiens {"wins":44,"gaa":1.96,"savePct":0.933,"shutouts":9}<br>2021 Montreal Canadiens {"wins":12,"gaa":2.64,"savePct":0.901,"shutouts":1}<br>2008 Montreal Canadiens {"wins":24,"gaa":2.56,"savePct":0.92,"shutouts":3}<br>2011 Montreal Canadiens {"wins":38,"gaa":2.35,"savePct":0.923,"shutouts":8}<br>2017 Montreal Canadiens {"wins":37,"gaa":2.23,"savePct":0.923,"shutouts":3}
+- [ ] `nhl-sergei-bobrovsky` **Sergei Bobrovsky** (G) — 2017 Columbus Blue Jackets {"wins":41,"gaa":2.06,"savePct":0.931,"shutouts":7}<br>2024 Florida Panthers {"wins":36,"gaa":2.37,"savePct":0.915,"shutouts":6}<br>2013 Columbus Blue Jackets {"wins":21,"gaa":2,"savePct":0.932,"shutouts":4}
+- [ ] `nhl-igor-shesterkin` **Igor Shesterkin** (G) — 2022 New York Rangers {"wins":36,"gaa":2.07,"savePct":0.935,"shutouts":6}<br>2024 New York Rangers {"wins":36,"gaa":2.58,"savePct":0.913,"shutouts":4}<br>2020 New York Rangers {"wins":10,"gaa":2.52,"savePct":0.932,"shutouts":2}
+- [ ] `nhl-connor-hellebuyck` **Connor Hellebuyck** (G) — 2020 Winnipeg Jets {"wins":31,"gaa":2.57,"savePct":0.922,"shutouts":6}<br>2018 Winnipeg Jets {"wins":44,"gaa":2.36,"savePct":0.924,"shutouts":6}<br>2024 Winnipeg Jets {"wins":37,"gaa":2.39,"savePct":0.921,"shutouts":5}
+- [ ] `nhl-pekka-rinne` **Pekka Rinne** (G) — 2018 Nashville Predators {"wins":42,"gaa":2.31,"savePct":0.927,"shutouts":8}<br>2011 Nashville Predators {"wins":33,"gaa":2.12,"savePct":0.93,"shutouts":6}<br>2012 Nashville Predators {"wins":43,"gaa":2.39,"savePct":0.923,"shutouts":5}<br>2017 Nashville Predators {"wins":31,"gaa":2.42,"savePct":0.918,"shutouts":3}<br>2019 Nashville Predators {"wins":30,"gaa":2.62,"savePct":0.918,"shutouts":4}<br>2020 Nashville Predators {"wins":18,"gaa":2.7,"savePct":0.907,"shutouts":3}
+- [ ] `nhl-juuse-saros` **Juuse Saros** (G) — 2022 Nashville Predators {"wins":38,"gaa":2.64,"savePct":0.918,"shutouts":4}<br>2023 Nashville Predators {"wins":21,"gaa":2.69,"savePct":0.919,"shutouts":2}<br>2018 Nashville Predators {"wins":11,"gaa":2.45,"savePct":0.925,"shutouts":1}<br>2024 Nashville Predators {"wins":35,"gaa":2.86,"savePct":0.906,"shutouts":3}<br>2019 Nashville Predators {"wins":17,"gaa":2.62,"savePct":0.915,"shutouts":1}<br>2020 Nashville Predators {"wins":11,"gaa":2.7,"savePct":0.914,"shutouts":1}<br>2021 Nashville Predators {"wins":21,"gaa":2.28,"savePct":0.927,"shutouts":3}
+- [ ] `nhl-jonathan-quick` **Jonathan Quick** (G) — 2012 Los Angeles Kings {"wins":35,"gaa":1.95,"savePct":0.929,"shutouts":10}<br>2014 Los Angeles Kings {"wins":34,"gaa":2.07,"savePct":0.915,"shutouts":6}
+- [ ] `nhl-ben-bishop` **Ben Bishop** (G) — 2016 Tampa Bay Lightning {"wins":35,"gaa":2.06,"savePct":0.926,"shutouts":6}<br>2019 Dallas Stars {"wins":27,"gaa":2.56,"savePct":0.919,"shutouts":3}
+- [ ] `nhl-braden-holtby` **Braden Holtby** (G) — 2016 Washington Capitals {"wins":48,"gaa":2.2,"savePct":0.922,"shutouts":3}
+- [ ] `nhl-semyon-varlamov` **Semyon Varlamov** (G) — 2014 Colorado Avalanche {"wins":41,"gaa":2.41,"savePct":0.927,"shutouts":2}
+- [ ] `nhl-john-gibson` **John Gibson** (G) — 2016 Anaheim Ducks {"wins":21,"gaa":2.07,"savePct":0.92,"shutouts":4}<br>2018 Anaheim Ducks {"wins":31,"gaa":2.43,"savePct":0.926,"shutouts":4}
+- [ ] `nhl-frederik-andersen` **Frederik Andersen** (G) — 2018 Toronto Maple Leafs {"wins":38,"gaa":2.81,"savePct":0.918,"shutouts":5}<br>2022 Carolina Hurricanes {"wins":35,"gaa":2.17,"savePct":0.922,"shutouts":4}
+- [ ] `nhl-jack-campbell` **Jack Campbell** (G) — 2022 Toronto Maple Leafs {"wins":31,"gaa":2.64,"savePct":0.914,"shutouts":5}<br>2023 Edmonton Oilers {"wins":21,"gaa":3.41,"savePct":0.888,"shutouts":0}
+- [ ] `nhl-jordan-binnington` **Jordan Binnington** (G) — 2019 St. Louis Blues {"wins":24,"gaa":1.89,"savePct":0.927,"shutouts":1}<br>2020 St. Louis Blues {"wins":30,"gaa":2.56,"savePct":0.912,"shutouts":3}<br>2022 St. Louis Blues {"wins":18,"gaa":3.13,"savePct":0.901,"shutouts":2}<br>2024 St. Louis Blues {"wins":28,"gaa":2.84,"savePct":0.913,"shutouts":3}<br>2023 St. Louis Blues {"wins":27,"gaa":3.31,"savePct":0.894,"shutouts":2}<br>2021 St. Louis Blues {"wins":18,"gaa":2.65,"savePct":0.91,"shutouts":2}
+- [ ] `nhl-jake-oettinger` **Jake Oettinger** (G) — 2023 Dallas Stars {"wins":37,"gaa":2.37,"savePct":0.919,"shutouts":5}<br>2024 Dallas Stars {"wins":35,"gaa":2.72,"savePct":0.905,"shutouts":3}
+- [ ] `nhl-linus-ullmark` **Linus Ullmark** (G) — 2023 Boston Bruins {"wins":40,"gaa":1.89,"savePct":0.938,"shutouts":2}
+- [ ] `nhl-ilya-sorokin` **Ilya Sorokin** (G) — 2023 New York Islanders {"wins":31,"gaa":2.34,"savePct":0.924,"shutouts":6}
+- [ ] `nhl-ukko-pekka` **Ukko-Pekka Luukkonen** (G) — 2024 Buffalo Sabres {"wins":25,"gaa":2.57,"savePct":0.91,"shutouts":2}
+- [ ] `nhl-jeremy-swayman` **Jeremy Swayman** (G) — 2024 Boston Bruins {"wins":25,"gaa":2.53,"savePct":0.916,"shutouts":3}
+- [ ] `nhl-stuart-skinner` **Stuart Skinner** (G) — 2023 Edmonton Oilers {"wins":29,"gaa":2.75,"savePct":0.914,"shutouts":1}<br>2024 Edmonton Oilers {"wins":36,"gaa":2.62,"savePct":0.907,"shutouts":2}<br>2022 Edmonton Oilers {"wins":6,"gaa":2.88,"savePct":0.913,"shutouts":0}
+- [ ] `nhl-adin-hill` **Adin Hill** (G) — 2023 Vegas Golden Knights {"wins":16,"gaa":2.01,"savePct":0.915,"shutouts":2}
+- [ ] `nhl-logan-thompson` **Logan Thompson** (G) — 2023 Vegas Golden Knights {"wins":21,"gaa":2.65,"savePct":0.915,"shutouts":2}
+- [ ] `nhl-filip-gustavsson` **Filip Gustavsson** (G) — 2023 Minnesota Wild {"wins":22,"gaa":2.1,"savePct":0.931,"shutouts":3}<br>2024 Minnesota Wild {"wins":20,"gaa":3.06,"savePct":0.899,"shutouts":1}
+- [ ] `nhl-cam-talbot` **Cam Talbot** (G) — 2017 Edmonton Oilers {"wins":42,"gaa":2.39,"savePct":0.919,"shutouts":7}<br>2022 Minnesota Wild {"wins":32,"gaa":2.76,"savePct":0.911,"shutouts":3}<br>2015 New York Rangers {"wins":21,"gaa":2.21,"savePct":0.926,"shutouts":5}<br>2021 Minnesota Wild {"wins":19,"gaa":2.63,"savePct":0.915,"shutouts":2}<br>2018 Edmonton Oilers {"wins":31,"gaa":3.02,"savePct":0.908,"shutouts":1}<br>2019 Edmonton Oilers {"wins":11,"gaa":2.91,"savePct":0.893,"shutouts":1}
+- [ ] `nhl-robin-lehner` **Robin Lehner** (G) — 2019 New York Islanders {"wins":25,"gaa":2.13,"savePct":0.93,"shutouts":6}
+- [ ] `nhl-mike-richter` **Mike Richter** (G) — 1994 New York Rangers {"wins":42,"gaa":2.57,"savePct":0.91,"shutouts":5}
+- [ ] `nhl-mike-vernon` **Mike Vernon** (G) — 1989 Calgary Flames {"wins":37,"gaa":2.65,"savePct":0.9,"shutouts":5}<br>1997 Detroit Red Wings {"wins":33,"gaa":2.43,"savePct":0.9,"shutouts":4}
+- [ ] `nhl-chris-osgood` **Chris Osgood** (G) — 2008 Detroit Red Wings {"wins":27,"gaa":2.09,"savePct":0.914,"shutouts":4}<br>1998 Detroit Red Wings {"wins":33,"gaa":2.21,"savePct":0.91,"shutouts":6}
+- [ ] `nhl-tom-barrasso` **Tom Barrasso** (G) — 1992 Pittsburgh Penguins {"wins":25,"gaa":3.59,"savePct":0.89,"shutouts":1}<br>1991 Pittsburgh Penguins {"wins":27,"gaa":3.59,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-andy-moog` **Andy Moog** (G) — 1988 Edmonton Oilers {"wins":25,"gaa":3.13,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-bill-ranford` **Bill Ranford** (G) — 1990 Edmonton Oilers {"wins":24,"gaa":3.19,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-kirk-mclean` **Kirk McLean** (G) — 1994 Vancouver Canucks {"wins":23,"gaa":2.99,"savePct":0.9,"shutouts":3}<br>1992 Vancouver Canucks {"wins":38,"gaa":2.74,"savePct":0.901,"shutouts":5}
+- [ ] `nhl-arturs-irbe` **Arturs Irbe** (G) — 1994 San Jose Sharks {"wins":22,"gaa":2.84,"savePct":0.899,"shutouts":3}<br>2002 Carolina Hurricanes {"wins":20,"gaa":2.54,"savePct":0.902,"shutouts":1}
+- [ ] `nhl-felix-potvin` **Felix Potvin** (G) — 1993 Toronto Maple Leafs {"wins":25,"gaa":2.5,"savePct":0.91,"shutouts":2}<br>1994 Toronto Maple Leafs {"wins":34,"gaa":2.89,"savePct":0.907,"shutouts":3}<br>1997 Toronto Maple Leafs {"wins":27,"gaa":2.73,"savePct":0.907,"shutouts":4}<br>2000 Los Angeles Kings {"wins":22,"gaa":2.47,"savePct":0.907,"shutouts":2}
+- [ ] `nhl-curtis-joseph` **Curtis Joseph** (G) — 1999 Toronto Maple Leafs {"wins":35,"gaa":2.56,"savePct":0.91,"shutouts":3}<br>2000 Toronto Maple Leafs {"wins":36,"gaa":2.49,"savePct":0.91,"shutouts":4}<br>1993 St. Louis Blues {"wins":29,"gaa":3.02,"savePct":0.9,"shutouts":1}<br>1994 St. Louis Blues {"wins":36,"gaa":3.1,"savePct":0.9,"shutouts":1}<br>1992 St. Louis Blues {"wins":27,"gaa":3.01,"savePct":0.9,"shutouts":2}
+- [ ] `nhl-jarome-iginla` **Jarome Iginla** (RW) — 2002 Calgary Flames {"goals":52,"assists":44,"points":96,"plusMinus":27}<br>2004 Calgary Flames {"goals":41,"assists":32,"points":73,"plusMinus":21}<br>2008 Calgary Flames {"goals":50,"assists":48,"points":98,"plusMinus":27}
+- [ ] `nhl-theoren-fleury` **Theoren Fleury** (RW) — 1991 Calgary Flames {"goals":51,"assists":53,"points":104,"plusMinus":22}
+- [ ] `nhl-joe-nieuwendyk` **Joe Nieuwendyk** (C) — 1988 Calgary Flames {"goals":51,"assists":41,"points":92,"plusMinus":36}<br>1999 Dallas Stars {"goals":28,"assists":27,"points":55,"plusMinus":11}<br>2003 Toronto Maple Leafs {"goals":16,"assists":20,"points":36,"plusMinus":4}<br>2002 Dallas Stars {"goals":23,"assists":24,"points":47,"plusMinus":6}<br>2000 Dallas Stars {"goals":19,"assists":27,"points":46,"plusMinus":8}
+- [ ] `nhl-lanny-mc` **Lanny McDonald** (RW) — 1983 Calgary Flames {"goals":66,"assists":32,"points":98,"plusMinus":22}
+- [ ] `nhl-hakan-loob` **Hakan Loob** (RW) — 1988 Calgary Flames {"goals":50,"assists":56,"points":106,"plusMinus":41}
+- [ ] `nhl-gary-suter` **Gary Suter** (D) — 1986 Calgary Flames {"goals":18,"assists":50,"points":68,"plusMinus":26}<br>2000 San Jose Sharks {"goals":6,"assists":20,"points":26,"plusMinus":4}
+- [ ] `nhl-phil-housley` **Phil Housley** (D) — 1992 Winnipeg Jets {"goals":23,"assists":63,"points":86,"plusMinus":8}<br>1993 Winnipeg Jets {"goals":18,"assists":61,"points":79,"plusMinus":8}
+- [ ] `nhl-dale-hawerchuk` **Dale Hawerchuk** (C) — 1985 Winnipeg Jets {"goals":53,"assists":77,"points":130,"plusMinus":22}<br>1993 Buffalo Sabres {"goals":16,"assists":80,"points":96,"plusMinus":8}<br>1996 St. Louis Blues {"goals":13,"assists":34,"points":47,"plusMinus":6}
+- [ ] `nhl-paul-kariya` **Paul Kariya** (LW) — 1999 Mighty Ducks of Anaheim {"goals":39,"assists":62,"points":101,"plusMinus":17}<br>1996 Mighty Ducks of Anaheim {"goals":50,"assists":58,"points":108,"plusMinus":10}<br>2004 Colorado Avalanche {"goals":11,"assists":25,"points":36,"plusMinus":4}<br>2006 Nashville Predators {"goals":31,"assists":54,"points":85,"plusMinus":10}
+- [ ] `nhl-scott-niedermayer` **Scott Niedermayer** (D) — 2007 Anaheim Ducks {"goals":15,"assists":54,"points":69,"plusMinus":6}<br>2000 New Jersey Devils {"goals":7,"assists":31,"points":38,"plusMinus":19}<br>2006 Mighty Ducks of Anaheim {"goals":13,"assists":50,"points":63,"plusMinus":8}
+- [ ] `nhl-ryan-getzlaf` **Ryan Getzlaf** (C) — 2014 Anaheim Ducks {"goals":31,"assists":56,"points":87,"plusMinus":28}<br>2007 Anaheim Ducks {"goals":25,"assists":33,"points":58,"plusMinus":6}<br>2017 Anaheim Ducks {"goals":15,"assists":43,"points":58,"plusMinus":7}
+- [ ] `nhl-corey-perry` **Corey Perry** (RW) — 2011 Anaheim Ducks {"goals":50,"assists":48,"points":98,"plusMinus":10}<br>2007 Anaheim Ducks {"goals":17,"assists":27,"points":44,"plusMinus":6}<br>2021 Montreal Canadiens {"goals":9,"assists":12,"points":21,"plusMinus":2}<br>2014 Anaheim Ducks {"goals":43,"assists":39,"points":82,"plusMinus":32}<br>2016 Anaheim Ducks {"goals":34,"assists":28,"points":62,"plusMinus":14}
+- [ ] `nhl-ryan-kesler` **Ryan Kesler** (C) — 2011 Vancouver Canucks {"goals":41,"assists":32,"points":73,"plusMinus":24}<br>2009 Vancouver Canucks {"goals":26,"assists":33,"points":59,"plusMinus":8}<br>2014 Anaheim Ducks {"goals":20,"assists":32,"points":52,"plusMinus":12}
+- [ ] `nhl-henrik-sedin` **Henrik Sedin** (C) — 2010 Vancouver Canucks {"goals":29,"assists":83,"points":112,"plusMinus":35}<br>2006 Vancouver Canucks {"goals":18,"assists":57,"points":75,"plusMinus":8}
+- [ ] `nhl-daniel-sedin` **Daniel Sedin** (LW) — 2011 Vancouver Canucks {"goals":41,"assists":63,"points":104,"plusMinus":30}<br>2007 Vancouver Canucks {"goals":36,"assists":48,"points":84,"plusMinus":12}
+- [ ] `nhl-alex-burrows` **Alexandre Burrows** (RW) — 2010 Vancouver Canucks {"goals":35,"assists":32,"points":67,"plusMinus":16}<br>2009 Vancouver Canucks {"goals":28,"assists":23,"points":51,"plusMinus":8}
+- [ ] `nhl-ron-francis` **Ron Francis** (C) — 1996 Pittsburgh Penguins {"goals":27,"assists":92,"points":119,"plusMinus":25}<br>1995 Pittsburgh Penguins {"goals":11,"assists":48,"points":59,"plusMinus":14}<br>1992 Pittsburgh Penguins {"goals":21,"assists":33,"points":54,"plusMinus":14}<br>2002 Carolina Hurricanes {"goals":27,"assists":50,"points":77,"plusMinus":4}
+- [ ] `nhl-kevin-stevens` **Kevin Stevens** (LW) — 1992 Pittsburgh Penguins {"goals":54,"assists":69,"points":123,"plusMinus":8}<br>1993 Pittsburgh Penguins {"goals":55,"assists":56,"points":111,"plusMinus":14}<br>1991 Pittsburgh Penguins {"goals":40,"assists":46,"points":86,"plusMinus":14}
+- [ ] `nhl-larry-murphy` **Larry Murphy** (D) — 1993 Pittsburgh Penguins {"goals":22,"assists":63,"points":85,"plusMinus":45}<br>1991 Pittsburgh Penguins {"goals":5,"assists":39,"points":44,"plusMinus":14}<br>1981 Los Angeles Kings {"goals":16,"assists":60,"points":76,"plusMinus":14}<br>1987 Washington Capitals {"goals":23,"assists":58,"points":81,"plusMinus":25}
+- [ ] `nhl-chris-chelios` **Chris Chelios** (D) — 2002 Detroit Red Wings {"goals":6,"assists":33,"points":39,"plusMinus":40}<br>1993 Montreal Canadiens {"goals":15,"assists":44,"points":59,"plusMinus":14}<br>1996 Chicago Blackhawks {"goals":14,"assists":44,"points":58,"plusMinus":25}
+- [ ] `nhl-igor-larionov` **Igor Larionov** (C) — 2002 Detroit Red Wings {"goals":11,"assists":32,"points":43,"plusMinus":20}<br>1996 Detroit Red Wings {"goals":21,"assists":50,"points":71,"plusMinus":31}
+- [ ] `nhl-keith-primeau` **Keith Primeau** (C) — 2004 Philadelphia Flyers {"goals":22,"assists":32,"points":54,"plusMinus":16}<br>1994 Detroit Red Wings {"goals":31,"assists":42,"points":73,"plusMinus":14}
+- [ ] `nhl-mark-recchi` **Mark Recchi** (RW) — 2006 Pittsburgh Penguins {"goals":24,"assists":33,"points":57,"plusMinus":1}<br>1991 Pittsburgh Penguins {"goals":40,"assists":73,"points":113,"plusMinus":30}<br>2000 Philadelphia Flyers {"goals":28,"assists":63,"points":91,"plusMinus":20}<br>1994 Montreal Canadiens {"goals":40,"assists":67,"points":107,"plusMinus":17}
+- [ ] `nhl-mike-green` **Mike Green** (D) — 2009 Washington Capitals {"goals":31,"assists":42,"points":73,"plusMinus":24}
+- [ ] `nhl-brooks-orpik` **Brooks Orpik** (D) — 2016 Washington Capitals {"goals":2,"assists":14,"points":16,"plusMinus":12}<br>2009 Pittsburgh Penguins {"goals":2,"assists":17,"points":19,"plusMinus":10}<br>2008 Pittsburgh Penguins {"goals":1,"assists":10,"points":11,"plusMinus":6}<br>2011 Pittsburgh Penguins {"goals":1,"assists":15,"points":16,"plusMinus":10}
+- [ ] `nhl-tj-oshie` **T.J. Oshie** (RW) — 2016 Washington Capitals {"goals":26,"assists":25,"points":51,"plusMinus":16}
+- [ ] `nhl-john-carlson` **John Carlson** (D) — 2020 Washington Capitals {"goals":15,"assists":60,"points":75,"plusMinus":12}
+- [ ] `nhl-brad-richards` **Brad Richards** (C) — 2004 Tampa Bay Lightning {"goals":26,"assists":53,"points":79,"plusMinus":16}<br>2006 Tampa Bay Lightning {"goals":23,"assists":68,"points":91,"plusMinus":13}<br>2011 Dallas Stars {"goals":28,"assists":49,"points":77,"plusMinus":8}<br>2012 New York Rangers {"goals":25,"assists":41,"points":66,"plusMinus":6}<br>2014 New York Rangers {"goals":20,"assists":31,"points":51,"plusMinus":6}<br>2015 Chicago Blackhawks {"goals":12,"assists":25,"points":37,"plusMinus":4}
+- [ ] `nhl-martin-st-louis` **Martin St. Louis** (RW) — 2004 Tampa Bay Lightning {"goals":38,"assists":56,"points":94,"plusMinus":35}<br>2007 Tampa Bay Lightning {"goals":43,"assists":59,"points":102,"plusMinus":7}<br>2014 New York Rangers {"goals":1,"assists":7,"points":8,"plusMinus":2}
+- [ ] `nhl-vincent-lecavalier` **Vincent Lecavalier** (C) — 2007 Tampa Bay Lightning {"goals":52,"assists":56,"points":108,"plusMinus":2}<br>2004 Tampa Bay Lightning {"goals":32,"assists":34,"points":66,"plusMinus":16}<br>2008 Tampa Bay Lightning {"goals":40,"assists":52,"points":92,"plusMinus":2}
+- [ ] `nhl-ondrej-palat` **Ondrej Palat** (LW) — 2020 Tampa Bay Lightning {"goals":17,"assists":24,"points":41,"plusMinus":16}
+- [ ] `nhl-alex-killorn` **Alex Killorn** (C) — 2020 Tampa Bay Lightning {"goals":26,"assists":23,"points":49,"plusMinus":19}
+- [ ] `nhl-anthony-cirelli` **Anthony Cirelli** (C) — 2021 Tampa Bay Lightning {"goals":18,"assists":18,"points":36,"plusMinus":14}
+- [ ] `nhl-mitchell-marner` **Mitchell Marner** (RW) — 2022 Toronto Maple Leafs {"goals":35,"assists":62,"points":97,"plusMinus":18}
+- [ ] `nhl-william-nylander` **William Nylander** (RW) — 2022 Toronto Maple Leafs {"goals":34,"assists":46,"points":80,"plusMinus":24}
+- [ ] `nhl-john-tavares` **John Tavares** (C) — 2019 Toronto Maple Leafs {"goals":47,"assists":41,"points":88,"plusMinus":19}
+- [ ] `nhl-morgan-rielly` **Morgan Rielly** (D) — 2019 Toronto Maple Leafs {"goals":20,"assists":52,"points":72,"plusMinus":16}
+- [ ] `nhl-matthew-tkachuk` **Matthew Tkachuk** (LW) — 2023 Florida Panthers {"goals":40,"assists":69,"points":109,"plusMinus":14}<br>2022 Calgary Flames {"goals":42,"assists":62,"points":104,"plusMinus":17}
+- [ ] `nhl-aleksander-barkov` **Aleksander Barkov** (C) — 2022 Florida Panthers {"goals":39,"assists":49,"points":88,"plusMinus":36}
+- [ ] `nhl-jonathan-huberdeau` **Jonathan Huberdeau** (LW) — 2022 Florida Panthers {"goals":30,"assists":85,"points":115,"plusMinus":35}<br>2015 Florida Panthers {"goals":15,"assists":39,"points":54,"plusMinus":10}
+- [ ] `nhl-sam-reinhart` **Sam Reinhart** (C) — 2024 Florida Panthers {"goals":57,"assists":37,"points":94,"plusMinus":29}
+- [ ] `nhl-carter-verhaeghe` **Carter Verhaeghe** (C) — 2024 Florida Panthers {"goals":34,"assists":38,"points":72,"plusMinus":17}
+- [ ] `nhl-aaron-ekblad` **Aaron Ekblad** (D) — 2024 Florida Panthers {"goals":18,"assists":33,"points":51,"plusMinus":2}
+- [ ] `nhl-jack-eichel` **Jack Eichel** (C) — 2023 Vegas Golden Knights {"goals":27,"assists":39,"points":66,"plusMinus":14}
+- [ ] `nhl-mark-stone` **Mark Stone** (RW) — 2023 Vegas Golden Knights {"goals":17,"assists":21,"points":38,"plusMinus":12}
+- [ ] `nhl-william-karlsson` **William Karlsson** (C) — 2018 Vegas Golden Knights {"goals":43,"assists":35,"points":78,"plusMinus":49}
+- [ ] `nhl-jonathan-marchessault` **Jonathan Marchessault** (C) — 2018 Vegas Golden Knights {"goals":27,"assists":48,"points":75,"plusMinus":8}
+- [ ] `nhl-shea-theodore` **Shea Theodore** (D) — 2023 Vegas Golden Knights {"goals":8,"assists":33,"points":41,"plusMinus":12}
+- [ ] `nhl-alex-pietrangelo` **Alex Pietrangelo** (D) — 2019 St. Louis Blues {"goals":13,"assists":28,"points":41,"plusMinus":2}<br>2012 St. Louis Blues {"goals":12,"assists":39,"points":51,"plusMinus":16}<br>2018 St. Louis Blues {"goals":15,"assists":39,"points":54,"plusMinus":8}<br>2020 St. Louis Blues {"goals":16,"assists":36,"points":52,"plusMinus":16}
+- [ ] `nhl-ryan-o-reilly` **Ryan O'Reilly** (C) — 2019 St. Louis Blues {"goals":28,"assists":49,"points":77,"plusMinus":22}<br>2020 St. Louis Blues {"goals":12,"assists":49,"points":61,"plusMinus":10}<br>2014 Colorado Avalanche {"goals":21,"assists":43,"points":64,"plusMinus":6}<br>2024 Nashville Predators {"goals":26,"assists":43,"points":69,"plusMinus":6}
+- [ ] `nhl-vladimir-tarasenko` **Vladimir Tarasenko** (RW) — 2016 St. Louis Blues {"goals":40,"assists":34,"points":74,"plusMinus":7}<br>2015 St. Louis Blues {"goals":37,"assists":36,"points":73,"plusMinus":7}<br>2017 St. Louis Blues {"goals":39,"assists":36,"points":75,"plusMinus":7}<br>2019 St. Louis Blues {"goals":33,"assists":35,"points":68,"plusMinus":8}<br>2020 St. Louis Blues {"goals":10,"assists":14,"points":24,"plusMinus":2}<br>2022 St. Louis Blues {"goals":34,"assists":48,"points":82,"plusMinus":7}<br>2023 St. Louis Blues {"goals":10,"assists":19,"points":29,"plusMinus":2}<br>2021 St. Louis Blues {"goals":24,"assists":34,"points":58,"plusMinus":6}
+- [ ] `nhl-jaden-schwartz` **Jaden Schwartz** (LW) — 2019 St. Louis Blues {"goals":11,"assists":25,"points":36,"plusMinus":5}<br>2015 St. Louis Blues {"goals":28,"assists":35,"points":63,"plusMinus":8}<br>2017 St. Louis Blues {"goals":19,"assists":36,"points":55,"plusMinus":6}<br>2020 St. Louis Blues {"goals":22,"assists":35,"points":57,"plusMinus":6}<br>2021 St. Louis Blues {"goals":8,"assists":14,"points":22,"plusMinus":2}
+- [ ] `nhl-david-perron` **David Perron** (LW) — 2019 St. Louis Blues {"goals":23,"assists":23,"points":46,"plusMinus":10}<br>2020 St. Louis Blues {"goals":25,"assists":35,"points":60,"plusMinus":8}<br>2022 St. Louis Blues {"goals":27,"assists":30,"points":57,"plusMinus":6}<br>2021 St. Louis Blues {"goals":19,"assists":39,"points":58,"plusMinus":6}
+- [ ] `nhl-colton-parayko` **Colton Parayko** (D) — 2019 St. Louis Blues {"goals":10,"assists":18,"points":28,"plusMinus":20}<br>2018 St. Louis Blues {"goals":7,"assists":28,"points":35,"plusMinus":12}<br>2020 St. Louis Blues {"goals":10,"assists":18,"points":28,"plusMinus":10}<br>2022 St. Louis Blues {"goals":6,"assists":29,"points":35,"plusMinus":10}<br>2024 St. Louis Blues {"goals":10,"assists":16,"points":26,"plusMinus":8}<br>2023 St. Louis Blues {"goals":4,"assists":23,"points":27,"plusMinus":8}<br>2021 St. Louis Blues {"goals":2,"assists":17,"points":19,"plusMinus":6}
+- [ ] `nhl-wyatt-johnston` **Wyatt Johnston** (C) — 2023 Dallas Stars {"goals":24,"assists":17,"points":41,"plusMinus":12}
+- [ ] `nhl-jason-spezza` **Jason Spezza** (C) — 2006 Ottawa Senators {"goals":33,"assists":71,"points":104,"plusMinus":17}<br>2008 Ottawa Senators {"goals":34,"assists":58,"points":92,"plusMinus":18}
+- [ ] `nhl-dany-heatley` **Dany Heatley** (LW) — 2006 Ottawa Senators {"goals":50,"assists":53,"points":103,"plusMinus":29}<br>2010 San Jose Sharks {"goals":39,"assists":43,"points":82,"plusMinus":14}
+- [ ] `nhl-marian-gaborik` **Marian Gaborik** (RW) — 2012 New York Rangers {"goals":41,"assists":35,"points":76,"plusMinus":15}<br>2008 Minnesota Wild {"goals":42,"assists":41,"points":83,"plusMinus":17}<br>2014 Los Angeles Kings {"goals":16,"assists":22,"points":38,"plusMinus":10}<br>2002 Minnesota Wild {"goals":30,"assists":37,"points":67,"plusMinus":6}<br>2006 Minnesota Wild {"goals":38,"assists":28,"points":66,"plusMinus":6}
+- [ ] `nhl-rick-nash` **Rick Nash** (LW) — 2004 Columbus Blue Jackets {"goals":41,"assists":16,"points":57,"plusMinus":14}<br>2015 New York Rangers {"goals":42,"assists":27,"points":69,"plusMinus":29}<br>2008 Columbus Blue Jackets {"goals":38,"assists":31,"points":69,"plusMinus":4}<br>2009 Columbus Blue Jackets {"goals":40,"assists":39,"points":79,"plusMinus":11}<br>2006 Columbus Blue Jackets {"goals":31,"assists":23,"points":54,"plusMinus":4}<br>2012 Columbus Blue Jackets {"goals":30,"assists":29,"points":59,"plusMinus":4}<br>2011 Columbus Blue Jackets {"goals":32,"assists":34,"points":66,"plusMinus":6}<br>2017 New York Rangers {"goals":23,"assists":15,"points":38,"plusMinus":4}
+- [ ] `nhl-artemi-panarin` **Artemi Panarin** (LW) — 2020 New York Rangers {"goals":32,"assists":63,"points":95,"plusMinus":36}<br>2017 Columbus Blue Jackets {"goals":29,"assists":45,"points":74,"plusMinus":11}<br>2016 Chicago Blackhawks {"goals":30,"assists":47,"points":77,"plusMinus":7}<br>2023 New York Rangers {"goals":29,"assists":63,"points":92,"plusMinus":10}
+- [ ] `nhl-mika-zibanejad` **Mika Zibanejad** (C) — 2022 New York Rangers {"goals":29,"assists":52,"points":81,"plusMinus":14}<br>2017 New York Rangers {"goals":14,"assists":23,"points":37,"plusMinus":4}<br>2020 New York Rangers {"goals":41,"assists":34,"points":75,"plusMinus":8}<br>2023 New York Rangers {"goals":39,"assists":52,"points":91,"plusMinus":12}<br>2019 New York Rangers {"goals":30,"assists":44,"points":74,"plusMinus":8}
+- [ ] `nhl-chris-kreider` **Chris Kreider** (LW) — 2022 New York Rangers {"goals":52,"assists":25,"points":77,"plusMinus":21}<br>2015 New York Rangers {"goals":21,"assists":25,"points":46,"plusMinus":6}<br>2017 New York Rangers {"goals":28,"assists":25,"points":53,"plusMinus":6}<br>2020 New York Rangers {"goals":24,"assists":21,"points":45,"plusMinus":6}<br>2024 New York Rangers {"goals":39,"assists":36,"points":75,"plusMinus":12}
+- [ ] `nhl-adam-fox` **Adam Fox** (D) — 2021 New York Rangers {"goals":5,"assists":47,"points":52,"plusMinus":19}<br>2020 New York Rangers {"goals":8,"assists":34,"points":42,"plusMinus":14}<br>2024 New York Rangers {"goals":17,"assists":56,"points":73,"plusMinus":21}
+- [ ] `nhl-adam-graves` **Adam Graves** (LW) — 1994 New York Rangers {"goals":52,"assists":27,"points":79,"plusMinus":27}
+- [ ] `nhl-sergei-zubov` **Sergei Zubov** (D) — 1994 New York Rangers {"goals":12,"assists":77,"points":89,"plusMinus":20}<br>1999 Dallas Stars {"goals":10,"assists":41,"points":51,"plusMinus":9}<br>2006 Dallas Stars {"goals":13,"assists":58,"points":71,"plusMinus":20}<br>2003 Dallas Stars {"goals":11,"assists":44,"points":55,"plusMinus":21}
+- [ ] `nhl-glenn-anderson` **Glenn Anderson** (RW) — 1984 Edmonton Oilers {"goals":54,"assists":45,"points":99,"plusMinus":27}<br>1993 Toronto Maple Leafs {"goals":22,"assists":31,"points":53,"plusMinus":6}
+- [ ] `nhl-esa-tikkanen` **Esa Tikkanen** (LW) — 1987 Edmonton Oilers {"goals":34,"assists":44,"points":78,"plusMinus":28}<br>1995 St. Louis Blues {"goals":12,"assists":23,"points":35,"plusMinus":6}
+- [ ] `nhl-craig-simpson` **Craig Simpson** (LW) — 1988 Edmonton Oilers {"goals":56,"assists":34,"points":90,"plusMinus":22}
+- [ ] `nhl-jimmy-carson` **Jimmy Carson** (C) — 1988 Edmonton Oilers {"goals":55,"assists":52,"points":107,"plusMinus":19}
+- [ ] `nhl-rob-brown` **Rob Brown** (RW) — 1989 Pittsburgh Penguins {"goals":49,"assists":66,"points":115,"plusMinus":27}
+- [ ] `nhl-kevin-hatcher` **Kevin Hatcher** (D) — 1993 Washington Capitals {"goals":34,"assists":45,"points":79,"plusMinus":8}
+- [ ] `nhl-rod-langway` **Rod Langway** (D) — 1983 Washington Capitals {"goals":3,"assists":29,"points":32,"plusMinus":14}
+- [ ] `nhl-scott-stevens` **Scott Stevens** (D) — 2000 New Jersey Devils {"goals":8,"assists":21,"points":29,"plusMinus":22}<br>1988 Washington Capitals {"goals":12,"assists":60,"points":72,"plusMinus":14}
+- [ ] `nhl-patrik-elias` **Patrik Elias** (LW) — 2001 New Jersey Devils {"goals":40,"assists":56,"points":96,"plusMinus":45}<br>2004 New Jersey Devils {"goals":38,"assists":43,"points":81,"plusMinus":26}<br>2009 New Jersey Devils {"goals":31,"assists":47,"points":78,"plusMinus":18}<br>2012 New Jersey Devils {"goals":26,"assists":52,"points":78,"plusMinus":8}<br>2000 New Jersey Devils {"goals":35,"assists":37,"points":72,"plusMinus":19}<br>2006 New Jersey Devils {"goals":16,"assists":29,"points":45,"plusMinus":6}<br>2008 New Jersey Devils {"goals":20,"assists":35,"points":55,"plusMinus":10}<br>2011 New Jersey Devils {"goals":21,"assists":41,"points":62,"plusMinus":8}
+- [ ] `nhl-jason-arnott` **Jason Arnott** (C) — 2001 New Jersey Devils {"goals":21,"assists":36,"points":57,"plusMinus":19}<br>2006 Nashville Predators {"goals":32,"assists":41,"points":73,"plusMinus":10}<br>2008 Nashville Predators {"goals":28,"assists":44,"points":72,"plusMinus":12}<br>2000 New Jersey Devils {"goals":22,"assists":34,"points":56,"plusMinus":22}
+- [ ] `nhl-petr-sykora` **Petr Sykora** (RW) — 2001 New Jersey Devils {"goals":35,"assists":46,"points":81,"plusMinus":19}<br>2003 Mighty Ducks of Anaheim {"goals":34,"assists":25,"points":59,"plusMinus":8}<br>2008 Pittsburgh Penguins {"goals":28,"assists":35,"points":63,"plusMinus":6}<br>2012 New Jersey Devils {"goals":12,"assists":23,"points":35,"plusMinus":4}<br>2000 New Jersey Devils {"goals":25,"assists":43,"points":68,"plusMinus":16}
+- [ ] `nhl-scott-gomez` **Scott Gomez** (C) — 2000 New Jersey Devils {"goals":19,"assists":51,"points":70,"plusMinus":14}<br>2008 New York Rangers {"goals":16,"assists":54,"points":70,"plusMinus":4}<br>2010 Montreal Canadiens {"goals":12,"assists":47,"points":59,"plusMinus":4}<br>2007 New Jersey Devils {"goals":13,"assists":42,"points":55,"plusMinus":7}<br>2004 New Jersey Devils {"goals":14,"assists":42,"points":56,"plusMinus":8}<br>2006 New Jersey Devils {"goals":33,"assists":51,"points":84,"plusMinus":12}
+- [ ] `nhl-brian-gionta` **Brian Gionta** (RW) — 2006 New Jersey Devils {"goals":48,"assists":41,"points":89,"plusMinus":12}<br>2010 Montreal Canadiens {"goals":28,"assists":18,"points":46,"plusMinus":6}<br>2008 New Jersey Devils {"goals":22,"assists":31,"points":53,"plusMinus":8}
+- [ ] `nhl-adam-henrique` **Adam Henrique** (C) — 2012 New Jersey Devils {"goals":51,"assists":16,"points":67,"plusMinus":8}<br>2016 New Jersey Devils {"goals":30,"assists":20,"points":50,"plusMinus":10}
+- [ ] `nhl-taylor-hall` **Taylor Hall** (LW) — 2018 New Jersey Devils {"goals":39,"assists":54,"points":93,"plusMinus":14}<br>2014 Edmonton Oilers {"goals":27,"assists":53,"points":80,"plusMinus":4}<br>2017 New Jersey Devils {"goals":20,"assists":33,"points":53,"plusMinus":4}<br>2019 New Jersey Devils {"goals":11,"assists":26,"points":37,"plusMinus":4}<br>2020 New Jersey Devils {"goals":6,"assists":19,"points":25,"plusMinus":2}<br>2013 Edmonton Oilers {"goals":16,"assists":34,"points":50,"plusMinus":5}<br>2011 Edmonton Oilers {"goals":22,"assists":20,"points":42,"plusMinus":2}<br>2016 Edmonton Oilers {"goals":26,"assists":39,"points":65,"plusMinus":4}
+- [ ] `nhl-jack-hughes` **Jack Hughes** (C) — 2023 New Jersey Devils {"goals":43,"assists":56,"points":99,"plusMinus":10}<br>2022 New Jersey Devils {"goals":26,"assists":30,"points":56,"plusMinus":13}<br>2024 New Jersey Devils {"goals":27,"assists":47,"points":74,"plusMinus":6}<br>2021 New Jersey Devils {"goals":11,"assists":20,"points":31,"plusMinus":4}<br>2020 New Jersey Devils {"goals":7,"assists":14,"points":21,"plusMinus":2}
+- [ ] `nhl-nico-hischier` **Nico Hischier** (C) — 2023 New Jersey Devils {"goals":31,"assists":49,"points":80,"plusMinus":33}<br>2018 New Jersey Devils {"goals":20,"assists":32,"points":52,"plusMinus":10}<br>2020 New Jersey Devils {"goals":14,"assists":22,"points":36,"plusMinus":6}<br>2022 New Jersey Devils {"goals":21,"assists":39,"points":60,"plusMinus":7}<br>2024 New Jersey Devils {"goals":27,"assists":40,"points":67,"plusMinus":12}<br>2019 New Jersey Devils {"goals":17,"assists":30,"points":47,"plusMinus":6}<br>2021 New Jersey Devils {"goals":11,"assists":23,"points":34,"plusMinus":4}
+- [ ] `nhl-jesper-bratt` **Jesper Bratt** (RW) — 2023 New Jersey Devils {"goals":32,"assists":41,"points":73,"plusMinus":18}<br>2022 New Jersey Devils {"goals":26,"assists":47,"points":73,"plusMinus":10}<br>2024 New Jersey Devils {"goals":27,"assists":56,"points":83,"plusMinus":8}<br>2020 New Jersey Devils {"goals":10,"assists":18,"points":28,"plusMinus":4}
+- [ ] `nhl-dougie-hamilton` **Dougie Hamilton** (D) — 2023 New Jersey Devils {"goals":22,"assists":52,"points":74,"plusMinus":23}<br>2022 New Jersey Devils {"goals":9,"assists":21,"points":30,"plusMinus":8}<br>2024 New Jersey Devils {"goals":5,"assists":11,"points":16,"plusMinus":2}
+- [ ] `nhl-vito-vanacek` **Vitek Vanecek** (G) — 2023 New Jersey Devils {"wins":33,"gaa":2.45,"savePct":0.911,"shutouts":3}<br>2022 New Jersey Devils {"wins":33,"gaa":2.45,"savePct":0.911,"shutouts":3}<br>2024 New Jersey Devils {"wins":17,"gaa":3.18,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-sebastian-aho` **Sebastian Aho** (C) — 2022 Carolina Hurricanes {"goals":37,"assists":44,"points":81,"plusMinus":19}<br>2019 Carolina Hurricanes {"goals":30,"assists":53,"points":83,"plusMinus":25}
+- [ ] `nhl-andrei-svechnikov` **Andrei Svechnikov** (RW) — 2022 Carolina Hurricanes {"goals":30,"assists":39,"points":69,"plusMinus":0}
+- [ ] `nhl-teuvo-teravainen` **Teuvo Teravainen** (LW) — 2022 Carolina Hurricanes {"goals":22,"assists":43,"points":65,"plusMinus":15}
+- [ ] `nhl-jaccob-slavin` **Jaccob Slavin** (D) — 2022 Carolina Hurricanes {"goals":4,"assists":38,"points":42,"plusMinus":35}
+- [ ] `nhl-jordan-staal` **Jordan Staal** (C) — 2009 Pittsburgh Penguins {"goals":22,"assists":27,"points":49,"plusMinus":5}<br>2007 Pittsburgh Penguins {"goals":29,"assists":13,"points":42,"plusMinus":10}<br>2008 Pittsburgh Penguins {"goals":12,"assists":16,"points":28,"plusMinus":5}<br>2012 Pittsburgh Penguins {"goals":25,"assists":25,"points":50,"plusMinus":10}
+- [ ] `nhl-eric-staal` **Eric Staal** (C) — 2006 Carolina Hurricanes {"goals":45,"assists":55,"points":100,"plusMinus":19}<br>2018 Minnesota Wild {"goals":42,"assists":34,"points":76,"plusMinus":4}<br>2017 Minnesota Wild {"goals":28,"assists":37,"points":65,"plusMinus":17}
+- [ ] `nhl-rod-brindamour` **Rod Brind'Amour** (C) — 2006 Carolina Hurricanes {"goals":19,"assists":34,"points":53,"plusMinus":8}<br>1992 St. Louis Blues {"goals":33,"assists":44,"points":77,"plusMinus":12}<br>1994 Philadelphia Flyers {"goals":35,"assists":62,"points":97,"plusMinus":12}<br>2002 Carolina Hurricanes {"goals":23,"assists":32,"points":55,"plusMinus":8}<br>1999 Philadelphia Flyers {"goals":24,"assists":50,"points":74,"plusMinus":12}<br>1996 Philadelphia Flyers {"goals":26,"assists":61,"points":87,"plusMinus":12}<br>1998 Philadelphia Flyers {"goals":36,"assists":38,"points":74,"plusMinus":12}
+- [ ] `nhl-justin-williams` **Justin Williams** (RW) — 2006 Carolina Hurricanes {"goals":31,"assists":45,"points":76,"plusMinus":16}<br>2014 Los Angeles Kings {"goals":18,"assists":24,"points":42,"plusMinus":14}
+- [ ] `nhl-cam-ward` **Cam Ward** (G) — 2006 Carolina Hurricanes {"wins":14,"gaa":3.68,"savePct":0.882,"shutouts":2}
+- [ ] `nhl-erik-cole` **Erik Cole** (LW) — 2006 Carolina Hurricanes {"goals":30,"assists":29,"points":59,"plusMinus":14}<br>2002 Carolina Hurricanes {"goals":16,"assists":24,"points":40,"plusMinus":6}<br>2012 Montreal Canadiens {"goals":35,"assists":26,"points":61,"plusMinus":6}
+- [ ] `nhl-cory-stillman` **Cory Stillman** (LW) — 2006 Carolina Hurricanes {"goals":21,"assists":55,"points":76,"plusMinus":9}<br>2001 St. Louis Blues {"goals":20,"assists":34,"points":54,"plusMinus":6}<br>2004 Tampa Bay Lightning {"goals":25,"assists":55,"points":80,"plusMinus":12}
+- [ ] `nhl-ray-whitney` **Ray Whitney** (LW) — 2012 Phoenix Coyotes {"goals":24,"assists":53,"points":77,"plusMinus":12}<br>1997 Florida Panthers {"goals":20,"assists":32,"points":52,"plusMinus":4}<br>2003 Columbus Blue Jackets {"goals":24,"assists":52,"points":76,"plusMinus":8}<br>2006 Carolina Hurricanes {"goals":17,"assists":38,"points":55,"plusMinus":6}
+- [ ] `nhl-shane-doan` **Shane Doan** (RW) — 2008 Phoenix Coyotes {"goals":28,"assists":50,"points":78,"plusMinus":4}<br>2012 Phoenix Coyotes {"goals":22,"assists":28,"points":50,"plusMinus":6}
+- [ ] `nhl-radim-vrbata` **Radim Vrbata** (RW) — 2012 Phoenix Coyotes {"goals":35,"assists":27,"points":62,"plusMinus":12}
+- [ ] `nhl-oliver-ekman-larsson` **Oliver Ekman-Larsson** (D) — 2015 Arizona Coyotes {"goals":23,"assists":20,"points":43,"plusMinus":18}<br>2012 Phoenix Coyotes {"goals":13,"assists":19,"points":32,"plusMinus":6}
+- [ ] `nhl-clayton-keller` **Clayton Keller** (C) — 2023 Arizona Coyotes {"goals":37,"assists":49,"points":86,"plusMinus":2}
+- [ ] `nhl-conor-garland` **Conor Garland** (RW) — 2022 Arizona Coyotes {"goals":22,"assists":37,"points":59,"plusMinus":4}
+- [ ] `nhl-kailer-yamamoto` **Kailer Yamamoto** (RW) — 2022 Edmonton Oilers {"goals":10,"assists":15,"points":25,"plusMinus":4}<br>2021 Edmonton Oilers {"goals":8,"assists":13,"points":21,"plusMinus":2}<br>2023 Edmonton Oilers {"goals":10,"assists":15,"points":25,"plusMinus":4}
+- [ ] `nhl-ryan-nugent-hopkins` **Ryan Nugent-Hopkins** (C) — 2023 Edmonton Oilers {"goals":37,"assists":67,"points":104,"plusMinus":12}<br>2012 Edmonton Oilers {"goals":18,"assists":34,"points":52,"plusMinus":4}<br>2014 Edmonton Oilers {"goals":19,"assists":37,"points":56,"plusMinus":4}<br>2015 Edmonton Oilers {"goals":24,"assists":32,"points":56,"plusMinus":4}<br>2017 Edmonton Oilers {"goals":18,"assists":25,"points":43,"plusMinus":6}<br>2019 Edmonton Oilers {"goals":28,"assists":41,"points":69,"plusMinus":8}<br>2020 Edmonton Oilers {"goals":22,"assists":39,"points":61,"plusMinus":6}<br>2024 Edmonton Oilers {"goals":18,"assists":49,"points":67,"plusMinus":10}<br>2021 Edmonton Oilers {"goals":16,"assists":19,"points":35,"plusMinus":4}<br>2018 Edmonton Oilers {"goals":24,"assists":24,"points":48,"plusMinus":6}<br>2022 Edmonton Oilers {"goals":11,"assists":39,"points":50,"plusMinus":8}<br>2016 Edmonton Oilers {"goals":12,"assists":22,"points":34,"plusMinus":2}
+- [ ] `nhl-zach-hyman` **Zach Hyman** (LW) — 2023 Edmonton Oilers {"goals":36,"assists":47,"points":83,"plusMinus":15}<br>2022 Edmonton Oilers {"goals":27,"assists":27,"points":54,"plusMinus":10}<br>2024 Edmonton Oilers {"goals":54,"assists":23,"points":77,"plusMinus":10}
+- [ ] `nhl-evan-bouchard` **Evan Bouchard** (D) — 2024 Edmonton Oilers {"goals":18,"assists":64,"points":82,"plusMinus":12}<br>2023 Edmonton Oilers {"goals":8,"assists":32,"points":40,"plusMinus":6}<br>2022 Edmonton Oilers {"goals":12,"assists":31,"points":43,"plusMinus":6}
+- [ ] `nhl-dylan-larkin` **Dylan Larkin** (C) — 2022 Detroit Red Wings {"goals":31,"assists":38,"points":69,"plusMinus":12}
+- [ ] `nhl-lucas-raymond` **Lucas Raymond** (LW) — 2022 Detroit Red Wings {"goals":23,"assists":34,"points":57,"plusMinus":4}
+- [ ] `nhl-moritz-seider` **Moritz Seider** (D) — 2022 Detroit Red Wings {"goals":7,"assists":43,"points":50,"plusMinus":4}
+- [ ] `nhl-alex-debrincat` **Alex DeBrincat** (RW) — 2022 Chicago Blackhawks {"goals":41,"assists":37,"points":78,"plusMinus":10}<br>2019 Chicago Blackhawks {"goals":41,"assists":35,"points":76,"plusMinus":8}<br>2021 Chicago Blackhawks {"goals":32,"assists":24,"points":56,"plusMinus":4}
+- [ ] `nhl-kirby-dach` **Kirby Dach** (C) — 2023 Montreal Canadiens {"goals":14,"assists":24,"points":38,"plusMinus":4}<br>2024 Montreal Canadiens {"goals":10,"assists":26,"points":36,"plusMinus":4}
+- [ ] `nhl-nick-suzuki` **Nick Suzuki** (C) — 2023 Montreal Canadiens {"goals":26,"assists":40,"points":66,"plusMinus":8}<br>2022 Montreal Canadiens {"goals":21,"assists":40,"points":61,"plusMinus":4}<br>2024 Montreal Canadiens {"goals":33,"assists":44,"points":77,"plusMinus":8}<br>2021 Montreal Canadiens {"goals":15,"assists":26,"points":41,"plusMinus":4}
+- [ ] `nhl-cole-caufield` **Cole Caufield** (RW) — 2023 Montreal Canadiens {"goals":26,"assists":10,"points":36,"plusMinus":4}<br>2022 Montreal Canadiens {"goals":23,"assists":20,"points":43,"plusMinus":4}<br>2024 Montreal Canadiens {"goals":28,"assists":37,"points":65,"plusMinus":4}<br>2021 Montreal Canadiens {"goals":4,"assists":8,"points":12,"plusMinus":2}
+- [ ] `nhl-brendan-gallagher` **Brendan Gallagher** (RW) — 2018 Montreal Canadiens {"goals":31,"assists":23,"points":54,"plusMinus":8}<br>2015 Montreal Canadiens {"goals":24,"assists":23,"points":47,"plusMinus":8}<br>2024 Montreal Canadiens {"goals":11,"assists":5,"points":16,"plusMinus":2}
+- [ ] `nhl-max-pacioretty` **Max Pacioretty** (LW) — 2014 Montreal Canadiens {"goals":39,"assists":21,"points":60,"plusMinus":8}<br>2012 Montreal Canadiens {"goals":33,"assists":32,"points":65,"plusMinus":2}<br>2015 Montreal Canadiens {"goals":37,"assists":30,"points":67,"plusMinus":38}<br>2018 Montreal Canadiens {"goals":17,"assists":20,"points":37,"plusMinus":4}
+- [ ] `nhl-pk-subban` **P.K. Subban** (D) — 2013 Montreal Canadiens {"goals":11,"assists":27,"points":38,"plusMinus":12}<br>2011 Montreal Canadiens {"goals":14,"assists":24,"points":38,"plusMinus":6}<br>2015 Montreal Canadiens {"goals":15,"assists":45,"points":60,"plusMinus":5}<br>2018 Nashville Predators {"goals":16,"assists":43,"points":59,"plusMinus":18}<br>2017 Nashville Predators {"goals":10,"assists":30,"points":40,"plusMinus":12}<br>2019 Nashville Predators {"goals":9,"assists":22,"points":31,"plusMinus":6}<br>2021 New Jersey Devils {"goals":5,"assists":14,"points":19,"plusMinus":2}<br>2020 New Jersey Devils {"goals":7,"assists":11,"points":18,"plusMinus":2}
+- [ ] `nhl-shea-weber` **Shea Weber** (D) — 2011 Nashville Predators {"goals":16,"assists":32,"points":48,"plusMinus":7}<br>2017 Montreal Canadiens {"goals":17,"assists":25,"points":42,"plusMinus":20}<br>2021 Montreal Canadiens {"goals":6,"assists":19,"points":25,"plusMinus":4}<br>2009 Nashville Predators {"goals":23,"assists":30,"points":53,"plusMinus":6}<br>2014 Nashville Predators {"goals":23,"assists":33,"points":56,"plusMinus":16}
+- [ ] `nhl-roman-josi` **Roman Josi** (D) — 2022 Nashville Predators {"goals":23,"assists":73,"points":96,"plusMinus":13}<br>2015 Nashville Predators {"goals":8,"assists":40,"points":48,"plusMinus":15}<br>2016 Nashville Predators {"goals":14,"assists":47,"points":61,"plusMinus":26}<br>2020 Nashville Predators {"goals":16,"assists":49,"points":65,"plusMinus":19}<br>2024 Nashville Predators {"goals":23,"assists":62,"points":85,"plusMinus":12}<br>2018 Nashville Predators {"goals":14,"assists":39,"points":53,"plusMinus":12}<br>2019 Nashville Predators {"goals":15,"assists":41,"points":56,"plusMinus":12}<br>2021 Nashville Predators {"goals":8,"assists":25,"points":33,"plusMinus":8}<br>2023 Nashville Predators {"goals":18,"assists":41,"points":59,"plusMinus":5}
+- [ ] `nhl-filip-forsberg` **Filip Forsberg** (LW) — 2022 Nashville Predators {"goals":42,"assists":42,"points":84,"plusMinus":12}<br>2015 Nashville Predators {"goals":26,"assists":37,"points":63,"plusMinus":15}<br>2016 Nashville Predators {"goals":33,"assists":31,"points":64,"plusMinus":16}<br>2017 Nashville Predators {"goals":31,"assists":27,"points":58,"plusMinus":12}<br>2020 Nashville Predators {"goals":21,"assists":27,"points":48,"plusMinus":12}<br>2024 Nashville Predators {"goals":48,"assists":46,"points":94,"plusMinus":16}<br>2018 Nashville Predators {"goals":26,"assists":38,"points":64,"plusMinus":12}<br>2019 Nashville Predators {"goals":28,"assists":22,"points":50,"plusMinus":8}<br>2021 Nashville Predators {"goals":17,"assists":15,"points":32,"plusMinus":6}<br>2023 Nashville Predators {"goals":19,"assists":23,"points":42,"plusMinus":4}
+- [ ] `nhl-matt-duchene` **Matt Duchene** (C) — 2022 Nashville Predators {"goals":28,"assists":43,"points":71,"plusMinus":2}<br>2014 Colorado Avalanche {"goals":24,"assists":47,"points":71,"plusMinus":8}<br>2011 Colorado Avalanche {"goals":27,"assists":40,"points":67,"plusMinus":8}<br>2020 Nashville Predators {"goals":13,"assists":29,"points":42,"plusMinus":6}<br>2019 Nashville Predators {"goals":31,"assists":39,"points":70,"plusMinus":6}<br>2021 Nashville Predators {"goals":6,"assists":7,"points":13,"plusMinus":2}<br>2023 Nashville Predators {"goals":22,"assists":34,"points":56,"plusMinus":2}
+- [ ] `nhl-ryan-johansen` **Ryan Johansen** (C) — 2014 Columbus Blue Jackets {"goals":33,"assists":30,"points":63,"plusMinus":4}<br>2016 Nashville Predators {"goals":15,"assists":45,"points":60,"plusMinus":10}<br>2017 Nashville Predators {"goals":14,"assists":47,"points":61,"plusMinus":12}<br>2020 Nashville Predators {"goals":12,"assists":24,"points":36,"plusMinus":6}<br>2019 Nashville Predators {"goals":14,"assists":50,"points":64,"plusMinus":8}<br>2021 Nashville Predators {"goals":7,"assists":15,"points":22,"plusMinus":4}
+- [ ] `nhl-cam-atkinson` **Cam Atkinson** (RW) — 2017 Columbus Blue Jackets {"goals":35,"assists":27,"points":62,"plusMinus":10}<br>2019 Columbus Blue Jackets {"goals":41,"assists":28,"points":69,"plusMinus":4}
+- [ ] `nhl-seth-jones` **Seth Jones** (D) — 2018 Columbus Blue Jackets {"goals":16,"assists":41,"points":57,"plusMinus":10}<br>2016 Columbus Blue Jackets {"goals":10,"assists":30,"points":40,"plusMinus":4}
+- [ ] `nhl-zach-werenski` **Zach Werenski** (D) — 2022 Columbus Blue Jackets {"goals":11,"assists":37,"points":48,"plusMinus":4}<br>2017 Columbus Blue Jackets {"goals":11,"assists":36,"points":47,"plusMinus":17}
+- [ ] `nhl-johnny-gaudreau` **Johnny Gaudreau** (LW) — 2022 Calgary Flames {"goals":40,"assists":75,"points":115,"plusMinus":16}<br>2019 Calgary Flames {"goals":36,"assists":63,"points":99,"plusMinus":18}
+- [ ] `nhl-elias-lindholm` **Elias Lindholm** (C) — 2022 Calgary Flames {"goals":42,"assists":40,"points":82,"plusMinus":16}
+- [ ] `nhl-andrew-mangiapane` **Andrew Mangiapane** (LW) — 2022 Calgary Flames {"goals":35,"assists":20,"points":55,"plusMinus":21}
+- [ ] `nhl-rasmus-andersson` **Rasmus Andersson** (D) — 2022 Calgary Flames {"goals":4,"assists":46,"points":50,"plusMinus":12}
+- [ ] `nhl-jacob-markstrom` **Jacob Markstrom** (G) — 2022 Calgary Flames {"wins":37,"gaa":2.22,"savePct":0.922,"shutouts":9}<br>2024 New Jersey Devils {"wins":27,"gaa":2.69,"savePct":0.911,"shutouts":2}
+- [ ] `nhl-mikael-backlund` **Mikael Backlund** (C) — 2022 Calgary Flames {"goals":12,"assists":27,"points":39,"plusMinus":14}
+- [ ] `nhl-sean-monahan` **Sean Monahan** (C) — 2019 Calgary Flames {"goals":34,"assists":48,"points":82,"plusMinus":8}
+- [ ] `nhl-mark-giordano` **Mark Giordano** (D) — 2019 Calgary Flames {"goals":17,"assists":57,"points":74,"plusMinus":39}
+- [ ] `nhl-david-rittich` **David Rittich** (G) — 2019 Calgary Flames {"wins":27,"gaa":2.61,"savePct":0.911,"shutouts":1}
+- [ ] `nhl-elias-pettersson` **Elias Pettersson** (C) — 2023 Vancouver Canucks {"goals":39,"assists":63,"points":102,"plusMinus":16}
+- [ ] `nhl-j-t-miller` **J.T. Miller** (C) — 2022 Vancouver Canucks {"goals":32,"assists":67,"points":99,"plusMinus":15}<br>2017 New York Rangers {"goals":22,"assists":34,"points":56,"plusMinus":6}
+- [ ] `nhl-quinn-hughes` **Quinn Hughes** (D) — 2024 Vancouver Canucks {"goals":17,"assists":75,"points":92,"plusMinus":18}
+- [ ] `nhl-brock-boeser` **Brock Boeser** (RW) — 2018 Vancouver Canucks {"goals":29,"assists":26,"points":55,"plusMinus":2}
+- [ ] `nhl-bo-horvat` **Bo Horvat** (C) — 2023 Vancouver Canucks {"goals":31,"assists":23,"points":54,"plusMinus":4}
+- [ ] `nhl-thatcher-demko` **Thatcher Demko** (G) — 2022 Vancouver Canucks {"wins":33,"gaa":2.72,"savePct":0.915,"shutouts":1}
+- [ ] `nhl-jordan-eberle` **Jordan Eberle** (RW) — 2012 Edmonton Oilers {"goals":34,"assists":42,"points":76,"plusMinus":4}<br>2014 Edmonton Oilers {"goals":28,"assists":37,"points":65,"plusMinus":4}<br>2011 Edmonton Oilers {"goals":18,"assists":25,"points":43,"plusMinus":4}<br>2015 Edmonton Oilers {"goals":24,"assists":39,"points":63,"plusMinus":4}<br>2017 Edmonton Oilers {"goals":20,"assists":31,"points":51,"plusMinus":3}<br>2016 Edmonton Oilers {"goals":25,"assists":22,"points":47,"plusMinus":4}
+- [ ] `nhl-ryan-smyth` **Ryan Smyth** (LW) — 2001 Edmonton Oilers {"goals":31,"assists":39,"points":70,"plusMinus":10}<br>2007 Colorado Avalanche {"goals":14,"assists":22,"points":36,"plusMinus":4}
+- [ ] `nhl-doug-weight` **Doug Weight** (C) — 1996 Edmonton Oilers {"goals":25,"assists":79,"points":104,"plusMinus":9}<br>2003 St. Louis Blues {"goals":15,"assists":52,"points":67,"plusMinus":8}<br>2006 Carolina Hurricanes {"goals":4,"assists":9,"points":13,"plusMinus":2}
+- [ ] `nhl-thomas-harley` **Thomas Harley** (D) — 2024 Dallas Stars {"goals":15,"assists":32,"points":47,"plusMinus":22}
+- [ ] `nhl-anton-khudobin` **Anton Khudobin** (G) — 2020 Dallas Stars {"wins":16,"gaa":2.22,"savePct":0.93,"shutouts":1}
+- [ ] `nhl-kirill-kaprizov` **Kirill Kaprizov** (LW) — 2021 Minnesota Wild {"goals":27,"assists":24,"points":51,"plusMinus":10}<br>2022 Minnesota Wild {"goals":47,"assists":61,"points":108,"plusMinus":27}<br>2023 Minnesota Wild {"goals":40,"assists":35,"points":75,"plusMinus":6}<br>2024 Minnesota Wild {"goals":46,"assists":50,"points":96,"plusMinus":10}
+- [ ] `nhl-kevin-fiala` **Kevin Fiala** (LW) — 2022 Minnesota Wild {"goals":33,"assists":52,"points":85,"plusMinus":13}<br>2020 Minnesota Wild {"goals":23,"assists":31,"points":54,"plusMinus":6}<br>2021 Minnesota Wild {"goals":20,"assists":22,"points":42,"plusMinus":4}
+- [ ] `nhl-mats-zuccarello` **Mats Zuccarello** (RW) — 2022 Minnesota Wild {"goals":24,"assists":55,"points":79,"plusMinus":12}<br>2015 New York Rangers {"goals":15,"assists":34,"points":49,"plusMinus":6}<br>2017 New York Rangers {"goals":15,"assists":44,"points":59,"plusMinus":4}<br>2024 Minnesota Wild {"goals":12,"assists":51,"points":63,"plusMinus":8}<br>2021 Minnesota Wild {"goals":11,"assists":24,"points":35,"plusMinus":4}<br>2023 Minnesota Wild {"goals":22,"assists":45,"points":67,"plusMinus":8}
+- [ ] `nhl-jared-spurgeon` **Jared Spurgeon** (D) — 2022 Minnesota Wild {"goals":8,"assists":32,"points":40,"plusMinus":18}<br>2023 Minnesota Wild {"goals":5,"assists":16,"points":21,"plusMinus":6}<br>2021 Minnesota Wild {"goals":5,"assists":20,"points":25,"plusMinus":8}<br>2024 Minnesota Wild {"goals":4,"assists":16,"points":20,"plusMinus":6}<br>2017 Minnesota Wild {"goals":10,"assists":28,"points":38,"plusMinus":23}
+- [ ] `nhl-mikko-koivu` **Mikko Koivu** (C) — 2009 Minnesota Wild {"goals":20,"assists":47,"points":67,"plusMinus":5}<br>2017 Minnesota Wild {"goals":18,"assists":40,"points":58,"plusMinus":6}<br>2010 Minnesota Wild {"goals":22,"assists":49,"points":71,"plusMinus":6}<br>2007 Minnesota Wild {"goals":20,"assists":34,"points":54,"plusMinus":6}
+- [ ] `nhl-ryan-suter` **Ryan Suter** (D) — 2013 Minnesota Wild {"goals":4,"assists":28,"points":32,"plusMinus":2}<br>2012 Nashville Predators {"goals":7,"assists":39,"points":46,"plusMinus":15}<br>2011 Nashville Predators {"goals":4,"assists":35,"points":39,"plusMinus":20}<br>2017 Minnesota Wild {"goals":8,"assists":31,"points":39,"plusMinus":34}
+- [ ] `nhl-devan-dubnyk` **Devan Dubnyk** (G) — 2015 Minnesota Wild {"wins":36,"gaa":2.07,"savePct":0.929,"shutouts":5}<br>2016 Minnesota Wild {"wins":32,"gaa":2.33,"savePct":0.918,"shutouts":5}
+- [ ] `nhl-nino-niederreiter` **Nino Niederreiter** (RW) — 2017 Minnesota Wild {"goals":25,"assists":32,"points":57,"plusMinus":17}<br>2018 Minnesota Wild {"goals":18,"assists":14,"points":32,"plusMinus":10}
+- [ ] `nhl-jason-pominville` **Jason Pominville** (RW) — 2014 Minnesota Wild {"goals":30,"assists":30,"points":60,"plusMinus":10}<br>2008 Buffalo Sabres {"goals":27,"assists":53,"points":80,"plusMinus":12}<br>2015 Minnesota Wild {"goals":18,"assists":36,"points":54,"plusMinus":10}
+- [ ] `nhl-matt-boldy` **Matt Boldy** (LW) — 2023 Minnesota Wild {"goals":31,"assists":32,"points":63,"plusMinus":8}<br>2024 Minnesota Wild {"goals":29,"assists":40,"points":69,"plusMinus":8}<br>2022 Minnesota Wild {"goals":15,"assists":24,"points":39,"plusMinus":6}
+- [ ] `nhl-joel-eriksson-ek` **Joel Eriksson Ek** (C) — 2023 Minnesota Wild {"goals":23,"assists":38,"points":61,"plusMinus":14}<br>2024 Minnesota Wild {"goals":30,"assists":34,"points":64,"plusMinus":15}<br>2021 Minnesota Wild {"goals":19,"assists":21,"points":40,"plusMinus":6}<br>2022 Minnesota Wild {"goals":26,"assists":23,"points":49,"plusMinus":14}
+- [ ] `nhl-kyle-connor` **Kyle Connor** (LW) — 2022 Winnipeg Jets {"goals":47,"assists":46,"points":93,"plusMinus":19}<br>2018 Winnipeg Jets {"goals":31,"assists":26,"points":57,"plusMinus":8}
+- [ ] `nhl-mark-scheifele` **Mark Scheifele** (C) — 2022 Winnipeg Jets {"goals":29,"assists":41,"points":70,"plusMinus":12}<br>2018 Winnipeg Jets {"goals":23,"assists":37,"points":60,"plusMinus":12}
+- [ ] `nhl-nikolaj-ehlers` **Nikolaj Ehlers** (LW) — 2022 Winnipeg Jets {"goals":28,"assists":27,"points":55,"plusMinus":10}
+- [ ] `nhl-josh-morrissey` **Josh Morrissey** (D) — 2023 Winnipeg Jets {"goals":16,"assists":60,"points":76,"plusMinus":6}
+- [ ] `nhl-pierre-luc-dubois` **Pierre-Luc Dubois** (C) — 2020 Winnipeg Jets {"goals":23,"assists":40,"points":63,"plusMinus":10}<br>2018 Columbus Blue Jackets {"goals":20,"assists":28,"points":48,"plusMinus":4}
+- [ ] `nhl-blake-wheeler` **Blake Wheeler** (RW) — 2019 Winnipeg Jets {"goals":20,"assists":71,"points":91,"plusMinus":10}
+- [ ] `nhl-patrik-laine` **Patrik Laine** (RW) — 2018 Winnipeg Jets {"goals":44,"assists":26,"points":70,"plusMinus":8}<br>2021 Columbus Blue Jackets {"goals":10,"assists":11,"points":21,"plusMinus":4}
+- [ ] `nhl-dustin-byfuglien` **Dustin Byfuglien** (D) — 2017 Winnipeg Jets {"goals":13,"assists":39,"points":52,"plusMinus":10}<br>2010 Chicago Blackhawks {"goals":17,"assists":17,"points":34,"plusMinus":4}
+- [ ] `nhl-bryan-little` **Bryan Little** (C) — 2014 Winnipeg Jets {"goals":23,"assists":31,"points":54,"plusMinus":8}
+- [ ] `nhl-ondrej-pavelec` **Ondrej Pavelec** (G) — 2015 Winnipeg Jets {"wins":22,"gaa":2.28,"savePct":0.92,"shutouts":4}
+- [ ] `nhl-jack-roslovic` **Jack Roslovic** (C) — 2021 Winnipeg Jets {"goals":12,"assists":22,"points":34,"plusMinus":4}
+- [ ] `nhl-neal-pionk` **Neal Pionk** (D) — 2020 Winnipeg Jets {"goals":6,"assists":39,"points":45,"plusMinus":10}
+- [ ] `nhl-cole-perfetti` **Cole Perfetti** (C) — 2023 Winnipeg Jets {"goals":8,"assists":22,"points":30,"plusMinus":4}
+- [ ] `nhl-gabriel-vilardi` **Gabriel Vilardi** (C) — 2024 Winnipeg Jets {"goals":22,"assists":14,"points":36,"plusMinus":8}
+- [ ] `nhl-quinton-byfield` **Quinton Byfield** (C) — 2024 Los Angeles Kings {"goals":20,"assists":35,"points":55,"plusMinus":12}
+- [ ] `nhl-adrian-kempe` **Adrian Kempe** (RW) — 2022 Los Angeles Kings {"goals":35,"assists":19,"points":54,"plusMinus":14}
+- [ ] `nhl-dustin-brown` **Dustin Brown** (RW) — 2012 Los Angeles Kings {"goals":22,"assists":32,"points":54,"plusMinus":18}
+- [ ] `nhl-slava-voynov` **Slava Voynov** (D) — 2012 Los Angeles Kings {"goals":8,"assists":12,"points":20,"plusMinus":12}
+- [ ] `nhl-trevor-lewis` **Trevor Lewis** (C) — 2014 Los Angeles Kings {"goals":6,"assists":4,"points":10,"plusMinus":4}
+- [ ] `nhl-alec-martinez` **Alec Martinez** (D) — 2014 Los Angeles Kings {"goals":11,"assists":16,"points":27,"plusMinus":18}
+- [ ] `nhl-jake-muzzin` **Jake Muzzin** (D) — 2014 Los Angeles Kings {"goals":5,"assists":19,"points":24,"plusMinus":12}
+- [ ] `nhl-tyler-toffoli` **Tyler Toffoli** (RW) — 2014 Los Angeles Kings {"goals":12,"assists":14,"points":26,"plusMinus":20}<br>2021 Montreal Canadiens {"goals":28,"assists":16,"points":44,"plusMinus":4}<br>2024 New Jersey Devils {"goals":26,"assists":18,"points":44,"plusMinus":4}
+- [ ] `nhl-tanner-pearson` **Tanner Pearson** (LW) — 2014 Los Angeles Kings {"goals":12,"assists":12,"points":24,"plusMinus":10}
+- [ ] `nhl-martin-jones` **Martin Jones** (G) — 2016 San Jose Sharks {"wins":37,"gaa":2.27,"savePct":0.918,"shutouts":6}
+- [ ] `nhl-evander-kane` **Evander Kane** (LW) — 2012 Winnipeg Jets {"goals":30,"assists":27,"points":57,"plusMinus":2}<br>2023 Edmonton Oilers {"goals":16,"assists":12,"points":28,"plusMinus":2}<br>2022 Edmonton Oilers {"goals":22,"assists":17,"points":39,"plusMinus":4}
+- [ ] `nhl-brent-seabrook` **Brent Seabrook** (D) — 2010 Chicago Blackhawks {"goals":4,"assists":26,"points":30,"plusMinus":20}<br>2016 Chicago Blackhawks {"goals":14,"assists":35,"points":49,"plusMinus":10}<br>2015 Chicago Blackhawks {"goals":8,"assists":23,"points":31,"plusMinus":10}<br>2011 Chicago Blackhawks {"goals":9,"assists":39,"points":48,"plusMinus":12}
+- [ ] `nhl-patrick-sharp` **Patrick Sharp** (LW) — 2010 Chicago Blackhawks {"goals":25,"assists":41,"points":66,"plusMinus":24}<br>2015 Chicago Blackhawks {"goals":16,"assists":27,"points":43,"plusMinus":6}<br>2011 Chicago Blackhawks {"goals":34,"assists":37,"points":71,"plusMinus":10}
+- [ ] `nhl-andrew-shaw` **Andrew Shaw** (C) — 2013 Chicago Blackhawks {"goals":15,"assists":12,"points":27,"plusMinus":6}<br>2016 Chicago Blackhawks {"goals":14,"assists":20,"points":34,"plusMinus":6}<br>2017 Montreal Canadiens {"goals":12,"assists":17,"points":29,"plusMinus":4}
+- [ ] `nhl-brandon-saad` **Brandon Saad** (LW) — 2013 Chicago Blackhawks {"goals":10,"assists":17,"points":27,"plusMinus":6}<br>2015 Chicago Blackhawks {"goals":23,"assists":29,"points":52,"plusMinus":7}<br>2024 St. Louis Blues {"goals":13,"assists":13,"points":26,"plusMinus":4}
+- [ ] `nhl-elvis-merzlikins` **Elvis Merzlikins** (G) — 2020 Columbus Blue Jackets {"wins":13,"gaa":2.35,"savePct":0.923,"shutouts":5}
+- [ ] `nhl-jarmo-kekalainen` **Boone Jenner** (C) — 2021 Columbus Blue Jackets {"goals":8,"assists":9,"points":17,"plusMinus":2}
+- [ ] `nhl-max-domi` **Max Domi** (C) — 2019 Montreal Canadiens {"goals":28,"assists":44,"points":72,"plusMinus":10}
+- [ ] `nhl-tomas-tatar` **Tomas Tatar** (LW) — 2015 Detroit Red Wings {"goals":29,"assists":27,"points":56,"plusMinus":6}
+- [ ] `nhl-gustav-nyquist` **Gustav Nyquist** (C) — 2014 Detroit Red Wings {"goals":28,"assists":20,"points":48,"plusMinus":16}<br>2024 Nashville Predators {"goals":23,"assists":52,"points":75,"plusMinus":8}
+- [ ] `nhl-niklas-kronwall` **Niklas Kronwall** (D) — 2008 Detroit Red Wings {"goals":7,"assists":28,"points":35,"plusMinus":12}
+- [ ] `nhl-brian-rafalski` **Brian Rafalski** (D) — 2008 Detroit Red Wings {"goals":13,"assists":42,"points":55,"plusMinus":27}<br>2007 New Jersey Devils {"goals":8,"assists":47,"points":55,"plusMinus":28}<br>2001 New Jersey Devils {"goals":9,"assists":43,"points":52,"plusMinus":10}
+- [ ] `nhl-dino-ciccarelli` **Dino Ciccarelli** (RW) — 1993 Detroit Red Wings {"goals":41,"assists":56,"points":97,"plusMinus":14}<br>1982 Minnesota North Stars {"goals":55,"assists":51,"points":106,"plusMinus":14}<br>1987 Minnesota North Stars {"goals":52,"assists":51,"points":103,"plusMinus":14}<br>1984 Minnesota North Stars {"goals":38,"assists":33,"points":71,"plusMinus":8}<br>1990 Washington Capitals {"goals":41,"assists":38,"points":79,"plusMinus":10}
+- [ ] `nhl-vyacheslav-kozlov` **Slava Kozlov** (LW) — 1996 Detroit Red Wings {"goals":36,"assists":37,"points":73,"plusMinus":33}
+- [ ] `nhl-vladimir-konstantinov` **Vladimir Konstantinov** (D) — 1996 Detroit Red Wings {"goals":14,"assists":20,"points":34,"plusMinus":20}
+- [ ] `nhl-mike-keane` **Mike Keane** (RW) — 1999 Dallas Stars {"goals":6,"assists":14,"points":20,"plusMinus":4}<br>2000 Dallas Stars {"goals":13,"assists":22,"points":35,"plusMinus":6}
+- [ ] `nhl-derian-hatcher` **Derian Hatcher** (D) — 1999 Dallas Stars {"goals":9,"assists":21,"points":30,"plusMinus":21}<br>2003 Dallas Stars {"goals":8,"assists":22,"points":30,"plusMinus":12}
+- [ ] `nhl-jamie-langenkamp` **Jere Lehtinen** (RW) — 1999 Dallas Stars {"goals":20,"assists":32,"points":52,"plusMinus":19}
+- [ ] `nhl-guy-carbonneau` **Guy Carbonneau** (C) — 1993 Montreal Canadiens {"goals":4,"assists":14,"points":18,"plusMinus":4}
+- [ ] `nhl-kirk-muller` **Kirk Muller** (C) — 1993 Montreal Canadiens {"goals":37,"assists":57,"points":94,"plusMinus":8}
+- [ ] `nhl-vincent-damphousse` **Vincent Damphousse** (C) — 1993 Montreal Canadiens {"goals":39,"assists":58,"points":97,"plusMinus":4}<br>2000 San Jose Sharks {"goals":21,"assists":49,"points":70,"plusMinus":8}<br>1990 Toronto Maple Leafs {"goals":33,"assists":61,"points":94,"plusMinus":8}<br>1994 Montreal Canadiens {"goals":40,"assists":51,"points":91,"plusMinus":8}<br>1996 Montreal Canadiens {"goals":39,"assists":58,"points":97,"plusMinus":8}
+- [ ] `nhl-brian-bellows` **Brian Bellows** (LW) — 1993 Montreal Canadiens {"goals":40,"assists":48,"points":88,"plusMinus":7}<br>1983 Minnesota North Stars {"goals":35,"assists":30,"points":65,"plusMinus":8}<br>1992 Minnesota North Stars {"goals":30,"assists":45,"points":75,"plusMinus":8}<br>1986 Minnesota North Stars {"goals":31,"assists":36,"points":67,"plusMinus":8}
+- [ ] `nhl-mathieu-schneider` **Mathieu Schneider** (D) — 1993 Montreal Canadiens {"goals":13,"assists":31,"points":44,"plusMinus":8}<br>1996 Toronto Maple Leafs {"goals":13,"assists":40,"points":53,"plusMinus":6}<br>2000 Los Angeles Kings {"goals":7,"assists":24,"points":31,"plusMinus":6}
+- [ ] `nhl-eric-desjardins` **Eric Desjardins** (D) — 1993 Montreal Canadiens {"goals":13,"assists":32,"points":45,"plusMinus":20}<br>1999 Philadelphia Flyers {"goals":15,"assists":36,"points":51,"plusMinus":20}
+- [ ] `nhl-larry-robinson` **Larry Robinson** (D) — 1977 Montreal Canadiens {"goals":19,"assists":66,"points":85,"plusMinus":120}<br>1978 Montreal Canadiens {"goals":13,"assists":52,"points":65,"plusMinus":65}
+- [ ] `nhl-steve-shutt` **Steve Shutt** (LW) — 1977 Montreal Canadiens {"goals":60,"assists":45,"points":105,"plusMinus":55}
+- [ ] `nhl-jacques-lemaire` **Jacques Lemaire** (C) — 1978 Montreal Canadiens {"goals":36,"assists":61,"points":97,"plusMinus":40}<br>1971 Montreal Canadiens {"goals":28,"assists":28,"points":56,"plusMinus":22}
+- [ ] `nhl-bob-gainey` **Bob Gainey** (LW) — 1979 Montreal Canadiens {"goals":20,"assists":18,"points":38,"plusMinus":14}
+- [ ] `nhl-guy-lapointe` **Guy Lapointe** (D) — 1977 Montreal Canadiens {"goals":25,"assists":51,"points":76,"plusMinus":69}
+- [ ] `nhl-serge-savard` **Serge Savard** (D) — 1977 Montreal Canadiens {"goals":9,"assists":28,"points":37,"plusMinus":44}
+- [ ] `nhl-yvan-cournoyer` **Yvan Cournoyer** (RW) — 1973 Montreal Canadiens {"goals":40,"assists":39,"points":79,"plusMinus":42}
+- [ ] `nhl-frank-mahovlich` **Frank Mahovlich** (LW) — 1971 Montreal Canadiens {"goals":31,"assists":49,"points":80,"plusMinus":28}
+- [ ] `nhl-henri-richard` **Henri Richard** (C) — 1971 Montreal Canadiens {"goals":12,"assists":37,"points":49,"plusMinus":18}<br>1958 Montreal Canadiens {"goals":28,"assists":52,"points":80,"plusMinus":18}
+- [ ] `nhl-johnny-bucyk` **John Bucyk** (LW) — 1971 Boston Bruins {"goals":51,"assists":65,"points":116,"plusMinus":46}
+- [ ] `nhl-ken-hodge` **Ken Hodge** (RW) — 1971 Boston Bruins {"goals":43,"assists":62,"points":105,"plusMinus":56}<br>1969 Boston Bruins {"goals":45,"assists":45,"points":90,"plusMinus":30}<br>1974 Boston Bruins {"goals":50,"assists":55,"points":105,"plusMinus":36}
+- [ ] `nhl-derek-sanderson` **Derek Sanderson** (C) — 1971 Boston Bruins {"goals":29,"assists":34,"points":63,"plusMinus":28}<br>1970 Boston Bruins {"goals":18,"assists":27,"points":45,"plusMinus":14}
+- [ ] `nhl-gerry-cheevers` **Gerry Cheevers** (G) — 1972 Boston Bruins {"wins":27,"gaa":2.5,"savePct":0.9,"shutouts":2}
+- [ ] `nhl-brad-park` **Brad Park** (D) — 1974 Boston Bruins {"goals":25,"assists":57,"points":82,"plusMinus":46}
+- [ ] `nhl-gilbert-perreault` **Gilbert Perreault** (C) — 1973 Buffalo Sabres {"goals":28,"assists":60,"points":88,"plusMinus":12}
+- [ ] `nhl-rick-martin` **Rick Martin** (LW) — 1975 Buffalo Sabres {"goals":52,"assists":43,"points":95,"plusMinus":22}
+- [ ] `nhl-rene-robert` **Rene Robert** (RW) — 1975 Buffalo Sabres {"goals":40,"assists":60,"points":100,"plusMinus":22}
+- [ ] `nhl-dave-andreychuk` **Dave Andreychuk** (LW) — 1994 Toronto Maple Leafs {"goals":53,"assists":46,"points":99,"plusMinus":22}<br>1993 Toronto Maple Leafs {"goals":29,"assists":32,"points":61,"plusMinus":8}<br>1996 New Jersey Devils {"goals":28,"assists":27,"points":55,"plusMinus":8}<br>2004 Tampa Bay Lightning {"goals":21,"assists":18,"points":39,"plusMinus":8}
+- [ ] `nhl-wendel-clark` **Wendel Clark** (LW) — 1994 Toronto Maple Leafs {"goals":46,"assists":30,"points":76,"plusMinus":16}<br>1986 Toronto Maple Leafs {"goals":34,"assists":11,"points":45,"plusMinus":8}
+- [ ] `nhl-gary-roberts` **Gary Roberts** (LW) — 2002 Toronto Maple Leafs {"goals":21,"assists":27,"points":48,"plusMinus":10}<br>2004 Toronto Maple Leafs {"goals":28,"assists":20,"points":48,"plusMinus":6}<br>2008 Pittsburgh Penguins {"goals":3,"assists":8,"points":11,"plusMinus":2}
+- [ ] `nhl-tomas-kaberle` **Tomas Kaberle** (D) — 2006 Toronto Maple Leafs {"goals":9,"assists":58,"points":67,"plusMinus":4}<br>2004 Toronto Maple Leafs {"goals":3,"assists":28,"points":31,"plusMinus":4}
+- [ ] `nhl-darcy-tucker` **Darcy Tucker** (RW) — 2006 Toronto Maple Leafs {"goals":28,"assists":33,"points":61,"plusMinus":4}
+- [ ] `nhl-bryan-mccabe` **Bryan McCabe** (D) — 2006 Toronto Maple Leafs {"goals":19,"assists":49,"points":68,"plusMinus":4}<br>1999 Chicago Blackhawks {"goals":6,"assists":23,"points":29,"plusMinus":4}<br>2004 Toronto Maple Leafs {"goals":16,"assists":37,"points":53,"plusMinus":6}
+- [ ] `nhl-steve-thomas` **Steve Thomas** (RW) — 1993 New York Islanders {"goals":37,"assists":50,"points":87,"plusMinus":14}<br>1992 New York Islanders {"goals":30,"assists":40,"points":70,"plusMinus":4}<br>1997 Toronto Maple Leafs {"goals":24,"assists":26,"points":50,"plusMinus":6}
+- [ ] `nhl-derek-king` **Derek King** (LW) — 1994 New York Islanders {"goals":30,"assists":40,"points":70,"plusMinus":4}<br>1992 New York Islanders {"goals":40,"assists":38,"points":78,"plusMinus":8}<br>1997 Toronto Maple Leafs {"goals":21,"assists":25,"points":46,"plusMinus":4}
+- [ ] `nhl-ray-ferraro` **Ray Ferraro** (C) — 1994 New York Islanders {"goals":21,"assists":41,"points":62,"plusMinus":4}<br>1993 New York Islanders {"goals":17,"assists":31,"points":48,"plusMinus":4}
+- [ ] `nhl-benoit-hogue` **Benoit Hogue** (LW) — 1993 New York Islanders {"goals":33,"assists":42,"points":75,"plusMinus":8}
+- [ ] `nhl-glenn-healy` **Glenn Healy** (G) — 1993 New York Islanders {"wins":22,"gaa":2.88,"savePct":0.9,"shutouts":2}
+- [ ] `nhl-pat-lafontaine` **Pat LaFontaine** (C) — 1993 Buffalo Sabres {"goals":53,"assists":95,"points":148,"plusMinus":11}<br>1988 New York Islanders {"goals":47,"assists":45,"points":92,"plusMinus":12}<br>1984 New York Islanders {"goals":13,"assists":19,"points":32,"plusMinus":4}
+- [ ] `nhl-clark-gillies` **Clark Gillies** (LW) — 1981 New York Islanders {"goals":33,"assists":45,"points":78,"plusMinus":28}<br>1977 New York Islanders {"goals":33,"assists":22,"points":55,"plusMinus":18}
+- [ ] `nhl-butch-goring` **Butch Goring** (C) — 1981 New York Islanders {"goals":23,"assists":37,"points":60,"plusMinus":8}<br>1974 Los Angeles Kings {"goals":28,"assists":33,"points":61,"plusMinus":8}<br>1977 Los Angeles Kings {"goals":27,"assists":55,"points":82,"plusMinus":10}
+- [ ] `nhl-bob-nystr` **Bob Nystrom** (RW) — 1980 New York Islanders {"goals":21,"assists":18,"points":39,"plusMinus":4}
+- [ ] `nhl-john-tonelli` **John Tonelli** (LW) — 1982 New York Islanders {"goals":35,"assists":58,"points":93,"plusMinus":18}
+- [ ] `nhl-brent-sutter` **Brent Sutter** (C) — 1985 New York Islanders {"goals":42,"assists":60,"points":102,"plusMinus":28}<br>1992 New York Islanders {"goals":29,"assists":32,"points":61,"plusMinus":8}<br>1993 Chicago Blackhawks {"goals":20,"assists":34,"points":54,"plusMinus":6}
+- [ ] `nhl-billy-harris` **Billy Harris** (RW) — 1976 New York Islanders {"goals":32,"assists":38,"points":70,"plusMinus":14}
+- [ ] `nhl-glenn-resh` **Chico Resch** (G) — 1976 New York Islanders {"wins":23,"gaa":2.07,"savePct":0.91,"shutouts":7}
+- [ ] `nhl-garry-howatt` **Garry Howatt** (LW) — 1976 New York Islanders {"goals":21,"assists":16,"points":37,"plusMinus":14}
+- [ ] `nhl-kelly-hrudey` **Kelly Hrudey** (G) — 1987 New York Islanders {"wins":28,"gaa":3.3,"savePct":0.89,"shutouts":3}<br>1991 Los Angeles Kings {"wins":26,"gaa":2.9,"savePct":0.9,"shutouts":2}
+- [ ] `nhl-tom-fitzgerald` **Tom Fitzgerald** (RW) — 1993 New York Islanders {"goals":14,"assists":21,"points":35,"plusMinus":4}<br>1996 Florida Panthers {"goals":13,"assists":14,"points":27,"plusMinus":4}
+- [ ] `nhl-david-volek` **David Volek** (LW) — 1993 New York Islanders {"goals":19,"assists":26,"points":45,"plusMinus":4}
+- [ ] `nhl-vladimir-malakhov` **Vladimir Malakhov** (D) — 1993 New York Islanders {"goals":14,"assists":38,"points":52,"plusMinus":14}<br>2000 Montreal Canadiens {"goals":6,"assists":20,"points":26,"plusMinus":6}
+- [ ] `nhl-darius-kasparaitis` **Darius Kasparaitis** (D) — 1993 New York Islanders {"goals":4,"assists":17,"points":21,"plusMinus":14}<br>2001 Pittsburgh Penguins {"goals":3,"assists":16,"points":19,"plusMinus":8}<br>2006 New York Rangers {"goals":0,"assists":6,"points":6,"plusMinus":2}
+- [ ] `nhl-scott-lachance` **Scott Lachance** (D) — 1993 New York Islanders {"goals":7,"assists":21,"points":28,"plusMinus":4}
+- [ ] `nhl-tommy-salo` **Tommy Salo** (G) — 1999 New York Islanders {"wins":23,"gaa":2.45,"savePct":0.91,"shutouts":4}
+- [ ] `nhl-ziggy-palffy` **Zigmund Palffy** (RW) — 1997 New York Islanders {"goals":48,"assists":42,"points":90,"plusMinus":14}<br>1996 New York Islanders {"goals":43,"assists":44,"points":87,"plusMinus":14}<br>2000 Los Angeles Kings {"goals":35,"assists":44,"points":79,"plusMinus":8}<br>1998 Los Angeles Kings {"goals":45,"assists":42,"points":87,"plusMinus":10}
+- [ ] `nhl-trevor-linden` **Trevor Linden** (C) — 1994 Vancouver Canucks {"goals":32,"assists":29,"points":61,"plusMinus":8}<br>1991 Vancouver Canucks {"goals":33,"assists":37,"points":70,"plusMinus":8}<br>1996 Vancouver Canucks {"goals":33,"assists":38,"points":71,"plusMinus":8}
+- [ ] `nhl-geoff-courtnall` **Geoff Courtnall** (LW) — 1992 Vancouver Canucks {"goals":23,"assists":49,"points":72,"plusMinus":8}<br>1991 Vancouver Canucks {"goals":35,"assists":41,"points":76,"plusMinus":8}<br>1996 St. Louis Blues {"goals":24,"assists":22,"points":46,"plusMinus":6}
+- [ ] `nhl-cliff-ronning` **Cliff Ronning** (C) — 1993 Vancouver Canucks {"goals":29,"assists":56,"points":85,"plusMinus":8}<br>1992 Vancouver Canucks {"goals":24,"assists":47,"points":71,"plusMinus":8}
+- [ ] `nhl-sergio-momesso` **Sergio Momesso** (LW) — 1992 Vancouver Canucks {"goals":20,"assists":28,"points":48,"plusMinus":4}<br>1991 St. Louis Blues {"goals":24,"assists":26,"points":50,"plusMinus":6}
+- [ ] `nhl-jyrki-lumme` **Jyrki Lumme** (D) — 1993 Vancouver Canucks {"goals":8,"assists":36,"points":44,"plusMinus":14}<br>1996 Vancouver Canucks {"goals":17,"assists":37,"points":54,"plusMinus":14}
+- [ ] `nhl-dana-murzyn` **Dana Murzyn** (D) — 1994 Vancouver Canucks {"goals":3,"assists":14,"points":17,"plusMinus":8}
+- [ ] `nhl-greg-adams` **Greg Adams** (LW) — 1993 Vancouver Canucks {"goals":25,"assists":31,"points":56,"plusMinus":8}
+- [ ] `nhl-martin-gelinas` **Martin Gelinas** (LW) — 1994 Vancouver Canucks {"goals":16,"assists":18,"points":34,"plusMinus":8}
+- [ ] `nhl-gino-odjick` **Gino Odjick** (LW) — 1994 Vancouver Canucks {"goals":16,"assists":13,"points":29,"plusMinus":4}
+- [ ] `nhl-bret-hedican` **Bret Hedican** (D) — 1994 Vancouver Canucks {"goals":5,"assists":11,"points":16,"plusMinus":4}<br>2006 Carolina Hurricanes {"goals":5,"assists":15,"points":20,"plusMinus":6}<br>2002 Carolina Hurricanes {"goals":5,"assists":14,"points":19,"plusMinus":6}
+- [ ] `nhl-kay-whitmore` **Kay Whitmore** (G) — 1993 Vancouver Canucks {"wins":18,"gaa":3.42,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-petri-skog` **Petr Nedved** (C) — 1993 Vancouver Canucks {"goals":38,"assists":41,"points":79,"plusMinus":8}
+- [ ] `nhl-gary-valk` **Garry Valk** (LW) — 1992 Vancouver Canucks {"goals":18,"assists":21,"points":39,"plusMinus":4}
+- [ ] `nhl-robert-dirk` **Robert Dirk** (D) — 1992 Vancouver Canucks {"goals":4,"assists":11,"points":15,"plusMinus":4}
+- [ ] `nhl-russ-court` **Russ Courtnall** (RW) — 1992 Vancouver Canucks {"goals":26,"assists":44,"points":70,"plusMinus":8}<br>1986 Toronto Maple Leafs {"goals":22,"assists":38,"points":60,"plusMinus":6}
+- [ ] `nhl-viktor-kozlov` **Viktor Kozlov** (C) — 2000 Florida Panthers {"goals":17,"assists":36,"points":53,"plusMinus":4}
+- [ ] `nhl-robert-svehla` **Robert Svehla** (D) — 1996 Florida Panthers {"goals":8,"assists":49,"points":57,"plusMinus":14}
+- [ ] `nhl-scott-mellanby` **Scott Mellanby** (RW) — 1996 Florida Panthers {"goals":32,"assists":38,"points":70,"plusMinus":14}<br>1997 Florida Panthers {"goals":27,"assists":29,"points":56,"plusMinus":4}
+- [ ] `nhl-ray-sheppard` **Ray Sheppard** (RW) — 1996 Florida Panthers {"goals":29,"assists":31,"points":60,"plusMinus":8}
+- [ ] `nhl-stu-barnes` **Stu Barnes** (C) — 1996 Florida Panthers {"goals":19,"assists":24,"points":43,"plusMinus":8}
+- [ ] `nhl-brian-skrudland` **Brian Skrudland** (C) — 1996 Florida Panthers {"goals":7,"assists":20,"points":27,"plusMinus":8}
+- [ ] `nhl-john-vanbiesbrouck` **John Vanbiesbrouck** (G) — 1996 Florida Panthers {"wins":21,"gaa":2.68,"savePct":0.904,"shutouts":2}<br>1994 Florida Panthers {"wins":21,"gaa":2.53,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-ed-jovanovski` **Ed Jovanovski** (D) — 2000 Florida Panthers {"goals":5,"assists":23,"points":28,"plusMinus":4}<br>2004 Vancouver Canucks {"goals":7,"assists":16,"points":23,"plusMinus":6}
+- [ ] `nhl-oleg-kvasha` **Oleg Kvasha** (LW) — 2000 Florida Panthers {"goals":10,"assists":19,"points":29,"plusMinus":4}
+- [ ] `nhl-radek-dvorak` **Radek Dvorak** (RW) — 1996 Florida Panthers {"goals":13,"assists":14,"points":27,"plusMinus":4}
+- [ ] `nhl-rob-niedermayer` **Rob Niedermayer** (C) — 1996 Florida Panthers {"goals":26,"assists":35,"points":61,"plusMinus":8}<br>2007 Anaheim Ducks {"goals":5,"assists":11,"points":16,"plusMinus":4}
+- [ ] `nhl-dave-lowry` **Dave Lowry** (LW) — 1996 Florida Panthers {"goals":10,"assists":11,"points":21,"plusMinus":4}<br>1991 St. Louis Blues {"goals":16,"assists":18,"points":34,"plusMinus":6}
+- [ ] `nhl-jody-hull` **Jody Hull** (RW) — 1996 Florida Panthers {"goals":9,"assists":11,"points":20,"plusMinus":4}
+- [ ] `nhl-gord-murphy` **Gord Murphy** (D) — 1996 Florida Panthers {"goals":8,"assists":22,"points":30,"plusMinus":8}
+- [ ] `nhl-paul-laus` **Paul Laus** (D) — 1996 Florida Panthers {"goals":3,"assists":6,"points":9,"plusMinus":4}
+- [ ] `nhl-terry-carkner` **Terry Carkner** (D) — 1994 Florida Panthers {"goals":3,"assists":12,"points":15,"plusMinus":4}
+- [ ] `nhl-mark-fitzpatrick` **Mark Fitzpatrick** (G) — 1996 Florida Panthers {"wins":15,"gaa":2.95,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-dave-gagner` **Dave Gagner** (C) — 1997 Florida Panthers {"goals":27,"assists":27,"points":54,"plusMinus":4}<br>1991 Minnesota North Stars {"goals":40,"assists":42,"points":82,"plusMinus":8}
+- [ ] `nhl-bill-lindsay` **Bill Lindsay** (LW) — 1996 Florida Panthers {"goals":12,"assists":23,"points":35,"plusMinus":8}
+- [ ] `nhl-johan-garpenlov` **Johan Garpenlov** (LW) — 1996 Florida Panthers {"goals":23,"assists":28,"points":51,"plusMinus":8}
+- [ ] `nhl-martin-straka` **Martin Straka** (C) — 1994 Pittsburgh Penguins {"goals":30,"assists":34,"points":64,"plusMinus":14}<br>2001 Pittsburgh Penguins {"goals":20,"assists":48,"points":68,"plusMinus":10}<br>2006 New York Rangers {"goals":22,"assists":42,"points":64,"plusMinus":6}
+- [ ] `nhl-rick-tocchet` **Rick Tocchet** (RW) — 1993 Pittsburgh Penguins {"goals":48,"assists":61,"points":109,"plusMinus":14}<br>1992 Pittsburgh Penguins {"goals":14,"assists":16,"points":30,"plusMinus":4}<br>1988 Philadelphia Flyers {"goals":31,"assists":33,"points":64,"plusMinus":8}<br>1986 Philadelphia Flyers {"goals":14,"assists":21,"points":35,"plusMinus":6}
+- [ ] `nhl-joe-mullen` **Joe Mullen** (RW) — 1992 Pittsburgh Penguins {"goals":42,"assists":45,"points":87,"plusMinus":14}<br>1991 Pittsburgh Penguins {"goals":17,"assists":22,"points":39,"plusMinus":8}
+- [ ] `nhl-bob-errey` **Bob Errey** (LW) — 1991 Pittsburgh Penguins {"goals":20,"assists":22,"points":42,"plusMinus":8}<br>1992 Pittsburgh Penguins {"goals":16,"assists":18,"points":34,"plusMinus":4}
+- [ ] `nhl-phil-bourque` **Phil Bourque** (LW) — 1991 Pittsburgh Penguins {"goals":20,"assists":14,"points":34,"plusMinus":8}
+- [ ] `nhl-kjell-samuelsson` **Kjell Samuelsson** (D) — 1992 Pittsburgh Penguins {"goals":1,"assists":6,"points":7,"plusMinus":8}<br>1988 Philadelphia Flyers {"goals":6,"assists":24,"points":30,"plusMinus":8}
+- [ ] `nhl-ulf-samuelsson` **Ulf Samuelsson** (D) — 1992 Pittsburgh Penguins {"goals":1,"assists":14,"points":15,"plusMinus":8}
+- [ ] `nhl-gordie-roberts` **Gordie Roberts** (D) — 1992 Pittsburgh Penguins {"goals":2,"assists":22,"points":24,"plusMinus":8}
+- [ ] `nhl-frank-pietrangelo` **Frank Pietrangelo** (G) — 1991 Pittsburgh Penguins {"wins":14,"gaa":3.4,"savePct":0.89,"shutouts":0}
+- [ ] `nhl-wendell-young` **Wendell Young** (G) — 1992 Pittsburgh Penguins {"wins":11,"gaa":3.2,"savePct":0.89,"shutouts":0}
+- [ ] `nhl-jamie-leach` **Jamie Leach** (RW) — 1992 Pittsburgh Penguins {"goals":5,"assists":7,"points":12,"plusMinus":4}
+- [ ] `nhl-jock-callander` **Jock Callander** (C) — 1992 Pittsburgh Penguins {"goals":6,"assists":11,"points":17,"plusMinus":4}
+- [ ] `nhl-jim-paek` **Jim Paek** (D) — 1992 Pittsburgh Penguins {"goals":1,"assists":5,"points":6,"plusMinus":4}
+- [ ] `nhl-grant-jennings` **Grant Jennings** (D) — 1992 Pittsburgh Penguins {"goals":3,"assists":5,"points":8,"plusMinus":4}
+- [ ] `nhl-peter-taglianetti` **Peter Taglianetti** (D) — 1992 Pittsburgh Penguins {"goals":0,"assists":3,"points":3,"plusMinus":4}
+- [ ] `nhl-jay-caulfield` **Jay Caufield** (RW) — 1992 Pittsburgh Penguins {"goals":1,"assists":1,"points":2,"plusMinus":4}
+- [ ] `nhl-troy-loney` **Troy Loney** (LW) — 1991 Pittsburgh Penguins {"goals":11,"assists":16,"points":27,"plusMinus":4}
+- [ ] `nhl-randy-gilhen` **Randy Gilhen** (C) — 1991 Pittsburgh Penguins {"goals":5,"assists":6,"points":11,"plusMinus":4}
+- [ ] `nhl-ted-lindsay` **Ted Lindsay** (LW) — 1950 Detroit Red Wings {"goals":23,"assists":55,"points":78,"plusMinus":30}<br>1955 Detroit Red Wings {"goals":19,"assists":19,"points":38,"plusMinus":10}
+- [ ] `nhl-sid-abel` **Sid Abel** (C) — 1950 Detroit Red Wings {"goals":34,"assists":35,"points":69,"plusMinus":20}
+- [ ] `nhl-alex-delvecchio` **Alex Delvecchio** (C) — 1966 Detroit Red Wings {"goals":31,"assists":38,"points":69,"plusMinus":14}
+- [ ] `nhl-norm-ullman` **Norm Ullman** (C) — 1965 Detroit Red Wings {"goals":42,"assists":41,"points":83,"plusMinus":14}
+- [ ] `nhl-bill-gadsby` **Bill Gadsby** (D) — 1959 Detroit Red Wings {"goals":8,"assists":30,"points":38,"plusMinus":14}
+- [ ] `nhl-red-kelly` **Red Kelly** (D) — 1954 Detroit Red Wings {"goals":16,"assists":33,"points":49,"plusMinus":20}
+- [ ] `nhl-marcel-pronovost` **Marcel Pronovost** (D) — 1961 Detroit Red Wings {"goals":4,"assists":14,"points":18,"plusMinus":10}
+- [ ] `nhl-dennis-hull` **Dennis Hull** (LW) — 1973 Chicago Black Hawks {"goals":39,"assists":51,"points":90,"plusMinus":14}
+- [ ] `nhl-pit-martin` **Pit Martin** (C) — 1973 Chicago Black Hawks {"goals":29,"assists":38,"points":67,"plusMinus":14}
+- [ ] `nhl-jim-pappin` **Jim Pappin** (RW) — 1973 Chicago Black Hawks {"goals":41,"assists":51,"points":92,"plusMinus":14}
+- [ ] `nhl-bill-white` **Bill White** (D) — 1973 Chicago Black Hawks {"goals":9,"assists":38,"points":47,"plusMinus":14}
+- [ ] `nhl-pat-stapleton` **Pat Stapleton** (D) — 1971 Chicago Black Hawks {"goals":7,"assists":44,"points":51,"plusMinus":14}
+- [ ] `nhl-keith-magnuson` **Keith Magnuson** (D) — 1971 Chicago Black Hawks {"goals":3,"assists":17,"points":20,"plusMinus":10}
+- [ ] `nhl-cliff-koroll` **Cliff Koroll** (RW) — 1971 Chicago Black Hawks {"goals":16,"assists":18,"points":34,"plusMinus":10}
+- [ ] `nhl-gerry-desjardins` **Gerry Desjardins** (G) — 1972 Chicago Black Hawks {"wins":10,"gaa":2.8,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-pierre-pilote` **Pierre Pilote** (D) — 1965 Chicago Black Hawks {"goals":14,"assists":45,"points":59,"plusMinus":14}
+- [ ] `nhl-kenny-wharram` **Kenny Wharram** (RW) — 1964 Chicago Black Hawks {"goals":39,"assists":32,"points":71,"plusMinus":14}
+- [ ] `nhl-murray-balfour` **Murray Balfour** (RW) — 1962 Chicago Black Hawks {"goals":17,"assists":20,"points":37,"plusMinus":10}
+- [ ] `nhl-eric-nesterenko` **Eric Nesterenko** (RW) — 1962 Chicago Black Hawks {"goals":15,"assists":25,"points":40,"plusMinus":10}
+- [ ] `nhl-al-macleod` **Al MacNeil** (D) — 1962 Chicago Black Hawks {"goals":2,"assists":10,"points":12,"plusMinus":8}<br>1980 Minnesota North Stars {"goals":42,"assists":51,"points":93,"plusMinus":10}
+- [ ] `nhl-reggie-fleming` **Reggie Fleming** (D) — 1961 Chicago Black Hawks {"goals":4,"assists":8,"points":12,"plusMinus":6}
+- [ ] `nhl-bert-olmstead` **Bert Olmstead** (LW) — 1956 Montreal Canadiens {"goals":14,"assists":56,"points":70,"plusMinus":20}
+- [ ] `nhl-dickie-moore` **Dickie Moore** (LW) — 1958 Montreal Canadiens {"goals":36,"assists":48,"points":84,"plusMinus":20}
+- [ ] `nhl-doug-harvey` **Doug Harvey** (D) — 1958 Montreal Canadiens {"goals":9,"assists":32,"points":41,"plusMinus":20}
+- [ ] `nhl-tom-johnson` **Tom Johnson** (D) — 1959 Montreal Canadiens {"goals":10,"assists":29,"points":39,"plusMinus":18}
+- [ ] `nhl-jean-guy-talbot` **Jean-Guy Talbot** (D) — 1962 Montreal Canadiens {"goals":5,"assists":29,"points":34,"plusMinus":14}
+- [ ] `nhl-boom-boom` **Bernie Geoffrion** (RW) — 1961 Montreal Canadiens {"goals":50,"assists":45,"points":95,"plusMinus":20}
+- [ ] `nhl-claude-provost` **Claude Provost** (RW) — 1965 Montreal Canadiens {"goals":27,"assists":37,"points":64,"plusMinus":14}
+- [ ] `nhl-ralph-backstrom` **Ralph Backstrom** (C) — 1962 Montreal Canadiens {"goals":27,"assists":38,"points":65,"plusMinus":14}
+- [ ] `nhl-billy-hicke` **Bill Hicke** (RW) — 1962 Montreal Canadiens {"goals":18,"assists":22,"points":40,"plusMinus":10}
+- [ ] `nhl-don-marshall` **Don Marshall** (LW) — 1962 Montreal Canadiens {"goals":17,"assists":25,"points":42,"plusMinus":10}
+- [ ] `nhl-jc-tremblay` **J.C. Tremblay** (D) — 1971 Montreal Canadiens {"goals":11,"assists":52,"points":63,"plusMinus":14}
+- [ ] `nhl-jacques-laperriere` **Jacques Laperriere** (D) — 1966 Montreal Canadiens {"goals":6,"assists":25,"points":31,"plusMinus":14}
+- [ ] `nhl-gump-worsley` **Gump Worsley** (G) — 1968 Montreal Canadiens {"wins":19,"gaa":1.98,"savePct":0.92,"shutouts":6}<br>1972 Minnesota North Stars {"wins":16,"gaa":2.12,"savePct":0.91,"shutouts":2}<br>1970 Minnesota North Stars {"wins":8,"gaa":2.65,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-rogie-vachon` **Rogie Vachon** (G) — 1968 Montreal Canadiens {"wins":23,"gaa":2.48,"savePct":0.91,"shutouts":4}<br>1975 Los Angeles Kings {"wins":27,"gaa":2.24,"savePct":0.92,"shutouts":6}
+- [ ] `nhl-mickey-redmond` **Mickey Redmond** (RW) — 1973 Detroit Red Wings {"goals":52,"assists":41,"points":93,"plusMinus":14}
+- [ ] `nhl-danny-grant` **Danny Grant** (LW) — 1975 Detroit Red Wings {"goals":50,"assists":36,"points":86,"plusMinus":10}<br>1970 Minnesota North Stars {"goals":29,"assists":28,"points":57,"plusMinus":6}
+- [ ] `nhl-nick-libett` **Nick Libett** (LW) — 1975 Detroit Red Wings {"goals":23,"assists":28,"points":51,"plusMinus":8}
+- [ ] `nhl-bill-hogaboam` **Bill Hogaboam** (C) — 1975 Detroit Red Wings {"goals":20,"assists":30,"points":50,"plusMinus":6}
+- [ ] `nhl-rick-lapointe` **Rick Lapointe** (D) — 1976 Detroit Red Wings {"goals":4,"assists":20,"points":24,"plusMinus":6}
+- [ ] `nhl-jim-rutherford` **Jim Rutherford** (G) — 1976 Detroit Red Wings {"wins":13,"gaa":3.4,"savePct":0.88,"shutouts":1}
+- [ ] `nhl-bob-berry` **Bob Berry** (LW) — 1973 Los Angeles Kings {"goals":36,"assists":22,"points":58,"plusMinus":8}
+- [ ] `nhl-juha-widing` **Juha Widing** (C) — 1973 Los Angeles Kings {"goals":16,"assists":38,"points":54,"plusMinus":6}
+- [ ] `nhl-mike-corrigan` **Mike Corrigan** (LW) — 1973 Los Angeles Kings {"goals":37,"assists":34,"points":71,"plusMinus":8}
+- [ ] `nhl-real-lemieux` **Real Lemieux** (LW) — 1973 Los Angeles Kings {"goals":22,"assists":18,"points":40,"plusMinus":6}
+- [ ] `nhl-terry-harper` **Terry Harper** (D) — 1973 Los Angeles Kings {"goals":2,"assists":16,"points":18,"plusMinus":8}
+- [ ] `nhl-bob-murdoch` **Bob Murdoch** (D) — 1975 Los Angeles Kings {"goals":8,"assists":22,"points":30,"plusMinus":8}
+- [ ] `nhl-gary-edwards` **Gary Edwards** (G) — 1975 Los Angeles Kings {"wins":15,"gaa":3.2,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-dave-taylor` **Dave Taylor** (RW) — 1981 Los Angeles Kings {"goals":47,"assists":65,"points":112,"plusMinus":14}
+- [ ] `nhl-charlie-simmer` **Charlie Simmer** (LW) — 1981 Los Angeles Kings {"goals":56,"assists":49,"points":105,"plusMinus":14}
+- [ ] `nhl-mario-lessard` **Mario Lessard** (G) — 1981 Los Angeles Kings {"wins":35,"gaa":3.25,"savePct":0.89,"shutouts":2}
+- [ ] `nhl-jim-fox` **Jim Fox** (RW) — 1983 Los Angeles Kings {"goals":26,"assists":38,"points":64,"plusMinus":6}
+- [ ] `nhl-bernie-nicholls` **Bernie Nicholls** (C) — 1989 Los Angeles Kings {"goals":70,"assists":80,"points":150,"plusMinus":30}<br>1992 Chicago Blackhawks {"goals":18,"assists":40,"points":58,"plusMinus":6}
+- [ ] `nhl-steve-duchesne` **Steve Duchesne** (D) — 1989 Los Angeles Kings {"goals":25,"assists":50,"points":75,"plusMinus":14}<br>1993 Quebec Nordiques {"goals":20,"assists":62,"points":82,"plusMinus":10}
+- [ ] `nhl-tomas-sandstrom` **Tomas Sandstrom** (RW) — 1990 Los Angeles Kings {"goals":33,"assists":39,"points":72,"plusMinus":8}
+- [ ] `nhl-tony-granato` **Tony Granato** (RW) — 1991 Los Angeles Kings {"goals":30,"assists":34,"points":64,"plusMinus":6}
+- [ ] `nhl-mike-donnelly` **Mike Donnelly** (LW) — 1992 Los Angeles Kings {"goals":29,"assists":21,"points":50,"plusMinus":4}
+- [ ] `nhl-rob-blake` **Rob Blake** (D) — 1998 Los Angeles Kings {"goals":23,"assists":27,"points":50,"plusMinus":14}<br>2001 Los Angeles Kings {"goals":19,"assists":40,"points":59,"plusMinus":16}
+- [ ] `nhl-bryan-smolinski` **Bryan Smolinski** (C) — 1996 Pittsburgh Penguins {"goals":24,"assists":40,"points":64,"plusMinus":8}<br>2000 Los Angeles Kings {"goals":20,"assists":30,"points":50,"plusMinus":6}
+- [ ] `nhl-alexei-kovalev` **Alexei Kovalev** (RW) — 2001 Pittsburgh Penguins {"goals":44,"assists":51,"points":95,"plusMinus":12}
+- [ ] `nhl-robert-lang` **Robert Lang** (C) — 2001 Pittsburgh Penguins {"goals":32,"assists":48,"points":80,"plusMinus":12}<br>2004 Washington Capitals {"goals":30,"assists":53,"points":83,"plusMinus":12}<br>2002 Washington Capitals {"goals":21,"assists":37,"points":58,"plusMinus":6}
+- [ ] `nhl-jan-hrdina` **Jan Hrdina** (C) — 2001 Pittsburgh Penguins {"goals":15,"assists":28,"points":43,"plusMinus":6}
+- [ ] `nhl-alexei-morozov` **Alexei Morozov** (RW) — 2001 Pittsburgh Penguins {"goals":14,"assists":25,"points":39,"plusMinus":6}
+- [ ] `nhl-hans-jonsson` **Hans Jonsson** (D) — 2001 Pittsburgh Penguins {"goals":4,"assists":20,"points":24,"plusMinus":6}
+- [ ] `nhl-andrew-ference` **Andrew Ference** (D) — 2004 Calgary Flames {"goals":4,"assists":14,"points":18,"plusMinus":8}
+- [ ] `nhl-craig-conroy` **Craig Conroy** (C) — 2004 Calgary Flames {"goals":8,"assists":20,"points":28,"plusMinus":6}
+- [ ] `nhl-marcus-nilson` **Marcus Nilson** (LW) — 2004 Calgary Flames {"goals":12,"assists":14,"points":26,"plusMinus":6}
+- [ ] `nhl-stephane-yelle` **Stephane Yelle** (C) — 2004 Calgary Flames {"goals":4,"assists":11,"points":15,"plusMinus":6}
+- [ ] `nhl-chris-clark` **Chris Clark** (RW) — 2004 Calgary Flames {"goals":11,"assists":9,"points":20,"plusMinus":4}
+- [ ] `nhl-ville-nieminen` **Ville Nieminen** (LW) — 2004 Calgary Flames {"goals":8,"assists":12,"points":20,"plusMinus":4}
+- [ ] `nhl-shean-donovan` **Shean Donovan** (RW) — 2004 Calgary Flames {"goals":6,"assists":8,"points":14,"plusMinus":4}
+- [ ] `nhl-krzysztof-olija` **Krzysztof Oliwa** (LW) — 2004 Calgary Flames {"goals":2,"assists":2,"points":4,"plusMinus":2}
+- [ ] `nhl-mike-commodore` **Mike Commodore** (D) — 2004 Calgary Flames {"goals":1,"assists":7,"points":8,"plusMinus":6}<br>2009 Columbus Blue Jackets {"goals":5,"assists":13,"points":18,"plusMinus":4}<br>2006 Carolina Hurricanes {"goals":1,"assists":6,"points":7,"plusMinus":4}
+- [ ] `nhl-jordan-leopold` **Jordan Leopold** (D) — 2004 Calgary Flames {"goals":9,"assists":14,"points":23,"plusMinus":6}
+- [ ] `nhl-rhett-warrener` **Rhett Warrener** (D) — 2004 Calgary Flames {"goals":3,"assists":10,"points":13,"plusMinus":6}
+- [ ] `nhl-robyn-regehr` **Robyn Regehr** (D) — 2004 Calgary Flames {"goals":4,"assists":8,"points":12,"plusMinus":8}
+- [ ] `nhl-toni-lydman` **Toni Lydman** (D) — 2004 Calgary Flames {"goals":4,"assists":16,"points":20,"plusMinus":6}<br>2007 Buffalo Sabres {"goals":4,"assists":16,"points":20,"plusMinus":8}
+- [ ] `nhl-steve-montador` **Steve Montador** (D) — 2004 Calgary Flames {"goals":1,"assists":5,"points":6,"plusMinus":4}
+- [ ] `nhl-miikka-kiprusoff` **Miikka Kiprusoff** (G) — 2004 Calgary Flames {"wins":24,"gaa":1.69,"savePct":0.933,"shutouts":4}<br>2006 Calgary Flames {"wins":42,"gaa":2.07,"savePct":0.923,"shutouts":10}
+- [ ] `nhl-roman-turek` **Roman Turek** (G) — 2001 Calgary Flames {"wins":22,"gaa":2.32,"savePct":0.91,"shutouts":4}<br>2000 St. Louis Blues {"wins":42,"gaa":1.95,"savePct":0.912,"shutouts":7}
+- [ ] `nhl-daymond-langkow` **Daymond Langkow** (C) — 2007 Calgary Flames {"goals":33,"assists":44,"points":77,"plusMinus":12}
+- [ ] `nhl-alex-tanguay` **Alex Tanguay** (LW) — 2007 Calgary Flames {"goals":22,"assists":59,"points":81,"plusMinus":12}<br>2001 Colorado Avalanche {"goals":27,"assists":51,"points":78,"plusMinus":12}
+- [ ] `nhl-kristian-huselius` **Kristian Huselius** (LW) — 2007 Calgary Flames {"goals":34,"assists":42,"points":76,"plusMinus":10}<br>2009 Columbus Blue Jackets {"goals":21,"assists":35,"points":56,"plusMinus":6}<br>2011 Columbus Blue Jackets {"goals":14,"assists":26,"points":40,"plusMinus":4}
+- [ ] `nhl-dion-phaneuf` **Dion Phaneuf** (D) — 2008 Calgary Flames {"goals":17,"assists":43,"points":60,"plusMinus":12}
+- [ ] `nhl-owen-nolan` **Owen Nolan** (RW) — 2000 San Jose Sharks {"goals":44,"assists":40,"points":84,"plusMinus":14}<br>1992 Quebec Nordiques {"goals":42,"assists":31,"points":73,"plusMinus":8}<br>1993 Quebec Nordiques {"goals":36,"assists":41,"points":77,"plusMinus":8}<br>2003 Toronto Maple Leafs {"goals":19,"assists":26,"points":45,"plusMinus":4}
+- [ ] `nhl-jeff-friesen` **Jeff Friesen** (LW) — 2000 San Jose Sharks {"goals":26,"assists":35,"points":61,"plusMinus":8}
+- [ ] `nhl-mike-ricci` **Mike Ricci** (C) — 2000 San Jose Sharks {"goals":20,"assists":24,"points":44,"plusMinus":6}<br>1993 Quebec Nordiques {"goals":27,"assists":51,"points":78,"plusMinus":8}
+- [ ] `nhl-marco-sturm` **Marco Sturm** (LW) — 2000 San Jose Sharks {"goals":12,"assists":15,"points":27,"plusMinus":4}
+- [ ] `nhl-scott-thornton` **Scott Thornton** (LW) — 2000 San Jose Sharks {"goals":18,"assists":22,"points":40,"plusMinus":6}
+- [ ] `nhl-bryan-marchment` **Bryan Marchment** (D) — 2000 San Jose Sharks {"goals":2,"assists":10,"points":12,"plusMinus":4}
+- [ ] `nhl-marcus-ragnarsson` **Marcus Ragnarsson** (D) — 2000 San Jose Sharks {"goals":4,"assists":20,"points":24,"plusMinus":6}
+- [ ] `nhl-mike-rathje` **Mike Rathje** (D) — 2000 San Jose Sharks {"goals":4,"assists":16,"points":20,"plusMinus":6}
+- [ ] `nhl-evgeni-nabokov` **Evgeni Nabokov** (G) — 2001 San Jose Sharks {"wins":32,"gaa":2.19,"savePct":0.915,"shutouts":6}<br>2008 San Jose Sharks {"wins":46,"gaa":2.14,"savePct":0.91,"shutouts":6}
+- [ ] `nhl-jonathan-cheechoo` **Jonathan Cheechoo** (RW) — 2006 San Jose Sharks {"goals":56,"assists":37,"points":93,"plusMinus":23}
+- [ ] `nhl-milan-michalek` **Milan Michalek** (LW) — 2007 San Jose Sharks {"goals":26,"assists":40,"points":66,"plusMinus":12}
+- [ ] `nhl-christian-ehrhoff` **Christian Ehrhoff** (D) — 2007 San Jose Sharks {"goals":10,"assists":23,"points":33,"plusMinus":8}
+- [ ] `nhl-ryane-clowe` **Ryane Clowe** (LW) — 2010 San Jose Sharks {"goals":19,"assists":38,"points":57,"plusMinus":8}
+- [ ] `nhl-dan-boyle` **Dan Boyle** (D) — 2010 San Jose Sharks {"goals":15,"assists":45,"points":60,"plusMinus":6}<br>2007 Tampa Bay Lightning {"goals":13,"assists":37,"points":50,"plusMinus":8}
+- [ ] `nhl-marc-edouard-vlasic` **Marc-Edouard Vlasic** (D) — 2014 San Jose Sharks {"goals":5,"assists":19,"points":24,"plusMinus":12}
+- [ ] `nhl-antti-niemi` **Antti Niemi** (G) — 2010 San Jose Sharks {"wins":35,"gaa":2.46,"savePct":0.912,"shutouts":4}
+- [ ] `nhl-devon-setoguchi` **Devin Setoguchi** (RW) — 2010 San Jose Sharks {"goals":20,"assists":16,"points":36,"plusMinus":6}
+- [ ] `nhl-torrey-mitchell` **Torrey Mitchell** (C) — 2010 San Jose Sharks {"goals":10,"assists":14,"points":24,"plusMinus":4}
+- [ ] `nhl-scott-nichol` **Scott Nichol** (C) — 2010 San Jose Sharks {"goals":4,"assists":6,"points":10,"plusMinus":2}
+- [ ] `nhl-jed-orton` **Jed Ortmeyer** (RW) — 2004 New York Rangers {"goals":2,"assists":4,"points":6,"plusMinus":2}
+- [ ] `nhl-michael-nylander` **Michael Nylander** (C) — 2006 New York Rangers {"goals":23,"assists":56,"points":79,"plusMinus":12}<br>2004 Boston Bruins {"goals":11,"assists":25,"points":36,"plusMinus":4}
+- [ ] `nhl-martin-rucinsky` **Martin Rucinsky** (LW) — 2006 New York Rangers {"goals":16,"assists":39,"points":55,"plusMinus":6}<br>1996 Montreal Canadiens {"goals":29,"assists":46,"points":75,"plusMinus":8}
+- [ ] `nhl-petr-prucha` **Petr Prucha** (RW) — 2006 New York Rangers {"goals":30,"assists":17,"points":47,"plusMinus":8}
+- [ ] `nhl-marek-malik` **Marek Malik** (D) — 2006 New York Rangers {"goals":2,"assists":21,"points":23,"plusMinus":6}
+- [ ] `nhl-michal-rozsival` **Michal Rozsival** (D) — 2006 New York Rangers {"goals":5,"assists":25,"points":30,"plusMinus":6}
+- [ ] `nhl-fedor-tyutin` **Fedor Tyutin** (D) — 2006 New York Rangers {"goals":6,"assists":19,"points":25,"plusMinus":6}<br>2009 Columbus Blue Jackets {"goals":9,"assists":25,"points":34,"plusMinus":6}<br>2012 Columbus Blue Jackets {"goals":5,"assists":21,"points":26,"plusMinus":4}<br>2011 Columbus Blue Jackets {"goals":7,"assists":20,"points":27,"plusMinus":4}
+- [ ] `nhl-kevin-weekes` **Kevin Weekes** (G) — 2006 New York Rangers {"wins":14,"gaa":3.4,"savePct":0.89,"shutouts":1}<br>2002 Carolina Hurricanes {"wins":11,"gaa":2.8,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-chris-drury` **Chris Drury** (C) — 2008 New York Rangers {"goals":25,"assists":33,"points":58,"plusMinus":6}<br>2007 Buffalo Sabres {"goals":37,"assists":32,"points":69,"plusMinus":12}<br>2001 Colorado Avalanche {"goals":20,"assists":27,"points":47,"plusMinus":6}
+- [ ] `nhl-brandon-dubinsky` **Brandon Dubinsky** (C) — 2009 New York Rangers {"goals":13,"assists":28,"points":41,"plusMinus":4}
+- [ ] `nhl-ryan-callahan` **Ryan Callahan** (RW) — 2009 New York Rangers {"goals":22,"assists":18,"points":40,"plusMinus":6}<br>2012 New York Rangers {"goals":29,"assists":25,"points":54,"plusMinus":8}
+- [ ] `nhl-nikolai-zherdev` **Nikolai Zherdev** (RW) — 2008 New York Rangers {"goals":23,"assists":34,"points":57,"plusMinus":4}<br>2006 Columbus Blue Jackets {"goals":27,"assists":27,"points":54,"plusMinus":4}
+- [ ] `nhl-markus-naslund` **Markus Naslund** (LW) — 2004 Vancouver Canucks {"goals":35,"assists":49,"points":84,"plusMinus":24}<br>2003 Vancouver Canucks {"goals":48,"assists":56,"points":104,"plusMinus":22}
+- [ ] `nhl-todd-bertuzzi` **Todd Bertuzzi** (RW) — 2004 Vancouver Canucks {"goals":17,"assists":43,"points":60,"plusMinus":8}<br>2003 Vancouver Canucks {"goals":46,"assists":51,"points":97,"plusMinus":18}
+- [ ] `nhl-brendan-morrison` **Brendan Morrison** (C) — 2004 Vancouver Canucks {"goals":14,"assists":23,"points":37,"plusMinus":6}
+- [ ] `nhl-mattias-ohlund` **Mattias Ohlund** (D) — 2004 Vancouver Canucks {"goals":14,"assists":20,"points":34,"plusMinus":8}
+- [ ] `nhl-dan-cloutier` **Dan Cloutier** (G) — 2003 Vancouver Canucks {"wins":33,"gaa":2.42,"savePct":0.908,"shutouts":2}
+- [ ] `nhl-pavol-demitra` **Pavol Demitra** (C) — 2000 St. Louis Blues {"goals":28,"assists":47,"points":75,"plusMinus":12}<br>2003 St. Louis Blues {"goals":36,"assists":57,"points":93,"plusMinus":12}<br>2008 Minnesota Wild {"goals":15,"assists":39,"points":54,"plusMinus":6}<br>2007 Minnesota Wild {"goals":25,"assists":39,"points":64,"plusMinus":6}
+- [ ] `nhl-craig-janney` **Craig Janney** (C) — 1993 St. Louis Blues {"goals":24,"assists":60,"points":84,"plusMinus":12}<br>1990 Boston Bruins {"goals":24,"assists":62,"points":86,"plusMinus":12}
+- [ ] `nhl-nelson-emerson` **Nelson Emerson** (RW) — 1993 St. Louis Blues {"goals":22,"assists":45,"points":67,"plusMinus":8}<br>1991 St. Louis Blues {"goals":19,"assists":36,"points":55,"plusMinus":6}
+- [ ] `nhl-jeff-brown` **Jeff Brown** (D) — 1993 St. Louis Blues {"goals":25,"assists":53,"points":78,"plusMinus":14}<br>1990 St. Louis Blues {"goals":16,"assists":52,"points":68,"plusMinus":14}
+- [ ] `nhl-stephane-quintal` **Stephane Quintal** (D) — 1993 St. Louis Blues {"goals":4,"assists":18,"points":22,"plusMinus":6}<br>1991 Minnesota North Stars {"goals":2,"assists":7,"points":9,"plusMinus":2}
+- [ ] `nhl-shayne-corson` **Shayne Corson** (LW) — 1995 St. Louis Blues {"goals":12,"assists":14,"points":26,"plusMinus":4}<br>1998 Montreal Canadiens {"goals":21,"assists":34,"points":55,"plusMinus":6}
+- [ ] `nhl-joe-murphy` **Joe Murphy** (RW) — 1996 St. Louis Blues {"goals":22,"assists":29,"points":51,"plusMinus":6}
+- [ ] `nhl-barret-jackman` **Barret Jackman** (D) — 2003 St. Louis Blues {"goals":3,"assists":16,"points":19,"plusMinus":23}
+- [ ] `nhl-fred-brathwaite` **Fred Brathwaite** (G) — 2000 St. Louis Blues {"wins":18,"gaa":2.32,"savePct":0.91,"shutouts":3}<br>2001 St. Louis Blues {"wins":15,"gaa":2.4,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-scott-young` **Scott Young** (RW) — 2001 St. Louis Blues {"goals":40,"assists":33,"points":73,"plusMinus":10}
+- [ ] `nhl-jochen-hecht` **Jochen Hecht** (C) — 2001 St. Louis Blues {"goals":12,"assists":24,"points":36,"plusMinus":6}<br>2002 Buffalo Sabres {"goals":16,"assists":29,"points":45,"plusMinus":6}
+- [ ] `nhl-sean-hill` **Sean Hill** (D) — 2001 St. Louis Blues {"goals":4,"assists":18,"points":22,"plusMinus":6}<br>2002 Carolina Hurricanes {"goals":5,"assists":20,"points":25,"plusMinus":6}
+- [ ] `nhl-alexander-khavanov` **Alexander Khavanov** (D) — 2001 St. Louis Blues {"goals":4,"assists":16,"points":20,"plusMinus":4}
+- [ ] `nhl-bryn-val` **Bryce Salvador** (D) — 2001 St. Louis Blues {"goals":2,"assists":8,"points":10,"plusMinus":4}
+- [ ] `nhl-mike-vanryn` **Mike Van Ryn** (D) — 2001 St. Louis Blues {"goals":3,"assists":10,"points":13,"plusMinus":4}
+- [ ] `nhl-brent-johnson` **Brent Johnson** (G) — 2003 St. Louis Blues {"wins":22,"gaa":2.56,"savePct":0.902,"shutouts":2}<br>2011 Pittsburgh Penguins {"wins":10,"gaa":2.8,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-alexei-zhamnov` **Alexei Zhamnov** (C) — 1993 Winnipeg Jets {"goals":25,"assists":47,"points":72,"plusMinus":8}<br>1995 Winnipeg Jets {"goals":30,"assists":35,"points":65,"plusMinus":8}<br>2000 Chicago Blackhawks {"goals":23,"assists":37,"points":60,"plusMinus":6}<br>1998 Chicago Blackhawks {"goals":21,"assists":28,"points":49,"plusMinus":6}
+- [ ] `nhl-bob-essensa` **Bob Essensa** (G) — 1993 Winnipeg Jets {"wins":33,"gaa":3.45,"savePct":0.89,"shutouts":2}
+- [ ] `nhl-guy-hebert` **Guy Hebert** (G) — 1997 Mighty Ducks of Anaheim {"wins":29,"gaa":2.67,"savePct":0.907,"shutouts":4}
+- [ ] `nhl-steve-rucchin` **Steve Rucchin** (C) — 1999 Mighty Ducks of Anaheim {"goals":23,"assists":39,"points":62,"plusMinus":8}
+- [ ] `nhl-matt-cullen` **Matt Cullen** (C) — 2003 Mighty Ducks of Anaheim {"goals":16,"assists":29,"points":45,"plusMinus":6}<br>2006 Carolina Hurricanes {"goals":18,"assists":25,"points":43,"plusMinus":6}<br>2016 Pittsburgh Penguins {"goals":16,"assists":16,"points":32,"plusMinus":5}
+- [ ] `nhl-sandis-ozolinsh` **Sandis Ozolinsh** (D) — 2003 Mighty Ducks of Anaheim {"goals":12,"assists":32,"points":44,"plusMinus":6}
+- [ ] `nhl-ruslan-salei` **Ruslan Salei** (D) — 2003 Mighty Ducks of Anaheim {"goals":4,"assists":10,"points":14,"plusMinus":6}
+- [ ] `nhl-keith-carney` **Keith Carney** (D) — 2003 Mighty Ducks of Anaheim {"goals":4,"assists":12,"points":16,"plusMinus":8}
+- [ ] `nhl-jean-sebastien-giguere` **Jean-Sebastien Giguere** (G) — 2003 Mighty Ducks of Anaheim {"wins":8,"gaa":2.3,"savePct":0.92,"shutouts":2}<br>2007 Anaheim Ducks {"wins":36,"gaa":2.26,"savePct":0.918,"shutouts":4}<br>2012 Colorado Avalanche {"wins":18,"gaa":2.62,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-martin-gerber` **Martin Gerber** (G) — 2006 Mighty Ducks of Anaheim {"wins":11,"gaa":2.51,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-chris-kunitz` **Chris Kunitz** (LW) — 2006 Mighty Ducks of Anaheim {"goals":19,"assists":22,"points":41,"plusMinus":8}<br>2007 Anaheim Ducks {"goals":25,"assists":35,"points":60,"plusMinus":8}<br>2009 Pittsburgh Penguins {"goals":23,"assists":30,"points":53,"plusMinus":5}<br>2013 Pittsburgh Penguins {"goals":22,"assists":30,"points":52,"plusMinus":30}<br>2016 Pittsburgh Penguins {"goals":17,"assists":23,"points":40,"plusMinus":10}<br>2011 Pittsburgh Penguins {"goals":23,"assists":25,"points":48,"plusMinus":6}
+- [ ] `nhl-andy-mcdonald` **Andy McDonald** (C) — 2006 Mighty Ducks of Anaheim {"goals":34,"assists":51,"points":85,"plusMinus":12}
+- [ ] `nhl-francois-beauchemin` **Francois Beauchemin** (D) — 2007 Anaheim Ducks {"goals":7,"assists":21,"points":28,"plusMinus":8}
+- [ ] `nhl-samuel-pahlsson` **Samuel Pahlsson** (C) — 2007 Anaheim Ducks {"goals":8,"assists":18,"points":26,"plusMinus":6}<br>2011 Columbus Blue Jackets {"goals":7,"assists":13,"points":20,"plusMinus":2}
+- [ ] `nhl-travis-moen` **Travis Moen** (LW) — 2007 Anaheim Ducks {"goals":11,"assists":10,"points":21,"plusMinus":6}
+- [ ] `nhl-dustin-penner` **Dustin Penner** (LW) — 2007 Anaheim Ducks {"goals":29,"assists":16,"points":45,"plusMinus":6}<br>2010 Edmonton Oilers {"goals":32,"assists":31,"points":63,"plusMinus":6}
+- [ ] `nhl-todd-marchant` **Todd Marchant** (C) — 2007 Anaheim Ducks {"goals":8,"assists":15,"points":23,"plusMinus":4}
+- [ ] `nhl-shawn-thornton` **Shawn Thornton** (RW) — 2007 Anaheim Ducks {"goals":2,"assists":7,"points":9,"plusMinus":2}
+- [ ] `nhl-george-parros` **George Parros** (RW) — 2007 Anaheim Ducks {"goals":1,"assists":1,"points":2,"plusMinus":2}
+- [ ] `nhl-joe-dipenta` **Joe DiPenta** (D) — 2007 Anaheim Ducks {"goals":2,"assists":6,"points":8,"plusMinus":4}
+- [ ] `nhl-kent-huskins` **Kent Huskins** (D) — 2007 Anaheim Ducks {"goals":4,"assists":11,"points":15,"plusMinus":6}
+- [ ] `nhl-sean-odonnell` **Sean O'Donnell** (D) — 2007 Anaheim Ducks {"goals":2,"assists":12,"points":14,"plusMinus":8}
+- [ ] `nhl-ilya-bryzgalov` **Ilya Bryzgalov** (G) — 2006 Anaheim Ducks {"wins":31,"gaa":2.51,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-daniel-briere` **Daniel Briere** (C) — 2010 Philadelphia Flyers {"goals":26,"assists":27,"points":53,"plusMinus":6}<br>2004 Buffalo Sabres {"goals":28,"assists":37,"points":65,"plusMinus":8}<br>2007 Buffalo Sabres {"goals":32,"assists":63,"points":95,"plusMinus":17}<br>2003 Buffalo Sabres {"goals":7,"assists":21,"points":28,"plusMinus":4}
+- [ ] `nhl-simon-gagne` **Simon Gagne** (LW) — 2006 Philadelphia Flyers {"goals":47,"assists":32,"points":79,"plusMinus":12}<br>2008 Philadelphia Flyers {"goals":18,"assists":22,"points":40,"plusMinus":4}<br>2004 Philadelphia Flyers {"goals":24,"assists":21,"points":45,"plusMinus":6}<br>2002 Philadelphia Flyers {"goals":33,"assists":33,"points":66,"plusMinus":12}
+- [ ] `nhl-mike-knuble` **Mike Knuble** (RW) — 2010 Philadelphia Flyers {"goals":29,"assists":24,"points":53,"plusMinus":8}
+- [ ] `nhl-scott-hartnell` **Scott Hartnell** (LW) — 2012 Philadelphia Flyers {"goals":37,"assists":30,"points":67,"plusMinus":19}<br>2004 Nashville Predators {"goals":18,"assists":15,"points":33,"plusMinus":4}
+- [ ] `nhl-kimmo-timonen` **Kimmo Timonen** (D) — 2010 Philadelphia Flyers {"goals":6,"assists":33,"points":39,"plusMinus":8}<br>2004 Nashville Predators {"goals":10,"assists":36,"points":46,"plusMinus":8}
+- [ ] `nhl-matt-carle` **Matt Carle** (D) — 2010 Philadelphia Flyers {"goals":6,"assists":29,"points":35,"plusMinus":6}
+- [ ] `nhl-braydon-coburn` **Braydon Coburn** (D) — 2010 Philadelphia Flyers {"goals":5,"assists":14,"points":19,"plusMinus":6}
+- [ ] `nhl-michael-leighton` **Michael Leighton** (G) — 2010 Philadelphia Flyers {"wins":16,"gaa":2.48,"savePct":0.918,"shutouts":1}
+- [ ] `nhl-brian-boucher` **Brian Boucher** (G) — 2010 Philadelphia Flyers {"wins":10,"gaa":2.76,"savePct":0.899,"shutouts":1}
+- [ ] `nhl-ray-emery` **Ray Emery** (G) — 2010 Philadelphia Flyers {"wins":16,"gaa":2.64,"savePct":0.905,"shutouts":1}
+- [ ] `nhl-joffrey-lupul` **Joffrey Lupul** (RW) — 2006 Philadelphia Flyers {"goals":28,"assists":25,"points":53,"plusMinus":6}
+- [ ] `nhl-tony-amonte` **Tony Amonte** (RW) — 2000 Chicago Blackhawks {"goals":43,"assists":41,"points":84,"plusMinus":12}<br>1998 Chicago Blackhawks {"goals":31,"assists":42,"points":73,"plusMinus":10}<br>2002 Phoenix Coyotes {"goals":27,"assists":29,"points":56,"plusMinus":6}
+- [ ] `nhl-steve-sullivan` **Steve Sullivan** (LW) — 2000 Chicago Blackhawks {"goals":22,"assists":42,"points":64,"plusMinus":6}<br>2004 Nashville Predators {"goals":24,"assists":49,"points":73,"plusMinus":8}<br>2010 Nashville Predators {"goals":17,"assists":34,"points":51,"plusMinus":6}
+- [ ] `nhl-eric-da` **Eric Daze** (LW) — 2000 Chicago Blackhawks {"goals":30,"assists":23,"points":53,"plusMinus":6}<br>1998 Chicago Blackhawks {"goals":31,"assists":22,"points":53,"plusMinus":6}
+- [ ] `nhl-boris-mironov` **Boris Mironov** (D) — 1999 Chicago Blackhawks {"goals":11,"assists":35,"points":46,"plusMinus":6}
+- [ ] `nhl-jocelyn-thibault` **Jocelyn Thibault** (G) — 1999 Chicago Blackhawks {"wins":21,"gaa":2.8,"savePct":0.9,"shutouts":2}<br>1997 Montreal Canadiens {"wins":22,"gaa":2.9,"savePct":0.9,"shutouts":1}
+- [ ] `nhl-steve-larmer` **Steve Larmer** (RW) — 1991 Chicago Blackhawks {"goals":44,"assists":57,"points":101,"plusMinus":14}<br>1993 Chicago Blackhawks {"goals":35,"assists":35,"points":70,"plusMinus":12}
+- [ ] `nhl-dirk-graham` **Dirk Graham** (RW) — 1991 Chicago Blackhawks {"goals":24,"assists":21,"points":45,"plusMinus":8}
+- [ ] `nhl-michel-goulet` **Michel Goulet** (LW) — 1991 Chicago Blackhawks {"goals":27,"assists":31,"points":58,"plusMinus":6}<br>1983 Quebec Nordiques {"goals":57,"assists":48,"points":105,"plusMinus":14}<br>1984 Quebec Nordiques {"goals":56,"assists":65,"points":121,"plusMinus":14}<br>1986 Quebec Nordiques {"goals":53,"assists":51,"points":104,"plusMinus":14}
+- [ ] `nhl-miroslav-satan` **Miroslav Satan** (RW) — 1999 Buffalo Sabres {"goals":40,"assists":26,"points":66,"plusMinus":8}<br>2003 Buffalo Sabres {"goals":26,"assists":49,"points":75,"plusMinus":8}
+- [ ] `nhl-maxim-afinogenov` **Maxim Afinogenov** (RW) — 2006 Buffalo Sabres {"goals":22,"assists":51,"points":73,"plusMinus":8}<br>2002 Buffalo Sabres {"goals":21,"assists":32,"points":53,"plusMinus":6}
+- [ ] `nhl-thomas-vanek` **Thomas Vanek** (LW) — 2007 Buffalo Sabres {"goals":43,"assists":41,"points":84,"plusMinus":25}
+- [ ] `nhl-derek-roy` **Derek Roy** (C) — 2007 Buffalo Sabres {"goals":21,"assists":42,"points":63,"plusMinus":8}
+- [ ] `nhl-brian-campbell` **Brian Campbell** (D) — 2007 Buffalo Sabres {"goals":6,"assists":42,"points":48,"plusMinus":12}<br>2010 Chicago Blackhawks {"goals":7,"assists":31,"points":38,"plusMinus":18}
+- [ ] `nhl-henrik-tallinder` **Henrik Tallinder** (D) — 2007 Buffalo Sabres {"goals":4,"assists":14,"points":18,"plusMinus":6}<br>2012 New Jersey Devils {"goals":0,"assists":6,"points":6,"plusMinus":2}<br>2011 New Jersey Devils {"goals":5,"assists":11,"points":16,"plusMinus":6}
+- [ ] `nhl-ryan-miller` **Ryan Miller** (G) — 2010 Buffalo Sabres {"wins":41,"gaa":2.22,"savePct":0.929,"shutouts":5}<br>2014 St. Louis Blues {"wins":19,"gaa":2.47,"savePct":0.903,"shutouts":1}
+- [ ] `nhl-martin-biron` **Martin Biron** (G) — 2002 Buffalo Sabres {"wins":31,"gaa":2.22,"savePct":0.91,"shutouts":4}<br>2012 New York Rangers {"wins":8,"gaa":2.46,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-curtis-brown` **Curtis Brown** (C) — 2002 Buffalo Sabres {"goals":14,"assists":28,"points":42,"plusMinus":6}
+- [ ] `nhl-jay-mckee` **Jay McKee** (D) — 2003 Buffalo Sabres {"goals":2,"assists":14,"points":16,"plusMinus":8}
+- [ ] `nhl-alexei-zhitnik` **Alexei Zhitnik** (D) — 1998 Buffalo Sabres {"goals":15,"assists":30,"points":45,"plusMinus":6}
+- [ ] `nhl-michael-pe` **Michael Peca** (C) — 1997 Buffalo Sabres {"goals":20,"assists":29,"points":49,"plusMinus":12}
+- [ ] `nhl-donald-audette` **Donald Audette** (RW) — 1998 Buffalo Sabres {"goals":24,"assists":20,"points":44,"plusMinus":6}
+- [ ] `nhl-vaclav-varada` **Vaclav Varada** (LW) — 1998 Buffalo Sabres {"goals":10,"assists":15,"points":25,"plusMinus":4}
+- [ ] `nhl-michal-grosek` **Michal Grosek** (LW) — 1998 Buffalo Sabres {"goals":10,"assists":20,"points":30,"plusMinus":4}
+- [ ] `nhl-jason-woolley` **Jason Woolley** (D) — 1998 Buffalo Sabres {"goals":9,"assists":24,"points":33,"plusMinus":6}
+- [ ] `nhl-richard-smehlik` **Richard Smehlik** (D) — 1997 Buffalo Sabres {"goals":11,"assists":22,"points":33,"plusMinus":8}
+- [ ] `nhl-paul-cavallini` **Paul Cavallini** (D) — 1990 St. Louis Blues {"goals":8,"assists":13,"points":21,"plusMinus":6}
+- [ ] `nhl-vincent-riendeau` **Vincent Riendeau** (G) — 1990 St. Louis Blues {"wins":23,"gaa":3.1,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-peter-stastny` **Peter Stastny** (C) — 1982 Quebec Nordiques {"goals":46,"assists":93,"points":139,"plusMinus":14}<br>1983 Quebec Nordiques {"goals":47,"assists":77,"points":124,"plusMinus":14}<br>1986 Quebec Nordiques {"goals":41,"assists":81,"points":122,"plusMinus":14}
+- [ ] `nhl-anton-stastny` **Anton Stastny** (LW) — 1982 Quebec Nordiques {"goals":26,"assists":46,"points":72,"plusMinus":8}<br>1986 Quebec Nordiques {"goals":31,"assists":43,"points":74,"plusMinus":8}
+- [ ] `nhl-marian-stastny` **Marian Stastny** (RW) — 1982 Quebec Nordiques {"goals":35,"assists":54,"points":89,"plusMinus":10}
+- [ ] `nhl-real-cloutier` **Real Cloutier** (RW) — 1981 Quebec Nordiques {"goals":37,"assists":60,"points":97,"plusMinus":10}
+- [ ] `nhl-jacques-richard` **Jacques Richard** (LW) — 1981 Quebec Nordiques {"goals":52,"assists":51,"points":103,"plusMinus":8}
+- [ ] `nhl-marc-tardif` **Marc Tardif** (LW) — 1978 Quebec Nordiques {"goals":65,"assists":49,"points":114,"plusMinus":14}
+- [ ] `nhl-dan-bouchard` **Dan Bouchard** (G) — 1979 Quebec Nordiques {"wins":25,"gaa":3.2,"savePct":0.89,"shutouts":2}<br>1981 Quebec Nordiques {"wins":19,"gaa":3.4,"savePct":0.88,"shutouts":1}
+- [ ] `nhl-dale-hunter` **Dale Hunter** (C) — 1984 Quebec Nordiques {"goals":24,"assists":55,"points":79,"plusMinus":8}<br>1986 Quebec Nordiques {"goals":28,"assists":42,"points":70,"plusMinus":8}<br>1993 Washington Capitals {"goals":20,"assists":59,"points":79,"plusMinus":8}
+- [ ] `nhl-normand-rochefort` **Normand Rochefort** (D) — 1984 Quebec Nordiques {"goals":4,"assists":20,"points":24,"plusMinus":8}
+- [ ] `nhl-mario-marois` **Mario Marois** (D) — 1984 Quebec Nordiques {"goals":6,"assists":30,"points":36,"plusMinus":6}
+- [ ] `nhl-michel-petit` **Michel Petit** (D) — 1986 Quebec Nordiques {"goals":8,"assists":20,"points":28,"plusMinus":6}
+- [ ] `nhl-mario-gosselin` **Mario Gosselin** (G) — 1986 Quebec Nordiques {"wins":20,"gaa":3.4,"savePct":0.88,"shutouts":1}
+- [ ] `nhl-valeri-kamensky` **Valeri Kamensky** (LW) — 1993 Quebec Nordiques {"goals":32,"assists":47,"points":79,"plusMinus":8}
+- [ ] `nhl-curtis-leschyshyn` **Curtis Leschyshyn** (D) — 1993 Quebec Nordiques {"goals":2,"assists":10,"points":12,"plusMinus":4}
+- [ ] `nhl-alexei-gusarov` **Alexei Gusarov** (D) — 1993 Quebec Nordiques {"goals":2,"assists":12,"points":14,"plusMinus":6}
+- [ ] `nhl-ron-hextall` **Ron Hextall** (G) — 1987 Philadelphia Flyers {"wins":37,"gaa":3,"savePct":0.902,"shutouts":1}<br>1988 Philadelphia Flyers {"wins":30,"gaa":3.51,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-tim-kerr` **Tim Kerr** (RW) — 1987 Philadelphia Flyers {"goals":58,"assists":37,"points":95,"plusMinus":14}<br>1984 Philadelphia Flyers {"goals":54,"assists":39,"points":93,"plusMinus":14}<br>1986 Philadelphia Flyers {"goals":58,"assists":26,"points":84,"plusMinus":14}
+- [ ] `nhl-pelle-e` **Pelle Eklund** (LW) — 1985 Philadelphia Flyers {"goals":25,"assists":51,"points":76,"plusMinus":8}<br>1988 Philadelphia Flyers {"goals":18,"assists":51,"points":69,"plusMinus":8}
+- [ ] `nhl-dave-poulin` **Dave Poulin** (C) — 1986 Philadelphia Flyers {"goals":19,"assists":39,"points":58,"plusMinus":8}<br>1984 Philadelphia Flyers {"goals":31,"assists":45,"points":76,"plusMinus":8}
+- [ ] `nhl-brian-propp` **Brian Propp** (LW) — 1986 Philadelphia Flyers {"goals":40,"assists":57,"points":97,"plusMinus":14}<br>1983 Philadelphia Flyers {"goals":40,"assists":42,"points":82,"plusMinus":14}
+- [ ] `nhl-mark-howe` **Mark Howe** (D) — 1986 Philadelphia Flyers {"goals":24,"assists":58,"points":82,"plusMinus":85}<br>1987 Philadelphia Flyers {"goals":15,"assists":43,"points":58,"plusMinus":57}<br>1985 Philadelphia Flyers {"goals":18,"assists":39,"points":57,"plusMinus":51}
+- [ ] `nhl-brad-mccrimmon` **Brad McCrimmon** (D) — 1986 Philadelphia Flyers {"goals":13,"assists":43,"points":56,"plusMinus":14}<br>1985 Philadelphia Flyers {"goals":8,"assists":35,"points":43,"plusMinus":14}
+- [ ] `nhl-murray-craven` **Murray Craven** (LW) — 1988 Philadelphia Flyers {"goals":30,"assists":46,"points":76,"plusMinus":8}<br>1985 Philadelphia Flyers {"goals":26,"assists":35,"points":61,"plusMinus":8}
+- [ ] `nhl-ron-sutter` **Ron Sutter** (C) — 1986 Philadelphia Flyers {"goals":18,"assists":41,"points":59,"plusMinus":8}
+- [ ] `nhl-dave-brown` **Dave Brown** (RW) — 1988 Philadelphia Flyers {"goals":12,"assists":10,"points":22,"plusMinus":4}
+- [ ] `nhl-pete-peeters` **Pete Peeters** (G) — 1981 Philadelphia Flyers {"wins":22,"gaa":2.71,"savePct":0.9,"shutouts":2}<br>1983 Boston Bruins {"wins":40,"gaa":2.36,"savePct":0.904,"shutouts":8}<br>1984 Washington Capitals {"wins":29,"gaa":2.42,"savePct":0.91,"shutouts":4}
+- [ ] `nhl-bill-barber` **Bill Barber** (LW) — 1976 Philadelphia Flyers {"goals":50,"assists":62,"points":112,"plusMinus":14}<br>1975 Philadelphia Flyers {"goals":34,"assists":37,"points":71,"plusMinus":14}<br>1980 Philadelphia Flyers {"goals":40,"assists":45,"points":85,"plusMinus":14}<br>1981 Philadelphia Flyers {"goals":43,"assists":42,"points":85,"plusMinus":14}
+- [ ] `nhl-bobby-clarke` **Bobby Clarke** (C) — 1976 Philadelphia Flyers {"goals":30,"assists":89,"points":119,"plusMinus":83}<br>1975 Philadelphia Flyers {"goals":27,"assists":89,"points":116,"plusMinus":79}<br>1973 Philadelphia Flyers {"goals":37,"assists":67,"points":104,"plusMinus":83}
+- [ ] `nhl-reggie-leach` **Reggie Leach** (RW) — 1976 Philadelphia Flyers {"goals":61,"assists":30,"points":91,"plusMinus":14}
+- [ ] `nhl-rick-macleish` **Rick MacLeish** (C) — 1973 Philadelphia Flyers {"goals":38,"assists":50,"points":88,"plusMinus":14}
+- [ ] `nhl-joe-watson` **Joe Watson** (D) — 1974 Philadelphia Flyers {"goals":1,"assists":17,"points":18,"plusMinus":14}
+- [ ] `nhl-andre-dupont` **Andre Dupont** (D) — 1975 Philadelphia Flyers {"goals":11,"assists":23,"points":34,"plusMinus":14}
+- [ ] `nhl-ed-van-impe` **Ed Van Impe** (D) — 1974 Philadelphia Flyers {"goals":2,"assists":10,"points":12,"plusMinus":8}
+- [ ] `nhl-gary-dornhoefer` **Gary Dornhoefer** (RW) — 1973 Philadelphia Flyers {"goals":30,"assists":49,"points":79,"plusMinus":14}
+- [ ] `nhl-ross-lonsberry` **Ross Lonsberry** (LW) — 1974 Philadelphia Flyers {"goals":32,"assists":19,"points":51,"plusMinus":10}
+- [ ] `nhl-don-saleski` **Don Saleski** (RW) — 1974 Philadelphia Flyers {"goals":17,"assists":18,"points":35,"plusMinus":8}
+- [ ] `nhl-terry-crisp` **Terry Crisp** (C) — 1974 Philadelphia Flyers {"goals":10,"assists":21,"points":31,"plusMinus":8}
+- [ ] `nhl-dave-schultz` **Dave Schultz** (LW) — 1974 Philadelphia Flyers {"goals":20,"assists":16,"points":36,"plusMinus":6}
+- [ ] `nhl-bob-kelly` **Bob Kelly** (LW) — 1974 Philadelphia Flyers {"goals":4,"assists":10,"points":14,"plusMinus":4}
+- [ ] `nhl-wayne-stephenson` **Wayne Stephenson** (G) — 1975 Philadelphia Flyers {"wins":13,"gaa":2.9,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-ken-linesman` **Ken Linseman** (C) — 1981 Philadelphia Flyers {"goals":17,"assists":46,"points":63,"plusMinus":8}
+- [ ] `nhl-pelle-lindbergh` **Pelle Lindbergh** (G) — 1985 Philadelphia Flyers {"wins":40,"gaa":3.02,"savePct":0.899,"shutouts":2}
+- [ ] `nhl-il-kka-sinisalo` **Ilkka Sinisalo** (RW) — 1985 Philadelphia Flyers {"goals":36,"assists":37,"points":73,"plusMinus":8}
+- [ ] `nhl-bob-froese` **Bob Froese** (G) — 1986 Philadelphia Flyers {"wins":31,"gaa":2.55,"savePct":0.909,"shutouts":5}
+- [ ] `nhl-peter-z-e` **Peter Zezel** (C) — 1986 Philadelphia Flyers {"goals":17,"assists":37,"points":54,"plusMinus":8}
+- [ ] `nhl-daryl-sittler` **Darryl Sittler** (C) — 1976 Toronto Maple Leafs {"goals":41,"assists":59,"points":100,"plusMinus":14}
+- [ ] `nhl-borje-salming` **Borje Salming** (D) — 1977 Toronto Maple Leafs {"goals":12,"assists":66,"points":78,"plusMinus":14}<br>1980 Toronto Maple Leafs {"goals":19,"assists":52,"points":71,"plusMinus":14}<br>1985 Toronto Maple Leafs {"goals":6,"assists":33,"points":39,"plusMinus":8}
+- [ ] `nhl-ian-turnbull` **Ian Turnbull** (D) — 1977 Toronto Maple Leafs {"goals":22,"assists":57,"points":79,"plusMinus":14}
+- [ ] `nhl-mike-palmateer` **Mike Palmateer** (G) — 1978 Toronto Maple Leafs {"wins":34,"gaa":2.74,"savePct":0.9,"shutouts":5}
+- [ ] `nhl-wilf-paiement` **Wilf Paiement** (RW) — 1981 Toronto Maple Leafs {"goals":40,"assists":57,"points":97,"plusMinus":8}
+- [ ] `nhl-rick-vaive` **Rick Vaive** (RW) — 1982 Toronto Maple Leafs {"goals":54,"assists":35,"points":89,"plusMinus":8}
+- [ ] `nhl-bill-derlago` **Bill Derlago** (C) — 1982 Toronto Maple Leafs {"goals":34,"assists":50,"points":84,"plusMinus":6}
+- [ ] `nhl-john-anderson` **John Anderson** (RW) — 1983 Toronto Maple Leafs {"goals":31,"assists":49,"points":80,"plusMinus":8}
+- [ ] `nhl-miroslav-frycer` **Miroslav Frycer** (RW) — 1986 Toronto Maple Leafs {"goals":32,"assists":43,"points":75,"plusMinus":6}
+- [ ] `nhl-al-iafrate` **Al Iafrate** (D) — 1988 Toronto Maple Leafs {"goals":5,"assists":27,"points":32,"plusMinus":6}<br>1993 Washington Capitals {"goals":25,"assists":16,"points":41,"plusMinus":6}
+- [ ] `nhl-gary-leeman` **Gary Leeman** (RW) — 1990 Toronto Maple Leafs {"goals":51,"assists":44,"points":95,"plusMinus":8}
+- [ ] `nhl-daniel-marchessault` **Daniel Marois** (RW) — 1990 Toronto Maple Leafs {"goals":39,"assists":37,"points":76,"plusMinus":6}
+- [ ] `nhl-ed-olczyk` **Ed Olczyk** (C) — 1990 Toronto Maple Leafs {"goals":32,"assists":56,"points":88,"plusMinus":6}
+- [ ] `nhl-nikolai-borschevsky` **Nikolai Borschevsky** (RW) — 1993 Toronto Maple Leafs {"goals":34,"assists":40,"points":74,"plusMinus":6}
+- [ ] `nhl-dave-ellett` **Dave Ellett** (D) — 1993 Toronto Maple Leafs {"goals":6,"assists":34,"points":40,"plusMinus":8}
+- [ ] `nhl-bob-r-rouse` **Bob Rouse** (D) — 1993 Toronto Maple Leafs {"goals":3,"assists":16,"points":19,"plusMinus":6}
+- [ ] `nhl-mike-gartner` **Mike Gartner** (RW) — 1994 Toronto Maple Leafs {"goals":34,"assists":24,"points":58,"plusMinus":8}<br>1996 Toronto Maple Leafs {"goals":35,"assists":19,"points":54,"plusMinus":6}<br>1985 Washington Capitals {"goals":50,"assists":52,"points":102,"plusMinus":14}<br>1990 Washington Capitals {"goals":45,"assists":41,"points":86,"plusMinus":12}
+- [ ] `nhl-sergei-berezin` **Sergei Berezin** (LW) — 1998 Toronto Maple Leafs {"goals":25,"assists":16,"points":41,"plusMinus":4}
+- [ ] `nhl-mike-johnson` **Mike Johnson** (RW) — 1998 Toronto Maple Leafs {"goals":15,"assists":20,"points":35,"plusMinus":4}
+- [ ] `nhl-yanic-perreault` **Yanic Perreault** (C) — 1999 Toronto Maple Leafs {"goals":12,"assists":16,"points":28,"plusMinus":4}<br>2002 Montreal Canadiens {"goals":27,"assists":29,"points":56,"plusMinus":6}
+- [ ] `nhl-jonas-hoglund` **Jonas Hoglund** (LW) — 1998 Toronto Maple Leafs {"goals":19,"assists":21,"points":40,"plusMinus":4}
+- [ ] `nhl-tie-domi` **Tie Domi** (RW) — 1998 Toronto Maple Leafs {"goals":4,"assists":10,"points":14,"plusMinus":2}
+- [ ] `nhl-dmitry-yushkevich` **Dmitry Yushkevich** (D) — 1997 Toronto Maple Leafs {"goals":10,"assists":24,"points":34,"plusMinus":6}
+- [ ] `nhl-jason-blake` **Jason Blake** (C) — 2007 Toronto Maple Leafs {"goals":40,"assists":29,"points":69,"plusMinus":4}
+- [ ] `nhl-alexei-ponikarovsky` **Alexei Ponikarovsky** (LW) — 2007 Toronto Maple Leafs {"goals":21,"assists":24,"points":45,"plusMinus":4}
+- [ ] `nhl-kyle-wellwood` **Kyle Wellwood** (C) — 2007 Toronto Maple Leafs {"goals":12,"assists":30,"points":42,"plusMinus":4}
+- [ ] `nhl-nik-antropov` **Nik Antropov** (C) — 2004 Toronto Maple Leafs {"goals":13,"assists":18,"points":31,"plusMinus":4}
+- [ ] `nhl-pavel-kubina` **Pavel Kubina** (D) — 2004 Toronto Maple Leafs {"goals":5,"assists":14,"points":19,"plusMinus":4}
+- [ ] `nhl-andrew-raycroft` **Andrew Raycroft** (G) — 2004 Toronto Maple Leafs {"wins":29,"gaa":2.05,"savePct":0.91,"shutouts":5}
+- [ ] `nhl-bill-guerin` **Bill Guerin** (RW) — 2003 Dallas Stars {"goals":25,"assists":25,"points":50,"plusMinus":8}<br>2009 Pittsburgh Penguins {"goals":21,"assists":28,"points":49,"plusMinus":6}<br>2001 Boston Bruins {"goals":28,"assists":35,"points":63,"plusMinus":6}
+- [ ] `nhl-brenden-morrow` **Brenden Morrow** (LW) — 2008 Dallas Stars {"goals":32,"assists":42,"points":74,"plusMinus":23}<br>2003 Dallas Stars {"goals":21,"assists":26,"points":47,"plusMinus":6}<br>2007 Dallas Stars {"goals":31,"assists":35,"points":66,"plusMinus":12}
+- [ ] `nhl-mike-ribeiro` **Mike Ribeiro** (C) — 2008 Dallas Stars {"goals":27,"assists":56,"points":83,"plusMinus":12}<br>2012 Dallas Stars {"goals":18,"assists":45,"points":63,"plusMinus":6}<br>2006 Dallas Stars {"goals":16,"assists":33,"points":49,"plusMinus":6}
+- [ ] `nhl-fredrik-modin` **Fredrik Modin** (LW) — 2004 Tampa Bay Lightning {"goals":29,"assists":28,"points":57,"plusMinus":8}<br>2006 Columbus Blue Jackets {"goals":22,"assists":22,"points":44,"plusMinus":4}
+- [ ] `nhl-ruslan-fedotenko` **Ruslan Fedotenko** (LW) — 2004 Tampa Bay Lightning {"goals":17,"assists":17,"points":34,"plusMinus":6}<br>2009 Pittsburgh Penguins {"goals":16,"assists":23,"points":39,"plusMinus":4}
+- [ ] `nhl-nikolai-khabibulin` **Nikolai Khabibulin** (G) — 2004 Tampa Bay Lightning {"wins":28,"gaa":2.33,"savePct":0.91,"shutouts":3}
+- [ ] `nhl-loui-eriksson` **Loui Eriksson** (LW) — 2011 Dallas Stars {"goals":27,"assists":46,"points":73,"plusMinus":10}
+- [ ] `nhl-kari-lehtonen` **Kari Lehtonen** (G) — 2011 Dallas Stars {"wins":34,"gaa":2.55,"savePct":0.914,"shutouts":3}
+- [ ] `nhl-philippe-boucher` **Philippe Boucher** (D) — 2007 Dallas Stars {"goals":19,"assists":32,"points":51,"plusMinus":10}<br>2009 Pittsburgh Penguins {"goals":0,"assists":3,"points":3,"plusMinus":1}
+- [ ] `nhl-marty-turco` **Marty Turco** (G) — 2003 Dallas Stars {"wins":31,"gaa":1.72,"savePct":0.925,"shutouts":7}
+- [ ] `nhl-richard-matvichuk` **Richard Matvichuk** (D) — 1999 Dallas Stars {"goals":3,"assists":13,"points":16,"plusMinus":8}
+- [ ] `nhl-darryl-sydor` **Darryl Sydor** (D) — 1999 Dallas Stars {"goals":14,"assists":34,"points":48,"plusMinus":12}<br>2008 Pittsburgh Penguins {"goals":1,"assists":5,"points":6,"plusMinus":2}
+- [ ] `nhl-jussi-jokinen` **Jussi Jokinen** (LW) — 2008 Dallas Stars {"goals":16,"assists":30,"points":46,"plusMinus":6}<br>2014 Pittsburgh Penguins {"goals":21,"assists":36,"points":57,"plusMinus":6}
+- [ ] `nhl-niklas-grossman` **Niklas Grossman** (D) — 2008 Dallas Stars {"goals":1,"assists":6,"points":7,"plusMinus":4}
+- [ ] `nhl-stephane-robidas` **Stephane Robidas** (D) — 2008 Dallas Stars {"goals":4,"assists":22,"points":26,"plusMinus":8}
+- [ ] `nhl-matt-niskanen` **Matt Niskanen** (D) — 2008 Dallas Stars {"goals":7,"assists":19,"points":26,"plusMinus":6}<br>2014 Pittsburgh Penguins {"goals":10,"assists":36,"points":46,"plusMinus":33}<br>2011 Pittsburgh Penguins {"goals":5,"assists":21,"points":26,"plusMinus":6}
+- [ ] `nhl-trevor-daley` **Trevor Daley** (D) — 2008 Dallas Stars {"goals":5,"assists":18,"points":23,"plusMinus":6}<br>2016 Pittsburgh Penguins {"goals":6,"assists":16,"points":22,"plusMinus":8}
+- [ ] `nhl-mike-smith` **Mike Smith** (G) — 2012 Phoenix Coyotes {"wins":38,"gaa":2.21,"savePct":0.93,"shutouts":8}<br>2021 Edmonton Oilers {"wins":15,"gaa":2.31,"savePct":0.923,"shutouts":2}
+- [ ] `nhl-martin-hanzal` **Martin Hanzal** (C) — 2012 Phoenix Coyotes {"goals":11,"assists":23,"points":34,"plusMinus":4}
+- [ ] `nhl-keith-yandle` **Keith Yandle** (D) — 2011 Phoenix Coyotes {"goals":11,"assists":48,"points":59,"plusMinus":12}
+- [ ] `nhl-rostislav-klesla` **Rostislav Klesla** (D) — 2002 Columbus Blue Jackets {"goals":8,"assists":8,"points":16,"plusMinus":2}<br>2001 Columbus Blue Jackets {"goals":2,"assists":6,"points":8,"plusMinus":2}<br>2003 Columbus Blue Jackets {"goals":2,"assists":8,"points":10,"plusMinus":2}
+- [ ] `nhl-david-vyborny` **David Vyborny** (RW) — 2006 Columbus Blue Jackets {"goals":16,"assists":30,"points":46,"plusMinus":4}<br>2001 Columbus Blue Jackets {"goals":13,"assists":19,"points":32,"plusMinus":2}
+- [ ] `nhl-pascal-leclaire` **Pascal Leclaire** (G) — 2008 Columbus Blue Jackets {"wins":24,"gaa":2.35,"savePct":0.91,"shutouts":2}<br>2006 Columbus Blue Jackets {"wins":11,"gaa":3.23,"savePct":0.89,"shutouts":0}
+- [ ] `nhl-steve-mason` **Steve Mason** (G) — 2009 Columbus Blue Jackets {"wins":33,"gaa":2.29,"savePct":0.916,"shutouts":10}<br>2011 Columbus Blue Jackets {"wins":13,"gaa":3.52,"savePct":0.89,"shutouts":1}<br>2013 Columbus Blue Jackets {"wins":11,"gaa":2.17,"savePct":0.916,"shutouts":1}
+- [ ] `nhl-rj-umberger` **R.J. Umberger** (C) — 2009 Columbus Blue Jackets {"goals":26,"assists":20,"points":46,"plusMinus":4}<br>2012 Columbus Blue Jackets {"goals":20,"assists":20,"points":40,"plusMinus":4}<br>2011 Columbus Blue Jackets {"goals":25,"assists":32,"points":57,"plusMinus":6}
+- [ ] `nhl-jason-chimera` **Jason Chimera** (LW) — 2009 Columbus Blue Jackets {"goals":8,"assists":14,"points":22,"plusMinus":2}<br>2006 Columbus Blue Jackets {"goals":17,"assists":18,"points":35,"plusMinus":2}
+- [ ] `nhl-jan-hejda` **Jan Hejda** (D) — 2009 Columbus Blue Jackets {"goals":3,"assists":15,"points":18,"plusMinus":6}<br>2014 Colorado Avalanche {"goals":1,"assists":11,"points":12,"plusMinus":6}
+- [ ] `nhl-marc-denis` **Marc Denis** (G) — 2003 Columbus Blue Jackets {"wins":27,"gaa":2.58,"savePct":0.905,"shutouts":5}<br>2006 Columbus Blue Jackets {"wins":21,"gaa":3.25,"savePct":0.89,"shutouts":1}<br>2002 Columbus Blue Jackets {"wins":9,"gaa":2.96,"savePct":0.9,"shutouts":1}<br>2004 Columbus Blue Jackets {"wins":21,"gaa":2.56,"savePct":0.901,"shutouts":5}
+- [ ] `nhl-geoff-sanderson` **Geoff Sanderson** (LW) — 2000 Columbus Blue Jackets {"goals":13,"assists":13,"points":26,"plusMinus":2}<br>2003 Columbus Blue Jackets {"goals":34,"assists":33,"points":67,"plusMinus":6}
+- [ ] `nhl-tyler-wright` **Tyler Wright** (C) — 2001 Columbus Blue Jackets {"goals":10,"assists":16,"points":26,"plusMinus":2}<br>2003 Columbus Blue Jackets {"goals":8,"assists":12,"points":20,"plusMinus":2}
+- [ ] `nhl-serge-aigner` **Serge Aubin** (C) — 2001 Columbus Blue Jackets {"goals":12,"assists":18,"points":30,"plusMinus":2}
+- [ ] `nhl-lyle-odelein` **Lyle Odelein** (D) — 2001 Columbus Blue Jackets {"goals":2,"assists":8,"points":10,"plusMinus":2}
+- [ ] `nhl-ron-tugnutt` **Ron Tugnutt** (G) — 2001 Columbus Blue Jackets {"wins":22,"gaa":2.44,"savePct":0.91,"shutouts":4}
+- [ ] `nhl-gilbert-brule` **Gilbert Brule** (C) — 2006 Columbus Blue Jackets {"goals":7,"assists":12,"points":19,"plusMinus":2}
+- [ ] `nhl-adam-foote` **Adam Foote** (D) — 2006 Columbus Blue Jackets {"goals":2,"assists":14,"points":16,"plusMinus":4}<br>2001 Colorado Avalanche {"goals":3,"assists":14,"points":17,"plusMinus":8}
+- [ ] `nhl-bryan-berard` **Bryan Berard** (D) — 2006 Columbus Blue Jackets {"goals":12,"assists":23,"points":35,"plusMinus":2}
+- [ ] `nhl-andrew-cassels` **Andrew Cassels** (C) — 2003 Columbus Blue Jackets {"goals":20,"assists":48,"points":68,"plusMinus":6}
+- [ ] `nhl-mike-sillinger` **Mike Sillinger** (C) — 2001 Columbus Blue Jackets {"goals":13,"assists":21,"points":34,"plusMinus":2}
+- [ ] `nhl-esp-n-k` **Espen Knutsen** (C) — 2001 Columbus Blue Jackets {"goals":11,"assists":42,"points":53,"plusMinus":2}
+- [ ] `nhl-grant-marshall` **Grant Marshall** (RW) — 2003 Columbus Blue Jackets {"goals":10,"assists":14,"points":24,"plusMinus":2}
+- [ ] `nhl-jaroslav-spacek` **Jaroslav Spacek** (D) — 2003 Columbus Blue Jackets {"goals":9,"assists":36,"points":45,"plusMinus":6}
+- [ ] `nhl-luke-richardson` **Luke Richardson** (D) — 2003 Columbus Blue Jackets {"goals":1,"assists":8,"points":9,"plusMinus":2}
+- [ ] `nhl-vinny-prospal` **Vinny Prospal** (LW) — 2012 Columbus Blue Jackets {"goals":16,"assists":30,"points":46,"plusMinus":4}<br>2011 New York Rangers {"goals":9,"assists":20,"points":29,"plusMinus":2}
+- [ ] `nhl-antoine-vermette` **Antoine Vermette** (C) — 2012 Columbus Blue Jackets {"goals":8,"assists":19,"points":27,"plusMinus":2}<br>2011 Columbus Blue Jackets {"goals":19,"assists":28,"points":47,"plusMinus":4}<br>2015 Chicago Blackhawks {"goals":0,"assists":3,"points":3,"plusMinus":1}
+- [ ] `nhl-derek-mackenzie` **Derek MacKenzie** (C) — 2012 Columbus Blue Jackets {"goals":7,"assists":10,"points":17,"plusMinus":2}
+- [ ] `nhl-james-wisniewski` **James Wisniewski** (D) — 2012 Columbus Blue Jackets {"goals":6,"assists":27,"points":33,"plusMinus":4}
+- [ ] `nhl-nikita-nikitin` **Nikita Nikitin** (D) — 2012 Columbus Blue Jackets {"goals":7,"assists":25,"points":32,"plusMinus":4}
+- [ ] `nhl-curtis-sanford` **Curtis Sanford** (G) — 2012 Columbus Blue Jackets {"wins":10,"gaa":2.6,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-marc-methot` **Marc Methot** (D) — 2011 Columbus Blue Jackets {"goals":0,"assists":6,"points":6,"plusMinus":2}
+- [ ] `nhl-grant-clitsome` **Grant Clitsome** (D) — 2011 Columbus Blue Jackets {"goals":4,"assists":15,"points":19,"plusMinus":2}
+- [ ] `nhl-derek-stepan` **Derek Stepan** (C) — 2012 New York Rangers {"goals":17,"assists":34,"points":51,"plusMinus":6}<br>2015 New York Rangers {"goals":16,"assists":39,"points":55,"plusMinus":6}<br>2017 New York Rangers {"goals":17,"assists":38,"points":55,"plusMinus":4}
+- [ ] `nhl-artemi-anisimov` **Artem Anisimov** (C) — 2012 New York Rangers {"goals":16,"assists":20,"points":36,"plusMinus":4}
+- [ ] `nhl-carl-hagelin` **Carl Hagelin** (LW) — 2012 New York Rangers {"goals":14,"assists":24,"points":38,"plusMinus":6}<br>2016 Pittsburgh Penguins {"goals":10,"assists":17,"points":27,"plusMinus":9}<br>2018 Pittsburgh Penguins {"goals":10,"assists":21,"points":31,"plusMinus":6}
+- [ ] `nhl-ryan-mcdonagh` **Ryan McDonagh** (D) — 2012 New York Rangers {"goals":7,"assists":25,"points":32,"plusMinus":25}<br>2014 New York Rangers {"goals":14,"assists":29,"points":43,"plusMinus":11}<br>2017 New York Rangers {"goals":6,"assists":36,"points":42,"plusMinus":20}
+- [ ] `nhl-dan-girardi` **Dan Girardi** (D) — 2012 New York Rangers {"goals":5,"assists":24,"points":29,"plusMinus":18}<br>2014 New York Rangers {"goals":4,"assists":14,"points":18,"plusMinus":6}
+- [ ] `nhl-michael-del-zotto` **Michael Del Zotto** (D) — 2012 New York Rangers {"goals":10,"assists":31,"points":41,"plusMinus":6}<br>2019 St. Louis Blues {"goals":1,"assists":7,"points":8,"plusMinus":2}
+- [ ] `nhl-marc-staal` **Marc Staal** (D) — 2012 New York Rangers {"goals":2,"assists":9,"points":11,"plusMinus":6}<br>2014 New York Rangers {"goals":3,"assists":11,"points":14,"plusMinus":6}
+- [ ] `nhl-anton-stralman` **Anton Stralman** (D) — 2012 New York Rangers {"goals":2,"assists":16,"points":18,"plusMinus":6}<br>2014 New York Rangers {"goals":1,"assists":12,"points":13,"plusMinus":6}
+- [ ] `nhl-der-brassard` **Derick Brassard** (C) — 2015 New York Rangers {"goals":19,"assists":41,"points":60,"plusMinus":6}<br>2018 Pittsburgh Penguins {"goals":12,"assists":26,"points":38,"plusMinus":4}
+- [ ] `nhl-kevin-hayes` **Kevin Hayes** (RW) — 2015 New York Rangers {"goals":17,"assists":28,"points":45,"plusMinus":6}<br>2024 St. Louis Blues {"goals":13,"assists":16,"points":29,"plusMinus":2}
+- [ ] `nhl-nick-holden` **Nick Holden** (D) — 2017 New York Rangers {"goals":11,"assists":23,"points":34,"plusMinus":6}
+- [ ] `nhl-brady-skjei` **Brady Skjei** (D) — 2017 New York Rangers {"goals":4,"assists":35,"points":39,"plusMinus":6}
+- [ ] `nhl-kevin-shattenkirk` **Kevin Shattenkirk** (D) — 2017 New York Rangers {"goals":11,"assists":31,"points":42,"plusMinus":4}<br>2014 St. Louis Blues {"goals":10,"assists":34,"points":44,"plusMinus":12}
+- [ ] `nhl-antti-raanta` **Antti Raanta** (G) — 2017 New York Rangers {"wins":16,"gaa":2.26,"savePct":0.922,"shutouts":3}
+- [ ] `nhl-ryan-strome` **Ryan Strome** (C) — 2020 New York Rangers {"goals":18,"assists":41,"points":59,"plusMinus":6}
+- [ ] `nhl-jesper-fast` **Jesper Fast** (RW) — 2020 New York Rangers {"goals":12,"assists":18,"points":30,"plusMinus":4}
+- [ ] `nhl-kaapo-kakko` **Kaapo Kakko** (RW) — 2020 New York Rangers {"goals":10,"assists":13,"points":23,"plusMinus":2}<br>2024 New York Rangers {"goals":13,"assists":6,"points":19,"plusMinus":2}
+- [ ] `nhl-jacob-trouba` **Jacob Trouba** (D) — 2020 New York Rangers {"goals":7,"assists":20,"points":27,"plusMinus":6}<br>2022 New York Rangers {"goals":3,"assists":16,"points":19,"plusMinus":11}
+- [ ] `nhl-tony-deangelo` **Tony DeAngelo** (D) — 2020 New York Rangers {"goals":15,"assists":38,"points":53,"plusMinus":6}
+- [ ] `nhl-ryan-lindgren` **Ryan Lindgren** (D) — 2020 New York Rangers {"goals":1,"assists":10,"points":11,"plusMinus":4}<br>2024 New York Rangers {"goals":3,"assists":14,"points":17,"plusMinus":10}
+- [ ] `nhl-alexandar-georgiev` **Alexandar Georgiev** (G) — 2020 New York Rangers {"wins":17,"gaa":3.04,"savePct":0.91,"shutouts":2}
+- [ ] `nhl-vincent-trocheck` **Vincent Trocheck** (C) — 2024 New York Rangers {"goals":26,"assists":51,"points":77,"plusMinus":10}
+- [ ] `nhl-alexis-lafreniere` **Alexis Lafreniere** (LW) — 2024 New York Rangers {"goals":28,"assists":29,"points":57,"plusMinus":2}
+- [ ] `nhl-kandre-miller` **K'Andre Miller** (D) — 2024 New York Rangers {"goals":8,"assists":22,"points":30,"plusMinus":6}
+- [ ] `nhl-niklas-hjalmarsson` **Niklas Hjalmarsson** (D) — 2016 Chicago Blackhawks {"goals":2,"assists":14,"points":16,"plusMinus":10}<br>2011 Chicago Blackhawks {"goals":3,"assists":7,"points":10,"plusMinus":8}<br>2010 Chicago Blackhawks {"goals":2,"assists":15,"points":17,"plusMinus":15}
+- [ ] `nhl-scott-darling` **Scott Darling** (G) — 2016 Chicago Blackhawks {"wins":9,"gaa":2.38,"savePct":0.915,"shutouts":1}
+- [ ] `nhl-andrew-desjardins` **Andrew Desjardins** (C) — 2015 Chicago Blackhawks {"goals":1,"assists":4,"points":5,"plusMinus":1}
+- [ ] `nhl-kris-versteeg` **Kris Versteeg** (LW) — 2015 Chicago Blackhawks {"goals":2,"assists":4,"points":6,"plusMinus":1}<br>2010 Chicago Blackhawks {"goals":20,"assists":24,"points":44,"plusMinus":8}
+- [ ] `nhl-dave-bolland` **Dave Bolland** (C) — 2011 Chicago Blackhawks {"goals":15,"assists":22,"points":37,"plusMinus":6}<br>2010 Chicago Blackhawks {"goals":16,"assists":20,"points":36,"plusMinus":6}
+- [ ] `nhl-andrew-ladd` **Andrew Ladd** (LW) — 2010 Chicago Blackhawks {"goals":17,"assists":21,"points":38,"plusMinus":6}<br>2006 Carolina Hurricanes {"goals":15,"assists":24,"points":39,"plusMinus":6}
+- [ ] `nhl-troy-brouwer` **Troy Brouwer** (RW) — 2010 Chicago Blackhawks {"goals":22,"assists":18,"points":40,"plusMinus":6}
+- [ ] `nhl-cristobal-huet` **Cristobal Huet** (G) — 2010 Chicago Blackhawks {"wins":26,"gaa":2.5,"savePct":0.9,"shutouts":4}<br>2008 Montreal Canadiens {"wins":21,"gaa":2.56,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-brent-sopel` **Brent Sopel** (D) — 2010 Chicago Blackhawks {"goals":1,"assists":7,"points":8,"plusMinus":6}
+- [ ] `nhl-jordan-hendry` **Jordan Hendry** (D) — 2010 Chicago Blackhawks {"goals":2,"assists":4,"points":6,"plusMinus":4}
+- [ ] `nhl-tomas-kopecky` **Tomas Kopecky** (C) — 2010 Chicago Blackhawks {"goals":10,"assists":11,"points":21,"plusMinus":4}
+- [ ] `nhl-john-madden` **John Madden** (C) — 2010 Chicago Blackhawks {"goals":10,"assists":13,"points":23,"plusMinus":6}
+- [ ] `nhl-adam-burish` **Adam Burish** (RW) — 2010 Chicago Blackhawks {"goals":2,"assists":4,"points":6,"plusMinus":2}
+- [ ] `nhl-ben-eager` **Ben Eager** (LW) — 2010 Chicago Blackhawks {"goals":7,"assists":2,"points":9,"plusMinus":2}
+- [ ] `nhl-aaron-ward` **Aaron Ward** (D) — 2006 Carolina Hurricanes {"goals":6,"assists":19,"points":25,"plusMinus":8}
+- [ ] `nhl-glen-wesley` **Glen Wesley** (D) — 2006 Carolina Hurricanes {"goals":2,"assists":8,"points":10,"plusMinus":4}
+- [ ] `nhl-frantisek-kaberle` **Frantisek Kaberle** (D) — 2006 Carolina Hurricanes {"goals":6,"assists":22,"points":28,"plusMinus":6}
+- [ ] `nhl-niclas-wallin` **Niclas Wallin** (D) — 2006 Carolina Hurricanes {"goals":4,"assists":8,"points":12,"plusMinus":6}
+- [ ] `nhl-olav-kolzig` **Olaf Kolzig** (G) — 2000 Washington Capitals {"wins":41,"gaa":2.24,"savePct":0.917,"shutouts":5}<br>2006 Washington Capitals {"wins":20,"gaa":3.53,"savePct":0.89,"shutouts":1}<br>1998 Washington Capitals {"wins":33,"gaa":2.2,"savePct":0.92,"shutouts":5}
+- [ ] `nhl-sergei-gonchar` **Sergei Gonchar** (D) — 2003 Washington Capitals {"goals":18,"assists":49,"points":67,"plusMinus":12}<br>2007 Pittsburgh Penguins {"goals":13,"assists":54,"points":67,"plusMinus":12}<br>2008 Pittsburgh Penguins {"goals":12,"assists":53,"points":65,"plusMinus":12}<br>2004 Boston Bruins {"goals":7,"assists":26,"points":33,"plusMinus":6}<br>2015 Montreal Canadiens {"goals":1,"assists":12,"points":13,"plusMinus":2}
+- [ ] `nhl-dainius-zubrus` **Dainius Zubrus** (C) — 2006 Washington Capitals {"goals":23,"assists":34,"points":57,"plusMinus":4}
+- [ ] `nhl-brian-willsie` **Brian Willsie** (RW) — 2006 Washington Capitals {"goals":19,"assists":22,"points":41,"plusMinus":2}
+- [ ] `nhl-matt-pettinger` **Matt Pettinger** (LW) — 2006 Washington Capitals {"goals":20,"assists":18,"points":38,"plusMinus":2}
+- [ ] `nhl-bryan-muir` **Bryan Muir** (D) — 2006 Washington Capitals {"goals":2,"assists":6,"points":8,"plusMinus":2}
+- [ ] `nhl-brendan-witt` **Brendan Witt** (D) — 2006 Washington Capitals {"goals":2,"assists":8,"points":10,"plusMinus":2}
+- [ ] `nhl-steve-eminger` **Steve Eminger** (D) — 2006 Washington Capitals {"goals":3,"assists":12,"points":15,"plusMinus":2}
+- [ ] `nhl-shaone-morrisonn` **Shaone Morrisonn** (D) — 2006 Washington Capitals {"goals":1,"assists":9,"points":10,"plusMinus":2}
+- [ ] `nhl-ryan-whitney` **Ryan Whitney** (D) — 2007 Pittsburgh Penguins {"goals":14,"assists":45,"points":59,"plusMinus":8}<br>2008 Pittsburgh Penguins {"goals":12,"assists":28,"points":40,"plusMinus":6}
+- [ ] `nhl-max-talbot` **Maxime Talbot** (C) — 2009 Pittsburgh Penguins {"goals":12,"assists":10,"points":22,"plusMinus":4}<br>2008 Pittsburgh Penguins {"goals":12,"assists":14,"points":26,"plusMinus":4}
+- [ ] `nhl-tyler-kennedy` **Tyler Kennedy** (C) — 2009 Pittsburgh Penguins {"goals":15,"assists":20,"points":35,"plusMinus":4}<br>2012 Pittsburgh Penguins {"goals":11,"assists":22,"points":33,"plusMinus":6}
+- [ ] `nhl-matt-cooke` **Matt Cooke** (LW) — 2009 Pittsburgh Penguins {"goals":13,"assists":18,"points":31,"plusMinus":4}<br>2011 Pittsburgh Penguins {"goals":12,"assists":18,"points":30,"plusMinus":4}
+- [ ] `nhl-pascal-dupuis` **Pascal Dupuis** (RW) — 2009 Pittsburgh Penguins {"goals":12,"assists":16,"points":28,"plusMinus":4}<br>2013 Pittsburgh Penguins {"goals":20,"assists":18,"points":38,"plusMinus":31}<br>2008 Pittsburgh Penguins {"goals":10,"assists":15,"points":25,"plusMinus":4}<br>2012 Pittsburgh Penguins {"goals":25,"assists":34,"points":59,"plusMinus":20}<br>2003 Minnesota Wild {"goals":20,"assists":28,"points":48,"plusMinus":6}
+- [ ] `nhl-craig-adams` **Craig Adams** (RW) — 2009 Pittsburgh Penguins {"goals":3,"assists":4,"points":7,"plusMinus":2}<br>2011 Pittsburgh Penguins {"goals":4,"assists":7,"points":11,"plusMinus":2}
+- [ ] `nhl-rob-scuderi` **Rob Scuderi** (D) — 2009 Pittsburgh Penguins {"goals":1,"assists":15,"points":16,"plusMinus":8}<br>2008 Pittsburgh Penguins {"goals":0,"assists":5,"points":5,"plusMinus":4}
+- [ ] `nhl-hal-gill` **Hal Gill** (D) — 2009 Pittsburgh Penguins {"goals":2,"assists":8,"points":10,"plusMinus":6}<br>2008 Pittsburgh Penguins {"goals":0,"assists":5,"points":5,"plusMinus":2}<br>2004 Boston Bruins {"goals":1,"assists":8,"points":9,"plusMinus":4}<br>2010 Montreal Canadiens {"goals":2,"assists":7,"points":9,"plusMinus":4}
+- [ ] `nhl-mark-eaton` **Mark Eaton** (D) — 2009 Pittsburgh Penguins {"goals":4,"assists":13,"points":17,"plusMinus":6}
+- [ ] `nhl-alex-goligoski` **Alex Goligoski** (D) — 2009 Pittsburgh Penguins {"goals":6,"assists":14,"points":20,"plusMinus":6}
+- [ ] `nhl-mathieu-gagnon` **Mathieu Garon** (G) — 2009 Pittsburgh Penguins {"wins":8,"gaa":2.9,"savePct":0.9,"shutouts":0}
+- [ ] `nhl-james-neal` **James Neal** (LW) — 2012 Pittsburgh Penguins {"goals":40,"assists":41,"points":81,"plusMinus":15}<br>2011 Pittsburgh Penguins {"goals":22,"assists":18,"points":40,"plusMinus":6}<br>2016 Nashville Predators {"goals":31,"assists":27,"points":58,"plusMinus":10}
+- [ ] `nhl-brandon-sutter` **Brandon Sutter** (C) — 2013 Pittsburgh Penguins {"goals":11,"assists":8,"points":19,"plusMinus":6}
+- [ ] `nhl-oleg-maatta` **Olli Maatta** (D) — 2016 Pittsburgh Penguins {"goals":6,"assists":13,"points":19,"plusMinus":6}
+- [ ] `nhl-brian-dumoulin` **Brian Dumoulin** (D) — 2016 Pittsburgh Penguins {"goals":0,"assists":16,"points":16,"plusMinus":11}<br>2018 Pittsburgh Penguins {"goals":1,"assists":17,"points":18,"plusMinus":10}<br>2022 Pittsburgh Penguins {"goals":3,"assists":15,"points":18,"plusMinus":8}
+- [ ] `nhl-ian-cole` **Ian Cole** (D) — 2016 Pittsburgh Penguins {"goals":0,"assists":12,"points":12,"plusMinus":6}
+- [ ] `nhl-ben-lovejoy` **Ben Lovejoy** (D) — 2016 Pittsburgh Penguins {"goals":4,"assists":6,"points":10,"plusMinus":4}<br>2011 Pittsburgh Penguins {"goals":3,"assists":10,"points":13,"plusMinus":4}
+- [ ] `nhl-justin-schultz` **Justin Schultz** (D) — 2017 Pittsburgh Penguins {"goals":12,"assists":39,"points":51,"plusMinus":27}<br>2018 Pittsburgh Penguins {"goals":4,"assists":23,"points":27,"plusMinus":8}
+- [ ] `nhl-patric-hornqvist` **Patric Hornqvist** (RW) — 2017 Pittsburgh Penguins {"goals":21,"assists":15,"points":36,"plusMinus":16}<br>2018 Pittsburgh Penguins {"goals":29,"assists":20,"points":49,"plusMinus":10}<br>2010 Nashville Predators {"goals":30,"assists":21,"points":51,"plusMinus":18}<br>2012 Nashville Predators {"goals":27,"assists":24,"points":51,"plusMinus":10}
+- [ ] `nhl-nick-bonino` **Nick Bonino** (C) — 2016 Pittsburgh Penguins {"goals":9,"assists":20,"points":29,"plusMinus":13}
+- [ ] `nhl-eric-fehr` **Eric Fehr** (RW) — 2016 Pittsburgh Penguins {"goals":8,"assists":6,"points":14,"plusMinus":4}
+- [ ] `nhl-tom-kuhnhackl` **Tom Kuhnhackl** (LW) — 2016 Pittsburgh Penguins {"goals":5,"assists":10,"points":15,"plusMinus":4}
+- [ ] `nhl-bryan-rust` **Bryan Rust** (RW) — 2017 Pittsburgh Penguins {"goals":15,"assists":13,"points":28,"plusMinus":8}<br>2018 Pittsburgh Penguins {"goals":13,"assists":25,"points":38,"plusMinus":8}<br>2022 Pittsburgh Penguins {"goals":24,"assists":34,"points":58,"plusMinus":8}<br>2024 Pittsburgh Penguins {"goals":20,"assists":28,"points":48,"plusMinus":6}
+- [ ] `nhl-conor-sheary` **Conor Sheary** (LW) — 2017 Pittsburgh Penguins {"goals":23,"assists":30,"points":53,"plusMinus":5}
+- [ ] `nhl-riley-sheahan` **Riley Sheahan** (C) — 2018 Pittsburgh Penguins {"goals":11,"assists":21,"points":32,"plusMinus":4}
+- [ ] `nhl-jamie-oleksiak` **Jamie Oleksiak** (D) — 2018 Pittsburgh Penguins {"goals":4,"assists":10,"points":14,"plusMinus":6}
+- [ ] `nhl-chad-ruhwedel` **Chad Ruhwedel** (D) — 2017 Pittsburgh Penguins {"goals":2,"assists":6,"points":8,"plusMinus":4}
+- [ ] `nhl-matt-hunwick` **Matt Hunwick** (D) — 2018 Pittsburgh Penguins {"goals":2,"assists":4,"points":6,"plusMinus":2}
+- [ ] `nhl-tristan-jarry` **Tristan Jarry** (G) — 2020 Pittsburgh Penguins {"wins":20,"gaa":2.43,"savePct":0.921,"shutouts":3}<br>2022 Pittsburgh Penguins {"wins":34,"gaa":2.42,"savePct":0.919,"shutouts":4}<br>2024 Pittsburgh Penguins {"wins":19,"gaa":2.91,"savePct":0.903,"shutouts":2}
+- [ ] `nhl-casey-de` **Casey DeSmith** (G) — 2020 Pittsburgh Penguins {"wins":13,"gaa":2.46,"savePct":0.912,"shutouts":1}<br>2022 Pittsburgh Penguins {"wins":11,"gaa":2.79,"savePct":0.914,"shutouts":2}
+- [ ] `nhl-evan-rodrigues` **Evan Rodrigues** (C) — 2022 Pittsburgh Penguins {"goals":19,"assists":24,"points":43,"plusMinus":6}
+- [ ] `nhl-rickard-rakell` **Rickard Rakell** (RW) — 2022 Pittsburgh Penguins {"goals":15,"assists":19,"points":34,"plusMinus":4}<br>2024 Pittsburgh Penguins {"goals":15,"assists":22,"points":37,"plusMinus":4}<br>2018 Anaheim Ducks {"goals":34,"assists":35,"points":69,"plusMinus":6}
+- [ ] `nhl-jason-zucker` **Jason Zucker** (LW) — 2022 Pittsburgh Penguins {"goals":8,"assists":9,"points":17,"plusMinus":2}<br>2018 Minnesota Wild {"goals":33,"assists":31,"points":64,"plusMinus":15}<br>2017 Minnesota Wild {"goals":22,"assists":25,"points":47,"plusMinus":34}
+- [ ] `nhl-mike-matheson` **Mike Matheson** (D) — 2022 Pittsburgh Penguins {"goals":11,"assists":20,"points":31,"plusMinus":4}<br>2024 Montreal Canadiens {"goals":11,"assists":51,"points":62,"plusMinus":4}<br>2023 Montreal Canadiens {"goals":8,"assists":26,"points":34,"plusMinus":4}
+- [ ] `nhl-john-marino` **John Marino** (D) — 2022 Pittsburgh Penguins {"goals":1,"assists":24,"points":25,"plusMinus":8}<br>2024 New Jersey Devils {"goals":4,"assists":18,"points":22,"plusMinus":8}<br>2023 New Jersey Devils {"goals":4,"assists":14,"points":18,"plusMinus":6}
+- [ ] `nhl-reilly-smith` **Reilly Smith** (RW) — 2024 Pittsburgh Penguins {"goals":13,"assists":27,"points":40,"plusMinus":4}
+- [ ] `nhl-lars-ell` **Lars Eller** (C) — 2024 Pittsburgh Penguins {"goals":15,"assists":16,"points":31,"plusMinus":4}
+- [ ] `nhl-drew-o-connor` **Drew O'Connor** (LW) — 2024 Pittsburgh Penguins {"goals":6,"assists":10,"points":16,"plusMinus":2}
+- [ ] `nhl-marcus-pettersson` **Marcus Pettersson** (D) — 2024 Pittsburgh Penguins {"goals":2,"assists":28,"points":30,"plusMinus":8}
+- [ ] `nhl-alex-nedeljkovic` **Alex Nedeljkovic** (G) — 2024 Pittsburgh Penguins {"wins":18,"gaa":2.97,"savePct":0.902,"shutouts":1}
+- [ ] `nhl-ryan-malone` **Ryan Malone** (LW) — 2008 Pittsburgh Penguins {"goals":27,"assists":24,"points":51,"plusMinus":6}
+- [ ] `nhl-ty-conklin` **Ty Conklin** (G) — 2008 Pittsburgh Penguins {"wins":18,"gaa":2.51,"savePct":0.91,"shutouts":2}
+- [ ] `nhl-georges-laraque` **Georges Laraque** (RW) — 2008 Pittsburgh Penguins {"goals":4,"assists":9,"points":13,"plusMinus":2}
+- [ ] `nhl-jarkko-ruutu` **Jarkko Ruutu** (LW) — 2008 Pittsburgh Penguins {"goals":6,"assists":10,"points":16,"plusMinus":2}
+- [ ] `nhl-zbynek-michalek` **Zbynek Michalek** (D) — 2011 Pittsburgh Penguins {"goals":2,"assists":12,"points":14,"plusMinus":6}
+- [ ] `nhl-arron-asham` **Arron Asham** (RW) — 2011 Pittsburgh Penguins {"goals":6,"assists":5,"points":11,"plusMinus":2}
+- [ ] `nhl-mike-riche` **Mike Rupp** (C) — 2011 Pittsburgh Penguins {"goals":6,"assists":6,"points":12,"plusMinus":2}
+- [ ] `nhl-neal-broten` **Neal Broten** (C) — 1986 Minnesota North Stars {"goals":29,"assists":76,"points":105,"plusMinus":12}<br>1991 Minnesota North Stars {"goals":13,"assists":43,"points":56,"plusMinus":6}<br>1982 Minnesota North Stars {"goals":38,"assists":60,"points":98,"plusMinus":12}
+- [ ] `nhl-jon-casey` **Jon Casey** (G) — 1991 Minnesota North Stars {"wins":21,"gaa":2.81,"savePct":0.9,"shutouts":2}
+- [ ] `nhl-mark-tinordi` **Mark Tinordi** (D) — 1992 Minnesota North Stars {"goals":9,"assists":20,"points":29,"plusMinus":8}
+- [ ] `nhl-chris-dahlquist` **Chris Dahlquist** (D) — 1991 Minnesota North Stars {"goals":2,"assists":8,"points":10,"plusMinus":4}
+- [ ] `nhl-shawn-chambers` **Shawn Chambers** (D) — 1991 Minnesota North Stars {"goals":4,"assists":18,"points":22,"plusMinus":6}
+- [ ] `nhl-neil-wilkinson` **Neil Wilkinson** (D) — 1991 Minnesota North Stars {"goals":1,"assists":6,"points":7,"plusMinus":4}
+- [ ] `nhl-basil-mc` **Basil McRae** (LW) — 1991 Minnesota North Stars {"goals":5,"assists":8,"points":13,"plusMinus":2}
+- [ ] `nhl-gaetan-duchesne` **Gaetan Duchesne** (LW) — 1991 Minnesota North Stars {"goals":8,"assists":14,"points":22,"plusMinus":4}
+- [ ] `nhl-bobby-smith` **Bobby Smith** (C) — 1984 Minnesota North Stars {"goals":29,"assists":59,"points":88,"plusMinus":10}<br>1981 Minnesota North Stars {"goals":29,"assists":64,"points":93,"plusMinus":12}
+- [ ] `nhl-steve-payne` **Steve Payne** (LW) — 1980 Minnesota North Stars {"goals":42,"assists":43,"points":85,"plusMinus":10}
+- [ ] `nhl-tim-young` **Tim Young** (C) — 1977 Minnesota North Stars {"goals":29,"assists":66,"points":95,"plusMinus":10}
+- [ ] `nhl-bill-goldsworthy` **Bill Goldsworthy** (RW) — 1974 Minnesota North Stars {"goals":48,"assists":26,"points":74,"plusMinus":8}<br>1970 Minnesota North Stars {"goals":36,"assists":29,"points":65,"plusMinus":8}
+- [ ] `nhl-j-p-parise` **J.P. Parise** (LW) — 1973 Minnesota North Stars {"goals":27,"assists":48,"points":75,"plusMinus":8}
+- [ ] `nhl-jude-drouin` **Jude Drouin** (C) — 1973 Minnesota North Stars {"goals":27,"assists":46,"points":73,"plusMinus":8}
+- [ ] `nhl-cesare-maniago` **Cesare Maniago** (G) — 1971 Minnesota North Stars {"wins":19,"gaa":2.8,"savePct":0.9,"shutouts":2}<br>1970 Minnesota North Stars {"wins":16,"gaa":2.9,"savePct":0.89,"shutouts":1}
+- [ ] `nhl-claude-larose` **Claude Larose** (RW) — 1970 Minnesota North Stars {"goals":24,"assists":25,"points":49,"plusMinus":6}
+- [ ] `nhl-tom-reid` **Tom Reid** (D) — 1970 Minnesota North Stars {"goals":2,"assists":15,"points":17,"plusMinus":6}
+- [ ] `nhl-barry-gibbs` **Barry Gibbs** (D) — 1970 Minnesota North Stars {"goals":7,"assists":20,"points":27,"plusMinus":6}
+- [ ] `nhl-ted-harris` **Ted Harris** (D) — 1970 Minnesota North Stars {"goals":2,"assists":12,"points":14,"plusMinus":6}
+- [ ] `nhl-johnny-mckenzie` **John McKenzie** (RW) — 1971 Boston Bruins {"goals":31,"assists":46,"points":77,"plusMinus":14}
+- [ ] `nhl-wayne-cashman` **Wayne Cashman** (LW) — 1974 Boston Bruins {"goals":30,"assists":59,"points":89,"plusMinus":36}
+- [ ] `nhl-gregg-sheppard` **Gregg Sheppard** (C) — 1974 Boston Bruins {"goals":31,"assists":40,"points":71,"plusMinus":14}
+- [ ] `nhl-terry-o` **Terry O'Reilly** (RW) — 1978 Boston Bruins {"goals":29,"assists":32,"points":61,"plusMinus":14}
+- [ ] `nhl-peter-mcnab` **Peter McNab** (C) — 1978 Boston Bruins {"goals":41,"assists":39,"points":80,"plusMinus":14}
+- [ ] `nhl-rick-middleton` **Rick Middleton** (RW) — 1982 Boston Bruins {"goals":51,"assists":43,"points":94,"plusMinus":14}<br>1984 Boston Bruins {"goals":47,"assists":58,"points":105,"plusMinus":14}
+- [ ] `nhl-barry-pederson` **Barry Pederson** (C) — 1983 Boston Bruins {"goals":46,"assists":61,"points":107,"plusMinus":14}<br>1984 Boston Bruins {"goals":39,"assists":77,"points":116,"plusMinus":14}
+- [ ] `nhl-cam-neely` **Cam Neely** (RW) — 1990 Boston Bruins {"goals":55,"assists":37,"points":92,"plusMinus":14}<br>1994 Boston Bruins {"goals":50,"assists":24,"points":74,"plusMinus":12}
+- [ ] `nhl-bobby-carpenter` **Bobby Carpenter** (C) — 1985 Washington Capitals {"goals":53,"assists":42,"points":95,"plusMinus":12}
+- [ ] `nhl-dave-christian` **Dave Christian** (RW) — 1984 Washington Capitals {"goals":29,"assists":52,"points":81,"plusMinus":10}
+- [ ] `nhl-al-jensen` **Al Jensen** (G) — 1984 Washington Capitals {"wins":25,"gaa":2.91,"savePct":0.89,"shutouts":2}
+- [ ] `nhl-don-beaupre` **Don Beaupre** (G) — 1991 Washington Capitals {"wins":23,"gaa":2.64,"savePct":0.904,"shutouts":4}
+- [ ] `nhl-joe-juneau` **Joe Juneau** (C) — 1993 Boston Bruins {"goals":32,"assists":70,"points":102,"plusMinus":12}<br>1994 Boston Bruins {"goals":14,"assists":58,"points":72,"plusMinus":8}
+- [ ] `nhl-glen-murray` **Glen Murray** (RW) — 2003 Boston Bruins {"goals":44,"assists":33,"points":77,"plusMinus":10}<br>2004 Boston Bruins {"goals":32,"assists":28,"points":60,"plusMinus":8}<br>2000 Los Angeles Kings {"goals":29,"assists":33,"points":62,"plusMinus":6}
+- [ ] `nhl-sergei-samsonov` **Sergei Samsonov** (LW) — 1998 Boston Bruins {"goals":22,"assists":25,"points":47,"plusMinus":6}<br>2001 Boston Bruins {"goals":29,"assists":46,"points":75,"plusMinus":6}
+- [ ] `nhl-jason-allison` **Jason Allison** (C) — 2001 Boston Bruins {"goals":36,"assists":59,"points":95,"plusMinus":8}
+- [ ] `nhl-byron-dafoe` **Byron Dafoe** (G) — 1999 Boston Bruins {"wins":32,"gaa":1.99,"savePct":0.926,"shutouts":4}
+- [ ] `nhl-kyle-mclaren` **Kyle McLaren** (D) — 1998 Boston Bruins {"goals":5,"assists":20,"points":25,"plusMinus":8}
+- [ ] `nhl-don-sweeney` **Don Sweeney** (D) — 1998 Boston Bruins {"goals":3,"assists":20,"points":23,"plusMinus":6}
+- [ ] `nhl-nick-boynton` **Nick Boynton** (D) — 2004 Boston Bruins {"goals":6,"assists":17,"points":23,"plusMinus":6}
+- [ ] `nhl-aaron-miller` **Aaron Miller** (D) — 2001 Los Angeles Kings {"goals":3,"assists":16,"points":19,"plusMinus":6}
+- [ ] `nhl-stephane-fiset` **Stephane Fiset** (G) — 1997 Los Angeles Kings {"wins":22,"gaa":2.72,"savePct":0.9,"shutouts":2}
+- [ ] `nhl-jamie-storr` **Jamie Storr** (G) — 1999 Los Angeles Kings {"wins":12,"gaa":2.4,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-j-o-zig` **Jozef Stumpel** (C) — 1999 Los Angeles Kings {"goals":13,"assists":34,"points":47,"plusMinus":6}
+- [ ] `nhl-garry-galley` **Garry Galley** (D) — 1992 Philadelphia Flyers {"goals":8,"assists":30,"points":38,"plusMinus":6}
+- [ ] `nhl-mikael-renberg` **Mikael Renberg** (RW) — 1994 Philadelphia Flyers {"goals":38,"assists":44,"points":82,"plusMinus":8}<br>1996 Philadelphia Flyers {"goals":23,"assists":20,"points":43,"plusMinus":6}
+- [ ] `nhl-sami-kapanen` **Sami Kapanen** (RW) — 2002 Carolina Hurricanes {"goals":27,"assists":42,"points":69,"plusMinus":8}
+- [ ] `nhl-jeff-o-neill` **Jeff O'Neill** (RW) — 2001 Carolina Hurricanes {"goals":41,"assists":26,"points":67,"plusMinus":10}
+- [ ] `nhl-bates-battaglia` **Bates Battaglia** (LW) — 2002 Carolina Hurricanes {"goals":12,"assists":15,"points":27,"plusMinus":4}
+- [ ] `nhl-saku-koivu` **Saku Koivu** (C) — 2000 Montreal Canadiens {"goals":17,"assists":40,"points":57,"plusMinus":6}<br>2003 Montreal Canadiens {"goals":21,"assists":50,"points":71,"plusMinus":6}<br>2008 Montreal Canadiens {"goals":16,"assists":40,"points":56,"plusMinus":6}
+- [ ] `nhl-brian-savage` **Brian Savage** (LW) — 1998 Montreal Canadiens {"goals":26,"assists":20,"points":46,"plusMinus":6}
+- [ ] `nhl-turner-stevenson` **Turner Stevenson** (RW) — 1998 Montreal Canadiens {"goals":10,"assists":11,"points":21,"plusMinus":4}
+- [ ] `nhl-patrice-brisebois` **Patrice Brisebois** (D) — 1998 Montreal Canadiens {"goals":10,"assists":27,"points":37,"plusMinus":6}
+- [ ] `nhl-jeff-hackett` **Jeff Hackett** (G) — 1998 Montreal Canadiens {"wins":21,"gaa":2.35,"savePct":0.91,"shutouts":2}
+- [ ] `nhl-richard-zednik` **Richard Zednik** (LW) — 2002 Montreal Canadiens {"goals":26,"assists":22,"points":48,"plusMinus":4}
+- [ ] `nhl-jose-theodore` **Jose Theodore** (G) — 2002 Montreal Canadiens {"wins":30,"gaa":2.11,"savePct":0.931,"shutouts":7}
+- [ ] `nhl-andrei-markov` **Andrei Markov** (D) — 2008 Montreal Canadiens {"goals":16,"assists":42,"points":58,"plusMinus":12}<br>2010 Montreal Canadiens {"goals":6,"assists":28,"points":34,"plusMinus":8}<br>2015 Montreal Canadiens {"goals":10,"assists":40,"points":50,"plusMinus":12}<br>2017 Montreal Canadiens {"goals":6,"assists":30,"points":36,"plusMinus":18}
+- [ ] `nhl-tomas-plekanec` **Tomas Plekanec** (C) — 2008 Montreal Canadiens {"goals":29,"assists":40,"points":69,"plusMinus":8}<br>2010 Montreal Canadiens {"goals":25,"assists":45,"points":70,"plusMinus":8}<br>2012 Montreal Canadiens {"goals":17,"assists":35,"points":52,"plusMinus":6}<br>2015 Montreal Canadiens {"goals":26,"assists":34,"points":60,"plusMinus":8}
+- [ ] `nhl-christopher-higgins` **Chris Higgins** (LW) — 2006 Montreal Canadiens {"goals":23,"assists":15,"points":38,"plusMinus":4}
+- [ ] `nhl-michael-ryder` **Michael Ryder** (RW) — 2004 Montreal Canadiens {"goals":25,"assists":38,"points":63,"plusMinus":6}
+- [ ] `nhl-andrei-kostitsyn` **Andrei Kostitsyn** (LW) — 2008 Montreal Canadiens {"goals":26,"assists":27,"points":53,"plusMinus":6}
+- [ ] `nhl-guillaume-latendresse` **Guillaume Latendresse** (RW) — 2008 Montreal Canadiens {"goals":16,"assists":11,"points":27,"plusMinus":4}<br>2010 Minnesota Wild {"goals":27,"assists":13,"points":40,"plusMinus":6}
+- [ ] `nhl-roman-hamrlik` **Roman Hamrlik** (D) — 2008 Montreal Canadiens {"goals":5,"assists":21,"points":26,"plusMinus":6}<br>2010 Montreal Canadiens {"goals":6,"assists":20,"points":26,"plusMinus":6}
+- [ ] `nhl-mike-komisarek` **Mike Komisarek** (D) — 2008 Montreal Canadiens {"goals":4,"assists":13,"points":17,"plusMinus":8}
+- [ ] `nhl-josh-gorges` **Josh Gorges** (D) — 2008 Montreal Canadiens {"goals":0,"assists":9,"points":9,"plusMinus":6}<br>2010 Montreal Canadiens {"goals":3,"assists":7,"points":10,"plusMinus":6}
+- [ ] `nhl-jaroslav-halak` **Jaroslav Halak** (G) — 2010 Montreal Canadiens {"wins":26,"gaa":2.4,"savePct":0.924,"shutouts":5}<br>2012 St. Louis Blues {"wins":26,"gaa":1.97,"savePct":0.926,"shutouts":6}
+- [ ] `nhl-mike-cammalleri` **Mike Cammalleri** (LW) — 2010 Montreal Canadiens {"goals":26,"assists":24,"points":50,"plusMinus":6}<br>2015 New Jersey Devils {"goals":27,"assists":16,"points":43,"plusMinus":4}
+- [ ] `nhl-david-desharnais` **David Desharnais** (C) — 2012 Montreal Canadiens {"goals":16,"assists":44,"points":60,"plusMinus":10}
+- [ ] `nhl-alex-galchenyuk` **Alex Galchenyuk** (C) — 2016 Montreal Canadiens {"goals":30,"assists":26,"points":56,"plusMinus":4}
+- [ ] `nhl-jeff-petry` **Jeff Petry** (D) — 2015 Montreal Canadiens {"goals":7,"assists":15,"points":22,"plusMinus":6}<br>2017 Montreal Canadiens {"goals":8,"assists":20,"points":28,"plusMinus":6}<br>2021 Montreal Canadiens {"goals":6,"assists":36,"points":42,"plusMinus":12}
+- [ ] `nhl-nathan-beaulieu` **Nathan Beaulieu** (D) — 2015 Montreal Canadiens {"goals":1,"assists":8,"points":9,"plusMinus":4}
+- [ ] `nhl-tom-gilbert` **Tom Gilbert** (D) — 2015 Montreal Canadiens {"goals":4,"assists":12,"points":16,"plusMinus":4}
+- [ ] `nhl-dustin-tokarski` **Dustin Tokarski** (G) — 2014 Montreal Canadiens {"wins":5,"gaa":2.4,"savePct":0.91,"shutouts":0}
+- [ ] `nhl-jonathan-drouin` **Jonathan Drouin** (LW) — 2018 Montreal Canadiens {"goals":13,"assists":33,"points":46,"plusMinus":4}
+- [ ] `nhl-paul-byron` **Paul Byron** (C) — 2017 Montreal Canadiens {"goals":22,"assists":21,"points":43,"plusMinus":6}
+- [ ] `nhl-alexander-radulov` **Alexander Radulov** (RW) — 2017 Montreal Canadiens {"goals":18,"assists":36,"points":54,"plusMinus":6}<br>2007 Nashville Predators {"goals":18,"assists":37,"points":55,"plusMinus":6}
+- [ ] `nhl-al-montoya` **Al Montoya** (G) — 2017 Montreal Canadiens {"wins":8,"gaa":2.7,"savePct":0.9,"shutouts":1}<br>2018 Edmonton Oilers {"wins":6,"gaa":3.2,"savePct":0.89,"shutouts":0}
+- [ ] `nhl-juraj-slafkovsky` **Juraj Slafkovsky** (LW) — 2024 Montreal Canadiens {"goals":20,"assists":30,"points":50,"plusMinus":4}
+- [ ] `nhl-kaiden-guhle` **Kaiden Guhle** (D) — 2024 Montreal Canadiens {"goals":6,"assists":16,"points":22,"plusMinus":8}
+- [ ] `nhl-samuel-montembeault` **Samuel Montembeault** (G) — 2024 Montreal Canadiens {"wins":16,"gaa":3.14,"savePct":0.903,"shutouts":1}
+- [ ] `nhl-cayden-primeau` **Cayden Primeau** (G) — 2024 Montreal Canadiens {"wins":8,"gaa":2.99,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-jake-evans` **Jake Evans** (C) — 2024 Montreal Canadiens {"goals":7,"assists":21,"points":28,"plusMinus":4}
+- [ ] `nhl-josh-anderson` **Josh Anderson** (RW) — 2024 Montreal Canadiens {"goals":9,"assists":11,"points":20,"plusMinus":2}<br>2021 Montreal Canadiens {"goals":17,"assists":7,"points":24,"plusMinus":2}
+- [ ] `nhl-david-savard` **David Savard** (D) — 2024 Montreal Canadiens {"goals":3,"assists":14,"points":17,"plusMinus":6}
+- [ ] `nhl-joel-armia` **Joel Armia** (RW) — 2021 Montreal Canadiens {"goals":7,"assists":7,"points":14,"plusMinus":2}
+- [ ] `nhl-jesperi-kotkaniemi` **Jesperi Kotkaniemi** (C) — 2021 Montreal Canadiens {"goals":5,"assists":15,"points":20,"plusMinus":2}
+- [ ] `nhl-jake-allen` **Jake Allen** (G) — 2021 Montreal Canadiens {"wins":11,"gaa":2.68,"savePct":0.907,"shutouts":1}<br>2018 St. Louis Blues {"wins":27,"gaa":2.75,"savePct":0.907,"shutouts":1}<br>2019 St. Louis Blues {"wins":19,"gaa":2.83,"savePct":0.905,"shutouts":2}
+- [ ] `nhl-ben-chiarot` **Ben Chiarot** (D) — 2021 Montreal Canadiens {"goals":2,"assists":10,"points":12,"plusMinus":4}
+- [ ] `nhl-joel-edmundson` **Joel Edmundson** (D) — 2021 Montreal Canadiens {"goals":3,"assists":10,"points":13,"plusMinus":6}<br>2018 St. Louis Blues {"goals":7,"assists":13,"points":20,"plusMinus":8}
+- [ ] `nhl-brett-kulak` **Brett Kulak** (D) — 2021 Montreal Canadiens {"goals":2,"assists":10,"points":12,"plusMinus":4}<br>2023 Edmonton Oilers {"goals":3,"assists":14,"points":17,"plusMinus":6}
+- [ ] `nhl-erik-gustafsson` **Erik Gustafsson** (D) — 2021 Montreal Canadiens {"goals":1,"assists":9,"points":10,"plusMinus":2}
+- [ ] `nhl-jakob-silfverberg` **Jakob Silfverberg** (RW) — 2017 Anaheim Ducks {"goals":23,"assists":26,"points":49,"plusMinus":10}
+- [ ] `nhl-cam-fowler` **Cam Fowler** (D) — 2017 Anaheim Ducks {"goals":11,"assists":28,"points":39,"plusMinus":6}
+- [ ] `nhl-hampus-lindholm` **Hampus Lindholm** (D) — 2017 Anaheim Ducks {"goals":6,"assists":14,"points":20,"plusMinus":13}
+- [ ] `nhl-sami-vatanen` **Sami Vatanen** (D) — 2016 Anaheim Ducks {"goals":9,"assists":29,"points":38,"plusMinus":8}<br>2020 New Jersey Devils {"goals":5,"assists":18,"points":23,"plusMinus":4}
+- [ ] `nhl-alexander-ste` **Alexander Steen** (LW) — 2014 St. Louis Blues {"goals":33,"assists":29,"points":62,"plusMinus":14}<br>2017 St. Louis Blues {"goals":16,"assists":34,"points":50,"plusMinus":8}
+- [ ] `nhl-paul-stastny` **Paul Stastny** (C) — 2014 St. Louis Blues {"goals":25,"assists":35,"points":60,"plusMinus":8}<br>2018 St. Louis Blues {"goals":16,"assists":34,"points":50,"plusMinus":6}<br>2010 Colorado Avalanche {"goals":20,"assists":59,"points":79,"plusMinus":5}<br>2007 Colorado Avalanche {"goals":28,"assists":50,"points":78,"plusMinus":12}
+- [ ] `nhl-david-backes` **David Backes** (C) — 2016 St. Louis Blues {"goals":21,"assists":24,"points":45,"plusMinus":4}
+- [ ] `nhl-jay-bouwmeester` **Jay Bouwmeester** (D) — 2014 St. Louis Blues {"goals":4,"assists":33,"points":37,"plusMinus":12}<br>2019 St. Louis Blues {"goals":3,"assists":14,"points":17,"plusMinus":4}
+- [ ] `nhl-brian-elliott` **Brian Elliott** (G) — 2012 St. Louis Blues {"wins":23,"gaa":1.56,"savePct":0.94,"shutouts":9}
+- [ ] `nhl-brayden-schenn` **Brayden Schenn** (C) — 2018 St. Louis Blues {"goals":28,"assists":42,"points":70,"plusMinus":6}<br>2019 St. Louis Blues {"goals":17,"assists":37,"points":54,"plusMinus":6}<br>2020 St. Louis Blues {"goals":25,"assists":45,"points":70,"plusMinus":8}<br>2022 St. Louis Blues {"goals":24,"assists":46,"points":70,"plusMinus":8}<br>2024 St. Louis Blues {"goals":23,"assists":46,"points":69,"plusMinus":6}<br>2023 St. Louis Blues {"goals":21,"assists":44,"points":65,"plusMinus":6}<br>2021 St. Louis Blues {"goals":16,"assists":20,"points":36,"plusMinus":4}
+- [ ] `nhl-vladimir-sobotka` **Vladimir Sobotka** (C) — 2018 St. Louis Blues {"goals":11,"assists":20,"points":31,"plusMinus":4}
+- [ ] `nhl-carter-hutton` **Carter Hutton** (G) — 2018 St. Louis Blues {"wins":17,"gaa":2.09,"savePct":0.931,"shutouts":3}
+- [ ] `nhl-oscar-sundqvist` **Oskar Sundqvist** (C) — 2019 St. Louis Blues {"goals":14,"assists":17,"points":31,"plusMinus":6}
+- [ ] `nhl-robert-thomas` **Robert Thomas** (C) — 2019 St. Louis Blues {"goals":9,"assists":24,"points":33,"plusMinus":6}<br>2022 St. Louis Blues {"goals":20,"assists":57,"points":77,"plusMinus":12}<br>2024 St. Louis Blues {"goals":26,"assists":60,"points":86,"plusMinus":12}<br>2023 St. Louis Blues {"goals":18,"assists":47,"points":65,"plusMinus":12}<br>2021 St. Louis Blues {"goals":3,"assists":9,"points":12,"plusMinus":2}
+- [ ] `nhl-tyler-bozak` **Tyler Bozak** (C) — 2019 St. Louis Blues {"goals":13,"assists":25,"points":38,"plusMinus":4}
+- [ ] `nhl-patrick-maroon` **Patrick Maroon** (LW) — 2019 St. Louis Blues {"goals":3,"assists":7,"points":10,"plusMinus":2}<br>2017 Edmonton Oilers {"goals":8,"assists":19,"points":27,"plusMinus":4}
+- [ ] `nhl-ivan-barbashev` **Ivan Barbashev** (C) — 2019 St. Louis Blues {"goals":14,"assists":12,"points":26,"plusMinus":4}<br>2022 St. Louis Blues {"goals":26,"assists":34,"points":60,"plusMinus":10}<br>2023 St. Louis Blues {"goals":10,"assists":19,"points":29,"plusMinus":2}
+- [ ] `nhl-zach-sanford` **Zach Sanford** (LW) — 2019 St. Louis Blues {"goals":8,"assists":12,"points":20,"plusMinus":4}
+- [ ] `nhl-sammy-blais` **Sammy Blais** (LW) — 2019 St. Louis Blues {"goals":4,"assists":6,"points":10,"plusMinus":2}
+- [ ] `nhl-vince-dunn` **Vince Dunn** (D) — 2019 St. Louis Blues {"goals":12,"assists":23,"points":35,"plusMinus":14}<br>2020 St. Louis Blues {"goals":9,"assists":20,"points":29,"plusMinus":8}
+- [ ] `nhl-robert-bortuzzo` **Robert Bortuzzo** (D) — 2019 St. Louis Blues {"goals":3,"assists":6,"points":9,"plusMinus":4}
+- [ ] `nhl-carl-gunnarsson` **Carl Gunnarsson** (D) — 2019 St. Louis Blues {"goals":3,"assists":10,"points":13,"plusMinus":6}
+- [ ] `nhl-justin-faulk` **Justin Faulk** (D) — 2020 St. Louis Blues {"goals":8,"assists":14,"points":22,"plusMinus":6}<br>2022 St. Louis Blues {"goals":16,"assists":31,"points":47,"plusMinus":12}<br>2024 St. Louis Blues {"goals":2,"assists":28,"points":30,"plusMinus":6}<br>2023 St. Louis Blues {"goals":11,"assists":39,"points":50,"plusMinus":10}<br>2021 St. Louis Blues {"goals":7,"assists":19,"points":26,"plusMinus":6}
+- [ ] `nhl-marco-scandella` **Marco Scandella** (D) — 2020 St. Louis Blues {"goals":2,"assists":8,"points":10,"plusMinus":4}<br>2024 St. Louis Blues {"goals":1,"assists":6,"points":7,"plusMinus":2}
+- [ ] `nhl-pavel-buchnevich` **Pavel Buchnevich** (LW) — 2022 St. Louis Blues {"goals":30,"assists":46,"points":76,"plusMinus":12}<br>2024 St. Louis Blues {"goals":27,"assists":36,"points":63,"plusMinus":8}<br>2023 St. Louis Blues {"goals":26,"assists":41,"points":67,"plusMinus":10}
+- [ ] `nhl-jordan-kyrou` **Jordan Kyrou** (C) — 2022 St. Louis Blues {"goals":27,"assists":48,"points":75,"plusMinus":10}<br>2024 St. Louis Blues {"goals":31,"assists":36,"points":67,"plusMinus":8}<br>2023 St. Louis Blues {"goals":37,"assists":36,"points":73,"plusMinus":8}<br>2021 St. Louis Blues {"goals":14,"assists":21,"points":35,"plusMinus":4}
+- [ ] `nhl-toro-krug` **Torey Krug** (D) — 2022 St. Louis Blues {"goals":9,"assists":34,"points":43,"plusMinus":6}<br>2024 St. Louis Blues {"goals":4,"assists":26,"points":30,"plusMinus":4}<br>2023 St. Louis Blues {"goals":7,"assists":31,"points":38,"plusMinus":6}<br>2021 St. Louis Blues {"goals":2,"assists":30,"points":32,"plusMinus":4}
+- [ ] `nhl-ville-husso` **Ville Husso** (G) — 2022 St. Louis Blues {"wins":25,"gaa":2.56,"savePct":0.919,"shutouts":2}<br>2021 St. Louis Blues {"wins":9,"gaa":2.56,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-jake-neighbours` **Jake Neighbours** (LW) — 2024 St. Louis Blues {"goals":27,"assists":11,"points":38,"plusMinus":6}
+- [ ] `nhl-joel-hofer` **Joel Hofer** (G) — 2024 St. Louis Blues {"wins":15,"gaa":2.61,"savePct":0.914,"shutouts":1}
+- [ ] `nhl-kasperi-kapanen` **Kasperi Kapanen** (RW) — 2024 St. Louis Blues {"goals":6,"assists":16,"points":22,"plusMinus":2}
+- [ ] `nhl-nick-leddy` **Nick Leddy** (D) — 2024 St. Louis Blues {"goals":3,"assists":22,"points":25,"plusMinus":4}
+- [ ] `nhl-thomas-greiss` **Thomas Greiss** (G) — 2023 St. Louis Blues {"wins":7,"gaa":3.48,"savePct":0.896,"shutouts":0}
+- [ ] `nhl-mike-hoffman` **Mike Hoffman** (LW) — 2021 St. Louis Blues {"goals":17,"assists":19,"points":36,"plusMinus":4}
+- [ ] `nhl-tyson-barrie` **Tyson Barrie** (D) — 2014 Colorado Avalanche {"goals":13,"assists":25,"points":38,"plusMinus":6}<br>2021 Edmonton Oilers {"goals":8,"assists":40,"points":48,"plusMinus":6}
+- [ ] `nhl-erik-johnson` **Erik Johnson** (D) — 2014 Colorado Avalanche {"goals":9,"assists":30,"points":39,"plusMinus":8}
+- [ ] `nhl-milan-hejduk` **Milan Hejduk** (RW) — 2003 Colorado Avalanche {"goals":50,"assists":48,"points":98,"plusMinus":52}<br>2001 Colorado Avalanche {"goals":41,"assists":38,"points":79,"plusMinus":20}<br>2007 Colorado Avalanche {"goals":35,"assists":35,"points":70,"plusMinus":22}
+- [ ] `nhl-shjon-podein` **Shjon Podein** (LW) — 2001 Colorado Avalanche {"goals":4,"assists":6,"points":10,"plusMinus":2}
+- [ ] `nhl-dan-hinote` **Dan Hinote** (C) — 2001 Colorado Avalanche {"goals":5,"assists":10,"points":15,"plusMinus":4}
+- [ ] `nhl-eric-messier` **Eric Messier** (D) — 2001 Colorado Avalanche {"goals":1,"assists":6,"points":7,"plusMinus":2}
+- [ ] `nhl-martin-skoula` **Martin Skoula** (D) — 2001 Colorado Avalanche {"goals":2,"assists":14,"points":16,"plusMinus":6}
+- [ ] `nhl-greg-devries` **Greg de Vries** (D) — 2001 Colorado Avalanche {"goals":5,"assists":17,"points":22,"plusMinus":8}
+- [ ] `nhl-wojtek-wolski` **Wojtek Wolski** (LW) — 2007 Colorado Avalanche {"goals":22,"assists":28,"points":50,"plusMinus":6}
+- [ ] `nhl-john-michael-liles` **John-Michael Liles** (D) — 2006 Colorado Avalanche {"goals":14,"assists":35,"points":49,"plusMinus":8}
+- [ ] `nhl-brett-clark` **Brett Clark** (D) — 2006 Colorado Avalanche {"goals":9,"assists":27,"points":36,"plusMinus":6}
+- [ ] `nhl-david-legwand` **David Legwand** (C) — 2007 Nashville Predators {"goals":27,"assists":36,"points":63,"plusMinus":12}<br>2010 Nashville Predators {"goals":11,"assists":27,"points":38,"plusMinus":6}<br>2014 Nashville Predators {"goals":10,"assists":24,"points":34,"plusMinus":6}
+- [ ] `nhl-marek-zidlicky` **Marek Zidlicky** (D) — 2004 Nashville Predators {"goals":14,"assists":39,"points":53,"plusMinus":8}
+- [ ] `nhl-tomas-vokoun` **Tomas Vokoun** (G) — 2004 Nashville Predators {"wins":34,"gaa":2.53,"savePct":0.909,"shutouts":3}
+- [ ] `nhl-dan-ellis` **Dan Ellis** (G) — 2008 Nashville Predators {"wins":23,"gaa":2.34,"savePct":0.924,"shutouts":6}
+- [ ] `nhl-j-p-dumont` **J.P. Dumont** (LW) — 2008 Nashville Predators {"goals":29,"assists":43,"points":72,"plusMinus":10}
+- [ ] `nhl-martin-er-at` **Martin Erat** (RW) — 2007 Nashville Predators {"goals":16,"assists":41,"points":57,"plusMinus":8}<br>2010 Nashville Predators {"goals":21,"assists":28,"points":49,"plusMinus":8}<br>2012 Nashville Predators {"goals":21,"assists":37,"points":58,"plusMinus":8}
+- [ ] `nhl-mike-fisher` **Mike Fisher** (C) — 2012 Nashville Predators {"goals":24,"assists":27,"points":51,"plusMinus":10}
+- [ ] `nhl-sergei-kostitsyn` **Sergei Kostitsyn** (LW) — 2012 Nashville Predators {"goals":17,"assists":27,"points":44,"plusMinus":6}
+- [ ] `nhl-matt-ias-ekholm` **Mattias Ekholm** (D) — 2017 Nashville Predators {"goals":3,"assists":18,"points":21,"plusMinus":12}<br>2018 Nashville Predators {"goals":3,"assists":21,"points":24,"plusMinus":12}<br>2019 Nashville Predators {"goals":8,"assists":36,"points":44,"plusMinus":14}<br>2023 Edmonton Oilers {"goals":4,"assists":10,"points":14,"plusMinus":6}<br>2024 Edmonton Oilers {"goals":11,"assists":34,"points":45,"plusMinus":26}
+- [ ] `nhl-viktor-arvidsson` **Viktor Arvidsson** (LW) — 2017 Nashville Predators {"goals":31,"assists":30,"points":61,"plusMinus":16}<br>2020 Nashville Predators {"goals":15,"assists":13,"points":28,"plusMinus":4}<br>2018 Nashville Predators {"goals":16,"assists":20,"points":36,"plusMinus":6}<br>2019 Nashville Predators {"goals":34,"assists":14,"points":48,"plusMinus":10}<br>2021 Nashville Predators {"goals":10,"assists":15,"points":25,"plusMinus":4}
+- [ ] `nhl-mikael-granlund` **Mikael Granlund** (C) — 2020 Nashville Predators {"goals":17,"assists":30,"points":47,"plusMinus":6}<br>2022 Nashville Predators {"goals":11,"assists":53,"points":64,"plusMinus":8}<br>2021 Nashville Predators {"goals":13,"assists":27,"points":40,"plusMinus":6}<br>2023 Nashville Predators {"goals":10,"assists":27,"points":37,"plusMinus":4}<br>2017 Minnesota Wild {"goals":26,"assists":43,"points":69,"plusMinus":23}<br>2018 Minnesota Wild {"goals":21,"assists":46,"points":67,"plusMinus":13}
+- [ ] `nhl-thomas-novak` **Tommy Novak** (C) — 2024 Nashville Predators {"goals":18,"assists":27,"points":45,"plusMinus":6}
+- [ ] `nhl-luke-evangelista` **Luke Evangelista** (RW) — 2024 Nashville Predators {"goals":16,"assists":23,"points":39,"plusMinus":4}
+- [ ] `nhl-colton-sissons` **Colton Sissons** (C) — 2024 Nashville Predators {"goals":15,"assists":20,"points":35,"plusMinus":6}
+- [ ] `nhl-alexandre-carrier` **Alexandre Carrier** (D) — 2024 Nashville Predators {"goals":4,"assists":16,"points":20,"plusMinus":6}
+- [ ] `nhl-dante-fabbro` **Dante Fabbro** (D) — 2024 Nashville Predators {"goals":3,"assists":14,"points":17,"plusMinus":4}
+- [ ] `nhl-kevin-lankinen` **Kevin Lankinen** (G) — 2024 Nashville Predators {"wins":11,"gaa":2.82,"savePct":0.906,"shutouts":1}
+- [ ] `nhl-kyle-turris` **Kyle Turris** (C) — 2018 Nashville Predators {"goals":13,"assists":29,"points":42,"plusMinus":4}
+- [ ] `nhl-craig-smith` **Craig Smith** (C) — 2018 Nashville Predators {"goals":25,"assists":26,"points":51,"plusMinus":8}
+- [ ] `nhl-ryan-ellis` **Ryan Ellis** (D) — 2018 Nashville Predators {"goals":9,"assists":23,"points":32,"plusMinus":10}
+- [ ] `nhl-brock-faber` **Brock Faber** (D) — 2024 Minnesota Wild {"goals":8,"assists":39,"points":47,"plusMinus":12}<br>2023 Minnesota Wild {"goals":2,"assists":8,"points":10,"plusMinus":4}
+- [ ] `nhl-ryan-hartman` **Ryan Hartman** (RW) — 2022 Minnesota Wild {"goals":34,"assists":31,"points":65,"plusMinus":12}<br>2023 Minnesota Wild {"goals":15,"assists":22,"points":37,"plusMinus":4}<br>2024 Minnesota Wild {"goals":21,"assists":24,"points":45,"plusMinus":6}
+- [ ] `nhl-jonas-brodin` **Jonas Brodin** (D) — 2023 Minnesota Wild {"goals":3,"assists":17,"points":20,"plusMinus":8}<br>2022 Minnesota Wild {"goals":4,"assists":22,"points":26,"plusMinus":10}<br>2024 Minnesota Wild {"goals":2,"assists":18,"points":20,"plusMinus":8}
+- [ ] `nhl-matt-dumba` **Matt Dumba** (D) — 2022 Minnesota Wild {"goals":7,"assists":20,"points":27,"plusMinus":4}<br>2021 Minnesota Wild {"goals":6,"assists":18,"points":24,"plusMinus":4}
+- [ ] `nhl-marcus-foligno` **Marcus Foligno** (LW) — 2022 Minnesota Wild {"goals":23,"assists":19,"points":42,"plusMinus":12}<br>2023 Minnesota Wild {"goals":7,"assists":9,"points":16,"plusMinus":4}
+- [ ] `nhl-jordan-greenway` **Jordan Greenway** (LW) — 2022 Minnesota Wild {"goals":10,"assists":17,"points":27,"plusMinus":4}
+- [ ] `nhl-kaapo-kahkonen` **Kaapo Kahkonen** (G) — 2021 Minnesota Wild {"wins":16,"gaa":2.88,"savePct":0.902,"shutouts":2}
+- [ ] `nhl-charlie-coyle` **Charlie Coyle** (C) — 2017 Minnesota Wild {"goals":18,"assists":38,"points":56,"plusMinus":12}
+- [ ] `nhl-martin-havlat` **Martin Havlat** (RW) — 2010 Minnesota Wild {"goals":18,"assists":36,"points":54,"plusMinus":6}
+- [ ] `nhl-andrew-brunette` **Andrew Brunette** (LW) — 2010 Minnesota Wild {"goals":25,"assists":36,"points":61,"plusMinus":8}<br>2002 Minnesota Wild {"goals":21,"assists":48,"points":69,"plusMinus":8}
+- [ ] `nhl-cam-barker` **Cam Barker** (D) — 2010 Minnesota Wild {"goals":2,"assists":8,"points":10,"plusMinus":2}
+- [ ] `nhl-niklas-backstrom` **Niklas Backstrom** (G) — 2009 Minnesota Wild {"wins":37,"gaa":2.33,"savePct":0.923,"shutouts":8}<br>2007 Minnesota Wild {"wins":23,"gaa":2.82,"savePct":0.91,"shutouts":3}<br>2010 Minnesota Wild {"wins":26,"gaa":2.72,"savePct":0.903,"shutouts":2}
+- [ ] `nhl-josh-harding` **Josh Harding** (G) — 2010 Minnesota Wild {"wins":18,"gaa":2.62,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-brian-rolston` **Brian Rolston** (C) — 2008 Minnesota Wild {"goals":31,"assists":28,"points":59,"plusMinus":10}<br>2006 Minnesota Wild {"goals":34,"assists":45,"points":79,"plusMinus":14}
+- [ ] `nhl-pierre-marc-bouchard` **Pierre-Marc Bouchard** (C) — 2008 Minnesota Wild {"goals":13,"assists":50,"points":63,"plusMinus":8}<br>2007 Minnesota Wild {"goals":20,"assists":37,"points":57,"plusMinus":8}
+- [ ] `nhl-kim-johnsson` **Kim Johnsson** (D) — 2007 Minnesota Wild {"goals":3,"assists":21,"points":24,"plusMinus":6}<br>2008 Minnesota Wild {"goals":4,"assists":21,"points":25,"plusMinus":6}
+- [ ] `nhl-wes-walz` **Wes Walz** (C) — 2003 Minnesota Wild {"goals":13,"assists":19,"points":32,"plusMinus":6}
+- [ ] `nhl-filip-kuba` **Filip Kuba** (D) — 2003 Minnesota Wild {"goals":8,"assists":21,"points":29,"plusMinus":8}
+- [ ] `nhl-willie-mitchell` **Willie Mitchell** (D) — 2003 Minnesota Wild {"goals":1,"assists":12,"points":13,"plusMinus":6}
+- [ ] `nhl-dwayne-roloson` **Dwayne Roloson** (G) — 2004 Minnesota Wild {"wins":14,"gaa":1.88,"savePct":0.933,"shutouts":5}
+- [ ] `nhl-manteo-fernandez` **Manny Fernandez** (G) — 2006 Minnesota Wild {"wins":30,"gaa":2.54,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-paul-martin` **Paul Martin** (D) — 2008 New Jersey Devils {"goals":5,"assists":27,"points":32,"plusMinus":12}<br>2009 New Jersey Devils {"goals":5,"assists":28,"points":33,"plusMinus":21}
+- [ ] `nhl-travis-zajac` **Travis Zajac** (C) — 2010 New Jersey Devils {"goals":25,"assists":42,"points":67,"plusMinus":22}<br>2012 New Jersey Devils {"goals":14,"assists":33,"points":47,"plusMinus":6}<br>2011 New Jersey Devils {"goals":13,"assists":31,"points":44,"plusMinus":6}<br>2016 New Jersey Devils {"goals":14,"assists":28,"points":42,"plusMinus":6}<br>2020 New Jersey Devils {"goals":9,"assists":16,"points":25,"plusMinus":4}
+- [ ] `nhl-jamie-lang` **Jamie Langenbrunner** (RW) — 2010 New Jersey Devils {"goals":19,"assists":42,"points":61,"plusMinus":18}<br>2008 New Jersey Devils {"goals":13,"assists":32,"points":45,"plusMinus":8}
+- [ ] `nhl-david-clarkson` **David Clarkson** (RW) — 2012 New Jersey Devils {"goals":30,"assists":16,"points":46,"plusMinus":6}<br>2011 New Jersey Devils {"goals":12,"assists":6,"points":18,"plusMinus":2}
+- [ ] `nhl-andy-greene` **Andy Greene** (D) — 2012 New Jersey Devils {"goals":1,"assists":15,"points":16,"plusMinus":8}<br>2011 New Jersey Devils {"goals":4,"assists":19,"points":23,"plusMinus":8}<br>2016 New Jersey Devils {"goals":4,"assists":9,"points":13,"plusMinus":6}
+- [ ] `nhl-anton-volchenkov` **Anton Volchenkov** (D) — 2012 New Jersey Devils {"goals":2,"assists":7,"points":9,"plusMinus":4}<br>2011 New Jersey Devils {"goals":1,"assists":10,"points":11,"plusMinus":4}
+- [ ] `nhl-johan-hedberg` **Johan Hedberg** (G) — 2012 New Jersey Devils {"wins":17,"gaa":2.23,"savePct":0.918,"shutouts":4}<br>2011 New Jersey Devils {"wins":15,"gaa":2.38,"savePct":0.912,"shutouts":3}
+- [ ] `nhl-johnny-oduya` **Johnny Oduya** (D) — 2009 New Jersey Devils {"goals":7,"assists":22,"points":29,"plusMinus":21}
+- [ ] `nhl-colin-white` **Colin White** (D) — 2009 New Jersey Devils {"goals":1,"assists":9,"points":10,"plusMinus":6}
+- [ ] `nhl-kyle-palmieri` **Kyle Palmieri** (RW) — 2016 New Jersey Devils {"goals":30,"assists":27,"points":57,"plusMinus":8}<br>2018 New Jersey Devils {"goals":24,"assists":20,"points":44,"plusMinus":6}<br>2019 New Jersey Devils {"goals":27,"assists":23,"points":50,"plusMinus":8}<br>2020 New Jersey Devils {"goals":10,"assists":15,"points":25,"plusMinus":4}
+- [ ] `nhl-damon-severson` **Damon Severson** (D) — 2016 New Jersey Devils {"goals":6,"assists":15,"points":21,"plusMinus":4}<br>2021 New Jersey Devils {"goals":3,"assists":19,"points":22,"plusMinus":4}<br>2020 New Jersey Devils {"goals":6,"assists":22,"points":28,"plusMinus":6}
+- [ ] `nhl-cory-schneider` **Cory Schneider** (G) — 2016 New Jersey Devils {"wins":27,"gaa":2.15,"savePct":0.924,"shutouts":4}<br>2020 New Jersey Devils {"wins":5,"gaa":3.4,"savePct":0.88,"shutouts":0}
+- [ ] `nhl-keith-kinkaid` **Keith Kinkaid** (G) — 2018 New Jersey Devils {"wins":26,"gaa":2.77,"savePct":0.913,"shutouts":3}
+- [ ] `nhl-mackenzie-blackwood` **Mackenzie Blackwood** (G) — 2022 New Jersey Devils {"wins":9,"gaa":3.1,"savePct":0.892,"shutouts":0}<br>2023 New Jersey Devils {"wins":10,"gaa":3.2,"savePct":0.893,"shutouts":0}<br>2021 New Jersey Devils {"wins":14,"gaa":3.04,"savePct":0.902,"shutouts":1}<br>2020 New Jersey Devils {"wins":22,"gaa":2.77,"savePct":0.915,"shutouts":3}
+- [ ] `nhl-timo-meier` **Timo Meier** (RW) — 2024 New Jersey Devils {"goals":28,"assists":24,"points":52,"plusMinus":6}<br>2023 New Jersey Devils {"goals":40,"assists":26,"points":66,"plusMinus":2}
+- [ ] `nhl-luke-hughes` **Luke Hughes** (D) — 2024 New Jersey Devils {"goals":9,"assists":28,"points":37,"plusMinus":6}
+- [ ] `nhl-jonas-siegen` **Jonas Siegenthaler** (D) — 2024 New Jersey Devils {"goals":2,"assists":14,"points":16,"plusMinus":6}<br>2023 New Jersey Devils {"goals":4,"assists":14,"points":18,"plusMinus":8}
+- [ ] `nhl-erik-haula` **Erik Haula** (C) — 2023 New Jersey Devils {"goals":14,"assists":27,"points":41,"plusMinus":6}
+- [ ] `nhl-dawson-mercer` **Dawson Mercer** (C) — 2023 New Jersey Devils {"goals":27,"assists":29,"points":56,"plusMinus":8}
+- [ ] `nhl-miles-wood` **Miles Wood** (LW) — 2023 New Jersey Devils {"goals":13,"assists":14,"points":27,"plusMinus":4}<br>2021 New Jersey Devils {"goals":17,"assists":8,"points":25,"plusMinus":2}<br>2020 New Jersey Devils {"goals":11,"assists":12,"points":23,"plusMinus":2}
+- [ ] `nhl-michael-mc` **Michael McLeod** (C) — 2023 New Jersey Devils {"goals":6,"assists":16,"points":22,"plusMinus":6}
+- [ ] `nhl-ryan-graves` **Ryan Graves** (D) — 2023 New Jersey Devils {"goals":8,"assists":18,"points":26,"plusMinus":8}<br>2021 New Jersey Devils {"goals":5,"assists":13,"points":18,"plusMinus":6}
+- [ ] `nhl-kevin-bahl` **Kevin Bahl** (D) — 2023 New Jersey Devils {"goals":3,"assists":9,"points":12,"plusMinus":4}
+- [ ] `nhl-ak-schmid` **Akira Schmid** (G) — 2023 New Jersey Devils {"wins":9,"gaa":2.13,"savePct":0.922,"shutouts":2}
+- [ ] `nhl-pavel-zacha` **Pavel Zacha** (C) — 2021 New Jersey Devils {"goals":17,"assists":18,"points":35,"plusMinus":4}
+- [ ] `nhl-yegor-sharangovich` **Yegor Sharangovich** (C) — 2021 New Jersey Devils {"goals":16,"assists":14,"points":30,"plusMinus":4}
+- [ ] `nhl-andreas-johnsson` **Andreas Johnsson** (LW) — 2021 New Jersey Devils {"goals":5,"assists":6,"points":11,"plusMinus":2}
+- [ ] `nhl-scott-wedgewood` **Scott Wedgewood** (G) — 2021 New Jersey Devils {"wins":9,"gaa":2.8,"savePct":0.91,"shutouts":1}
+- [ ] `nhl-nikita-gusev` **Nikita Gusev** (LW) — 2020 New Jersey Devils {"goals":13,"assists":31,"points":44,"plusMinus":4}
+- [ ] `nhl-blake-coleman` **Blake Coleman** (C) — 2020 New Jersey Devils {"goals":21,"assists":11,"points":32,"plusMinus":6}
+- [ ] `nhl-nail-yakupov` **Nail Yakupov** (RW) — 2013 Edmonton Oilers {"goals":17,"assists":14,"points":31,"plusMinus":2}
+- [ ] `nhl-sam-gagner` **Sam Gagner** (C) — 2013 Edmonton Oilers {"goals":14,"assists":24,"points":38,"plusMinus":2}
+- [ ] `nhl-ales-hemsky` **Ales Hemsky** (RW) — 2012 Edmonton Oilers {"goals":11,"assists":25,"points":36,"plusMinus":2}<br>2011 Edmonton Oilers {"goals":14,"assists":28,"points":42,"plusMinus":4}
+- [ ] `nhl-shawn-horcoff` **Shawn Horcoff** (C) — 2010 Edmonton Oilers {"goals":13,"assists":23,"points":36,"plusMinus":2}
+- [ ] `nhl-milan-lucic` **Milan Lucic** (LW) — 2017 Edmonton Oilers {"goals":23,"assists":27,"points":50,"plusMinus":4}<br>2018 Edmonton Oilers {"goals":10,"assists":24,"points":34,"plusMinus":2}<br>2019 Edmonton Oilers {"goals":6,"assists":14,"points":20,"plusMinus":2}
+- [ ] `nhl-oscar-klefbom` **Oscar Klefbom** (D) — 2017 Edmonton Oilers {"goals":12,"assists":26,"points":38,"plusMinus":6}<br>2018 Edmonton Oilers {"goals":5,"assists":16,"points":21,"plusMinus":6}<br>2019 Edmonton Oilers {"goals":5,"assists":28,"points":33,"plusMinus":6}
+- [ ] `nhl-andrej-sekera` **Andrej Sekera** (D) — 2017 Edmonton Oilers {"goals":3,"assists":11,"points":14,"plusMinus":4}
+- [ ] `nhl-adam-larsson` **Adam Larsson** (D) — 2017 Edmonton Oilers {"goals":4,"assists":7,"points":11,"plusMinus":6}<br>2018 Edmonton Oilers {"goals":4,"assists":9,"points":13,"plusMinus":6}
+- [ ] `nhl-zack-kassian` **Zack Kassian** (RW) — 2020 Edmonton Oilers {"goals":15,"assists":19,"points":34,"plusMinus":4}<br>2019 Edmonton Oilers {"goals":15,"assists":19,"points":34,"plusMinus":4}
+- [ ] `nhl-jesse-puljujarvi` **Jesse Puljujarvi** (RW) — 2022 Edmonton Oilers {"goals":14,"assists":22,"points":36,"plusMinus":4}<br>2021 Edmonton Oilers {"goals":15,"assists":10,"points":25,"plusMinus":4}<br>2023 Edmonton Oilers {"goals":14,"assists":22,"points":36,"plusMinus":4}
+- [ ] `nhl-darnell-nurse` **Darnell Nurse** (D) — 2023 Edmonton Oilers {"goals":12,"assists":31,"points":43,"plusMinus":18}<br>2021 Edmonton Oilers {"goals":16,"assists":20,"points":36,"plusMinus":27}<br>2022 Edmonton Oilers {"goals":9,"assists":26,"points":35,"plusMinus":18}<br>2024 Edmonton Oilers {"goals":10,"assists":22,"points":32,"plusMinus":12}<br>2019 Edmonton Oilers {"goals":10,"assists":31,"points":41,"plusMinus":12}
+- [ ] `nhl-calvin-pickard` **Calvin Pickard** (G) — 2024 Edmonton Oilers {"wins":12,"gaa":2.45,"savePct":0.909,"shutouts":1}<br>2023 Edmonton Oilers {"wins":5,"gaa":2.89,"savePct":0.9,"shutouts":0}
+- [ ] `nhl-mikko-koskinen` **Mikko Koskinen** (G) — 2021 Edmonton Oilers {"wins":13,"gaa":3.17,"savePct":0.899,"shutouts":0}<br>2019 Edmonton Oilers {"wins":25,"gaa":2.93,"savePct":0.906,"shutouts":4}
+- [ ] `nhl-drake-caggiula` **Drake Caggiula** (LW) — 2018 Edmonton Oilers {"goals":13,"assists":20,"points":33,"plusMinus":4}
+- [ ] `nhl-kris-russell` **Kris Russell** (D) — 2018 Edmonton Oilers {"goals":4,"assists":17,"points":21,"plusMinus":6}<br>2019 Edmonton Oilers {"goals":3,"assists":10,"points":13,"plusMinus":4}
+- [ ] `nhl-cody-ceci` **Cody Ceci** (D) — 2023 Edmonton Oilers {"goals":1,"assists":14,"points":15,"plusMinus":6}
+- [ ] `nhl-alex-chiasson` **Alex Chiasson** (RW) — 2019 Edmonton Oilers {"goals":22,"assists":16,"points":38,"plusMinus":6}
+- [ ] `nhl-laurent-brossoit` **Laurent Brossoit** (G) — 2017 Edmonton Oilers {"wins":4,"gaa":2.42,"savePct":0.91,"shutouts":1}
 
-## Premier League (0)
+## Premier League (139)
 
+- [ ] `epl-mohamed-salah` **Mohamed Salah** (FW) — 2017-18 Liverpool {"goals":32,"assists":10,"apps":36}<br>2018-19 Liverpool {"goals":22,"assists":8,"apps":38}
+- [ ] `epl-harry-kane` **Harry Kane** (FW) — 2017-18 Tottenham Hotspur {"goals":30,"assists":2,"apps":37}<br>2018-19 Tottenham Hotspur {"goals":17,"assists":4,"apps":28}
+- [ ] `epl-luis-suarez` **Luis Suarez** (FW) — 2013-14 Liverpool {"goals":31,"assists":13,"apps":33}
+- [ ] `epl-sergio-aguero` **Sergio Aguero** (FW) — 2017-18 Manchester City {"goals":21,"assists":6,"apps":25}<br>2018-19 Manchester City {"goals":21,"assists":8,"apps":33}
+- [ ] `epl-eden-hazard` **Eden Hazard** (FW) — 2018-19 Chelsea {"goals":16,"assists":15,"apps":37}<br>2013-14 Chelsea {"goals":14,"assists":7,"apps":35}
+- [ ] `epl-kevin-de-bruyne` **Kevin De Bruyne** (MF) — 2017-18 Manchester City {"goals":8,"assists":16,"apps":37}<br>2018-19 Manchester City {"goals":2,"assists":2,"apps":19}
+- [ ] `epl-sadio-mane` **Sadio Mane** (FW) — 2018-19 Liverpool {"goals":22,"assists":1,"apps":36}<br>2017-18 Liverpool {"goals":10,"assists":7,"apps":29}
+- [ ] `epl-roberto-firmino` **Roberto Firmino** (FW) — 2017-18 Liverpool {"goals":15,"assists":7,"apps":37}<br>2018-19 Liverpool {"goals":12,"assists":6,"apps":34}
+- [ ] `epl-heung-min-son` **Heung-min Son** (FW) — 2017-18 Tottenham Hotspur {"goals":12,"assists":6,"apps":37}<br>2018-19 Tottenham Hotspur {"goals":12,"assists":6,"apps":31}
+- [ ] `epl-raheem-sterling` **Raheem Sterling** (FW) — 2017-18 Manchester City {"goals":18,"assists":11,"apps":33}<br>2018-19 Manchester City {"goals":17,"assists":9,"apps":34}
+- [ ] `epl-jamie-vardy` **Jamie Vardy** (FW) — 2017-18 Leicester City {"goals":20,"assists":1,"apps":37}<br>2018-19 Leicester City {"goals":18,"assists":4,"apps":34}
+- [ ] `epl-pierre-emerick-aubameyang` **Pierre-Emerick Aubameyang** (FW) — 2018-19 Arsenal {"goals":22,"assists":5,"apps":36}
+- [ ] `epl-alexandre-lacazette` **Alexandre Lacazette** (FW) — 2018-19 Arsenal {"goals":13,"assists":8,"apps":35}<br>2017-18 Arsenal {"goals":14,"assists":4,"apps":32}
+- [ ] `epl-gabriel-jesus` **Gabriel Jesus** (FW) — 2017-18 Manchester City {"goals":13,"assists":3,"apps":29}<br>2018-19 Manchester City {"goals":7,"assists":3,"apps":29}
+- [ ] `epl-leroy-sane` **Leroy Sane** (FW) — 2017-18 Manchester City {"goals":10,"assists":15,"apps":32}<br>2018-19 Manchester City {"goals":10,"assists":10,"apps":31}
+- [ ] `epl-paul-pogba` **Paul Pogba** (MF) — 2018-19 Manchester United {"goals":13,"assists":9,"apps":35}<br>2017-18 Manchester United {"goals":6,"assists":10,"apps":27}
+- [ ] `epl-marcus-rashford` **Marcus Rashford** (FW) — 2018-19 Manchester United {"goals":10,"assists":6,"apps":33}<br>2017-18 Manchester United {"goals":7,"assists":5,"apps":35}
+- [ ] `epl-anthony-martial` **Anthony Martial** (FW) — 2018-19 Manchester United {"goals":10,"assists":2,"apps":27}
+- [ ] `epl-romelu-lukaku` **Romelu Lukaku** (FW) — 2017-18 Manchester United {"goals":16,"assists":7,"apps":34}<br>2013-14 Everton {"goals":15,"assists":6,"apps":33}
+- [ ] `epl-christian-eriksen` **Christian Eriksen** (MF) — 2018-19 Tottenham Hotspur {"goals":8,"assists":12,"apps":35}<br>2017-18 Tottenham Hotspur {"goals":10,"assists":9,"apps":37}
+- [ ] `epl-dele-alli` **Dele Alli** (MF) — 2017-18 Tottenham Hotspur {"goals":9,"assists":10,"apps":36}<br>2018-19 Tottenham Hotspur {"goals":5,"assists":3,"apps":25}
+- [ ] `epl-david-silva` **David Silva** (MF) — 2017-18 Manchester City {"goals":9,"assists":11,"apps":29}<br>2018-19 Manchester City {"goals":6,"assists":8,"apps":33}
+- [ ] `epl-bernardo-silva` **Bernardo Silva** (MF) — 2018-19 Manchester City {"goals":7,"assists":7,"apps":36}
+- [ ] `epl-riyad-mahrez` **Riyad Mahrez** (FW) — 2017-18 Leicester City {"goals":12,"assists":10,"apps":36}<br>2018-19 Manchester City {"goals":7,"assists":4,"apps":27}
+- [ ] `epl-mesut-ozil` **Mesut Ozil** (MF) — 2017-18 Arsenal {"goals":4,"assists":8,"apps":26}<br>2018-19 Arsenal {"goals":5,"assists":2,"apps":24}
+- [ ] `epl-aaron-ramsey` **Aaron Ramsey** (MF) — 2013-14 Arsenal {"goals":10,"assists":7,"apps":23}<br>2017-18 Arsenal {"goals":7,"assists":8,"apps":24}
+- [ ] `epl-granit-xhaka` **Granit Xhaka** (MF) — 2017-18 Arsenal {"goals":1,"assists":7,"apps":38}<br>2018-19 Arsenal {"goals":4,"assists":2,"apps":29}
+- [ ] `epl-willian` **Willian** (MF) — 2017-18 Chelsea {"goals":6,"assists":7,"apps":36}<br>2018-19 Chelsea {"goals":3,"assists":6,"apps":32}
+- [ ] `epl-pascal-gross` **Pascal Gross** (MF) — 2017-18 Brighton & Hove Albion {"goals":7,"assists":8,"apps":38}<br>2018-19 Brighton & Hove Albion {"goals":3,"assists":3,"apps":25}
+- [ ] `epl-gylfi-sigurdsson` **Gylfi Sigurdsson** (MF) — 2018-19 Everton {"goals":13,"assists":6,"apps":38}<br>2017-18 Everton {"goals":4,"assists":3,"apps":27}
+- [ ] `epl-ryan-fraser` **Ryan Fraser** (MF) — 2018-19 AFC Bournemouth {"goals":7,"assists":14,"apps":38}<br>2017-18 AFC Bournemouth {"goals":5,"assists":3,"apps":26}
+- [ ] `epl-callum-wilson` **Callum Wilson** (FW) — 2018-19 AFC Bournemouth {"goals":14,"assists":9,"apps":30}<br>2017-18 AFC Bournemouth {"goals":8,"assists":2,"apps":28}
+- [ ] `epl-raul-jimenez` **Raul Jimenez** (FW) — 2018-19 Wolverhampton Wanderers {"goals":13,"assists":7,"apps":38}
+- [ ] `epl-glenn-murray` **Glenn Murray** (FW) — 2018-19 Brighton & Hove Albion {"goals":13,"assists":1,"apps":38}
+- [ ] `epl-richarlison` **Richarlison** (FW) — 2018-19 Everton {"goals":13,"assists":1,"apps":35}<br>2017-18 Watford {"goals":5,"assists":4,"apps":38}
+- [ ] `epl-ayoze-perez` **Ayoze Perez** (FW) — 2018-19 Newcastle United {"goals":12,"assists":2,"apps":37}
+- [ ] `epl-ashley-barnes` **Ashley Barnes** (FW) — 2018-19 Burnley {"goals":12,"assists":2,"apps":37}
+- [ ] `epl-joshua-king` **Joshua King** (FW) — 2018-19 AFC Bournemouth {"goals":12,"assists":3,"apps":35}<br>2017-18 AFC Bournemouth {"goals":8,"assists":3,"apps":33}
+- [ ] `epl-luka-milivojevic` **Luka Milivojevic** (MF) — 2018-19 Crystal Palace {"goals":12,"assists":2,"apps":38}
+- [ ] `epl-aleksandar-mitrovic` **Aleksandar Mitrovic** (FW) — 2018-19 Fulham {"goals":11,"assists":3,"apps":37}
+- [ ] `epl-salomon-rondon` **Salomon Rondon** (FW) — 2018-19 Newcastle United {"goals":11,"assists":7,"apps":32}
+- [ ] `epl-marko-arnautovic` **Marko Arnautovic** (FW) — 2018-19 West Ham United {"goals":10,"assists":4,"apps":28}
+- [ ] `epl-gerard-deulofeu` **Gerard Deulofeu** (FW) — 2018-19 Watford {"goals":10,"assists":5,"apps":30}
+- [ ] `epl-lucas-moura` **Lucas Moura** (FW) — 2018-19 Tottenham Hotspur {"goals":10,"assists":0,"apps":32}
+- [ ] `epl-chris-wood` **Chris Wood** (FW) — 2018-19 Burnley {"goals":10,"assists":2,"apps":38}<br>2017-18 Burnley {"goals":10,"assists":1,"apps":24}
+- [ ] `epl-wilfried-zaha` **Wilfried Zaha** (FW) — 2018-19 Crystal Palace {"goals":10,"assists":5,"apps":34}<br>2017-18 Crystal Palace {"goals":9,"assists":3,"apps":29}
+- [ ] `epl-troy-deeney` **Troy Deeney** (FW) — 2018-19 Watford {"goals":9,"assists":5,"apps":32}<br>2017-18 Watford {"goals":5,"assists":2,"apps":29}
+- [ ] `epl-diogo-jota` **Diogo Jota** (FW) — 2018-19 Wolverhampton Wanderers {"goals":9,"assists":5,"apps":33}
+- [ ] `epl-felipe-anderson` **Felipe Anderson** (MF) — 2018-19 West Ham United {"goals":9,"assists":4,"apps":36}
+- [ ] `epl-pedro` **Pedro** (FW) — 2018-19 Chelsea {"goals":8,"assists":2,"apps":31}
+- [ ] `epl-david-brooks` **David Brooks** (MF) — 2018-19 AFC Bournemouth {"goals":7,"assists":5,"apps":30}
+- [ ] `epl-andre-gray` **Andre Gray** (FW) — 2018-19 Watford {"goals":7,"assists":2,"apps":29}
+- [ ] `epl-javier-hernandez` **Javier Hernandez** (FW) — 2018-19 West Ham United {"goals":7,"assists":1,"apps":25}
+- [ ] `epl-danny-ings` **Danny Ings** (FW) — 2018-19 Southampton {"goals":7,"assists":3,"apps":24}
+- [ ] `epl-james-maddison` **James Maddison** (MF) — 2018-19 Leicester City {"goals":7,"assists":7,"apps":36}
+- [ ] `epl-james-ward-prowse` **James Ward-Prowse** (MF) — 2018-19 Southampton {"goals":7,"assists":0,"apps":26}
+- [ ] `epl-michail-antonio` **Michail Antonio** (FW) — 2018-19 West Ham United {"goals":6,"assists":4,"apps":33}<br>2017-18 West Ham United {"goals":3,"assists":1,"apps":21}
+- [ ] `epl-dominic-calvert-lewin` **Dominic Calvert-Lewin** (FW) — 2018-19 Everton {"goals":6,"assists":2,"apps":35}
+- [ ] `epl-ilkay-gundogan` **Ilkay Gundogan** (MF) — 2018-19 Manchester City {"goals":6,"assists":3,"apps":31}
+- [ ] `epl-ruben-loftus-cheek` **Ruben Loftus-Cheek** (MF) — 2018-19 Chelsea {"goals":6,"assists":5,"apps":24}
+- [ ] `epl-henrikh-mkhitaryan` **Henrikh Mkhitaryan** (MF) — 2018-19 Arsenal {"goals":6,"assists":4,"apps":25}<br>2017-18 Arsenal {"goals":3,"assists":9,"apps":26}
+- [ ] `epl-roberto-pereyra` **Roberto Pereyra** (MF) — 2018-19 Watford {"goals":6,"assists":1,"apps":33}
+- [ ] `epl-nathan-redmond` **Nathan Redmond** (MF) — 2018-19 Southampton {"goals":6,"assists":4,"apps":38}
+- [ ] `epl-xherdan-shaqiri` **Xherdan Shaqiri** (MF) — 2018-19 Liverpool {"goals":6,"assists":3,"apps":24}<br>2017-18 Stoke City {"goals":8,"assists":7,"apps":36}
+- [ ] `epl-andros-townsend` **Andros Townsend** (MF) — 2018-19 Crystal Palace {"goals":6,"assists":4,"apps":38}
+- [ ] `epl-theo-walcott` **Theo Walcott** (FW) — 2018-19 Everton {"goals":5,"assists":2,"apps":37}
+- [ ] `epl-mark-noble` **Mark Noble** (MF) — 2018-19 West Ham United {"goals":5,"assists":5,"apps":31}
+- [ ] `epl-virgil-van-dijk` **Virgil van Dijk** (DF) — 2018-19 Liverpool {"goals":4,"assists":2,"apps":38}
+- [ ] `epl-ngolo-kante` **N'Golo Kante** (MF) — 2018-19 Chelsea {"goals":4,"assists":4,"apps":36}<br>2017-18 Chelsea {"goals":1,"assists":1,"apps":34}
+- [ ] `epl-lucas-digne` **Lucas Digne** (DF) — 2018-19 Everton {"goals":4,"assists":4,"apps":35}
+- [ ] `epl-matt-doherty` **Matt Doherty** (DF) — 2018-19 Wolverhampton Wanderers {"goals":4,"assists":5,"apps":38}
+- [ ] `epl-nathan-ake` **Nathan Ake** (DF) — 2018-19 AFC Bournemouth {"goals":4,"assists":0,"apps":38}
+- [ ] `epl-ruben-neves` **Ruben Neves** (MF) — 2018-19 Wolverhampton Wanderers {"goals":4,"assists":3,"apps":35}
+- [ ] `epl-aymeric-laporte` **Aymeric Laporte** (DF) — 2018-19 Manchester City {"goals":3,"assists":3,"apps":35}
+- [ ] `epl-harry-maguire` **Harry Maguire** (DF) — 2017-18 Leicester City {"goals":2,"assists":4,"apps":38}
+- [ ] `epl-georginio-wijnaldum` **Georginio Wijnaldum** (MF) — 2018-19 Liverpool {"goals":3,"assists":0,"apps":35}
+- [ ] `epl-alex-iwobi` **Alex Iwobi** (MF) — 2018-19 Arsenal {"goals":3,"assists":6,"apps":35}
+- [ ] `epl-declan-rice` **Declan Rice** (MF) — 2018-19 West Ham United {"goals":2,"assists":0,"apps":34}
+- [ ] `epl-trent-alexander-arnold` **Trent Alexander-Arnold** (DF) — 2018-19 Liverpool {"goals":0,"assists":12,"apps":29}<br>2017-18 Liverpool {"goals":1,"assists":1,"apps":19}
+- [ ] `epl-andy-robertson` **Andy Robertson** (DF) — 2018-19 Liverpool {"goals":0,"assists":11,"apps":36}<br>2017-18 Liverpool {"goals":1,"assists":5,"apps":22}
+- [ ] `epl-joao-moutinho` **Joao Moutinho** (MF) — 2018-19 Wolverhampton Wanderers {"goals":0,"assists":8,"apps":38}
+- [ ] `epl-ricardo-pereira` **Ricardo Pereira** (DF) — 2018-19 Leicester City {"goals":2,"assists":6,"apps":35}
+- [ ] `epl-ben-chilwell` **Ben Chilwell** (DF) — 2018-19 Leicester City {"goals":0,"assists":4,"apps":36}
+- [ ] `epl-aaron-wan-bissaka` **Aaron Wan-Bissaka** (DF) — 2018-19 Crystal Palace {"goals":0,"assists":3,"apps":35}
+- [ ] `epl-kyle-walker` **Kyle Walker** (DF) — 2018-19 Manchester City {"goals":1,"assists":1,"apps":33}<br>2017-18 Manchester City {"goals":0,"assists":6,"apps":32}
+- [ ] `epl-fernandinho` **Fernandinho** (MF) — 2017-18 Manchester City {"goals":5,"assists":3,"apps":34}<br>2018-19 Manchester City {"goals":0,"assists":3,"apps":29}
+- [ ] `epl-fabinho` **Fabinho** (MF) — 2018-19 Liverpool {"goals":0,"assists":2,"apps":28}
+- [ ] `epl-jordan-henderson` **Jordan Henderson** (MF) — 2018-19 Liverpool {"goals":0,"assists":3,"apps":32}<br>2017-18 Liverpool {"goals":1,"assists":1,"apps":27}
+- [ ] `epl-james-milner` **James Milner** (MF) — 2018-19 Liverpool {"goals":5,"assists":4,"apps":31}
+- [ ] `epl-cesar-azpilicueta` **Cesar Azpilicueta** (DF) — 2018-19 Chelsea {"goals":0,"assists":5,"apps":38}<br>2017-18 Chelsea {"goals":2,"assists":6,"apps":37}
+- [ ] `epl-hector-bellerin` **Hector Bellerin** (DF) — 2017-18 Arsenal {"goals":2,"assists":3,"apps":35}
+- [ ] `epl-marcos-alonso` **Marcos Alonso** (DF) — 2018-19 Chelsea {"goals":2,"assists":4,"apps":31}
+- [ ] `epl-david-luiz` **David Luiz** (DF) — 2018-19 Chelsea {"goals":3,"assists":2,"apps":36}
+- [ ] `epl-shane-duffy` **Shane Duffy** (DF) — 2018-19 Brighton & Hove Albion {"goals":5,"assists":1,"apps":35}
+- [ ] `epl-lewis-dunk` **Lewis Dunk** (DF) — 2018-19 Brighton & Hove Albion {"goals":2,"assists":1,"apps":36}<br>2017-18 Brighton & Hove Albion {"goals":1,"assists":1,"apps":38}
+- [ ] `epl-james-tarkowski` **James Tarkowski** (DF) — 2018-19 Burnley {"goals":3,"assists":1,"apps":35}
+- [ ] `epl-ben-mee` **Ben Mee** (DF) — 2018-19 Burnley {"goals":0,"assists":2,"apps":38}
+- [ ] `epl-sol-bamba` **Sol Bamba** (DF) — 2018-19 Cardiff City {"goals":4,"assists":1,"apps":28}
+- [ ] `epl-jan-vertonghen` **Jan Vertonghen** (DF) — 2018-19 Tottenham Hotspur {"goals":1,"assists":0,"apps":22}
+- [ ] `epl-kieran-trippier` **Kieran Trippier** (DF) — 2018-19 Tottenham Hotspur {"goals":1,"assists":3,"apps":27}
+- [ ] `epl-divock-origi` **Divock Origi** (FW) — 2018-19 Liverpool {"goals":3,"assists":1,"apps":12}
+- [ ] `epl-cesc-fabregas` **Cesc Fabregas** (MF) — 2017-18 Chelsea {"goals":2,"assists":4,"apps":32}
+- [ ] `epl-jorginho` **Jorginho** (MF) — 2018-19 Chelsea {"goals":2,"assists":0,"apps":37}
+- [ ] `epl-seamus-coleman` **Seamus Coleman** (DF) — 2018-19 Everton {"goals":2,"assists":2,"apps":29}
+- [ ] `epl-ander-herrera` **Ander Herrera** (MF) — 2018-19 Manchester United {"goals":2,"assists":3,"apps":22}
+- [ ] `epl-benjamin-mendy` **Benjamin Mendy** (DF) — 2018-19 Manchester City {"goals":0,"assists":5,"apps":10}
+- [ ] `epl-kurt-zouma` **Kurt Zouma** (DF) — 2018-19 Chelsea {"goals":0,"assists":2,"apps":32}
+- [ ] `epl-philippe-coutinho` **Philippe Coutinho** (MF) — 2017-18 Liverpool {"goals":7,"assists":6,"apps":14}
+- [ ] `epl-alvaro-morata` **Alvaro Morata** (FW) — 2017-18 Chelsea {"goals":11,"assists":6,"apps":31}
+- [ ] `epl-jesse-lingard` **Jesse Lingard** (MF) — 2017-18 Manchester United {"goals":8,"assists":5,"apps":33}
+- [ ] `epl-juan-mata` **Juan Mata** (MF) — 2017-18 Manchester United {"goals":3,"assists":5,"apps":28}
+- [ ] `epl-nacho-monreal` **Nacho Monreal** (DF) — 2017-18 Arsenal {"goals":5,"assists":2,"apps":28}
+- [ ] `epl-manuel-lanzini` **Manuel Lanzini** (MF) — 2017-18 West Ham United {"goals":5,"assists":6,"apps":27}
+- [ ] `epl-steven-gerrard` **Steven Gerrard** (MF) — 2013-14 Liverpool {"goals":13,"assists":14,"apps":34}
+- [ ] `epl-daniel-sturridge` **Daniel Sturridge** (FW) — 2013-14 Liverpool {"goals":22,"assists":7,"apps":29}
+- [ ] `epl-yaya-toure` **Yaya Toure** (MF) — 2013-14 Manchester City {"goals":20,"assists":9,"apps":35}
+- [ ] `epl-wayne-rooney` **Wayne Rooney** (FW) — 2013-14 Manchester United {"goals":17,"assists":10,"apps":29}<br>2017-18 Everton {"goals":10,"assists":2,"apps":31}
+- [ ] `epl-olivier-giroud` **Olivier Giroud** (FW) — 2013-14 Arsenal {"goals":16,"assists":8,"apps":36}<br>2018-19 Chelsea {"goals":2,"assists":4,"apps":27}
+- [ ] `epl-rickie-lambert` **Rickie Lambert** (FW) — 2013-14 Southampton {"goals":13,"assists":10,"apps":37}
+- [ ] `epl-robin-van-persie` **Robin van Persie** (FW) — 2013-14 Manchester United {"goals":12,"assists":3,"apps":21}
+- [ ] `epl-edin-dzeko` **Edin Dzeko** (FW) — 2013-14 Manchester City {"goals":16,"assists":4,"apps":31}
+- [ ] `epl-wilfried-bony` **Wilfried Bony** (FW) — 2013-14 Swansea City {"goals":17,"assists":4,"apps":34}
+- [ ] `epl-samuel-etoo` **Samuel Eto'o** (FW) — 2013-14 Chelsea {"goals":9,"assists":4,"apps":21}
+- [ ] `epl-loic-remy` **Loic Remy** (FW) — 2013-14 Newcastle United {"goals":14,"assists":3,"apps":26}
+- [ ] `epl-emmanuel-adebayor` **Emmanuel Adebayor** (FW) — 2013-14 Tottenham Hotspur {"goals":11,"assists":4,"apps":21}
+- [ ] `epl-christian-benteke` **Christian Benteke** (FW) — 2013-14 Aston Villa {"goals":10,"assists":2,"apps":26}
+- [ ] `epl-alvaro-negredo` **Alvaro Negredo** (FW) — 2013-14 Manchester City {"goals":9,"assists":3,"apps":32}
+- [ ] `epl-oscar` **Oscar** (MF) — 2013-14 Chelsea {"goals":8,"assists":4,"apps":33}
+- [ ] `epl-lukas-podolski` **Lukas Podolski** (FW) — 2013-14 Arsenal {"goals":8,"assists":3,"apps":20}
+- [ ] `epl-andre-schurrle` **Andre Schurrle** (FW) — 2013-14 Chelsea {"goals":8,"assists":2,"apps":30}
+- [ ] `epl-peter-crouch` **Peter Crouch** (FW) — 2013-14 Stoke City {"goals":7,"assists":5,"apps":34}
+- [ ] `epl-charlie-adam` **Charlie Adam** (MF) — 2013-14 Stoke City {"goals":8,"assists":4,"apps":31}
+- [ ] `epl-adam-johnson` **Adam Johnson** (MF) — 2013-14 Sunderland {"goals":8,"assists":6,"apps":36}
+- [ ] `epl-kevin-mirallas` **Kevin Mirallas** (FW) — 2013-14 Everton {"goals":9,"assists":7,"apps":32}
+- [ ] `epl-adam-lallana` **Adam Lallana** (MF) — 2013-14 Southampton {"goals":9,"assists":7,"apps":38}
+- [ ] `epl-danny-welbeck` **Danny Welbeck** (FW) — 2013-14 Manchester United {"goals":9,"assists":2,"apps":25}
+- [ ] `epl-alisson` **Alisson Becker** (GK) — 2018-19 Liverpool {"cleanSheets":21,"saves":76,"apps":38}<br>2021-22 Liverpool {"cleanSheets":20,"saves":75,"apps":36}
+- [ ] `epl-ederson` **Ederson** (GK) — 2018-19 Manchester City {"cleanSheets":20,"saves":58,"apps":38}<br>2021-22 Manchester City {"cleanSheets":20,"saves":60,"apps":37}
+- [ ] `epl-david-de-gea` **David de Gea** (GK) — 2017-18 Manchester United {"cleanSheets":18,"saves":115,"apps":37}
 

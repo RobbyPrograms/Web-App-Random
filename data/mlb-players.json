@@ -1,1 +1,8103 @@
-[]
+[
+  {
+    "id": "mlb-barry-bonds",
+    "sport": "mlb",
+    "name": "Barry Bonds",
+    "aliases": [
+      "Bonds"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2001",
+        "team": "San Francisco Giants",
+        "stats": {
+          "avg": 0.328,
+          "hr": 73,
+          "rbi": 137,
+          "ops": 1.379
+        }
+      },
+      {
+        "year": "2002",
+        "team": "San Francisco Giants",
+        "stats": {
+          "avg": 0.37,
+          "hr": 46,
+          "rbi": 110,
+          "ops": 1.381
+        }
+      },
+      {
+        "year": "2004",
+        "team": "San Francisco Giants",
+        "stats": {
+          "avg": 0.362,
+          "hr": 45,
+          "rbi": 101,
+          "ops": 1.422
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": "Arizona State",
+    "draftYear": 1985,
+    "draftPick": 6,
+    "jerseyNumbers": [
+      25
+    ],
+    "teamHistory": [
+      {
+        "team": "San Francisco Giants",
+        "years": [
+          "2001"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Single-season home run record",
+      "facts": [
+        "7x MVP",
+        "500 home runs and 500 steals"
+      ]
+    }
+  },
+  {
+    "id": "mlb-aaron-judge",
+    "sport": "mlb",
+    "name": "Aaron Judge",
+    "aliases": [
+      "Judge"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2022",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.311,
+          "hr": 62,
+          "rbi": 131,
+          "ops": 1.111
+        }
+      },
+      {
+        "year": "2024",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.322,
+          "hr": 58,
+          "rbi": 144,
+          "ops": 1.159
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 79,
+    "birthCountry": "USA",
+    "college": "Fresno State",
+    "draftYear": 2013,
+    "draftPick": 32,
+    "jerseyNumbers": [
+      99
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "2022"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "American League home run king",
+      "facts": [
+        "2022 and 2024 MVP",
+        "2017 Rookie of the Year"
+      ]
+    }
+  },
+  {
+    "id": "mlb-babe-ruth",
+    "sport": "mlb",
+    "name": "Babe Ruth",
+    "aliases": [
+      "The Babe",
+      "Bambino"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1927",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.356,
+          "hr": 60,
+          "rbi": 164,
+          "ops": 1.258
+        }
+      },
+      {
+        "year": "1921",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.378,
+          "hr": 59,
+          "rbi": 171,
+          "ops": 1.359
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      3
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1927"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "60 home runs in 1927",
+      "facts": [
+        "714 career home runs",
+        "Called shot legend"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-lou-gehrig",
+    "sport": "mlb",
+    "name": "Lou Gehrig",
+    "aliases": [
+      "The Iron Horse"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1927",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.373,
+          "hr": 47,
+          "rbi": 175,
+          "ops": 1.24
+        }
+      },
+      {
+        "year": "1931",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.341,
+          "hr": 46,
+          "rbi": 184,
+          "ops": 1.194
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": "Columbia",
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1927"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2130 consecutive games",
+      "facts": [
+        "184 RBI in 1931",
+        "Lou Gehrig Disease namesake"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-ted-williams",
+    "sport": "mlb",
+    "name": "Ted Williams",
+    "aliases": [
+      "Teddy Ballgame",
+      "The Splendid Splinter"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1941",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.406,
+          "hr": 37,
+          "rbi": 120,
+          "ops": 1.287
+        }
+      },
+      {
+        "year": "1957",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.388,
+          "hr": 38,
+          "rbi": 87,
+          "ops": 1.257
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "1941"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Last .400 hitter",
+      "facts": [
+        "1941 batting average .406",
+        "521 career home runs"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-willie-mays",
+    "sport": "mlb",
+    "name": "Willie Mays",
+    "aliases": [
+      "Say Hey Kid"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1954",
+        "team": "New York Giants",
+        "stats": {
+          "avg": 0.345,
+          "hr": 41,
+          "rbi": 110,
+          "ops": 1.078
+        }
+      },
+      {
+        "year": "1965",
+        "team": "San Francisco Giants",
+        "stats": {
+          "avg": 0.317,
+          "hr": 52,
+          "rbi": 112,
+          "ops": 1.043
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      24
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Giants",
+        "years": [
+          "1954"
+        ]
+      },
+      {
+        "team": "San Francisco Giants",
+        "years": [
+          "1965"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "The Catch and 660 home runs",
+      "facts": [
+        "24x All-Star",
+        "1954 MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-hank-aaron",
+    "sport": "mlb",
+    "name": "Hank Aaron",
+    "aliases": [
+      "Hammerin Hank"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1957",
+        "team": "Milwaukee Braves",
+        "stats": {
+          "avg": 0.322,
+          "hr": 44,
+          "rbi": 132,
+          "ops": 0.978
+        }
+      },
+      {
+        "year": "1971",
+        "team": "Atlanta Braves",
+        "stats": {
+          "avg": 0.327,
+          "hr": 47,
+          "rbi": 118,
+          "ops": 1.079
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      44
+    ],
+    "teamHistory": [
+      {
+        "team": "Milwaukee Braves",
+        "years": [
+          "1957"
+        ]
+      },
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "1971"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Broke the Ruth home run record",
+      "facts": [
+        "755 career home runs",
+        "1957 NL MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-mickey-mantle",
+    "sport": "mlb",
+    "name": "Mickey Mantle",
+    "aliases": [
+      "The Mick"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1956",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.353,
+          "hr": 52,
+          "rbi": 130,
+          "ops": 1.169
+        }
+      },
+      {
+        "year": "1961",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.317,
+          "hr": 54,
+          "rbi": 128,
+          "ops": 1.135
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1956"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1956 Triple Crown",
+      "facts": [
+        "536 career home runs",
+        "18x All-Star"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-joe-dimaggio",
+    "sport": "mlb",
+    "name": "Joe DiMaggio",
+    "aliases": [
+      "Joltin Joe",
+      "Yankee Clipper"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1941",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.357,
+          "hr": 30,
+          "rbi": 125,
+          "ops": 1.083
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1941"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "56-game hitting streak",
+      "facts": [
+        "3x MVP",
+        "9 World Series titles"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-stan-musial",
+    "sport": "mlb",
+    "name": "Stan Musial",
+    "aliases": [
+      "Stan the Man"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1948",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "avg": 0.376,
+          "hr": 39,
+          "rbi": 131,
+          "ops": 1.152
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      6
+    ],
+    "teamHistory": [
+      {
+        "team": "St. Louis Cardinals",
+        "years": [
+          "1948"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "3630 career hits",
+      "facts": [
+        "3x MVP",
+        "24x All-Star"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-roberto-clemente",
+    "sport": "mlb",
+    "name": "Roberto Clemente",
+    "aliases": [
+      "Clemente"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1967",
+        "team": "Pittsburgh Pirates",
+        "stats": {
+          "avg": 0.357,
+          "hr": 23,
+          "rbi": 110,
+          "ops": 0.954
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "Puerto Rico",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      21
+    ],
+    "teamHistory": [
+      {
+        "team": "Pittsburgh Pirates",
+        "years": [
+          "1967"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "3000 hits and a humanitarian",
+      "facts": [
+        "4 batting titles",
+        "1971 World Series MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-frank-robinson",
+    "sport": "mlb",
+    "name": "Frank Robinson",
+    "aliases": [
+      "Robby"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1966",
+        "team": "Baltimore Orioles",
+        "stats": {
+          "avg": 0.316,
+          "hr": 49,
+          "rbi": 122,
+          "ops": 1.047
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "Baltimore Orioles",
+        "years": [
+          "1966"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Only player to win MVP in both leagues",
+      "facts": [
+        "1966 Triple Crown",
+        "586 career home runs"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-carl-yastrzemski",
+    "sport": "mlb",
+    "name": "Carl Yastrzemski",
+    "aliases": [
+      "Yaz"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1967",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.326,
+          "hr": 44,
+          "rbi": 121,
+          "ops": 1.04
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "1967"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1967 Triple Crown",
+      "facts": [
+        "3419 hits",
+        "18x All-Star"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-harmon-killebrew",
+    "sport": "mlb",
+    "name": "Harmon Killebrew",
+    "aliases": [
+      "Killer"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1969",
+        "team": "Minnesota Twins",
+        "stats": {
+          "avg": 0.276,
+          "hr": 49,
+          "rbi": 140,
+          "ops": 1.011
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      3
+    ],
+    "teamHistory": [
+      {
+        "team": "Minnesota Twins",
+        "years": [
+          "1969"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "573 career home runs",
+      "facts": [
+        "1969 AL MVP",
+        "13x All-Star"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-willie-mccovey",
+    "sport": "mlb",
+    "name": "Willie McCovey",
+    "aliases": [
+      "Stretch"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1969",
+        "team": "San Francisco Giants",
+        "stats": {
+          "avg": 0.32,
+          "hr": 45,
+          "rbi": 126,
+          "ops": 1.108
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      44
+    ],
+    "teamHistory": [
+      {
+        "team": "San Francisco Giants",
+        "years": [
+          "1969"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1969 NL MVP",
+      "facts": [
+        "521 career home runs",
+        "6x All-Star slugger"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-ernie-banks",
+    "sport": "mlb",
+    "name": "Ernie Banks",
+    "aliases": [
+      "Mr. Cub"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1958",
+        "team": "Chicago Cubs",
+        "stats": {
+          "avg": 0.313,
+          "hr": 47,
+          "rbi": 129,
+          "ops": 1.035
+        }
+      }
+    ],
+    "position": "SS",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "1958"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Back-to-back NL MVP",
+      "facts": [
+        "512 career home runs",
+        "Mr. Cub"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-mike-schmidt",
+    "sport": "mlb",
+    "name": "Mike Schmidt",
+    "aliases": [
+      "Schmidt"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1980",
+        "team": "Philadelphia Phillies",
+        "stats": {
+          "avg": 0.286,
+          "hr": 48,
+          "rbi": 121,
+          "ops": 1.004
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": "Ohio University",
+    "draftYear": 1971,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "Philadelphia Phillies",
+        "years": [
+          "1980"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "548 home runs at third base",
+      "facts": [
+        "3x MVP",
+        "10 Gold Gloves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-george-brett",
+    "sport": "mlb",
+    "name": "George Brett",
+    "aliases": [
+      "Brett"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1980",
+        "team": "Kansas City Royals",
+        "stats": {
+          "avg": 0.39,
+          "hr": 24,
+          "rbi": 118,
+          "ops": 1.118
+        }
+      },
+      {
+        "year": "1985",
+        "team": "Kansas City Royals",
+        "stats": {
+          "avg": 0.335,
+          "hr": 30,
+          "rbi": 112,
+          "ops": 0.964
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1971,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Kansas City Royals",
+        "years": [
+          "1980"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chased .400 in 1980",
+      "facts": [
+        "3154 hits",
+        "1985 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-rod-carew",
+    "sport": "mlb",
+    "name": "Rod Carew",
+    "aliases": [
+      "Carew"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1977",
+        "team": "Minnesota Twins",
+        "stats": {
+          "avg": 0.388,
+          "hr": 14,
+          "rbi": 100,
+          "ops": 1.019
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 72,
+    "birthCountry": "Panama",
+    "college": null,
+    "draftYear": 1967,
+    "draftPick": null,
+    "jerseyNumbers": [
+      29
+    ],
+    "teamHistory": [
+      {
+        "team": "Minnesota Twins",
+        "years": [
+          "1977"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Seven batting titles",
+      "facts": [
+        "1977 AL MVP",
+        "3053 hits"
+      ]
+    }
+  },
+  {
+    "id": "mlb-tony-gwynn",
+    "sport": "mlb",
+    "name": "Tony Gwynn",
+    "aliases": [
+      "Captain Video"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1994",
+        "team": "San Diego Padres",
+        "stats": {
+          "avg": 0.394,
+          "hr": 12,
+          "rbi": 64,
+          "ops": 1.022
+        }
+      },
+      {
+        "year": "1987",
+        "team": "San Diego Padres",
+        "stats": {
+          "avg": 0.37,
+          "hr": 7,
+          "rbi": 54,
+          "ops": 0.961
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": "San Diego State",
+    "draftYear": 1981,
+    "draftPick": null,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "San Diego Padres",
+        "years": [
+          "1994"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Eight batting titles",
+      "facts": [
+        "3141 hits",
+        "15x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-rickey-henderson",
+    "sport": "mlb",
+    "name": "Rickey Henderson",
+    "aliases": [
+      "Rickey"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1990",
+        "team": "Oakland Athletics",
+        "stats": {
+          "avg": 0.325,
+          "hr": 28,
+          "rbi": 61,
+          "ops": 1.016
+        }
+      },
+      {
+        "year": "1982",
+        "team": "Oakland Athletics",
+        "stats": {
+          "avg": 0.267,
+          "hr": 10,
+          "rbi": 51,
+          "ops": 0.765
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 70,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1976,
+    "draftPick": null,
+    "jerseyNumbers": [
+      24
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "1990"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "All-time stolen base leader",
+      "facts": [
+        "1406 steals",
+        "1990 AL MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-cal-ripken",
+    "sport": "mlb",
+    "name": "Cal Ripken Jr.",
+    "aliases": [
+      "The Iron Man"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1991",
+        "team": "Baltimore Orioles",
+        "stats": {
+          "avg": 0.323,
+          "hr": 34,
+          "rbi": 114,
+          "ops": 0.94
+        }
+      },
+      {
+        "year": "1983",
+        "team": "Baltimore Orioles",
+        "stats": {
+          "avg": 0.318,
+          "hr": 27,
+          "rbi": 102,
+          "ops": 0.89
+        }
+      }
+    ],
+    "position": "SS",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1978,
+    "draftPick": 48,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Baltimore Orioles",
+        "years": [
+          "1991"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2632 consecutive games",
+      "facts": [
+        "1983 and 1991 MVP",
+        "3184 hits"
+      ]
+    }
+  },
+  {
+    "id": "mlb-ken-griffey-jr",
+    "sport": "mlb",
+    "name": "Ken Griffey Jr.",
+    "aliases": [
+      "The Kid",
+      "Junior"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1997",
+        "team": "Seattle Mariners",
+        "stats": {
+          "avg": 0.304,
+          "hr": 56,
+          "rbi": 147,
+          "ops": 1.028
+        }
+      },
+      {
+        "year": "1998",
+        "team": "Seattle Mariners",
+        "stats": {
+          "avg": 0.284,
+          "hr": 56,
+          "rbi": 146,
+          "ops": 0.976
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1987,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      24
+    ],
+    "teamHistory": [
+      {
+        "team": "Seattle Mariners",
+        "years": [
+          "1997"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Sweet swing and 630 home runs",
+      "facts": [
+        "1997 AL MVP",
+        "13x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-albert-pujols",
+    "sport": "mlb",
+    "name": "Albert Pujols",
+    "aliases": [
+      "Phat Albert"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2009",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "avg": 0.327,
+          "hr": 47,
+          "rbi": 135,
+          "ops": 1.101
+        }
+      },
+      {
+        "year": "2003",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "avg": 0.359,
+          "hr": 43,
+          "rbi": 124,
+          "ops": 1.106
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 75,
+    "birthCountry": "Dominican Republic",
+    "college": "Maple Woods",
+    "draftYear": 1999,
+    "draftPick": 402,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "St. Louis Cardinals",
+        "years": [
+          "2009"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "703 career home runs",
+      "facts": [
+        "3x MVP",
+        "2 World Series titles"
+      ]
+    }
+  },
+  {
+    "id": "mlb-miguel-cabrera",
+    "sport": "mlb",
+    "name": "Miguel Cabrera",
+    "aliases": [
+      "Miggy"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2012",
+        "team": "Detroit Tigers",
+        "stats": {
+          "avg": 0.33,
+          "hr": 44,
+          "rbi": 139,
+          "ops": 0.999
+        }
+      },
+      {
+        "year": "2013",
+        "team": "Detroit Tigers",
+        "stats": {
+          "avg": 0.348,
+          "hr": 44,
+          "rbi": 137,
+          "ops": 1.078
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 76,
+    "birthCountry": "Venezuela",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      24
+    ],
+    "teamHistory": [
+      {
+        "team": "Detroit Tigers",
+        "years": [
+          "2012"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Last Triple Crown winner",
+      "facts": [
+        "2012 and 2013 MVP",
+        "3000 hits and 500 home runs"
+      ]
+    }
+  },
+  {
+    "id": "mlb-david-ortiz",
+    "sport": "mlb",
+    "name": "David Ortiz",
+    "aliases": [
+      "Big Papi"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2006",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.287,
+          "hr": 54,
+          "rbi": 137,
+          "ops": 1.049
+        }
+      },
+      {
+        "year": "2016",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.315,
+          "hr": 38,
+          "rbi": 127,
+          "ops": 1.021
+        }
+      }
+    ],
+    "position": "DH",
+    "heightInches": 75,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "2006"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Red Sox clutch icon",
+      "facts": [
+        "3 World Series titles",
+        "541 career home runs"
+      ]
+    }
+  },
+  {
+    "id": "mlb-derek-jeter",
+    "sport": "mlb",
+    "name": "Derek Jeter",
+    "aliases": [
+      "The Captain"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1999",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.349,
+          "hr": 24,
+          "rbi": 102,
+          "ops": 0.99
+        }
+      }
+    ],
+    "position": "SS",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1992,
+    "draftPick": 6,
+    "jerseyNumbers": [
+      2
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1999"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Yankees captain with 5 titles",
+      "facts": [
+        "3465 hits",
+        "14x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-ichiro-suzuki",
+    "sport": "mlb",
+    "name": "Ichiro Suzuki",
+    "aliases": [
+      "Ichiro"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2004",
+        "team": "Seattle Mariners",
+        "stats": {
+          "avg": 0.372,
+          "hr": 8,
+          "rbi": 60,
+          "ops": 0.869
+        }
+      },
+      {
+        "year": "2001",
+        "team": "Seattle Mariners",
+        "stats": {
+          "avg": 0.35,
+          "hr": 8,
+          "rbi": 69,
+          "ops": 0.838
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "Japan",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      51
+    ],
+    "teamHistory": [
+      {
+        "team": "Seattle Mariners",
+        "years": [
+          "2004"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Single-season hits record",
+      "facts": [
+        "262 hits in 2004",
+        "10 Gold Gloves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-vladimir-guerrero",
+    "sport": "mlb",
+    "name": "Vladimir Guerrero",
+    "aliases": [
+      "Vlad"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2000",
+        "team": "Montreal Expos",
+        "stats": {
+          "avg": 0.345,
+          "hr": 44,
+          "rbi": 123,
+          "ops": 1.074
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 75,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Montreal Expos",
+        "years": [
+          "2000"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Free-swinging Hall of Famer",
+      "facts": [
+        "2004 AL MVP",
+        "449 career home runs"
+      ]
+    }
+  },
+  {
+    "id": "mlb-manny-ramirez",
+    "sport": "mlb",
+    "name": "Manny Ramirez",
+    "aliases": [
+      "Manny"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1999",
+        "team": "Cleveland Indians",
+        "stats": {
+          "avg": 0.333,
+          "hr": 44,
+          "rbi": 165,
+          "ops": 1.105
+        }
+      },
+      {
+        "year": "2004",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.308,
+          "hr": 43,
+          "rbi": 130,
+          "ops": 1.009
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": 1991,
+    "draftPick": 13,
+    "jerseyNumbers": [
+      24
+    ],
+    "teamHistory": [
+      {
+        "team": "Cleveland Indians",
+        "years": [
+          "1999"
+        ]
+      },
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "2004"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Feared right-handed slugger",
+      "facts": [
+        "555 career home runs",
+        "2004 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jim-thome",
+    "sport": "mlb",
+    "name": "Jim Thome",
+    "aliases": [
+      "Thome"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2002",
+        "team": "Cleveland Indians",
+        "stats": {
+          "avg": 0.304,
+          "hr": 52,
+          "rbi": 118,
+          "ops": 1.122
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "Illinois Central",
+    "draftYear": 1989,
+    "draftPick": null,
+    "jerseyNumbers": [
+      25
+    ],
+    "teamHistory": [
+      {
+        "team": "Cleveland Indians",
+        "years": [
+          "2002"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "612 career home runs",
+      "facts": [
+        "2002 home run leader",
+        "5x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-frank-thomas",
+    "sport": "mlb",
+    "name": "Frank Thomas",
+    "aliases": [
+      "The Big Hurt"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1994",
+        "team": "Chicago White Sox",
+        "stats": {
+          "avg": 0.353,
+          "hr": 38,
+          "rbi": 101,
+          "ops": 1.217
+        }
+      },
+      {
+        "year": "2000",
+        "team": "Chicago White Sox",
+        "stats": {
+          "avg": 0.328,
+          "hr": 43,
+          "rbi": 143,
+          "ops": 1.075
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": "Auburn",
+    "draftYear": 1989,
+    "draftPick": 7,
+    "jerseyNumbers": [
+      35
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago White Sox",
+        "years": [
+          "1994"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two-time MVP on-base machine",
+      "facts": [
+        "521 career home runs",
+        "1993 and 1994 MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-chipper-jones",
+    "sport": "mlb",
+    "name": "Chipper Jones",
+    "aliases": [
+      "Chipper"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1999",
+        "team": "Atlanta Braves",
+        "stats": {
+          "avg": 0.319,
+          "hr": 45,
+          "rbi": 110,
+          "ops": 1.074
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1990,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "1999"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Braves switch-hitting icon",
+      "facts": [
+        "1999 NL MVP",
+        "468 career home runs"
+      ]
+    }
+  },
+  {
+    "id": "mlb-nomar-garciaparra",
+    "sport": "mlb",
+    "name": "Nomar Garciaparra",
+    "aliases": [
+      "Nomar"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2000",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.372,
+          "hr": 21,
+          "rbi": 96,
+          "ops": 1.033
+        }
+      }
+    ],
+    "position": "SS",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": "Georgia Tech",
+    "draftYear": 1994,
+    "draftPick": 12,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "2000"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two batting titles in Boston",
+      "facts": [
+        "1997 Rookie of the Year",
+        "2000 batting champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-alex-rodriguez",
+    "sport": "mlb",
+    "name": "Alex Rodriguez",
+    "aliases": [
+      "A-Rod"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1996",
+        "team": "Seattle Mariners",
+        "stats": {
+          "avg": 0.358,
+          "hr": 36,
+          "rbi": 123,
+          "ops": 1.045
+        }
+      },
+      {
+        "year": "2002",
+        "team": "Texas Rangers",
+        "stats": {
+          "avg": 0.3,
+          "hr": 57,
+          "rbi": 142,
+          "ops": 1.015
+        }
+      }
+    ],
+    "position": "SS",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1993,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      13,
+      3
+    ],
+    "teamHistory": [
+      {
+        "team": "Seattle Mariners",
+        "years": [
+          "1996"
+        ]
+      },
+      {
+        "team": "Texas Rangers",
+        "years": [
+          "2002"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "696 career home runs",
+      "facts": [
+        "3x MVP",
+        "14x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-juan-gonzalez",
+    "sport": "mlb",
+    "name": "Juan Gonzalez",
+    "aliases": [
+      "Juan Gone"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1998",
+        "team": "Texas Rangers",
+        "stats": {
+          "avg": 0.318,
+          "hr": 45,
+          "rbi": 157,
+          "ops": 0.996
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 75,
+    "birthCountry": "Puerto Rico",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "Texas Rangers",
+        "years": [
+          "1998"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Back-to-back AL MVP",
+      "facts": [
+        "434 career home runs",
+        "157 RBI in 1998"
+      ]
+    }
+  },
+  {
+    "id": "mlb-sammy-sosa",
+    "sport": "mlb",
+    "name": "Sammy Sosa",
+    "aliases": [
+      "Slammin Sammy"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1998",
+        "team": "Chicago Cubs",
+        "stats": {
+          "avg": 0.308,
+          "hr": 66,
+          "rbi": 158,
+          "ops": 1.024
+        }
+      },
+      {
+        "year": "2001",
+        "team": "Chicago Cubs",
+        "stats": {
+          "avg": 0.328,
+          "hr": 64,
+          "rbi": 160,
+          "ops": 1.174
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": 1985,
+    "draftPick": null,
+    "jerseyNumbers": [
+      21
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "1998"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1998 home run race with McGwire",
+      "facts": [
+        "609 career home runs",
+        "3 seasons of 60 home runs"
+      ]
+    }
+  },
+  {
+    "id": "mlb-mark-mcgwire",
+    "sport": "mlb",
+    "name": "Mark McGwire",
+    "aliases": [
+      "Big Mac"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1998",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "avg": 0.299,
+          "hr": 70,
+          "rbi": 147,
+          "ops": 1.222
+        }
+      },
+      {
+        "year": "1999",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "avg": 0.278,
+          "hr": 65,
+          "rbi": 147,
+          "ops": 1.12
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": "USC",
+    "draftYear": 1984,
+    "draftPick": 10,
+    "jerseyNumbers": [
+      25
+    ],
+    "teamHistory": [
+      {
+        "team": "St. Louis Cardinals",
+        "years": [
+          "1998"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "70 home runs in 1998",
+      "facts": [
+        "583 career home runs",
+        "1987 Rookie of the Year"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jose-canseco",
+    "sport": "mlb",
+    "name": "Jose Canseco",
+    "aliases": [
+      "Canseco"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1988",
+        "team": "Oakland Athletics",
+        "stats": {
+          "avg": 0.307,
+          "hr": 42,
+          "rbi": 124,
+          "ops": 0.956
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 76,
+    "birthCountry": "Cuba",
+    "college": null,
+    "draftYear": 1985,
+    "draftPick": 15,
+    "jerseyNumbers": [
+      33
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "1988"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "First 40-40 player",
+      "facts": [
+        "1988 AL MVP",
+        "462 career home runs"
+      ]
+    }
+  },
+  {
+    "id": "mlb-reggie-jackson",
+    "sport": "mlb",
+    "name": "Reggie Jackson",
+    "aliases": [
+      "Mr. October"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1969",
+        "team": "Oakland Athletics",
+        "stats": {
+          "avg": 0.275,
+          "hr": 47,
+          "rbi": 118,
+          "ops": 0.901
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": "Arizona State",
+    "draftYear": 1966,
+    "draftPick": 2,
+    "jerseyNumbers": [
+      44,
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "1969"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Mr. October",
+      "facts": [
+        "563 career home runs",
+        "1973 AL MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-pete-rose",
+    "sport": "mlb",
+    "name": "Pete Rose",
+    "aliases": [
+      "Charlie Hustle"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1973",
+        "team": "Cincinnati Reds",
+        "stats": {
+          "avg": 0.338,
+          "hr": 5,
+          "rbi": 64,
+          "ops": 0.838
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Cincinnati Reds",
+        "years": [
+          "1973"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "All-time hits leader",
+      "facts": [
+        "4256 hits",
+        "1973 NL MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-johnny-bench",
+    "sport": "mlb",
+    "name": "Johnny Bench",
+    "aliases": [
+      "Bench"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1970",
+        "team": "Cincinnati Reds",
+        "stats": {
+          "avg": 0.293,
+          "hr": 45,
+          "rbi": 148,
+          "ops": 0.976
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1965,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Cincinnati Reds",
+        "years": [
+          "1970"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Defining catcher of the Big Red Machine",
+      "facts": [
+        "2x MVP",
+        "14x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-yogi-berra",
+    "sport": "mlb",
+    "name": "Yogi Berra",
+    "aliases": [
+      "Yogi"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1950",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.322,
+          "hr": 28,
+          "rbi": 124,
+          "ops": 0.915
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 67,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1950"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "10 World Series rings",
+      "facts": [
+        "3x MVP",
+        "Yankees catcher"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-roy-campanella",
+    "sport": "mlb",
+    "name": "Roy Campanella",
+    "aliases": [
+      "Campy"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1953",
+        "team": "Brooklyn Dodgers",
+        "stats": {
+          "avg": 0.312,
+          "hr": 41,
+          "rbi": 142,
+          "ops": 0.978
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 69,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      39
+    ],
+    "teamHistory": [
+      {
+        "team": "Brooklyn Dodgers",
+        "years": [
+          "1953"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Three-time NL MVP catcher",
+      "facts": [
+        "1953 power season",
+        "Brooklyn icon"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-mike-piazza",
+    "sport": "mlb",
+    "name": "Mike Piazza",
+    "aliases": [
+      "Piazza"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1997",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "avg": 0.362,
+          "hr": 40,
+          "rbi": 124,
+          "ops": 1.07
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Miami Dade",
+    "draftYear": 1988,
+    "draftPick": 1390,
+    "jerseyNumbers": [
+      31
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "1997"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Drafted 1390th overall",
+      "facts": [
+        "396 home runs as a catcher",
+        "12x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-ivan-rodriguez",
+    "sport": "mlb",
+    "name": "Ivan Rodriguez",
+    "aliases": [
+      "Pudge"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1999",
+        "team": "Texas Rangers",
+        "stats": {
+          "avg": 0.332,
+          "hr": 35,
+          "rbi": 113,
+          "ops": 0.996
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 69,
+    "birthCountry": "Puerto Rico",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Texas Rangers",
+        "years": [
+          "1999"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Gold Glove catcher",
+      "facts": [
+        "1999 AL MVP",
+        "13 Gold Gloves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-joe-mauer",
+    "sport": "mlb",
+    "name": "Joe Mauer",
+    "aliases": [
+      "Mauer"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2009",
+        "team": "Minnesota Twins",
+        "stats": {
+          "avg": 0.365,
+          "hr": 28,
+          "rbi": 96,
+          "ops": 1.031
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2001,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Minnesota Twins",
+        "years": [
+          "2009"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Three batting titles as a catcher",
+      "facts": [
+        "2009 AL MVP",
+        "3 Gold Gloves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-buster-posey",
+    "sport": "mlb",
+    "name": "Buster Posey",
+    "aliases": [
+      "Posey"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2012",
+        "team": "San Francisco Giants",
+        "stats": {
+          "avg": 0.336,
+          "hr": 24,
+          "rbi": 103,
+          "ops": 0.957
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": "Florida State",
+    "draftYear": 2008,
+    "draftPick": 5,
+    "jerseyNumbers": [
+      28
+    ],
+    "teamHistory": [
+      {
+        "team": "San Francisco Giants",
+        "years": [
+          "2012"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Giants dynasty catcher",
+      "facts": [
+        "2012 NL MVP",
+        "3 World Series titles"
+      ]
+    }
+  },
+  {
+    "id": "mlb-bryce-harper",
+    "sport": "mlb",
+    "name": "Bryce Harper",
+    "aliases": [
+      "Harper"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2015",
+        "team": "Washington Nationals",
+        "stats": {
+          "avg": 0.33,
+          "hr": 42,
+          "rbi": 99,
+          "ops": 1.109
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Southern Nevada",
+    "draftYear": 2010,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Washington Nationals",
+        "years": [
+          "2015"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2015 unanimous MVP",
+      "facts": [
+        "2x MVP",
+        "2019 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-mike-trout",
+    "sport": "mlb",
+    "name": "Mike Trout",
+    "aliases": [
+      "Millville Meteor"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2012",
+        "team": "Los Angeles Angels of Anaheim",
+        "stats": {
+          "avg": 0.326,
+          "hr": 30,
+          "rbi": 83,
+          "ops": 0.963
+        }
+      },
+      {
+        "year": "2019",
+        "team": "Los Angeles Angels",
+        "stats": {
+          "avg": 0.291,
+          "hr": 45,
+          "rbi": 104,
+          "ops": 1.083
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2009,
+    "draftPick": 25,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Angels of Anaheim",
+        "years": [
+          "2012"
+        ]
+      },
+      {
+        "team": "Los Angeles Angels",
+        "years": [
+          "2019"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Best player of his generation",
+      "facts": [
+        "3x MVP",
+        "2012 Rookie of the Year"
+      ]
+    }
+  },
+  {
+    "id": "mlb-shohei-ohtani",
+    "sport": "mlb",
+    "name": "Shohei Ohtani",
+    "aliases": [
+      "Shotime"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2024",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "avg": 0.31,
+          "hr": 54,
+          "rbi": 130,
+          "ops": 1.036
+        }
+      },
+      {
+        "year": "2023",
+        "team": "Los Angeles Angels",
+        "stats": {
+          "avg": 0.304,
+          "hr": 44,
+          "rbi": 95,
+          "ops": 1.066
+        }
+      }
+    ],
+    "position": "DH",
+    "heightInches": 76,
+    "birthCountry": "Japan",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "2024"
+        ]
+      },
+      {
+        "team": "Los Angeles Angels",
+        "years": [
+          "2023"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "First 50-50 season",
+      "facts": [
+        "2024 NL MVP",
+        "Unanimous two-way star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-ronald-acuna",
+    "sport": "mlb",
+    "name": "Ronald Acuna Jr.",
+    "aliases": [
+      "Acuna"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2023",
+        "team": "Atlanta Braves",
+        "stats": {
+          "avg": 0.337,
+          "hr": 41,
+          "rbi": 106,
+          "ops": 1.012
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "Venezuela",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      13
+    ],
+    "teamHistory": [
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "2023"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "40 homers and 70 steals",
+      "facts": [
+        "2023 NL MVP",
+        "2018 Rookie of the Year"
+      ]
+    }
+  },
+  {
+    "id": "mlb-mookie-betts",
+    "sport": "mlb",
+    "name": "Mookie Betts",
+    "aliases": [
+      "Mookie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.346,
+          "hr": 32,
+          "rbi": 80,
+          "ops": 1.078
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 69,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2011,
+    "draftPick": null,
+    "jerseyNumbers": [
+      50
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "2018"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2018 AL MVP",
+      "facts": [
+        "6 Gold Gloves",
+        "2020 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-freddie-freeman",
+    "sport": "mlb",
+    "name": "Freddie Freeman",
+    "aliases": [
+      "Freddie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2023",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "avg": 0.331,
+          "hr": 29,
+          "rbi": 102,
+          "ops": 0.976
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2007,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "2023"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Steady .300 first baseman",
+      "facts": [
+        "2020 NL MVP",
+        "2021 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jose-altuve",
+    "sport": "mlb",
+    "name": "Jose Altuve",
+    "aliases": [
+      "Altuve"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017",
+        "team": "Houston Astros",
+        "stats": {
+          "avg": 0.346,
+          "hr": 24,
+          "rbi": 81,
+          "ops": 0.957
+        }
+      }
+    ],
+    "position": "2B",
+    "heightInches": 66,
+    "birthCountry": "Venezuela",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Houston Astros",
+        "years": [
+          "2017"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2017 AL MVP",
+      "facts": [
+        "3 batting titles",
+        "9x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-nolan-arenado",
+    "sport": "mlb",
+    "name": "Nolan Arenado",
+    "aliases": [
+      "Arenado"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2015",
+        "team": "Colorado Rockies",
+        "stats": {
+          "avg": 0.287,
+          "hr": 42,
+          "rbi": 130,
+          "ops": 0.898
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2009,
+    "draftPick": null,
+    "jerseyNumbers": [
+      28
+    ],
+    "teamHistory": [
+      {
+        "team": "Colorado Rockies",
+        "years": [
+          "2015"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Defensive third baseman",
+      "facts": [
+        "10 Gold Gloves",
+        "8x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-paul-goldschmidt",
+    "sport": "mlb",
+    "name": "Paul Goldschmidt",
+    "aliases": [
+      "Goldy"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2022",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "avg": 0.317,
+          "hr": 35,
+          "rbi": 115,
+          "ops": 0.981
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Texas State",
+    "draftYear": 2009,
+    "draftPick": null,
+    "jerseyNumbers": [
+      46
+    ],
+    "teamHistory": [
+      {
+        "team": "St. Louis Cardinals",
+        "years": [
+          "2022"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2022 NL MVP",
+      "facts": [
+        "7x All-Star",
+        "Gold Glove first baseman"
+      ]
+    }
+  },
+  {
+    "id": "mlb-corey-seager",
+    "sport": "mlb",
+    "name": "Corey Seager",
+    "aliases": [
+      "Seager"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2016",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "avg": 0.308,
+          "hr": 26,
+          "rbi": 72,
+          "ops": 0.877
+        }
+      },
+      {
+        "year": "2023",
+        "team": "Texas Rangers",
+        "stats": {
+          "avg": 0.327,
+          "hr": 33,
+          "rbi": 96,
+          "ops": 0.914
+        }
+      }
+    ],
+    "position": "SS",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2012,
+    "draftPick": 18,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "2016"
+        ]
+      },
+      {
+        "team": "Texas Rangers",
+        "years": [
+          "2023"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two-time World Series MVP",
+      "facts": [
+        "2016 Rookie of the Year",
+        "2023 champion with Texas"
+      ]
+    }
+  },
+  {
+    "id": "mlb-giancarlo-stanton",
+    "sport": "mlb",
+    "name": "Giancarlo Stanton",
+    "aliases": [
+      "Stanton"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017",
+        "team": "Miami Marlins",
+        "stats": {
+          "avg": 0.281,
+          "hr": 59,
+          "rbi": 132,
+          "ops": 1.007
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 78,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2007,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Miami Marlins",
+        "years": [
+          "2017"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2017 NL MVP",
+      "facts": [
+        "59 home runs in 2017",
+        "5x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-juan-soto",
+    "sport": "mlb",
+    "name": "Juan Soto",
+    "aliases": [
+      "Soto"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2021",
+        "team": "Washington Nationals",
+        "stats": {
+          "avg": 0.313,
+          "hr": 29,
+          "rbi": 95,
+          "ops": 0.999
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 74,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Washington Nationals",
+        "years": [
+          "2021"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Elite on-base hitter",
+      "facts": [
+        "2019 World Series champion",
+        "4x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-vladimir-guerrero-jr",
+    "sport": "mlb",
+    "name": "Vladimir Guerrero Jr.",
+    "aliases": [
+      "Vlad Jr"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2021",
+        "team": "Toronto Blue Jays",
+        "stats": {
+          "avg": 0.311,
+          "hr": 48,
+          "rbi": 111,
+          "ops": 1.002
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 74,
+    "birthCountry": "Canada",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Toronto Blue Jays",
+        "years": [
+          "2021"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2021 home run champion",
+      "facts": [
+        "48 home runs at age 22",
+        "5x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-willie-stargell",
+    "sport": "mlb",
+    "name": "Willie Stargell",
+    "aliases": [
+      "Pops"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1971",
+        "team": "Pittsburgh Pirates",
+        "stats": {
+          "avg": 0.295,
+          "hr": 48,
+          "rbi": 125,
+          "ops": 1.026
+        }
+      },
+      {
+        "year": "1979",
+        "team": "Pittsburgh Pirates",
+        "stats": {
+          "avg": 0.281,
+          "hr": 32,
+          "rbi": 82,
+          "ops": 0.906
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Pittsburgh Pirates",
+        "years": [
+          "1971"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1979 co-MVP and clubhouse leader",
+      "facts": [
+        "475 career home runs",
+        "2 World Series titles"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-jim-rice",
+    "sport": "mlb",
+    "name": "Jim Rice",
+    "aliases": [
+      "Rice"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1978",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.315,
+          "hr": 46,
+          "rbi": 139,
+          "ops": 0.97
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1971,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "1978"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1978 AL MVP",
+      "facts": [
+        "406 total bases in 1978",
+        "8x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-george-foster",
+    "sport": "mlb",
+    "name": "George Foster",
+    "aliases": [
+      "Foster"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1977",
+        "team": "Cincinnati Reds",
+        "stats": {
+          "avg": 0.32,
+          "hr": 52,
+          "rbi": 149,
+          "ops": 1.013
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1968,
+    "draftPick": null,
+    "jerseyNumbers": [
+      15
+    ],
+    "teamHistory": [
+      {
+        "team": "Cincinnati Reds",
+        "years": [
+          "1977"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1977 NL MVP",
+      "facts": [
+        "52 home runs in 1977",
+        "Big Red Machine slugger"
+      ]
+    }
+  },
+  {
+    "id": "mlb-eddie-murray",
+    "sport": "mlb",
+    "name": "Eddie Murray",
+    "aliases": [
+      "Steady Eddie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1983",
+        "team": "Baltimore Orioles",
+        "stats": {
+          "avg": 0.306,
+          "hr": 33,
+          "rbi": 111,
+          "ops": 0.899
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1973,
+    "draftPick": null,
+    "jerseyNumbers": [
+      33
+    ],
+    "teamHistory": [
+      {
+        "team": "Baltimore Orioles",
+        "years": [
+          "1983"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "3000 hits and 500 home runs",
+      "facts": [
+        "504 career home runs",
+        "8x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-robin-yount",
+    "sport": "mlb",
+    "name": "Robin Yount",
+    "aliases": [
+      "Yount"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1982",
+        "team": "Milwaukee Brewers",
+        "stats": {
+          "avg": 0.331,
+          "hr": 29,
+          "rbi": 114,
+          "ops": 0.957
+        }
+      }
+    ],
+    "position": "SS",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1973,
+    "draftPick": 3,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "Milwaukee Brewers",
+        "years": [
+          "1982"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "MVP at shortstop and in the outfield",
+      "facts": [
+        "1982 AL MVP",
+        "3142 hits"
+      ]
+    }
+  },
+  {
+    "id": "mlb-paul-molitor",
+    "sport": "mlb",
+    "name": "Paul Molitor",
+    "aliases": [
+      "Molly"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1987",
+        "team": "Milwaukee Brewers",
+        "stats": {
+          "avg": 0.353,
+          "hr": 16,
+          "rbi": 75,
+          "ops": 0.968
+        }
+      }
+    ],
+    "position": "DH",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": "Minnesota",
+    "draftYear": 1977,
+    "draftPick": 3,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Milwaukee Brewers",
+        "years": [
+          "1987"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "3319 career hits",
+      "facts": [
+        "39-game streak in 1987",
+        "1993 World Series MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-ryne-sandberg",
+    "sport": "mlb",
+    "name": "Ryne Sandberg",
+    "aliases": [
+      "Ryno"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1984",
+        "team": "Chicago Cubs",
+        "stats": {
+          "avg": 0.314,
+          "hr": 19,
+          "rbi": 84,
+          "ops": 0.867
+        }
+      }
+    ],
+    "position": "2B",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1978,
+    "draftPick": null,
+    "jerseyNumbers": [
+      23
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "1984"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1984 NL MVP",
+      "facts": [
+        "9 Gold Gloves",
+        "10x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-joe-morgan",
+    "sport": "mlb",
+    "name": "Joe Morgan",
+    "aliases": [
+      "Little Joe"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1975",
+        "team": "Cincinnati Reds",
+        "stats": {
+          "avg": 0.327,
+          "hr": 17,
+          "rbi": 94,
+          "ops": 0.974
+        }
+      }
+    ],
+    "position": "2B",
+    "heightInches": 67,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Cincinnati Reds",
+        "years": [
+          "1975"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Back-to-back NL MVP",
+      "facts": [
+        "1975 and 1976 MVP",
+        "Hall of Fame second baseman"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-lou-brock",
+    "sport": "mlb",
+    "name": "Lou Brock",
+    "aliases": [
+      "Brock"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1974",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "avg": 0.306,
+          "hr": 3,
+          "rbi": 48,
+          "ops": 0.741
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": "Southern",
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "St. Louis Cardinals",
+        "years": [
+          "1974"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Stolen-base king before Rickey",
+      "facts": [
+        "118 steals in 1974",
+        "3023 hits"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-andre-dawson",
+    "sport": "mlb",
+    "name": "Andre Dawson",
+    "aliases": [
+      "The Hawk"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1987",
+        "team": "Chicago Cubs",
+        "stats": {
+          "avg": 0.287,
+          "hr": 49,
+          "rbi": 137,
+          "ops": 0.896
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Florida A&M",
+    "draftYear": 1975,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "1987"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1987 NL MVP",
+      "facts": [
+        "438 career home runs",
+        "8 Gold Gloves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-tony-perez",
+    "sport": "mlb",
+    "name": "Tony Perez",
+    "aliases": [
+      "Big Dog"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1970",
+        "team": "Cincinnati Reds",
+        "stats": {
+          "avg": 0.317,
+          "hr": 40,
+          "rbi": 129,
+          "ops": 0.99
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 74,
+    "birthCountry": "Cuba",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      24
+    ],
+    "teamHistory": [
+      {
+        "team": "Cincinnati Reds",
+        "years": [
+          "1970"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Big Red Machine run producer",
+      "facts": [
+        "379 career home runs",
+        "7x All-Star"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-carlton-fisk",
+    "sport": "mlb",
+    "name": "Carlton Fisk",
+    "aliases": [
+      "Fisk"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1985",
+        "team": "Chicago White Sox",
+        "stats": {
+          "avg": 0.238,
+          "hr": 37,
+          "rbi": 107,
+          "ops": 0.819
+        }
+      }
+    ],
+    "position": "C",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": "New Hampshire",
+    "draftYear": 1967,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago White Sox",
+        "years": [
+          "1985"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1975 World Series home run",
+      "facts": [
+        "376 career home runs",
+        "11x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jeff-bagwell",
+    "sport": "mlb",
+    "name": "Jeff Bagwell",
+    "aliases": [
+      "Baggy"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1994",
+        "team": "Houston Astros",
+        "stats": {
+          "avg": 0.368,
+          "hr": 39,
+          "rbi": 116,
+          "ops": 1.201
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": "Hartford",
+    "draftYear": 1989,
+    "draftPick": 109,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Houston Astros",
+        "years": [
+          "1994"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1994 NL MVP",
+      "facts": [
+        "449 career home runs",
+        "Astros Hall of Famer"
+      ]
+    }
+  },
+  {
+    "id": "mlb-todd-helton",
+    "sport": "mlb",
+    "name": "Todd Helton",
+    "aliases": [
+      "Helton"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2000",
+        "team": "Colorado Rockies",
+        "stats": {
+          "avg": 0.372,
+          "hr": 42,
+          "rbi": 147,
+          "ops": 1.162
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": "Tennessee",
+    "draftYear": 1995,
+    "draftPick": 8,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Colorado Rockies",
+        "years": [
+          "2000"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Rockies franchise icon",
+      "facts": [
+        "369 home runs",
+        "3020 hits"
+      ]
+    }
+  },
+  {
+    "id": "mlb-larry-walker",
+    "sport": "mlb",
+    "name": "Larry Walker",
+    "aliases": [
+      "Walker"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1997",
+        "team": "Colorado Rockies",
+        "stats": {
+          "avg": 0.366,
+          "hr": 49,
+          "rbi": 130,
+          "ops": 1.172
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 75,
+    "birthCountry": "Canada",
+    "college": null,
+    "draftYear": 1984,
+    "draftPick": null,
+    "jerseyNumbers": [
+      33
+    ],
+    "teamHistory": [
+      {
+        "team": "Colorado Rockies",
+        "years": [
+          "1997"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1997 NL MVP",
+      "facts": [
+        "3 batting titles",
+        "7 Gold Gloves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-edgar-martinez",
+    "sport": "mlb",
+    "name": "Edgar Martinez",
+    "aliases": [
+      "Gar"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1995",
+        "team": "Seattle Mariners",
+        "stats": {
+          "avg": 0.356,
+          "hr": 29,
+          "rbi": 113,
+          "ops": 1.107
+        }
+      }
+    ],
+    "position": "DH",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1982,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Seattle Mariners",
+        "years": [
+          "1995"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "DH award namesake",
+      "facts": [
+        "1995 AL doubles leader",
+        "7x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jason-giambi",
+    "sport": "mlb",
+    "name": "Jason Giambi",
+    "aliases": [
+      "Giambi"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2000",
+        "team": "Oakland Athletics",
+        "stats": {
+          "avg": 0.333,
+          "hr": 43,
+          "rbi": 137,
+          "ops": 1.123
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Long Beach State",
+    "draftYear": 1992,
+    "draftPick": null,
+    "jerseyNumbers": [
+      16
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "2000"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2000 AL MVP",
+      "facts": [
+        "440 career home runs",
+        "5x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-ryan-howard",
+    "sport": "mlb",
+    "name": "Ryan Howard",
+    "aliases": [
+      "Howard"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2006",
+        "team": "Philadelphia Phillies",
+        "stats": {
+          "avg": 0.313,
+          "hr": 58,
+          "rbi": 149,
+          "ops": 1.084
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "Missouri",
+    "draftYear": 2001,
+    "draftPick": null,
+    "jerseyNumbers": [
+      6
+    ],
+    "teamHistory": [
+      {
+        "team": "Philadelphia Phillies",
+        "years": [
+          "2006"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2006 NL MVP",
+      "facts": [
+        "58 home runs in 2006",
+        "2008 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-joey-votto",
+    "sport": "mlb",
+    "name": "Joey Votto",
+    "aliases": [
+      "Votto"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2010",
+        "team": "Cincinnati Reds",
+        "stats": {
+          "avg": 0.324,
+          "hr": 37,
+          "rbi": 113,
+          "ops": 1.024
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 74,
+    "birthCountry": "Canada",
+    "college": null,
+    "draftYear": 2002,
+    "draftPick": null,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "Cincinnati Reds",
+        "years": [
+          "2010"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "On-base machine",
+      "facts": [
+        "2010 NL MVP",
+        "6x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-josh-hamilton",
+    "sport": "mlb",
+    "name": "Josh Hamilton",
+    "aliases": [
+      "Hamilton"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2010",
+        "team": "Texas Rangers",
+        "stats": {
+          "avg": 0.359,
+          "hr": 32,
+          "rbi": 100,
+          "ops": 1.044
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1999,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      32
+    ],
+    "teamHistory": [
+      {
+        "team": "Texas Rangers",
+        "years": [
+          "2010"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2010 AL MVP",
+      "facts": [
+        "1999 first overall pick",
+        "5x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jose-bautista",
+    "sport": "mlb",
+    "name": "Jose Bautista",
+    "aliases": [
+      "Joey Bats"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2010",
+        "team": "Toronto Blue Jays",
+        "stats": {
+          "avg": 0.26,
+          "hr": 54,
+          "rbi": 124,
+          "ops": 0.995
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": 2000,
+    "draftPick": null,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "Toronto Blue Jays",
+        "years": [
+          "2010"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2010 home run leader",
+      "facts": [
+        "54 home runs in 2010",
+        "6x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-adrian-beltre",
+    "sport": "mlb",
+    "name": "Adrian Beltre",
+    "aliases": [
+      "Beltre"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2004",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "avg": 0.334,
+          "hr": 48,
+          "rbi": 121,
+          "ops": 1.017
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 71,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      29
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "2004"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "3000 hits and Gold Gloves",
+      "facts": [
+        "477 career home runs",
+        "5 Gold Gloves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-don-mattingly",
+    "sport": "mlb",
+    "name": "Don Mattingly",
+    "aliases": [
+      "Donnie Baseball"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1985",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.324,
+          "hr": 35,
+          "rbi": 145,
+          "ops": 0.939
+        }
+      },
+      {
+        "year": "1984",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.343,
+          "hr": 23,
+          "rbi": 110,
+          "ops": 0.934
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1979,
+    "draftPick": null,
+    "jerseyNumbers": [
+      23
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1985"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1985 AL MVP",
+      "facts": [
+        "9 Gold Gloves",
+        "1984 batting champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-kirby-puckett",
+    "sport": "mlb",
+    "name": "Kirby Puckett",
+    "aliases": [
+      "Puck"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1988",
+        "team": "Minnesota Twins",
+        "stats": {
+          "avg": 0.356,
+          "hr": 24,
+          "rbi": 121,
+          "ops": 0.956
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 68,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1982,
+    "draftPick": null,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Minnesota Twins",
+        "years": [
+          "1988"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Twins World Series hero",
+      "facts": [
+        "2 World Series titles",
+        "10x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-al-kaline",
+    "sport": "mlb",
+    "name": "Al Kaline",
+    "aliases": [
+      "Mr. Tiger"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1955",
+        "team": "Detroit Tigers",
+        "stats": {
+          "avg": 0.34,
+          "hr": 27,
+          "rbi": 102,
+          "ops": 0.964
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      6
+    ],
+    "teamHistory": [
+      {
+        "team": "Detroit Tigers",
+        "years": [
+          "1955"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Batting champion at age 20",
+      "facts": [
+        "3007 hits",
+        "10 Gold Gloves"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-brooks-robinson",
+    "sport": "mlb",
+    "name": "Brooks Robinson",
+    "aliases": [
+      "The Human Vacuum Cleaner"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1964",
+        "team": "Baltimore Orioles",
+        "stats": {
+          "avg": 0.317,
+          "hr": 28,
+          "rbi": 118,
+          "ops": 0.889
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Baltimore Orioles",
+        "years": [
+          "1964"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Greatest defensive third baseman",
+      "facts": [
+        "16 Gold Gloves",
+        "1964 AL MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-roger-maris",
+    "sport": "mlb",
+    "name": "Roger Maris",
+    "aliases": [
+      "Maris"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1961",
+        "team": "New York Yankees",
+        "stats": {
+          "avg": 0.269,
+          "hr": 61,
+          "rbi": 141,
+          "ops": 0.992
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1961"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "61 home runs in 1961",
+      "facts": [
+        "1960 and 1961 AL MVP",
+        "Record stood until 1998"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-jimmie-foxx",
+    "sport": "mlb",
+    "name": "Jimmie Foxx",
+    "aliases": [
+      "Double X",
+      "The Beast"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1932",
+        "team": "Philadelphia Athletics",
+        "stats": {
+          "avg": 0.364,
+          "hr": 58,
+          "rbi": 169,
+          "ops": 1.218
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      3
+    ],
+    "teamHistory": [
+      {
+        "team": "Philadelphia Athletics",
+        "years": [
+          "1932"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chased Ruth in 1932",
+      "facts": [
+        "534 career home runs",
+        "3x MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-jackie-robinson",
+    "sport": "mlb",
+    "name": "Jackie Robinson",
+    "aliases": [
+      "Jackie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1949",
+        "team": "Brooklyn Dodgers",
+        "stats": {
+          "avg": 0.342,
+          "hr": 16,
+          "rbi": 124,
+          "ops": 0.96
+        }
+      }
+    ],
+    "position": "2B",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": "UCLA",
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      42
+    ],
+    "teamHistory": [
+      {
+        "team": "Brooklyn Dodgers",
+        "years": [
+          "1949"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Broke the color barrier",
+      "facts": [
+        "1949 NL MVP",
+        "1947 Rookie of the Year"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-hack-wilson",
+    "sport": "mlb",
+    "name": "Hack Wilson",
+    "aliases": [
+      "Wilson"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1930",
+        "team": "Chicago Cubs",
+        "stats": {
+          "avg": 0.356,
+          "hr": 56,
+          "rbi": 191,
+          "ops": 1.177
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 66,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "1930"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Single-season RBI record",
+      "facts": [
+        "191 RBI in 1930",
+        "56 home runs"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-kris-bryant",
+    "sport": "mlb",
+    "name": "Kris Bryant",
+    "aliases": [
+      "KB"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2016",
+        "team": "Chicago Cubs",
+        "stats": {
+          "avg": 0.292,
+          "hr": 39,
+          "rbi": 102,
+          "ops": 0.939
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": "San Diego",
+    "draftYear": 2013,
+    "draftPick": 2,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "2016"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2016 NL MVP",
+      "facts": [
+        "2015 Rookie of the Year",
+        "2016 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-pete-alonso",
+    "sport": "mlb",
+    "name": "Pete Alonso",
+    "aliases": [
+      "Polar Bear"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2019",
+        "team": "New York Mets",
+        "stats": {
+          "avg": 0.26,
+          "hr": 53,
+          "rbi": 120,
+          "ops": 0.941
+        }
+      }
+    ],
+    "position": "1B",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Florida",
+    "draftYear": 2016,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Mets",
+        "years": [
+          "2019"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Rookie home run record",
+      "facts": [
+        "53 home runs in 2019",
+        "2019 Rookie of the Year"
+      ]
+    }
+  },
+  {
+    "id": "mlb-wade-boggs",
+    "sport": "mlb",
+    "name": "Wade Boggs",
+    "aliases": [
+      "Boggs"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1985",
+        "team": "Boston Red Sox",
+        "stats": {
+          "avg": 0.368,
+          "hr": 8,
+          "rbi": 78,
+          "ops": 0.974
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1976,
+    "draftPick": null,
+    "jerseyNumbers": [
+      26
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "1985"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Five batting titles",
+      "facts": [
+        "3010 hits",
+        "12x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-roberto-alomar",
+    "sport": "mlb",
+    "name": "Roberto Alomar",
+    "aliases": [
+      "Robbie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1999",
+        "team": "Cleveland Indians",
+        "stats": {
+          "avg": 0.323,
+          "hr": 24,
+          "rbi": 120,
+          "ops": 0.94
+        }
+      }
+    ],
+    "position": "2B",
+    "heightInches": 72,
+    "birthCountry": "Puerto Rico",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      12
+    ],
+    "teamHistory": [
+      {
+        "team": "Cleveland Indians",
+        "years": [
+          "1999"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Hall of Fame second baseman",
+      "facts": [
+        "10 Gold Gloves",
+        "12x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-duke-snider",
+    "sport": "mlb",
+    "name": "Duke Snider",
+    "aliases": [
+      "The Duke of Flatbush"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1955",
+        "team": "Brooklyn Dodgers",
+        "stats": {
+          "avg": 0.309,
+          "hr": 42,
+          "rbi": 136,
+          "ops": 0.989
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Brooklyn Dodgers",
+        "years": [
+          "1955"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Boys of Summer center fielder",
+      "facts": [
+        "407 career home runs",
+        "1955 World Series champion"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-mel-ott",
+    "sport": "mlb",
+    "name": "Mel Ott",
+    "aliases": [
+      "Ott"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1929",
+        "team": "New York Giants",
+        "stats": {
+          "avg": 0.328,
+          "hr": 42,
+          "rbi": 151,
+          "ops": 1.034
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 69,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Giants",
+        "years": [
+          "1929"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Giants home run king",
+      "facts": [
+        "511 career home runs",
+        "Played only for the Giants"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-tony-oliva",
+    "sport": "mlb",
+    "name": "Tony Oliva",
+    "aliases": [
+      "Oliva"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1964",
+        "team": "Minnesota Twins",
+        "stats": {
+          "avg": 0.323,
+          "hr": 32,
+          "rbi": 94,
+          "ops": 0.916
+        }
+      }
+    ],
+    "position": "OF",
+    "heightInches": 73,
+    "birthCountry": "Cuba",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      6
+    ],
+    "teamHistory": [
+      {
+        "team": "Minnesota Twins",
+        "years": [
+          "1964"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Rookie batting champion",
+      "facts": [
+        "3 batting titles",
+        "8x All-Star"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-eddie-mathews",
+    "sport": "mlb",
+    "name": "Eddie Mathews",
+    "aliases": [
+      "Mathews"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1953",
+        "team": "Milwaukee Braves",
+        "stats": {
+          "avg": 0.302,
+          "hr": 47,
+          "rbi": 135,
+          "ops": 1.004
+        }
+      }
+    ],
+    "position": "3B",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      41
+    ],
+    "teamHistory": [
+      {
+        "team": "Milwaukee Braves",
+        "years": [
+          "1953"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Braves slugger beside Aaron",
+      "facts": [
+        "512 career home runs",
+        "1953 home run leader"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-pedro-martinez",
+    "sport": "mlb",
+    "name": "Pedro Martinez",
+    "aliases": [
+      "Pedro"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2000",
+        "team": "Boston Red Sox",
+        "stats": {
+          "era": 1.74,
+          "wins": 18,
+          "strikeouts": 284,
+          "whip": 0.74
+        }
+      },
+      {
+        "year": "1999",
+        "team": "Boston Red Sox",
+        "stats": {
+          "era": 2.07,
+          "wins": 23,
+          "strikeouts": 313,
+          "whip": 0.92
+        }
+      },
+      {
+        "year": "1997",
+        "team": "Montreal Expos",
+        "stats": {
+          "era": 1.9,
+          "wins": 17,
+          "strikeouts": 305,
+          "whip": 0.93
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 71,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      45
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "2000"
+        ]
+      },
+      {
+        "team": "Montreal Expos",
+        "years": [
+          "1997"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1.74 ERA in 2000",
+      "facts": [
+        "3x Cy Young",
+        "313 strikeouts in 1999"
+      ]
+    }
+  },
+  {
+    "id": "mlb-sandy-koufax",
+    "sport": "mlb",
+    "name": "Sandy Koufax",
+    "aliases": [
+      "Koufax"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1965",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 2.04,
+          "wins": 26,
+          "strikeouts": 382,
+          "whip": 0.86
+        }
+      },
+      {
+        "year": "1963",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 1.88,
+          "wins": 25,
+          "strikeouts": 306,
+          "whip": 0.88
+        }
+      },
+      {
+        "year": "1966",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 1.73,
+          "wins": 27,
+          "strikeouts": 317,
+          "whip": 0.99
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": "Cincinnati",
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      32
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "1965"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Peak unmatched in the 1960s",
+      "facts": [
+        "3x Cy Young",
+        "4 no-hitters"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-bob-gibson",
+    "sport": "mlb",
+    "name": "Bob Gibson",
+    "aliases": [
+      "Hoot"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1968",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "era": 1.12,
+          "wins": 22,
+          "strikeouts": 268,
+          "whip": 0.85
+        }
+      },
+      {
+        "year": "1970",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "era": 3.12,
+          "wins": 23,
+          "strikeouts": 274,
+          "whip": 1.09
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": "Creighton",
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      45
+    ],
+    "teamHistory": [
+      {
+        "team": "St. Louis Cardinals",
+        "years": [
+          "1968"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1.12 ERA in 1968",
+      "facts": [
+        "2x Cy Young",
+        "1968 NL MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-nolan-ryan",
+    "sport": "mlb",
+    "name": "Nolan Ryan",
+    "aliases": [
+      "The Ryan Express"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1973",
+        "team": "California Angels",
+        "stats": {
+          "era": 2.87,
+          "wins": 21,
+          "strikeouts": 383,
+          "whip": 1.08
+        }
+      },
+      {
+        "year": "1974",
+        "team": "California Angels",
+        "stats": {
+          "era": 2.89,
+          "wins": 22,
+          "strikeouts": 367,
+          "whip": 1.15
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1965,
+    "draftPick": null,
+    "jerseyNumbers": [
+      34,
+      30
+    ],
+    "teamHistory": [
+      {
+        "team": "California Angels",
+        "years": [
+          "1973"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "All-time strikeout king",
+      "facts": [
+        "5714 strikeouts",
+        "7 no-hitters"
+      ]
+    }
+  },
+  {
+    "id": "mlb-randy-johnson",
+    "sport": "mlb",
+    "name": "Randy Johnson",
+    "aliases": [
+      "The Big Unit"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2002",
+        "team": "Arizona Diamondbacks",
+        "stats": {
+          "era": 2.32,
+          "wins": 24,
+          "strikeouts": 334,
+          "whip": 1.03
+        }
+      },
+      {
+        "year": "2001",
+        "team": "Arizona Diamondbacks",
+        "stats": {
+          "era": 2.49,
+          "wins": 21,
+          "strikeouts": 372,
+          "whip": 1.01
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 82,
+    "birthCountry": "USA",
+    "college": "USC",
+    "draftYear": 1985,
+    "draftPick": null,
+    "jerseyNumbers": [
+      51
+    ],
+    "teamHistory": [
+      {
+        "team": "Arizona Diamondbacks",
+        "years": [
+          "2002"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Five Cy Young awards",
+      "facts": [
+        "4875 strikeouts",
+        "2001 World Series co-MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-greg-maddux",
+    "sport": "mlb",
+    "name": "Greg Maddux",
+    "aliases": [
+      "Mad Dog"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1995",
+        "team": "Atlanta Braves",
+        "stats": {
+          "era": 1.63,
+          "wins": 19,
+          "strikeouts": 181,
+          "whip": 0.81
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1984,
+    "draftPick": null,
+    "jerseyNumbers": [
+      31
+    ],
+    "teamHistory": [
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "1995"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Four straight Cy Youngs",
+      "facts": [
+        "355 wins",
+        "1995 ERA 1.63"
+      ]
+    }
+  },
+  {
+    "id": "mlb-roger-clemens",
+    "sport": "mlb",
+    "name": "Roger Clemens",
+    "aliases": [
+      "The Rocket"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1986",
+        "team": "Boston Red Sox",
+        "stats": {
+          "era": 2.48,
+          "wins": 24,
+          "strikeouts": 238,
+          "whip": 0.97
+        }
+      },
+      {
+        "year": "1997",
+        "team": "Toronto Blue Jays",
+        "stats": {
+          "era": 2.05,
+          "wins": 21,
+          "strikeouts": 292,
+          "whip": 1.03
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "Texas",
+    "draftYear": 1983,
+    "draftPick": 19,
+    "jerseyNumbers": [
+      21
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "1986"
+        ]
+      },
+      {
+        "team": "Toronto Blue Jays",
+        "years": [
+          "1997"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Seven Cy Young awards",
+      "facts": [
+        "1986 MVP and Cy Young",
+        "4672 strikeouts"
+      ]
+    }
+  },
+  {
+    "id": "mlb-tom-seaver",
+    "sport": "mlb",
+    "name": "Tom Seaver",
+    "aliases": [
+      "Tom Terrific"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1969",
+        "team": "New York Mets",
+        "stats": {
+          "era": 2.21,
+          "wins": 25,
+          "strikeouts": 208,
+          "whip": 1.04
+        }
+      },
+      {
+        "year": "1971",
+        "team": "New York Mets",
+        "stats": {
+          "era": 1.76,
+          "wins": 20,
+          "strikeouts": 289,
+          "whip": 0.95
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": "USC",
+    "draftYear": 1966,
+    "draftPick": null,
+    "jerseyNumbers": [
+      41
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Mets",
+        "years": [
+          "1969"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "The Franchise",
+      "facts": [
+        "311 wins",
+        "3x Cy Young"
+      ]
+    }
+  },
+  {
+    "id": "mlb-steve-carlton",
+    "sport": "mlb",
+    "name": "Steve Carlton",
+    "aliases": [
+      "Lefty"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1972",
+        "team": "Philadelphia Phillies",
+        "stats": {
+          "era": 1.97,
+          "wins": 27,
+          "strikeouts": 310,
+          "whip": 0.99
+        }
+      },
+      {
+        "year": "1980",
+        "team": "Philadelphia Phillies",
+        "stats": {
+          "era": 2.34,
+          "wins": 24,
+          "strikeouts": 286,
+          "whip": 1.1
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      32
+    ],
+    "teamHistory": [
+      {
+        "team": "Philadelphia Phillies",
+        "years": [
+          "1972"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "27 wins for a last-place club",
+      "facts": [
+        "329 wins",
+        "4x Cy Young"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-bob-feller",
+    "sport": "mlb",
+    "name": "Bob Feller",
+    "aliases": [
+      "Rapid Robert"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1946",
+        "team": "Cleveland Indians",
+        "stats": {
+          "era": 2.18,
+          "wins": 26,
+          "strikeouts": 348,
+          "whip": 1.15
+        }
+      },
+      {
+        "year": "1940",
+        "team": "Cleveland Indians",
+        "stats": {
+          "era": 2.61,
+          "wins": 27,
+          "strikeouts": 261,
+          "whip": 1.13
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "Cleveland Indians",
+        "years": [
+          "1946"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Strikeout king of his era",
+      "facts": [
+        "266 wins",
+        "3 no-hitters"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-juan-marichal",
+    "sport": "mlb",
+    "name": "Juan Marichal",
+    "aliases": [
+      "Manito"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1968",
+        "team": "San Francisco Giants",
+        "stats": {
+          "era": 2.43,
+          "wins": 26,
+          "strikeouts": 218,
+          "whip": 0.99
+        }
+      },
+      {
+        "year": "1963",
+        "team": "San Francisco Giants",
+        "stats": {
+          "era": 2.41,
+          "wins": 25,
+          "strikeouts": 248,
+          "whip": 0.96
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 72,
+    "birthCountry": "Dominican Republic",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "San Francisco Giants",
+        "years": [
+          "1968"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "High-kick Hall of Famer",
+      "facts": [
+        "243 wins",
+        "26 wins in 1968"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-don-drysdale",
+    "sport": "mlb",
+    "name": "Don Drysdale",
+    "aliases": [
+      "Big D"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1962",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 2.83,
+          "wins": 25,
+          "strikeouts": 232,
+          "whip": 1.07
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      53
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "1962"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1962 Cy Young winner",
+      "facts": [
+        "209 wins",
+        "1968 scoreless streak"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-whitey-ford",
+    "sport": "mlb",
+    "name": "Whitey Ford",
+    "aliases": [
+      "Chairman of the Board"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1961",
+        "team": "New York Yankees",
+        "stats": {
+          "era": 3.21,
+          "wins": 25,
+          "strikeouts": 209,
+          "whip": 1.15
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 70,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      16
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1961"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Yankees career wins leader",
+      "facts": [
+        "236 wins",
+        "1961 Cy Young"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-catfish-hunter",
+    "sport": "mlb",
+    "name": "Catfish Hunter",
+    "aliases": [
+      "Catfish"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1974",
+        "team": "Oakland Athletics",
+        "stats": {
+          "era": 2.49,
+          "wins": 25,
+          "strikeouts": 143,
+          "whip": 1.08
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "1974"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Perfect game and 1974 Cy Young",
+      "facts": [
+        "224 wins",
+        "5 World Series rings"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-jim-palmer",
+    "sport": "mlb",
+    "name": "Jim Palmer",
+    "aliases": [
+      "Palmer"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1975",
+        "team": "Baltimore Orioles",
+        "stats": {
+          "era": 2.09,
+          "wins": 23,
+          "strikeouts": 193,
+          "whip": 1.05
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Baltimore Orioles",
+        "years": [
+          "1975"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Three Cy Young awards",
+      "facts": [
+        "268 wins",
+        "8 seasons of 20 wins"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-tom-glavine",
+    "sport": "mlb",
+    "name": "Tom Glavine",
+    "aliases": [
+      "Glavine"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1991",
+        "team": "Atlanta Braves",
+        "stats": {
+          "era": 2.55,
+          "wins": 20,
+          "strikeouts": 192,
+          "whip": 1.09
+        }
+      },
+      {
+        "year": "1998",
+        "team": "Atlanta Braves",
+        "stats": {
+          "era": 2.47,
+          "wins": 20,
+          "strikeouts": 157,
+          "whip": 1.12
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1984,
+    "draftPick": null,
+    "jerseyNumbers": [
+      47
+    ],
+    "teamHistory": [
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "1991"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two Cy Young awards",
+      "facts": [
+        "305 wins",
+        "1995 World Series MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-john-smoltz",
+    "sport": "mlb",
+    "name": "John Smoltz",
+    "aliases": [
+      "Smoltz"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1996",
+        "team": "Atlanta Braves",
+        "stats": {
+          "era": 2.94,
+          "wins": 24,
+          "strikeouts": 276,
+          "whip": 1
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1985,
+    "draftPick": 22,
+    "jerseyNumbers": [
+      29
+    ],
+    "teamHistory": [
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "1996"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1996 NL Cy Young",
+      "facts": [
+        "213 wins and 154 saves",
+        "Hall of Fame starter"
+      ]
+    }
+  },
+  {
+    "id": "mlb-curt-schilling",
+    "sport": "mlb",
+    "name": "Curt Schilling",
+    "aliases": [
+      "Schilling"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2001",
+        "team": "Arizona Diamondbacks",
+        "stats": {
+          "era": 2.98,
+          "wins": 22,
+          "strikeouts": 293,
+          "whip": 1.05
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1986,
+    "draftPick": null,
+    "jerseyNumbers": [
+      38
+    ],
+    "teamHistory": [
+      {
+        "team": "Arizona Diamondbacks",
+        "years": [
+          "2001"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2001 co-ace with Johnson",
+      "facts": [
+        "3116 strikeouts",
+        "2001 World Series co-MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-roy-halladay",
+    "sport": "mlb",
+    "name": "Roy Halladay",
+    "aliases": [
+      "Doc"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2010",
+        "team": "Philadelphia Phillies",
+        "stats": {
+          "era": 2.44,
+          "wins": 21,
+          "strikeouts": 219,
+          "whip": 1.04
+        }
+      },
+      {
+        "year": "2003",
+        "team": "Toronto Blue Jays",
+        "stats": {
+          "era": 3.25,
+          "wins": 22,
+          "strikeouts": 204,
+          "whip": 1.07
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 78,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1995,
+    "draftPick": 17,
+    "jerseyNumbers": [
+      32
+    ],
+    "teamHistory": [
+      {
+        "team": "Philadelphia Phillies",
+        "years": [
+          "2010"
+        ]
+      },
+      {
+        "team": "Toronto Blue Jays",
+        "years": [
+          "2003"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Perfect game and playoff no-hitter",
+      "facts": [
+        "2x Cy Young",
+        "2010 postseason no-hitter"
+      ]
+    }
+  },
+  {
+    "id": "mlb-justin-verlander",
+    "sport": "mlb",
+    "name": "Justin Verlander",
+    "aliases": [
+      "JV"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2011",
+        "team": "Detroit Tigers",
+        "stats": {
+          "era": 2.4,
+          "wins": 24,
+          "strikeouts": 250,
+          "whip": 0.92
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": "Old Dominion",
+    "draftYear": 2004,
+    "draftPick": 2,
+    "jerseyNumbers": [
+      35
+    ],
+    "teamHistory": [
+      {
+        "team": "Detroit Tigers",
+        "years": [
+          "2011"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2011 MVP and Cy Young",
+      "facts": [
+        "3x Cy Young",
+        "3 no-hitters"
+      ]
+    }
+  },
+  {
+    "id": "mlb-max-scherzer",
+    "sport": "mlb",
+    "name": "Max Scherzer",
+    "aliases": [
+      "Mad Max"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018",
+        "team": "Washington Nationals",
+        "stats": {
+          "era": 2.53,
+          "wins": 18,
+          "strikeouts": 300,
+          "whip": 0.91
+        }
+      },
+      {
+        "year": "2013",
+        "team": "Detroit Tigers",
+        "stats": {
+          "era": 2.9,
+          "wins": 21,
+          "strikeouts": 240,
+          "whip": 0.97
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Missouri",
+    "draftYear": 2006,
+    "draftPick": 11,
+    "jerseyNumbers": [
+      31
+    ],
+    "teamHistory": [
+      {
+        "team": "Washington Nationals",
+        "years": [
+          "2018"
+        ]
+      },
+      {
+        "team": "Detroit Tigers",
+        "years": [
+          "2013"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Three Cy Young awards",
+      "facts": [
+        "300 strikeouts in 2018",
+        "3 no-hitters"
+      ]
+    }
+  },
+  {
+    "id": "mlb-clayton-kershaw",
+    "sport": "mlb",
+    "name": "Clayton Kershaw",
+    "aliases": [
+      "Kershaw"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2014",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 1.77,
+          "wins": 21,
+          "strikeouts": 239,
+          "whip": 0.86
+        }
+      },
+      {
+        "year": "2013",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 1.83,
+          "wins": 16,
+          "strikeouts": 232,
+          "whip": 0.92
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2006,
+    "draftPick": 7,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "2014"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2014 MVP and Cy Young",
+      "facts": [
+        "3x Cy Young",
+        "2020 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jacob-degrom",
+    "sport": "mlb",
+    "name": "Jacob deGrom",
+    "aliases": [
+      "deGrom"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018",
+        "team": "New York Mets",
+        "stats": {
+          "era": 1.7,
+          "wins": 10,
+          "strikeouts": 269,
+          "whip": 0.91
+        }
+      },
+      {
+        "year": "2019",
+        "team": "New York Mets",
+        "stats": {
+          "era": 2.43,
+          "wins": 11,
+          "strikeouts": 255,
+          "whip": 0.97
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "Stetson",
+    "draftYear": 2010,
+    "draftPick": null,
+    "jerseyNumbers": [
+      48
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Mets",
+        "years": [
+          "2018"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Back-to-back Cy Youngs",
+      "facts": [
+        "1.70 ERA in 2018",
+        "2014 Rookie of the Year"
+      ]
+    }
+  },
+  {
+    "id": "mlb-gerrit-cole",
+    "sport": "mlb",
+    "name": "Gerrit Cole",
+    "aliases": [
+      "Cole"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2019",
+        "team": "Houston Astros",
+        "stats": {
+          "era": 2.5,
+          "wins": 20,
+          "strikeouts": 326,
+          "whip": 0.89
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "UCLA",
+    "draftYear": 2011,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      45
+    ],
+    "teamHistory": [
+      {
+        "team": "Houston Astros",
+        "years": [
+          "2019"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2019 strikeout leader",
+      "facts": [
+        "326 strikeouts in 2019",
+        "2023 AL Cy Young"
+      ]
+    }
+  },
+  {
+    "id": "mlb-chris-sale",
+    "sport": "mlb",
+    "name": "Chris Sale",
+    "aliases": [
+      "Sale"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017",
+        "team": "Boston Red Sox",
+        "stats": {
+          "era": 2.9,
+          "wins": 17,
+          "strikeouts": 308,
+          "whip": 0.97
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 78,
+    "birthCountry": "USA",
+    "college": "Florida Gulf Coast",
+    "draftYear": 2010,
+    "draftPick": 13,
+    "jerseyNumbers": [
+      41
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "2017"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "300-strikeout lefty",
+      "facts": [
+        "308 strikeouts in 2017",
+        "2018 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-felix-hernandez",
+    "sport": "mlb",
+    "name": "Felix Hernandez",
+    "aliases": [
+      "King Felix"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2010",
+        "team": "Seattle Mariners",
+        "stats": {
+          "era": 2.27,
+          "wins": 13,
+          "strikeouts": 232,
+          "whip": 1.06
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "Venezuela",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Seattle Mariners",
+        "years": [
+          "2010"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Cy Young with 13 wins",
+      "facts": [
+        "2010 AL Cy Young",
+        "2012 perfect game"
+      ]
+    }
+  },
+  {
+    "id": "mlb-johan-santana",
+    "sport": "mlb",
+    "name": "Johan Santana",
+    "aliases": [
+      "Santana"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2004",
+        "team": "Minnesota Twins",
+        "stats": {
+          "era": 2.61,
+          "wins": 20,
+          "strikeouts": 265,
+          "whip": 0.92
+        }
+      },
+      {
+        "year": "2006",
+        "team": "Minnesota Twins",
+        "stats": {
+          "era": 2.77,
+          "wins": 19,
+          "strikeouts": 245,
+          "whip": 1
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 72,
+    "birthCountry": "Venezuela",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      57
+    ],
+    "teamHistory": [
+      {
+        "team": "Minnesota Twins",
+        "years": [
+          "2004"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two Cy Young awards",
+      "facts": [
+        "2004 and 2006 Cy Young",
+        "2012 Mets no-hitter"
+      ]
+    }
+  },
+  {
+    "id": "mlb-tim-lincecum",
+    "sport": "mlb",
+    "name": "Tim Lincecum",
+    "aliases": [
+      "The Freak"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2008",
+        "team": "San Francisco Giants",
+        "stats": {
+          "era": 2.62,
+          "wins": 18,
+          "strikeouts": 265,
+          "whip": 1.17
+        }
+      },
+      {
+        "year": "2009",
+        "team": "San Francisco Giants",
+        "stats": {
+          "era": 2.48,
+          "wins": 15,
+          "strikeouts": 261,
+          "whip": 1.05
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": "Washington",
+    "draftYear": 2006,
+    "draftPick": 10,
+    "jerseyNumbers": [
+      55
+    ],
+    "teamHistory": [
+      {
+        "team": "San Francisco Giants",
+        "years": [
+          "2008"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Back-to-back Cy Youngs",
+      "facts": [
+        "2008 and 2009 Cy Young",
+        "3 World Series rings"
+      ]
+    }
+  },
+  {
+    "id": "mlb-dwight-gooden",
+    "sport": "mlb",
+    "name": "Dwight Gooden",
+    "aliases": [
+      "Doc"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1985",
+        "team": "New York Mets",
+        "stats": {
+          "era": 1.53,
+          "wins": 24,
+          "strikeouts": 268,
+          "whip": 0.97
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1982,
+    "draftPick": 5,
+    "jerseyNumbers": [
+      16
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Mets",
+        "years": [
+          "1985"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1985 Cy Young at age 20",
+      "facts": [
+        "24 wins and a 1.53 ERA",
+        "1984 Rookie of the Year"
+      ]
+    }
+  },
+  {
+    "id": "mlb-ron-guidry",
+    "sport": "mlb",
+    "name": "Ron Guidry",
+    "aliases": [
+      "Gator"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1978",
+        "team": "New York Yankees",
+        "stats": {
+          "era": 1.74,
+          "wins": 25,
+          "strikeouts": 248,
+          "whip": 0.95
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1971,
+    "draftPick": null,
+    "jerseyNumbers": [
+      49
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "1978"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1978 Cy Young",
+      "facts": [
+        "25 wins and a 1.74 ERA",
+        "1978 AL wins leader"
+      ]
+    }
+  },
+  {
+    "id": "mlb-vida-blue",
+    "sport": "mlb",
+    "name": "Vida Blue",
+    "aliases": [
+      "Vida"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1971",
+        "team": "Oakland Athletics",
+        "stats": {
+          "era": 1.82,
+          "wins": 24,
+          "strikeouts": 301,
+          "whip": 0.95
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1967,
+    "draftPick": null,
+    "jerseyNumbers": [
+      35
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "1971"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1971 MVP and Cy Young",
+      "facts": [
+        "301 strikeouts in 1971",
+        "3 World Series rings"
+      ]
+    }
+  },
+  {
+    "id": "mlb-denny-mclain",
+    "sport": "mlb",
+    "name": "Denny McLain",
+    "aliases": [
+      "McLain"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1968",
+        "team": "Detroit Tigers",
+        "stats": {
+          "era": 1.96,
+          "wins": 31,
+          "strikeouts": 280,
+          "whip": 0.95
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Detroit Tigers",
+        "years": [
+          "1968"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Last 30-game winner",
+      "facts": [
+        "31 wins in 1968",
+        "1968 AL MVP and Cy Young"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-gaylord-perry",
+    "sport": "mlb",
+    "name": "Gaylord Perry",
+    "aliases": [
+      "Perry"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1972",
+        "team": "Cleveland Indians",
+        "stats": {
+          "era": 1.92,
+          "wins": 24,
+          "strikeouts": 234,
+          "whip": 0.98
+        }
+      },
+      {
+        "year": "1978",
+        "team": "San Diego Padres",
+        "stats": {
+          "era": 2.73,
+          "wins": 21,
+          "strikeouts": 154,
+          "whip": 1.12
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      36
+    ],
+    "teamHistory": [
+      {
+        "team": "Cleveland Indians",
+        "years": [
+          "1972"
+        ]
+      },
+      {
+        "team": "San Diego Padres",
+        "years": [
+          "1978"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Cy Young in both leagues",
+      "facts": [
+        "314 wins",
+        "1972 AL Cy Young"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-fergie-jenkins",
+    "sport": "mlb",
+    "name": "Fergie Jenkins",
+    "aliases": [
+      "Fergie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1971",
+        "team": "Chicago Cubs",
+        "stats": {
+          "era": 2.77,
+          "wins": 24,
+          "strikeouts": 263,
+          "whip": 0.99
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "Canada",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      31
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "1971"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1971 NL Cy Young",
+      "facts": [
+        "284 wins",
+        "30 complete games in 1971"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-mike-scott",
+    "sport": "mlb",
+    "name": "Mike Scott",
+    "aliases": [
+      "Scott"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1986",
+        "team": "Houston Astros",
+        "stats": {
+          "era": 2.22,
+          "wins": 18,
+          "strikeouts": 306,
+          "whip": 0.92
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1976,
+    "draftPick": null,
+    "jerseyNumbers": [
+      33
+    ],
+    "teamHistory": [
+      {
+        "team": "Houston Astros",
+        "years": [
+          "1986"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1986 Cy Young and no-hitter",
+      "facts": [
+        "306 strikeouts",
+        "Division-clinching no-hitter"
+      ]
+    }
+  },
+  {
+    "id": "mlb-barry-zito",
+    "sport": "mlb",
+    "name": "Barry Zito",
+    "aliases": [
+      "Zito"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2002",
+        "team": "Oakland Athletics",
+        "stats": {
+          "era": 2.75,
+          "wins": 23,
+          "strikeouts": 182,
+          "whip": 1.15
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "USC",
+    "draftYear": 1999,
+    "draftPick": 9,
+    "jerseyNumbers": [
+      75
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "2002"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2002 AL Cy Young",
+      "facts": [
+        "23 wins in 2002",
+        "2012 World Series start"
+      ]
+    }
+  },
+  {
+    "id": "mlb-zack-greinke",
+    "sport": "mlb",
+    "name": "Zack Greinke",
+    "aliases": [
+      "Greinke"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2009",
+        "team": "Kansas City Royals",
+        "stats": {
+          "era": 2.16,
+          "wins": 16,
+          "strikeouts": 242,
+          "whip": 1.07
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2002,
+    "draftPick": 6,
+    "jerseyNumbers": [
+      23
+    ],
+    "teamHistory": [
+      {
+        "team": "Kansas City Royals",
+        "years": [
+          "2009"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2009 AL Cy Young",
+      "facts": [
+        "2.16 ERA in 2009",
+        "6x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jake-arrieta",
+    "sport": "mlb",
+    "name": "Jake Arrieta",
+    "aliases": [
+      "Arrieta"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2015",
+        "team": "Chicago Cubs",
+        "stats": {
+          "era": 1.77,
+          "wins": 22,
+          "strikeouts": 236,
+          "whip": 0.86
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "TCU",
+    "draftYear": 2007,
+    "draftPick": null,
+    "jerseyNumbers": [
+      49
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "2015"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2015 NL Cy Young",
+      "facts": [
+        "22 wins and a 1.77 ERA",
+        "2015 no-hitter"
+      ]
+    }
+  },
+  {
+    "id": "mlb-orel-hershiser",
+    "sport": "mlb",
+    "name": "Orel Hershiser",
+    "aliases": [
+      "Bulldog"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1988",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 2.26,
+          "wins": 23,
+          "strikeouts": 178,
+          "whip": 1.05
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Bowling Green",
+    "draftYear": 1979,
+    "draftPick": null,
+    "jerseyNumbers": [
+      55
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "1988"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "59 consecutive scoreless innings",
+      "facts": [
+        "1988 Cy Young",
+        "1988 World Series MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-fernando-valenzuela",
+    "sport": "mlb",
+    "name": "Fernando Valenzuela",
+    "aliases": [
+      "El Toro"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1981",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 2.48,
+          "wins": 13,
+          "strikeouts": 180,
+          "whip": 1.05
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 71,
+    "birthCountry": "Mexico",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "1981"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Fernandomania",
+      "facts": [
+        "1981 Rookie of the Year and Cy Young",
+        "1981 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-bob-welch",
+    "sport": "mlb",
+    "name": "Bob Welch",
+    "aliases": [
+      "Welch"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1990",
+        "team": "Oakland Athletics",
+        "stats": {
+          "era": 2.95,
+          "wins": 27,
+          "strikeouts": 127,
+          "whip": 1.22
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Eastern Michigan",
+    "draftYear": 1977,
+    "draftPick": null,
+    "jerseyNumbers": [
+      35
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "1990"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1990 AL Cy Young",
+      "facts": [
+        "27 wins in 1990",
+        "3 World Series rings"
+      ]
+    }
+  },
+  {
+    "id": "mlb-bret-saberhagen",
+    "sport": "mlb",
+    "name": "Bret Saberhagen",
+    "aliases": [
+      "Saberhagen"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1989",
+        "team": "Kansas City Royals",
+        "stats": {
+          "era": 2.16,
+          "wins": 23,
+          "strikeouts": 193,
+          "whip": 0.99
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1982,
+    "draftPick": null,
+    "jerseyNumbers": [
+      18
+    ],
+    "teamHistory": [
+      {
+        "team": "Kansas City Royals",
+        "years": [
+          "1989"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two Cy Young awards",
+      "facts": [
+        "23 wins in 1989",
+        "1985 World Series MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-dizzy-dean",
+    "sport": "mlb",
+    "name": "Dizzy Dean",
+    "aliases": [
+      "Dizzy"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1934",
+        "team": "St. Louis Cardinals",
+        "stats": {
+          "era": 2.66,
+          "wins": 30,
+          "strikeouts": 195,
+          "whip": 1.17
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "St. Louis Cardinals",
+        "years": [
+          "1934"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Last NL 30-game winner",
+      "facts": [
+        "30 wins in 1934",
+        "1934 World Series champion"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-lefty-grove",
+    "sport": "mlb",
+    "name": "Lefty Grove",
+    "aliases": [
+      "Grove"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1931",
+        "team": "Philadelphia Athletics",
+        "stats": {
+          "era": 2.06,
+          "wins": 31,
+          "strikeouts": 175,
+          "whip": 1.08
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Philadelphia Athletics",
+        "years": [
+          "1931"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "31 wins in 1931",
+      "facts": [
+        "300-win club",
+        "2x MVP"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-carl-hubbell",
+    "sport": "mlb",
+    "name": "Carl Hubbell",
+    "aliases": [
+      "King Carl"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1933",
+        "team": "New York Giants",
+        "stats": {
+          "era": 1.66,
+          "wins": 23,
+          "strikeouts": 156,
+          "whip": 1.02
+        }
+      },
+      {
+        "year": "1936",
+        "team": "New York Giants",
+        "stats": {
+          "era": 2.31,
+          "wins": 26,
+          "strikeouts": 159,
+          "whip": 1.06
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Giants",
+        "years": [
+          "1933"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Five straight All-Star strikeouts",
+      "facts": [
+        "1933 and 1936 MVP",
+        "253 wins"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-cliff-lee",
+    "sport": "mlb",
+    "name": "Cliff Lee",
+    "aliases": [
+      "Lee"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2008",
+        "team": "Cleveland Indians",
+        "stats": {
+          "era": 2.54,
+          "wins": 22,
+          "strikeouts": 170,
+          "whip": 1.11
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": "Arkansas",
+    "draftYear": 2000,
+    "draftPick": null,
+    "jerseyNumbers": [
+      33
+    ],
+    "teamHistory": [
+      {
+        "team": "Cleveland Indians",
+        "years": [
+          "2008"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2008 AL Cy Young",
+      "facts": [
+        "22 wins in 2008",
+        "2010 World Series start"
+      ]
+    }
+  },
+  {
+    "id": "mlb-cc-sabathia",
+    "sport": "mlb",
+    "name": "CC Sabathia",
+    "aliases": [
+      "CC"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2010",
+        "team": "New York Yankees",
+        "stats": {
+          "era": 3.18,
+          "wins": 21,
+          "strikeouts": 197,
+          "whip": 1.19
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 79,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1998,
+    "draftPick": 20,
+    "jerseyNumbers": [
+      52
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "2010"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Workhorse lefty ace",
+      "facts": [
+        "251 wins",
+        "2007 AL Cy Young"
+      ]
+    }
+  },
+  {
+    "id": "mlb-david-price",
+    "sport": "mlb",
+    "name": "David Price",
+    "aliases": [
+      "Price"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2012",
+        "team": "Tampa Bay Rays",
+        "stats": {
+          "era": 2.56,
+          "wins": 20,
+          "strikeouts": 205,
+          "whip": 1.1
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": "Vanderbilt",
+    "draftYear": 2007,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Tampa Bay Rays",
+        "years": [
+          "2012"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2012 AL Cy Young",
+      "facts": [
+        "2007 first overall pick",
+        "5x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-blake-snell",
+    "sport": "mlb",
+    "name": "Blake Snell",
+    "aliases": [
+      "Snell"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018",
+        "team": "Tampa Bay Rays",
+        "stats": {
+          "era": 1.89,
+          "wins": 21,
+          "strikeouts": 221,
+          "whip": 0.97
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2011,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Tampa Bay Rays",
+        "years": [
+          "2018"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2018 AL Cy Young",
+      "facts": [
+        "21 wins and a 1.89 ERA",
+        "2023 NL Cy Young"
+      ]
+    }
+  },
+  {
+    "id": "mlb-corey-kluber",
+    "sport": "mlb",
+    "name": "Corey Kluber",
+    "aliases": [
+      "Kluber"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2014",
+        "team": "Cleveland Indians",
+        "stats": {
+          "era": 2.44,
+          "wins": 18,
+          "strikeouts": 269,
+          "whip": 1.04
+        }
+      },
+      {
+        "year": "2017",
+        "team": "Cleveland Indians",
+        "stats": {
+          "era": 2.25,
+          "wins": 18,
+          "strikeouts": 265,
+          "whip": 0.87
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2007,
+    "draftPick": null,
+    "jerseyNumbers": [
+      28
+    ],
+    "teamHistory": [
+      {
+        "team": "Cleveland Indians",
+        "years": [
+          "2014"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two Cy Young awards",
+      "facts": [
+        "2014 and 2017 AL Cy Young",
+        "269 strikeouts in 2014"
+      ]
+    }
+  },
+  {
+    "id": "mlb-madison-bumgarner",
+    "sport": "mlb",
+    "name": "Madison Bumgarner",
+    "aliases": [
+      "MadBum"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2014",
+        "team": "San Francisco Giants",
+        "stats": {
+          "era": 2.98,
+          "wins": 18,
+          "strikeouts": 219,
+          "whip": 1.09
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2007,
+    "draftPick": 10,
+    "jerseyNumbers": [
+      40
+    ],
+    "teamHistory": [
+      {
+        "team": "San Francisco Giants",
+        "years": [
+          "2014"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2014 World Series hero",
+      "facts": [
+        "3 World Series titles",
+        "2014 World Series MVP"
+      ]
+    }
+  },
+  {
+    "id": "mlb-stephen-strasburg",
+    "sport": "mlb",
+    "name": "Stephen Strasburg",
+    "aliases": [
+      "Stras"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2019",
+        "team": "Washington Nationals",
+        "stats": {
+          "era": 3.32,
+          "wins": 18,
+          "strikeouts": 251,
+          "whip": 1.04
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": "San Diego State",
+    "draftYear": 2009,
+    "draftPick": 1,
+    "jerseyNumbers": [
+      37
+    ],
+    "teamHistory": [
+      {
+        "team": "Washington Nationals",
+        "years": [
+          "2019"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2019 World Series MVP",
+      "facts": [
+        "2009 first overall pick",
+        "251 strikeouts in 2019"
+      ]
+    }
+  },
+  {
+    "id": "mlb-mark-prior",
+    "sport": "mlb",
+    "name": "Mark Prior",
+    "aliases": [
+      "Prior"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2003",
+        "team": "Chicago Cubs",
+        "stats": {
+          "era": 2.43,
+          "wins": 18,
+          "strikeouts": 245,
+          "whip": 1.03
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": "USC",
+    "draftYear": 2001,
+    "draftPick": 2,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "2003"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2003 Cubs ace",
+      "facts": [
+        "18 wins and a 2.43 ERA",
+        "245 strikeouts"
+      ]
+    }
+  },
+  {
+    "id": "mlb-kerry-wood",
+    "sport": "mlb",
+    "name": "Kerry Wood",
+    "aliases": [
+      "Kid K"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1998",
+        "team": "Chicago Cubs",
+        "stats": {
+          "era": 3.4,
+          "wins": 13,
+          "strikeouts": 233,
+          "whip": 1.21
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 77,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1995,
+    "draftPick": 4,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago Cubs",
+        "years": [
+          "1998"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "20-strikeout game",
+      "facts": [
+        "1998 Rookie of the Year",
+        "20 strikeouts in one game"
+      ]
+    }
+  },
+  {
+    "id": "mlb-mariano-rivera",
+    "sport": "mlb",
+    "name": "Mariano Rivera",
+    "aliases": [
+      "Mo",
+      "Sandman"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2005",
+        "team": "New York Yankees",
+        "stats": {
+          "era": 1.38,
+          "wins": 7,
+          "strikeouts": 80,
+          "whip": 0.87
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 74,
+    "birthCountry": "Panama",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      42
+    ],
+    "teamHistory": [
+      {
+        "team": "New York Yankees",
+        "years": [
+          "2005"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Greatest closer",
+      "facts": [
+        "652 saves",
+        "5 World Series titles"
+      ]
+    }
+  },
+  {
+    "id": "mlb-trevor-hoffman",
+    "sport": "mlb",
+    "name": "Trevor Hoffman",
+    "aliases": [
+      "Hoffman"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1998",
+        "team": "San Diego Padres",
+        "stats": {
+          "era": 1.48,
+          "wins": 4,
+          "strikeouts": 86,
+          "whip": 0.91
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": "Arizona",
+    "draftYear": 1989,
+    "draftPick": null,
+    "jerseyNumbers": [
+      51
+    ],
+    "teamHistory": [
+      {
+        "team": "San Diego Padres",
+        "years": [
+          "1998"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Hells Bells closer",
+      "facts": [
+        "601 saves",
+        "7x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-dennis-eckersley",
+    "sport": "mlb",
+    "name": "Dennis Eckersley",
+    "aliases": [
+      "Eck"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1990",
+        "team": "Oakland Athletics",
+        "stats": {
+          "era": 0.61,
+          "wins": 4,
+          "strikeouts": 73,
+          "whip": 0.61
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 74,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1972,
+    "draftPick": null,
+    "jerseyNumbers": [
+      43
+    ],
+    "teamHistory": [
+      {
+        "team": "Oakland Athletics",
+        "years": [
+          "1990"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "0.61 ERA in 1990",
+      "facts": [
+        "1992 MVP and Cy Young",
+        "390 saves"
+      ]
+    }
+  },
+  {
+    "id": "mlb-eric-gagne",
+    "sport": "mlb",
+    "name": "Eric Gagne",
+    "aliases": [
+      "Gagne"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2003",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 1.2,
+          "wins": 2,
+          "strikeouts": 137,
+          "whip": 0.69
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 74,
+    "birthCountry": "Canada",
+    "college": null,
+    "draftYear": 1995,
+    "draftPick": null,
+    "jerseyNumbers": [
+      38
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "2003"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2003 NL Cy Young",
+      "facts": [
+        "84 consecutive saves",
+        "137 strikeouts in 2003"
+      ]
+    }
+  },
+  {
+    "id": "mlb-billy-wagner",
+    "sport": "mlb",
+    "name": "Billy Wagner",
+    "aliases": [
+      "Wagner"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1999",
+        "team": "Houston Astros",
+        "stats": {
+          "era": 1.57,
+          "wins": 4,
+          "strikeouts": 124,
+          "whip": 0.78
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": "Ferrum",
+    "draftYear": 1993,
+    "draftPick": 12,
+    "jerseyNumbers": [
+      13
+    ],
+    "teamHistory": [
+      {
+        "team": "Houston Astros",
+        "years": [
+          "1999"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Flamethrowing lefty closer",
+      "facts": [
+        "422 career saves",
+        "7x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-craig-kimbrel",
+    "sport": "mlb",
+    "name": "Craig Kimbrel",
+    "aliases": [
+      "Kimbrel"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2012",
+        "team": "Atlanta Braves",
+        "stats": {
+          "era": 1.01,
+          "wins": 3,
+          "strikeouts": 116,
+          "whip": 0.65
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 71,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2008,
+    "draftPick": null,
+    "jerseyNumbers": [
+      46
+    ],
+    "teamHistory": [
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "2012"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Overpowering closer",
+      "facts": [
+        "2012 saves leader",
+        "7x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-jonathan-papelbon",
+    "sport": "mlb",
+    "name": "Jonathan Papelbon",
+    "aliases": [
+      "Papelbon"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2006",
+        "team": "Boston Red Sox",
+        "stats": {
+          "era": 0.92,
+          "wins": 4,
+          "strikeouts": 75,
+          "whip": 0.78
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 2003,
+    "draftPick": null,
+    "jerseyNumbers": [
+      58
+    ],
+    "teamHistory": [
+      {
+        "team": "Boston Red Sox",
+        "years": [
+          "2006"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Red Sox closer",
+      "facts": [
+        "0.92 ERA in 2006",
+        "2007 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-kenley-jansen",
+    "sport": "mlb",
+    "name": "Kenley Jansen",
+    "aliases": [
+      "Jansen"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017",
+        "team": "Los Angeles Dodgers",
+        "stats": {
+          "era": 1.32,
+          "wins": 5,
+          "strikeouts": 109,
+          "whip": 0.75
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 77,
+    "birthCountry": "Curacao",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      74
+    ],
+    "teamHistory": [
+      {
+        "team": "Los Angeles Dodgers",
+        "years": [
+          "2017"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Dodgers closer",
+      "facts": [
+        "2020 World Series champion",
+        "3x All-Star"
+      ]
+    }
+  },
+  {
+    "id": "mlb-goose-gossage",
+    "sport": "mlb",
+    "name": "Goose Gossage",
+    "aliases": [
+      "Goose"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1975",
+        "team": "Chicago White Sox",
+        "stats": {
+          "era": 1.84,
+          "wins": 9,
+          "strikeouts": 130,
+          "whip": 1.05
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 75,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": 1970,
+    "draftPick": null,
+    "jerseyNumbers": [
+      54
+    ],
+    "teamHistory": [
+      {
+        "team": "Chicago White Sox",
+        "years": [
+          "1975"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Intimidating Hall of Fame reliever",
+      "facts": [
+        "310 saves",
+        "1978 World Series champion"
+      ]
+    }
+  },
+  {
+    "id": "mlb-rollie-fingers",
+    "sport": "mlb",
+    "name": "Rollie Fingers",
+    "aliases": [
+      "Rollie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1981",
+        "team": "Milwaukee Brewers",
+        "stats": {
+          "era": 1.04,
+          "wins": 6,
+          "strikeouts": 61,
+          "whip": 0.92
+        }
+      }
+    ],
+    "position": "RP",
+    "heightInches": 72,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Milwaukee Brewers",
+        "years": [
+          "1981"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "1981 Cy Young and MVP",
+      "facts": [
+        "341 saves",
+        "Handlebar mustache"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-don-newcombe",
+    "sport": "mlb",
+    "name": "Don Newcombe",
+    "aliases": [
+      "Newk"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1956",
+        "team": "Brooklyn Dodgers",
+        "stats": {
+          "era": 3.06,
+          "wins": 27,
+          "strikeouts": 139,
+          "whip": 1.15
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 76,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      36
+    ],
+    "teamHistory": [
+      {
+        "team": "Brooklyn Dodgers",
+        "years": [
+          "1956"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "First Cy Young winner",
+      "facts": [
+        "1956 MVP and Cy Young",
+        "27 wins"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-hal-newhouser",
+    "sport": "mlb",
+    "name": "Hal Newhouser",
+    "aliases": [
+      "Prince Hal"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1945",
+        "team": "Detroit Tigers",
+        "stats": {
+          "era": 1.81,
+          "wins": 25,
+          "strikeouts": 212,
+          "whip": 0.97
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      16
+    ],
+    "teamHistory": [
+      {
+        "team": "Detroit Tigers",
+        "years": [
+          "1945"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Back-to-back AL MVP",
+      "facts": [
+        "1944 and 1945 MVP",
+        "207 wins"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  },
+  {
+    "id": "mlb-phil-niekro",
+    "sport": "mlb",
+    "name": "Phil Niekro",
+    "aliases": [
+      "Knucksie"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "1979",
+        "team": "Atlanta Braves",
+        "stats": {
+          "era": 3.39,
+          "wins": 21,
+          "strikeouts": 208,
+          "whip": 1.28
+        }
+      }
+    ],
+    "position": "SP",
+    "heightInches": 73,
+    "birthCountry": "USA",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      35
+    ],
+    "teamHistory": [
+      {
+        "team": "Atlanta Braves",
+        "years": [
+          "1979"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Knuckleball Hall of Famer",
+      "facts": [
+        "318 wins",
+        "21 wins at age 40"
+      ],
+      "origin": "Signed before the amateur draft"
+    }
+  }
+]

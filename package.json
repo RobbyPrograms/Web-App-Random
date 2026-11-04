@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run && npm run validate:data",
-    "validate:data": "tsx scripts/validate-data.ts",
+    "validate:data": "tsx --conditions=react-server scripts/validate-data.ts",
     "import:csv": "tsx scripts/import-csv.ts"
   },
   "dependencies": {

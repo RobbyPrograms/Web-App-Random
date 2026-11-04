@@ -29,8 +29,12 @@ export function getSportById(id: string): SportConfig | undefined {
  * Reads ENABLED_SPORTS (comma-separated). Unset or blank defaults to nba.
  * Unknown ids are ignored with a console warning. Order follows the env string.
  */
+function envValue(name: string): string | undefined {
+  return process.env[name];
+}
+
 export function getEnabledSports(): SportConfig[] {
-  const raw = process.env.ENABLED_SPORTS;
+  const raw = envValue("ENABLED_SPORTS");
   const value = raw == null || raw.trim() === "" ? "nba" : raw;
   const ids = value
     .split(",")

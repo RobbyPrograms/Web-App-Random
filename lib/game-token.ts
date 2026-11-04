@@ -2,7 +2,7 @@ import "server-only";
 import { createHmac, timingSafeEqual } from "node:crypto";
 
 function secret(): string {
-  const configured = process.env.GAME_SECRET;
+  const configured = process.env["GAME_SECRET"];
   if (configured && configured.length >= 16) return configured;
   if (process.env.NODE_ENV === "production") {
     console.warn("[boxed] GAME_SECRET is missing. Set a long random value before launch.");

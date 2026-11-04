@@ -70,6 +70,23 @@ export async function savePlay(actorKey: string, play: PlayWrite): Promise<void>
   await admin.from("plays").insert(row);
 }
 
+export async function readStreak(userId: string | null, sportId: string): Promise<StreakState> {
+  if (!userId) return { current: 0, best: 0, lastPlayedPuzzle: null };
+  const admin = createAdminSupabase();
+  if (!admin) return { current: 0, best: 0, lastPlayedPuzzle: null };
+  const { data } = await admin
+    .from("streaks")
+    .select("current, best, last_played_puzzle")
+    .eq("user_id", userId)
+    .eq("sport", sportId)
+    .maybeSingle();
+  return {
+    current: typeof data?.current === "number" ? data.current : 0,
+    best: typeof data?.best === "number" ? data.best : 0,
+    lastPlayedPuzzle: typeof data?.last_played_puzzle === "number" ? data.last_played_puzzle : null,
+  };
+}
+
 export async function bumpStreak(
   userId: string,
   sportId: string,

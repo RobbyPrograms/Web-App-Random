@@ -11,7 +11,12 @@ function linesFor(sport) {
 }
 
 for (const sport of sports) {
-  const players = compileSport(sport, linesFor(sport));
+  const lines = linesFor(sport);
+  if (lines.length === 0) {
+    console.log(`${sport}: skipped`);
+    continue;
+  }
+  const players = compileSport(sport, lines);
   const count = writeSport(sport, players);
   console.log(`${sport}: ${count}`);
 }

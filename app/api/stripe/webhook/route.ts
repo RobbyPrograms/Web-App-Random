@@ -8,7 +8,7 @@ export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   const stripe = getStripe();
-  const secret = process.env.STRIPE_WEBHOOK_SECRET;
+  const secret = process.env["STRIPE_WEBHOOK_SECRET"];
   if (!stripe || !secret || secret.includes("replace_me")) {
     return NextResponse.json({ error: "Webhook is not configured." }, { status: 503 });
   }

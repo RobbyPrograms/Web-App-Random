@@ -1,6 +1,11 @@
 import { nextStreak, type StreakState } from "@/lib/streaks";
 import type { Reveal } from "@/sports/types";
 
+function storage(): Storage | null {
+  if (typeof window === "undefined") return null;
+  return window.localStorage;
+}
+
 const ANON_KEY = "boxed-anon-id";
 const SOUND_KEY = "boxed-sound";
 const STREAK_KEY = "boxed-streaks";
@@ -20,25 +25,25 @@ export function playStorageKey(sportId: string, puzzleNumber: number): string {
 }
 
 export function readAnonId(): string {
-  const existing = localStorage.getItem(ANON_KEY);
+  const existing = storage()?.getItem(ANON_KEY);
   if (existing && /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(existing)) {
     return existing;
   }
   const id = crypto.randomUUID();
-  localStorage.setItem(ANON_KEY, id);
+  storage()?.setItem(ANON_KEY, id);
   return id;
 }
 
 export function soundEnabled(): boolean {
-  return localStorage.getItem(SOUND_KEY) === "on";
+  return storage()?.getItem(SOUND_KEY) === "on";
 }
 
 export function setSoundEnabled(on: boolean): void {
-  localStorage.setItem(SOUND_KEY, on ? "on" : "off");
+  storage()?.setItem(SOUND_KEY, on ? "on" : "off");
 }
 
 export function readStoredPlay(sportId: string, puzzleNumber: number): StoredPlay | null {
-  const raw = localStorage.getItem(playStorageKey(sportId, puzzleNumber));
+  const raw = storage()?.getItem(playStorageKey(sportId, puzzleNumber));
   if (!raw) return null;
   try {
     const parsed = JSON.parse(raw) as StoredPlay;
@@ -50,11 +55,11 @@ export function readStoredPlay(sportId: string, puzzleNumber: number): StoredPla
 }
 
 export function writeStoredPlay(sportId: string, puzzleNumber: number, play: StoredPlay): void {
-  localStorage.setItem(playStorageKey(sportId, puzzleNumber), JSON.stringify(play));
+  storage()?.setItem(playStorageKey(sportId, puzzleNumber), JSON.stringify(play));
 }
 
 export function readLocalStreaks(): Record<string, StreakState> {
-  const raw = localStorage.getItem(STREAK_KEY);
+  const raw = storage()?.getItem(STREAK_KEY);
   if (!raw) return {};
   try {
     const parsed = JSON.parse(raw) as Record<string, StreakState>;
@@ -67,7 +72,7 @@ export function readLocalStreaks(): Record<string, StreakState> {
 export function writeLocalStreak(sportId: string, streak: StreakState): void {
   const all = readLocalStreaks();
   all[sportId] = streak;
-  localStorage.setItem(STREAK_KEY, JSON.stringify(all));
+  storage()?.setItem(STREAK_KEY, JSON.stringify(all));
 }
 
 export function localStreak(sportId: string): StreakState {
@@ -76,8 +81,10 @@ export function localStreak(sportId: string): StreakState {
 
 export function listLocalPlays(): { sportId: string; puzzleNumber: number; play: StoredPlay }[] {
   const found: { sportId: string; puzzleNumber: number; play: StoredPlay }[] = [];
-  for (let index = 0; index < localStorage.length; index += 1) {
-    const key = localStorage.key(index);
+  const bin = storage();
+  if (!bin) return found;
+  for (let index = 0; index < bin.length; index += 1) {
+    const key = bin.key(index);
     if (!key?.startsWith("boxed-v1:")) continue;
     const [, sportId, puzzle] = key.split(":");
     const puzzleNumber = Number(puzzle);

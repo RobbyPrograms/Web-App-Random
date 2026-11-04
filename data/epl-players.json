@@ -1,1 +1,6429 @@
-[]
+[
+  {
+    "id": "epl-mohamed-salah",
+    "sport": "epl",
+    "name": "Mohamed Salah",
+    "aliases": [
+      "Mo Salah"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 32,
+          "assists": 10,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 22,
+          "assists": 8,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 69,
+    "birthCountry": "Egypt",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2017-18 Premier League Golden Boot",
+      "facts": [
+        "32 goals in his first Liverpool season",
+        "PFA Player of the Year"
+      ],
+      "origin": "Signed from Roma"
+    }
+  },
+  {
+    "id": "epl-harry-kane",
+    "sport": "epl",
+    "name": "Harry Kane",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 30,
+          "assists": 2,
+          "apps": 37
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 17,
+          "assists": 4,
+          "apps": 28
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Three-time Premier League Golden Boot winner",
+      "facts": [
+        "Tottenham academy striker",
+        "England captain"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-luis-suarez",
+    "sport": "epl",
+    "name": "Luis Suarez",
+    "aliases": [
+      "El Pistolero"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 31,
+          "assists": 13,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "Uruguay",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2013-14 Premier League Golden Boot",
+      "facts": [
+        "31 goals and the PFA Player of the Year",
+        "Nearly won the title with Liverpool"
+      ],
+      "origin": "Signed from Ajax"
+    }
+  },
+  {
+    "id": "epl-sergio-aguero",
+    "sport": "epl",
+    "name": "Sergio Aguero",
+    "aliases": [
+      "Kun"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 21,
+          "assists": 6,
+          "apps": 25
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 21,
+          "assists": 8,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 68,
+    "birthCountry": "Argentina",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Premier League Golden Boot winner",
+      "facts": [
+        "City's all-time leading scorer",
+        "93:20 title winner"
+      ],
+      "origin": "Signed from Atletico Madrid"
+    }
+  },
+  {
+    "id": "epl-eden-hazard",
+    "sport": "epl",
+    "name": "Eden Hazard",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 16,
+          "assists": 15,
+          "apps": 37
+        }
+      },
+      {
+        "year": "2013-14",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 14,
+          "assists": 7,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 67,
+    "birthCountry": "Belgium",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea Player of the Year",
+      "facts": [
+        "2018-19 assist leader",
+        "Two-time Premier League champion"
+      ],
+      "origin": "Signed from Lille"
+    }
+  },
+  {
+    "id": "epl-kevin-de-bruyne",
+    "sport": "epl",
+    "name": "Kevin De Bruyne",
+    "aliases": [
+      "KDB"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 8,
+          "assists": 16,
+          "apps": 37
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 2,
+          "assists": 2,
+          "apps": 19
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Belgium",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Premier League playmaker",
+      "facts": [
+        "16 assists in the 100-point season",
+        "Two-time Player of the Season"
+      ],
+      "origin": "Signed from Wolfsburg"
+    }
+  },
+  {
+    "id": "epl-sadio-mane",
+    "sport": "epl",
+    "name": "Sadio Mane",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 22,
+          "assists": 1,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 10,
+          "assists": 7,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 69,
+    "birthCountry": "Senegal",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Shared the 2018-19 Golden Boot",
+      "facts": [
+        "Liverpool champion",
+        "African Footballer of the Year"
+      ],
+      "origin": "Signed from Southampton"
+    }
+  },
+  {
+    "id": "epl-roberto-firmino",
+    "sport": "epl",
+    "name": "Roberto Firmino",
+    "aliases": [
+      "Bobby"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 15,
+          "assists": 7,
+          "apps": 37
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 12,
+          "assists": 6,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 71,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool's false nine",
+      "facts": [
+        "Premier League champion",
+        "Pressing forward"
+      ],
+      "origin": "Signed from Hoffenheim"
+    }
+  },
+  {
+    "id": "epl-heung-min-son",
+    "sport": "epl",
+    "name": "Heung-min Son",
+    "aliases": [
+      "Sonny"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 12,
+          "assists": 6,
+          "apps": 37
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 12,
+          "assists": 6,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "South Korea",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2021-22 Golden Boot winner",
+      "facts": [
+        "Tottenham forward",
+        "South Korea captain"
+      ],
+      "origin": "Signed from Bayer Leverkusen"
+    }
+  },
+  {
+    "id": "epl-raheem-sterling",
+    "sport": "epl",
+    "name": "Raheem Sterling",
+    "aliases": [
+      "Raz"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 18,
+          "assists": 11,
+          "apps": 33
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 17,
+          "assists": 9,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 67,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City winger and England regular",
+      "facts": [
+        "100-point season contributor",
+        "Moved from Liverpool"
+      ],
+      "origin": "Signed from Liverpool"
+    }
+  },
+  {
+    "id": "epl-jamie-vardy",
+    "sport": "epl",
+    "name": "Jamie Vardy",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Leicester City",
+        "stats": {
+          "goals": 20,
+          "assists": 1,
+          "apps": 37
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Leicester City",
+        "stats": {
+          "goals": 18,
+          "assists": 4,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Leicester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2019-20 Premier League Golden Boot",
+      "facts": [
+        "Leicester title hero",
+        "Record 11-game scoring streak"
+      ],
+      "origin": "Signed from Fleetwood Town"
+    }
+  },
+  {
+    "id": "epl-pierre-emerick-aubameyang",
+    "sport": "epl",
+    "name": "Pierre-Emerick Aubameyang",
+    "aliases": [
+      "Auba"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 22,
+          "assists": 5,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "Gabon",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Shared the 2018-19 Golden Boot",
+      "facts": [
+        "Arsenal captain",
+        "Golden Boot in his first full season"
+      ],
+      "origin": "Signed from Borussia Dortmund"
+    }
+  },
+  {
+    "id": "epl-alexandre-lacazette",
+    "sport": "epl",
+    "name": "Alexandre Lacazette",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 13,
+          "assists": 8,
+          "apps": 35
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 14,
+          "assists": 4,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 69,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Arsenal striker",
+      "facts": [
+        "Signed as a club-record forward",
+        "Ligue 1 Golden Boot winner"
+      ],
+      "origin": "Signed from Lyon"
+    }
+  },
+  {
+    "id": "epl-gabriel-jesus",
+    "sport": "epl",
+    "name": "Gabriel Jesus",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 13,
+          "assists": 3,
+          "apps": 29
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 7,
+          "assists": 3,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 69,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      33
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City striker",
+      "facts": [
+        "Brazil international",
+        "Palmeiras graduate"
+      ],
+      "origin": "Signed from Palmeiras"
+    }
+  },
+  {
+    "id": "epl-leroy-sane",
+    "sport": "epl",
+    "name": "Leroy Sane",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 10,
+          "assists": 15,
+          "apps": 32
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 10,
+          "assists": 10,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "Germany",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "PFA Young Player of the Year",
+      "facts": [
+        "15 assists in the 100-point season",
+        "Germany winger"
+      ],
+      "origin": "Signed from Schalke"
+    }
+  },
+  {
+    "id": "epl-paul-pogba",
+    "sport": "epl",
+    "name": "Paul Pogba",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 13,
+          "assists": 9,
+          "apps": 35
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 6,
+          "assists": 10,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 75,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      6
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup winner",
+      "facts": [
+        "United record signing",
+        "France midfielder"
+      ],
+      "origin": "Signed from Juventus"
+    }
+  },
+  {
+    "id": "epl-marcus-rashford",
+    "sport": "epl",
+    "name": "Marcus Rashford",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 10,
+          "assists": 6,
+          "apps": 33
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 7,
+          "assists": 5,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 73,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "United academy forward",
+      "facts": [
+        "England striker",
+        "Broke through as a teenager"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-anthony-martial",
+    "sport": "epl",
+    "name": "Anthony Martial",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 10,
+          "assists": 2,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "United forward",
+      "facts": [
+        "2015 Golden Boy",
+        "Signed from Monaco"
+      ],
+      "origin": "Signed from Monaco"
+    }
+  },
+  {
+    "id": "epl-romelu-lukaku",
+    "sport": "epl",
+    "name": "Romelu Lukaku",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 16,
+          "assists": 7,
+          "apps": 34
+        }
+      },
+      {
+        "year": "2013-14",
+        "team": "Everton",
+        "stats": {
+          "goals": 15,
+          "assists": 6,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 75,
+    "birthCountry": "Belgium",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2017-18"
+        ]
+      },
+      {
+        "team": "Everton",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Belgium striker",
+      "facts": [
+        "Premier League Golden Boot contender",
+        "Everton and United"
+      ],
+      "origin": "Signed from Everton"
+    }
+  },
+  {
+    "id": "epl-christian-eriksen",
+    "sport": "epl",
+    "name": "Christian Eriksen",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 8,
+          "assists": 12,
+          "apps": 35
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 10,
+          "assists": 9,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Denmark",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      23
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Tottenham playmaker",
+      "facts": [
+        "Denmark captain",
+        "Set-piece specialist"
+      ],
+      "origin": "Signed from Ajax"
+    }
+  },
+  {
+    "id": "epl-dele-alli",
+    "sport": "epl",
+    "name": "Dele Alli",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 9,
+          "assists": 10,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 5,
+          "assists": 3,
+          "apps": 25
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 74,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Two-time PFA Young Player of the Year",
+      "facts": [
+        "Tottenham midfielder",
+        "England international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-david-silva",
+    "sport": "epl",
+    "name": "David Silva",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 9,
+          "assists": 11,
+          "apps": 29
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 6,
+          "assists": 8,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      21
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City playmaker",
+      "facts": [
+        "Four-time Premier League champion",
+        "Spain world champion"
+      ],
+      "origin": "Signed from Valencia"
+    }
+  },
+  {
+    "id": "epl-bernardo-silva",
+    "sport": "epl",
+    "name": "Bernardo Silva",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 7,
+          "assists": 7,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "Portugal",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City midfielder",
+      "facts": [
+        "Portugal international",
+        "Champions League winner"
+      ],
+      "origin": "Signed from Monaco"
+    }
+  },
+  {
+    "id": "epl-riyad-mahrez",
+    "sport": "epl",
+    "name": "Riyad Mahrez",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Leicester City",
+        "stats": {
+          "goals": 12,
+          "assists": 10,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 7,
+          "assists": 4,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "Algeria",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      26
+    ],
+    "teamHistory": [
+      {
+        "team": "Leicester City",
+        "years": [
+          "2017-18"
+        ]
+      },
+      {
+        "team": "Manchester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "PFA Player of the Year",
+      "facts": [
+        "Leicester title winner",
+        "Algeria captain"
+      ],
+      "origin": "Signed from Le Havre"
+    }
+  },
+  {
+    "id": "epl-mesut-ozil",
+    "sport": "epl",
+    "name": "Mesut Ozil",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 4,
+          "assists": 8,
+          "apps": 26
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 5,
+          "assists": 2,
+          "apps": 24
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Germany",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup winner",
+      "facts": [
+        "Arsenal record signing",
+        "No. 10 playmaker"
+      ],
+      "origin": "Signed from Real Madrid"
+    }
+  },
+  {
+    "id": "epl-aaron-ramsey",
+    "sport": "epl",
+    "name": "Aaron Ramsey",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 10,
+          "assists": 7,
+          "apps": 23
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 7,
+          "assists": 8,
+          "apps": 24
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 70,
+    "birthCountry": "Wales",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "FA Cup final match-winner",
+      "facts": [
+        "Wales midfielder",
+        "Arsenal academy"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-granit-xhaka",
+    "sport": "epl",
+    "name": "Granit Xhaka",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 1,
+          "assists": 7,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 4,
+          "assists": 2,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 73,
+    "birthCountry": "Switzerland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      34
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Arsenal and Switzerland captain",
+      "facts": [
+        "Box-to-box midfielder",
+        "Signed from Gladbach"
+      ],
+      "origin": "Signed from Borussia Monchengladbach"
+    }
+  },
+  {
+    "id": "epl-willian",
+    "sport": "epl",
+    "name": "Willian",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 6,
+          "assists": 7,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 3,
+          "assists": 6,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 69,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea winger",
+      "facts": [
+        "Two-time Premier League champion",
+        "Brazil international"
+      ],
+      "origin": "Signed from Anzhi"
+    }
+  },
+  {
+    "id": "epl-pascal-gross",
+    "sport": "epl",
+    "name": "Pascal Gross",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Brighton & Hove Albion",
+        "stats": {
+          "goals": 7,
+          "assists": 8,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Brighton & Hove Albion",
+        "stats": {
+          "goals": 3,
+          "assists": 3,
+          "apps": 25
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Germany",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      13
+    ],
+    "teamHistory": [
+      {
+        "team": "Brighton & Hove Albion",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Brighton creator",
+      "facts": [
+        "Germany midfielder",
+        "Set-piece specialist"
+      ],
+      "origin": "Signed from Ingolstadt"
+    }
+  },
+  {
+    "id": "epl-gylfi-sigurdsson",
+    "sport": "epl",
+    "name": "Gylfi Sigurdsson",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Everton",
+        "stats": {
+          "goals": 13,
+          "assists": 6,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Everton",
+        "stats": {
+          "goals": 4,
+          "assists": 3,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 73,
+    "birthCountry": "Iceland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Everton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Iceland captain",
+      "facts": [
+        "Everton playmaker",
+        "Swansea creator"
+      ],
+      "origin": "Signed from Swansea City"
+    }
+  },
+  {
+    "id": "epl-ryan-fraser",
+    "sport": "epl",
+    "name": "Ryan Fraser",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 7,
+          "assists": 14,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 5,
+          "assists": 3,
+          "apps": 26
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 65,
+    "birthCountry": "Scotland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      24
+    ],
+    "teamHistory": [
+      {
+        "team": "AFC Bournemouth",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2018-19 assist contender",
+      "facts": [
+        "Bournemouth winger",
+        "Scotland international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-callum-wilson",
+    "sport": "epl",
+    "name": "Callum Wilson",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 14,
+          "assists": 9,
+          "apps": 30
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 8,
+          "assists": 2,
+          "apps": 28
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      13
+    ],
+    "teamHistory": [
+      {
+        "team": "AFC Bournemouth",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Bournemouth and Newcastle striker",
+      "facts": [
+        "England international",
+        "Golden Boot contender"
+      ],
+      "origin": "Signed from Coventry City"
+    }
+  },
+  {
+    "id": "epl-raul-jimenez",
+    "sport": "epl",
+    "name": "Raul Jimenez",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Wolverhampton Wanderers",
+        "stats": {
+          "goals": 13,
+          "assists": 7,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "Mexico",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Wolverhampton Wanderers",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Wolves striker",
+      "facts": [
+        "Mexico international",
+        "Concacaf Gold Cup star"
+      ],
+      "origin": "Signed from Benfica"
+    }
+  },
+  {
+    "id": "epl-glenn-murray",
+    "sport": "epl",
+    "name": "Glenn Murray",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Brighton & Hove Albion",
+        "stats": {
+          "goals": 13,
+          "assists": 1,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Brighton & Hove Albion",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Brighton target man",
+      "facts": [
+        "Championship and Premier League scorer",
+        "Penalty specialist"
+      ],
+      "origin": "Signed from AFC Bournemouth"
+    }
+  },
+  {
+    "id": "epl-richarlison",
+    "sport": "epl",
+    "name": "Richarlison",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Everton",
+        "stats": {
+          "goals": 13,
+          "assists": 1,
+          "apps": 35
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Watford",
+        "stats": {
+          "goals": 5,
+          "assists": 4,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 71,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Everton",
+        "years": [
+          "2018-19"
+        ]
+      },
+      {
+        "team": "Watford",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Everton and Brazil forward",
+      "facts": [
+        "Signed from Watford",
+        "Later a title winner at another club"
+      ],
+      "origin": "Signed from Watford"
+    }
+  },
+  {
+    "id": "epl-ayoze-perez",
+    "sport": "epl",
+    "name": "Ayoze Perez",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Newcastle United",
+        "stats": {
+          "goals": 12,
+          "assists": 2,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Newcastle United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Newcastle forward",
+      "facts": [
+        "Spain international",
+        "Leicester later"
+      ],
+      "origin": "Signed from Tenerife"
+    }
+  },
+  {
+    "id": "epl-ashley-barnes",
+    "sport": "epl",
+    "name": "Ashley Barnes",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Burnley",
+        "stats": {
+          "goals": 12,
+          "assists": 2,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 73,
+    "birthCountry": "Austria",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Burnley",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Burnley striker",
+      "facts": [
+        "Austria international",
+        "Long-serving Clarets forward"
+      ],
+      "origin": "Signed from Brighton & Hove Albion"
+    }
+  },
+  {
+    "id": "epl-joshua-king",
+    "sport": "epl",
+    "name": "Joshua King",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 12,
+          "assists": 3,
+          "apps": 35
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 8,
+          "assists": 3,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "Norway",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "AFC Bournemouth",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Bournemouth forward",
+      "facts": [
+        "Norway international",
+        "Blackburn graduate"
+      ],
+      "origin": "Signed from Blackburn Rovers"
+    }
+  },
+  {
+    "id": "epl-luka-milivojevic",
+    "sport": "epl",
+    "name": "Luka Milivojevic",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Crystal Palace",
+        "stats": {
+          "goals": 12,
+          "assists": 2,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 73,
+    "birthCountry": "Serbia",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Crystal Palace",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Palace captain",
+      "facts": [
+        "Serbia midfielder",
+        "Penalty taker"
+      ],
+      "origin": "Signed from Olympiacos"
+    }
+  },
+  {
+    "id": "epl-aleksandar-mitrovic",
+    "sport": "epl",
+    "name": "Aleksandar Mitrovic",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Fulham",
+        "stats": {
+          "goals": 11,
+          "assists": 3,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "Serbia",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Fulham",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Fulham and Serbia striker",
+      "facts": [
+        "Championship record scorer later",
+        "Physical No. 9"
+      ],
+      "origin": "Signed from Newcastle United"
+    }
+  },
+  {
+    "id": "epl-salomon-rondon",
+    "sport": "epl",
+    "name": "Salomon Rondon",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Newcastle United",
+        "stats": {
+          "goals": 11,
+          "assists": 7,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 73,
+    "birthCountry": "Venezuela",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Newcastle United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Venezuela captain",
+      "facts": [
+        "Newcastle loan striker",
+        "West Brom forward"
+      ],
+      "origin": "Loan from West Bromwich Albion"
+    }
+  },
+  {
+    "id": "epl-marko-arnautovic",
+    "sport": "epl",
+    "name": "Marko Arnautovic",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 10,
+          "assists": 4,
+          "apps": 28
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 75,
+    "birthCountry": "Austria",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "West Ham United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Austria forward",
+      "facts": [
+        "West Ham target man",
+        "Former Stoke winger"
+      ],
+      "origin": "Signed from Stoke City"
+    }
+  },
+  {
+    "id": "epl-gerard-deulofeu",
+    "sport": "epl",
+    "name": "Gerard Deulofeu",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Watford",
+        "stats": {
+          "goals": 10,
+          "assists": 5,
+          "apps": 30
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Watford",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Watford winger",
+      "facts": [
+        "Barcelona academy product",
+        "Spain international"
+      ],
+      "origin": "Signed from Barcelona"
+    }
+  },
+  {
+    "id": "epl-lucas-moura",
+    "sport": "epl",
+    "name": "Lucas Moura",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 10,
+          "assists": 0,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 68,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Champions League semi-final hat-trick hero",
+      "facts": [
+        "Tottenham winger",
+        "Brazil international"
+      ],
+      "origin": "Signed from Paris Saint-Germain"
+    }
+  },
+  {
+    "id": "epl-chris-wood",
+    "sport": "epl",
+    "name": "Chris Wood",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Burnley",
+        "stats": {
+          "goals": 10,
+          "assists": 2,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Burnley",
+        "stats": {
+          "goals": 10,
+          "assists": 1,
+          "apps": 24
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 75,
+    "birthCountry": "New Zealand",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Burnley",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Burnley and New Zealand striker",
+      "facts": [
+        "Target forward",
+        "Leeds United product"
+      ],
+      "origin": "Signed from Leeds United"
+    }
+  },
+  {
+    "id": "epl-wilfried-zaha",
+    "sport": "epl",
+    "name": "Wilfried Zaha",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Crystal Palace",
+        "stats": {
+          "goals": 10,
+          "assists": 5,
+          "apps": 34
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Crystal Palace",
+        "stats": {
+          "goals": 9,
+          "assists": 3,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 71,
+    "birthCountry": "Ivory Coast",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Crystal Palace",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Palace talisman",
+      "facts": [
+        "Ivory Coast winger",
+        "Academy graduate"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-troy-deeney",
+    "sport": "epl",
+    "name": "Troy Deeney",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Watford",
+        "stats": {
+          "goals": 9,
+          "assists": 5,
+          "apps": 32
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Watford",
+        "stats": {
+          "goals": 5,
+          "assists": 2,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Watford",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Watford captain",
+      "facts": [
+        "Academy striker",
+        "Playoff final hero"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-diogo-jota",
+    "sport": "epl",
+    "name": "Diogo Jota",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Wolverhampton Wanderers",
+        "stats": {
+          "goals": 9,
+          "assists": 5,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "Portugal",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      18
+    ],
+    "teamHistory": [
+      {
+        "team": "Wolverhampton Wanderers",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Wolves and later Liverpool forward",
+      "facts": [
+        "Portugal international",
+        "Atletico Madrid loanee"
+      ],
+      "origin": "Signed from Atletico Madrid"
+    }
+  },
+  {
+    "id": "epl-felipe-anderson",
+    "sport": "epl",
+    "name": "Felipe Anderson",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 9,
+          "assists": 4,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 69,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "West Ham United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "West Ham record signing",
+      "facts": [
+        "Brazil winger",
+        "Lazio creator"
+      ],
+      "origin": "Signed from Lazio"
+    }
+  },
+  {
+    "id": "epl-pedro",
+    "sport": "epl",
+    "name": "Pedro",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 8,
+          "assists": 2,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 67,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea and Spain winger",
+      "facts": [
+        "Champions League winner",
+        "World Cup winner"
+      ],
+      "origin": "Signed from Barcelona"
+    }
+  },
+  {
+    "id": "epl-david-brooks",
+    "sport": "epl",
+    "name": "David Brooks",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 7,
+          "assists": 5,
+          "apps": 30
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "Wales",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "AFC Bournemouth",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Wales international",
+      "facts": [
+        "Bournemouth attacker",
+        "Sheffield United product"
+      ],
+      "origin": "Signed from Sheffield United"
+    }
+  },
+  {
+    "id": "epl-andre-gray",
+    "sport": "epl",
+    "name": "Andre Gray",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Watford",
+        "stats": {
+          "goals": 7,
+          "assists": 2,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      18
+    ],
+    "teamHistory": [
+      {
+        "team": "Watford",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Watford and Burnley striker",
+      "facts": [
+        "England forward",
+        "Championship Golden Boot winner"
+      ],
+      "origin": "Signed from Burnley"
+    }
+  },
+  {
+    "id": "epl-javier-hernandez",
+    "sport": "epl",
+    "name": "Javier Hernandez",
+    "aliases": [
+      "Chicharito"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 7,
+          "assists": 1,
+          "apps": 25
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 69,
+    "birthCountry": "Mexico",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "West Ham United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Mexico's all-time leading scorer",
+      "facts": [
+        "United and West Ham striker",
+        "Movement in the box"
+      ],
+      "origin": "Signed from Bayer Leverkusen"
+    }
+  },
+  {
+    "id": "epl-danny-ings",
+    "sport": "epl",
+    "name": "Danny Ings",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Southampton",
+        "stats": {
+          "goals": 7,
+          "assists": 3,
+          "apps": 24
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Southampton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Southampton striker",
+      "facts": [
+        "England international",
+        "Golden Boot contender later"
+      ],
+      "origin": "Signed from Liverpool"
+    }
+  },
+  {
+    "id": "epl-james-maddison",
+    "sport": "epl",
+    "name": "James Maddison",
+    "aliases": [
+      "Madders"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Leicester City",
+        "stats": {
+          "goals": 7,
+          "assists": 7,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 70,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Leicester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Leicester playmaker",
+      "facts": [
+        "England international",
+        "Norwich City product"
+      ],
+      "origin": "Signed from Norwich City"
+    }
+  },
+  {
+    "id": "epl-james-ward-prowse",
+    "sport": "epl",
+    "name": "James Ward-Prowse",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Southampton",
+        "stats": {
+          "goals": 7,
+          "assists": 0,
+          "apps": 26
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      16
+    ],
+    "teamHistory": [
+      {
+        "team": "Southampton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Southampton captain",
+      "facts": [
+        "Set-piece specialist",
+        "Academy graduate"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-michail-antonio",
+    "sport": "epl",
+    "name": "Michail Antonio",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 6,
+          "assists": 4,
+          "apps": 33
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 3,
+          "assists": 1,
+          "apps": 21
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      30
+    ],
+    "teamHistory": [
+      {
+        "team": "West Ham United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "West Ham forward",
+      "facts": [
+        "England international",
+        "Versatile attacker"
+      ],
+      "origin": "Signed from Nottingham Forest"
+    }
+  },
+  {
+    "id": "epl-dominic-calvert-lewin",
+    "sport": "epl",
+    "name": "Dominic Calvert-Lewin",
+    "aliases": [
+      "DCL"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Everton",
+        "stats": {
+          "goals": 6,
+          "assists": 2,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Everton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Everton striker",
+      "facts": [
+        "England international",
+        "Sheffield United youth"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-ilkay-gundogan",
+    "sport": "epl",
+    "name": "Ilkay Gundogan",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 6,
+          "assists": 3,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Germany",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City midfielder",
+      "facts": [
+        "Germany international",
+        "Champions League winner"
+      ],
+      "origin": "Signed from Borussia Dortmund"
+    }
+  },
+  {
+    "id": "epl-ruben-loftus-cheek",
+    "sport": "epl",
+    "name": "Ruben Loftus-Cheek",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 6,
+          "assists": 5,
+          "apps": 24
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 75,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      12
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea academy midfielder",
+      "facts": [
+        "England international",
+        "Box-to-box runner"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-henrikh-mkhitaryan",
+    "sport": "epl",
+    "name": "Henrikh Mkhitaryan",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 6,
+          "assists": 4,
+          "apps": 25
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 3,
+          "assists": 9,
+          "apps": 26
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 70,
+    "birthCountry": "Armenia",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Armenia captain",
+      "facts": [
+        "Arsenal and United playmaker"
+      ],
+      "origin": "Signed from Manchester United"
+    }
+  },
+  {
+    "id": "epl-roberto-pereyra",
+    "sport": "epl",
+    "name": "Roberto Pereyra",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Watford",
+        "stats": {
+          "goals": 6,
+          "assists": 1,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Argentina",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      37
+    ],
+    "teamHistory": [
+      {
+        "team": "Watford",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Watford playmaker",
+      "facts": [
+        "Argentina international"
+      ],
+      "origin": "Signed from Udinese"
+    }
+  },
+  {
+    "id": "epl-nathan-redmond",
+    "sport": "epl",
+    "name": "Nathan Redmond",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Southampton",
+        "stats": {
+          "goals": 6,
+          "assists": 4,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Southampton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Southampton winger",
+      "facts": [
+        "England youth international",
+        "Norwich product"
+      ],
+      "origin": "Signed from Norwich City"
+    }
+  },
+  {
+    "id": "epl-xherdan-shaqiri",
+    "sport": "epl",
+    "name": "Xherdan Shaqiri",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 6,
+          "assists": 3,
+          "apps": 24
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Stoke City",
+        "stats": {
+          "goals": 8,
+          "assists": 7,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 67,
+    "birthCountry": "Switzerland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      23
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      },
+      {
+        "team": "Stoke City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup winner",
+      "facts": [
+        "Liverpool and Stoke winger"
+      ],
+      "origin": "Signed from Stoke City"
+    }
+  },
+  {
+    "id": "epl-andros-townsend",
+    "sport": "epl",
+    "name": "Andros Townsend",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Crystal Palace",
+        "stats": {
+          "goals": 6,
+          "assists": 4,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Crystal Palace",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Palace winger",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Signed from Newcastle United"
+    }
+  },
+  {
+    "id": "epl-theo-walcott",
+    "sport": "epl",
+    "name": "Theo Walcott",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Everton",
+        "stats": {
+          "goals": 5,
+          "assists": 2,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 69,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Everton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Everton and Arsenal winger",
+      "facts": [
+        "England international",
+        "Southampton academy"
+      ],
+      "origin": "Signed from Arsenal"
+    }
+  },
+  {
+    "id": "epl-mark-noble",
+    "sport": "epl",
+    "name": "Mark Noble",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 5,
+          "assists": 5,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      16
+    ],
+    "teamHistory": [
+      {
+        "team": "West Ham United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "West Ham captain",
+      "facts": [
+        "Academy graduate",
+        "Penalty taker"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-virgil-van-dijk",
+    "sport": "epl",
+    "name": "Virgil van Dijk",
+    "aliases": [
+      "VVD"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 4,
+          "assists": 2,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 76,
+    "birthCountry": "Netherlands",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Premier League and European champion",
+      "facts": [
+        "PFA Player of the Year",
+        "Liverpool record signing"
+      ],
+      "origin": "Signed from Southampton"
+    }
+  },
+  {
+    "id": "epl-ngolo-kante",
+    "sport": "epl",
+    "name": "N'Golo Kante",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 4,
+          "assists": 4,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 66,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup winner",
+      "facts": [
+        "Leicester title midfielder",
+        "Two-time Premier League champion"
+      ],
+      "origin": "Signed from Leicester City"
+    }
+  },
+  {
+    "id": "epl-lucas-digne",
+    "sport": "epl",
+    "name": "Lucas Digne",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Everton",
+        "stats": {
+          "goals": 4,
+          "assists": 4,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 70,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      12
+    ],
+    "teamHistory": [
+      {
+        "team": "Everton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Everton left back",
+      "facts": [
+        "France international"
+      ],
+      "origin": "Signed from Barcelona"
+    }
+  },
+  {
+    "id": "epl-matt-doherty",
+    "sport": "epl",
+    "name": "Matt Doherty",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Wolverhampton Wanderers",
+        "stats": {
+          "goals": 4,
+          "assists": 5,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 73,
+    "birthCountry": "Ireland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      2
+    ],
+    "teamHistory": [
+      {
+        "team": "Wolverhampton Wanderers",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Wolves attacking full back",
+      "facts": [
+        "Ireland international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-nathan-ake",
+    "sport": "epl",
+    "name": "Nathan Ake",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "AFC Bournemouth",
+        "stats": {
+          "goals": 4,
+          "assists": 0,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 71,
+    "birthCountry": "Netherlands",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "AFC Bournemouth",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Netherlands defender",
+      "facts": [
+        "Bournemouth loanee",
+        "Later a City champion"
+      ],
+      "origin": "Loan from Chelsea"
+    }
+  },
+  {
+    "id": "epl-ruben-neves",
+    "sport": "epl",
+    "name": "Ruben Neves",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Wolverhampton Wanderers",
+        "stats": {
+          "goals": 4,
+          "assists": 3,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Portugal",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Wolverhampton Wanderers",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Wolves midfielder",
+      "facts": [
+        "Portugal international",
+        "Long-range shooter"
+      ],
+      "origin": "Signed from Porto"
+    }
+  },
+  {
+    "id": "epl-aymeric-laporte",
+    "sport": "epl",
+    "name": "Aymeric Laporte",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 3,
+          "assists": 3,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 74,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City centre back",
+      "facts": [
+        "Spain-born France international"
+      ],
+      "origin": "Signed from Athletic Bilbao"
+    }
+  },
+  {
+    "id": "epl-harry-maguire",
+    "sport": "epl",
+    "name": "Harry Maguire",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Leicester City",
+        "stats": {
+          "goals": 2,
+          "assists": 4,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 76,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Leicester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "England centre back",
+      "facts": [
+        "Leicester then United captain"
+      ],
+      "origin": "Signed from Hull City"
+    }
+  },
+  {
+    "id": "epl-georginio-wijnaldum",
+    "sport": "epl",
+    "name": "Georginio Wijnaldum",
+    "aliases": [
+      "Gini"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 3,
+          "assists": 0,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 69,
+    "birthCountry": "Netherlands",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool champion",
+      "facts": [
+        "Netherlands midfielder"
+      ],
+      "origin": "Signed from Newcastle United"
+    }
+  },
+  {
+    "id": "epl-alex-iwobi",
+    "sport": "epl",
+    "name": "Alex Iwobi",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 3,
+          "assists": 6,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Nigeria",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Arsenal academy winger",
+      "facts": [
+        "Nigeria international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-declan-rice",
+    "sport": "epl",
+    "name": "Declan Rice",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 73,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      41
+    ],
+    "teamHistory": [
+      {
+        "team": "West Ham United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "West Ham and England midfielder",
+      "facts": [
+        "Academy graduate",
+        "Later an Arsenal signing"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-trent-alexander-arnold",
+    "sport": "epl",
+    "name": "Trent Alexander-Arnold",
+    "aliases": [
+      "TAA"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 0,
+          "assists": 12,
+          "apps": 29
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "apps": 19
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      66
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool champion and creator",
+      "facts": [
+        "Academy full back",
+        "England international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-andy-robertson",
+    "sport": "epl",
+    "name": "Andy Robertson",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 0,
+          "assists": 11,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 1,
+          "assists": 5,
+          "apps": 22
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 70,
+    "birthCountry": "Scotland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      26
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool champion",
+      "facts": [
+        "Scotland captain",
+        "Assist-making left back"
+      ],
+      "origin": "Signed from Hull City"
+    }
+  },
+  {
+    "id": "epl-joao-moutinho",
+    "sport": "epl",
+    "name": "Joao Moutinho",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Wolverhampton Wanderers",
+        "stats": {
+          "goals": 0,
+          "assists": 8,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 67,
+    "birthCountry": "Portugal",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      28
+    ],
+    "teamHistory": [
+      {
+        "team": "Wolverhampton Wanderers",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Wolves playmaker",
+      "facts": [
+        "Portugal international"
+      ],
+      "origin": "Signed from Monaco"
+    }
+  },
+  {
+    "id": "epl-ricardo-pereira",
+    "sport": "epl",
+    "name": "Ricardo Pereira",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Leicester City",
+        "stats": {
+          "goals": 2,
+          "assists": 6,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 72,
+    "birthCountry": "Portugal",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      21
+    ],
+    "teamHistory": [
+      {
+        "team": "Leicester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Leicester full back",
+      "facts": [
+        "Portugal international"
+      ],
+      "origin": "Signed from Porto"
+    }
+  },
+  {
+    "id": "epl-ben-chilwell",
+    "sport": "epl",
+    "name": "Ben Chilwell",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Leicester City",
+        "stats": {
+          "goals": 0,
+          "assists": 4,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      3
+    ],
+    "teamHistory": [
+      {
+        "team": "Leicester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Leicester left back",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-aaron-wan-bissaka",
+    "sport": "epl",
+    "name": "Aaron Wan-Bissaka",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Crystal Palace",
+        "stats": {
+          "goals": 0,
+          "assists": 3,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 72,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      29
+    ],
+    "teamHistory": [
+      {
+        "team": "Crystal Palace",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Palace full back",
+      "facts": [
+        "England international",
+        "One-on-one defender"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-kyle-walker",
+    "sport": "epl",
+    "name": "Kyle Walker",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "apps": 33
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 0,
+          "assists": 6,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      2
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City and England full back",
+      "facts": [
+        "Four-time Premier League champion"
+      ],
+      "origin": "Signed from Tottenham Hotspur"
+    }
+  },
+  {
+    "id": "epl-fernandinho",
+    "sport": "epl",
+    "name": "Fernandinho",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 5,
+          "assists": 3,
+          "apps": 34
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 0,
+          "assists": 3,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 70,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      25
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City holding midfielder",
+      "facts": [
+        "Brazil international",
+        "Four-time champion"
+      ],
+      "origin": "Signed from Shakhtar Donetsk"
+    }
+  },
+  {
+    "id": "epl-fabinho",
+    "sport": "epl",
+    "name": "Fabinho",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 0,
+          "assists": 2,
+          "apps": 28
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 74,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      3
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool holding midfielder",
+      "facts": [
+        "Brazil international",
+        "Champions League winner"
+      ],
+      "origin": "Signed from Monaco"
+    }
+  },
+  {
+    "id": "epl-jordan-henderson",
+    "sport": "epl",
+    "name": "Jordan Henderson",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 0,
+          "assists": 3,
+          "apps": 32
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 72,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool captain",
+      "facts": [
+        "England international",
+        "Champions League winner"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-james-milner",
+    "sport": "epl",
+    "name": "James Milner",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 5,
+          "assists": 4,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 69,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      7
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool utility man",
+      "facts": [
+        "England international",
+        "Set-piece taker"
+      ],
+      "origin": "Signed from Manchester City"
+    }
+  },
+  {
+    "id": "epl-cesar-azpilicueta",
+    "sport": "epl",
+    "name": "Cesar Azpilicueta",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 0,
+          "assists": 5,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 2,
+          "assists": 6,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 70,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      28
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea captain",
+      "facts": [
+        "Two-time Premier League champion",
+        "Spain full back"
+      ],
+      "origin": "Signed from Marseille"
+    }
+  },
+  {
+    "id": "epl-hector-bellerin",
+    "sport": "epl",
+    "name": "Hector Bellerin",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 2,
+          "assists": 3,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 70,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      2
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Arsenal full back",
+      "facts": [
+        "Spain international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-marcos-alonso",
+    "sport": "epl",
+    "name": "Marcos Alonso",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 2,
+          "assists": 4,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 74,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      3
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea wing back",
+      "facts": [
+        "Spain international"
+      ],
+      "origin": "Signed from Fiorentina"
+    }
+  },
+  {
+    "id": "epl-david-luiz",
+    "sport": "epl",
+    "name": "David Luiz",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 3,
+          "assists": 2,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 74,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      30
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea centre back",
+      "facts": [
+        "Brazil international",
+        "Champions League winner"
+      ],
+      "origin": "Signed from Paris Saint-Germain"
+    }
+  },
+  {
+    "id": "epl-shane-duffy",
+    "sport": "epl",
+    "name": "Shane Duffy",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Brighton & Hove Albion",
+        "stats": {
+          "goals": 5,
+          "assists": 1,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 76,
+    "birthCountry": "Ireland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Brighton & Hove Albion",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Brighton centre back",
+      "facts": [
+        "Ireland international"
+      ],
+      "origin": "Signed from Blackburn Rovers"
+    }
+  },
+  {
+    "id": "epl-lewis-dunk",
+    "sport": "epl",
+    "name": "Lewis Dunk",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Brighton & Hove Albion",
+        "stats": {
+          "goals": 2,
+          "assists": 1,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Brighton & Hove Albion",
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 75,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Brighton & Hove Albion",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Brighton captain",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-james-tarkowski",
+    "sport": "epl",
+    "name": "James Tarkowski",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Burnley",
+        "stats": {
+          "goals": 3,
+          "assists": 1,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 73,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Burnley",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Burnley centre back",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Signed from Brentford"
+    }
+  },
+  {
+    "id": "epl-ben-mee",
+    "sport": "epl",
+    "name": "Ben Mee",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Burnley",
+        "stats": {
+          "goals": 0,
+          "assists": 2,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      6
+    ],
+    "teamHistory": [
+      {
+        "team": "Burnley",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Burnley captain",
+      "facts": [
+        "Long-serving centre back"
+      ],
+      "origin": "Signed from Manchester City"
+    }
+  },
+  {
+    "id": "epl-sol-bamba",
+    "sport": "epl",
+    "name": "Sol Bamba",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Cardiff City",
+        "stats": {
+          "goals": 4,
+          "assists": 1,
+          "apps": 28
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 75,
+    "birthCountry": "Ivory Coast",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Cardiff City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Cardiff centre back",
+      "facts": [
+        "Ivory Coast international"
+      ],
+      "origin": "Signed from Leeds United"
+    }
+  },
+  {
+    "id": "epl-jan-vertonghen",
+    "sport": "epl",
+    "name": "Jan Vertonghen",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "apps": 22
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 74,
+    "birthCountry": "Belgium",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Tottenham centre back",
+      "facts": [
+        "Belgium international"
+      ],
+      "origin": "Signed from Ajax"
+    }
+  },
+  {
+    "id": "epl-kieran-trippier",
+    "sport": "epl",
+    "name": "Kieran Trippier",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 1,
+          "assists": 3,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 70,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      2
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "England full back",
+      "facts": [
+        "Tottenham and Atletico later",
+        "Set-piece taker"
+      ],
+      "origin": "Signed from Burnley"
+    }
+  },
+  {
+    "id": "epl-divock-origi",
+    "sport": "epl",
+    "name": "Divock Origi",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 3,
+          "assists": 1,
+          "apps": 12
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 73,
+    "birthCountry": "Belgium",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      27
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2019 Champions League final scorer",
+      "facts": [
+        "Belgium forward"
+      ],
+      "origin": "Signed from Lille"
+    }
+  },
+  {
+    "id": "epl-cesc-fabregas",
+    "sport": "epl",
+    "name": "Cesc Fabregas",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 2,
+          "assists": 4,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 70,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      4
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup and Euro winner",
+      "facts": [
+        "Arsenal captain and Chelsea midfielder"
+      ],
+      "origin": "Signed from Barcelona"
+    }
+  },
+  {
+    "id": "epl-jorginho",
+    "sport": "epl",
+    "name": "Jorginho",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "Italy",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      5
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Euro 2020 winner",
+      "facts": [
+        "Chelsea metronome"
+      ],
+      "origin": "Signed from Napoli"
+    }
+  },
+  {
+    "id": "epl-seamus-coleman",
+    "sport": "epl",
+    "name": "Seamus Coleman",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Everton",
+        "stats": {
+          "goals": 2,
+          "assists": 2,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 71,
+    "birthCountry": "Ireland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      23
+    ],
+    "teamHistory": [
+      {
+        "team": "Everton",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Everton and Ireland captain",
+      "facts": [
+        "Attacking right back"
+      ],
+      "origin": "Signed from Sligo Rovers"
+    }
+  },
+  {
+    "id": "epl-ander-herrera",
+    "sport": "epl",
+    "name": "Ander Herrera",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 2,
+          "assists": 3,
+          "apps": 22
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      21
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "United midfielder",
+      "facts": [
+        "Spain international"
+      ],
+      "origin": "Signed from Athletic Bilbao"
+    }
+  },
+  {
+    "id": "epl-benjamin-mendy",
+    "sport": "epl",
+    "name": "Benjamin Mendy",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 0,
+          "assists": 5,
+          "apps": 10
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 73,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      22
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City left back",
+      "facts": [
+        "World Cup winner"
+      ],
+      "origin": "Signed from Monaco"
+    }
+  },
+  {
+    "id": "epl-kurt-zouma",
+    "sport": "epl",
+    "name": "Kurt Zouma",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 0,
+          "assists": 2,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 75,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      15
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea centre back",
+      "facts": [
+        "France international"
+      ],
+      "origin": "Signed from Saint-Etienne"
+    }
+  },
+  {
+    "id": "epl-philippe-coutinho",
+    "sport": "epl",
+    "name": "Philippe Coutinho",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 7,
+          "assists": 6,
+          "apps": 14
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool playmaker",
+      "facts": [
+        "Brazil international",
+        "Barcelona signing that January"
+      ],
+      "origin": "Signed from Inter"
+    }
+  },
+  {
+    "id": "epl-alvaro-morata",
+    "sport": "epl",
+    "name": "Alvaro Morata",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 11,
+          "assists": 6,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      29
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea striker",
+      "facts": [
+        "Spain international"
+      ],
+      "origin": "Signed from Real Madrid"
+    }
+  },
+  {
+    "id": "epl-jesse-lingard",
+    "sport": "epl",
+    "name": "Jesse Lingard",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 8,
+          "assists": 5,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 69,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "United academy midfielder",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-juan-mata",
+    "sport": "epl",
+    "name": "Juan Mata",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 3,
+          "assists": 5,
+          "apps": 28
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 67,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup and Euro winner",
+      "facts": [
+        "Chelsea and United playmaker"
+      ],
+      "origin": "Signed from Chelsea"
+    }
+  },
+  {
+    "id": "epl-nacho-monreal",
+    "sport": "epl",
+    "name": "Nacho Monreal",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 5,
+          "assists": 2,
+          "apps": 28
+        }
+      }
+    ],
+    "position": "DF",
+    "heightInches": 70,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      18
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Arsenal left back",
+      "facts": [
+        "Spain international"
+      ],
+      "origin": "Signed from Malaga"
+    }
+  },
+  {
+    "id": "epl-manuel-lanzini",
+    "sport": "epl",
+    "name": "Manuel Lanzini",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "West Ham United",
+        "stats": {
+          "goals": 5,
+          "assists": 6,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 68,
+    "birthCountry": "Argentina",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "West Ham United",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "West Ham playmaker",
+      "facts": [
+        "Argentina international"
+      ],
+      "origin": "Signed from Al Jazira"
+    }
+  },
+  {
+    "id": "epl-steven-gerrard",
+    "sport": "epl",
+    "name": "Steven Gerrard",
+    "aliases": [
+      "Stevie G"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 13,
+          "assists": 14,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 72,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool captain",
+      "facts": [
+        "13 goals in the title chase",
+        "England midfielder"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-daniel-sturridge",
+    "sport": "epl",
+    "name": "Daniel Sturridge",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Liverpool",
+        "stats": {
+          "goals": 22,
+          "assists": 7,
+          "apps": 29
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      15
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Liverpool striker",
+      "facts": [
+        "England international",
+        "SAS partnership with Suarez"
+      ],
+      "origin": "Signed from Chelsea"
+    }
+  },
+  {
+    "id": "epl-yaya-toure",
+    "sport": "epl",
+    "name": "Yaya Toure",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 20,
+          "assists": 9,
+          "apps": 35
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 74,
+    "birthCountry": "Ivory Coast",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      42
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City midfielder",
+      "facts": [
+        "Four-time African Footballer of the Year",
+        "Title winner"
+      ],
+      "origin": "Signed from Barcelona"
+    }
+  },
+  {
+    "id": "epl-wayne-rooney",
+    "sport": "epl",
+    "name": "Wayne Rooney",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 17,
+          "assists": 10,
+          "apps": 29
+        }
+      },
+      {
+        "year": "2017-18",
+        "team": "Everton",
+        "stats": {
+          "goals": 10,
+          "assists": 2,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 70,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2013-14"
+        ]
+      },
+      {
+        "team": "Everton",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "United and England record scorer",
+      "facts": [
+        "Five-time Premier League champion"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-olivier-giroud",
+    "sport": "epl",
+    "name": "Olivier Giroud",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 16,
+          "assists": 8,
+          "apps": 36
+        }
+      },
+      {
+        "year": "2018-19",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 2,
+          "assists": 4,
+          "apps": 27
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 75,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      12
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2013-14"
+        ]
+      },
+      {
+        "team": "Chelsea",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup winner",
+      "facts": [
+        "Arsenal and Chelsea striker"
+      ],
+      "origin": "Signed from Montpellier"
+    }
+  },
+  {
+    "id": "epl-rickie-lambert",
+    "sport": "epl",
+    "name": "Rickie Lambert",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Southampton",
+        "stats": {
+          "goals": 13,
+          "assists": 10,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      17
+    ],
+    "teamHistory": [
+      {
+        "team": "Southampton",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "England striker",
+      "facts": [
+        "Southampton goalscorer",
+        "Rose from non-league"
+      ],
+      "origin": "Signed from Bristol Rovers"
+    }
+  },
+  {
+    "id": "epl-robin-van-persie",
+    "sport": "epl",
+    "name": "Robin van Persie",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 12,
+          "assists": 3,
+          "apps": 21
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 74,
+    "birthCountry": "Netherlands",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2012-13 Golden Boot winner",
+      "facts": [
+        "United title striker",
+        "Netherlands captain"
+      ],
+      "origin": "Signed from Arsenal"
+    }
+  },
+  {
+    "id": "epl-edin-dzeko",
+    "sport": "epl",
+    "name": "Edin Dzeko",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 16,
+          "assists": 4,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 76,
+    "birthCountry": "Bosnia",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City striker",
+      "facts": [
+        "Bosnia captain"
+      ],
+      "origin": "Signed from Wolfsburg"
+    }
+  },
+  {
+    "id": "epl-wilfried-bony",
+    "sport": "epl",
+    "name": "Wilfried Bony",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Swansea City",
+        "stats": {
+          "goals": 17,
+          "assists": 4,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "Ivory Coast",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Swansea City",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Swansea striker",
+      "facts": [
+        "Ivory Coast international"
+      ],
+      "origin": "Signed from Vitesse"
+    }
+  },
+  {
+    "id": "epl-samuel-etoo",
+    "sport": "epl",
+    "name": "Samuel Eto'o",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 9,
+          "assists": 4,
+          "apps": 21
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 71,
+    "birthCountry": "Cameroon",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      29
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea striker",
+      "facts": [
+        "Four-time African Footballer of the Year"
+      ],
+      "origin": "Signed from Anzhi"
+    }
+  },
+  {
+    "id": "epl-loic-remy",
+    "sport": "epl",
+    "name": "Loic Remy",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Newcastle United",
+        "stats": {
+          "goals": 14,
+          "assists": 3,
+          "apps": 26
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "France",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      18
+    ],
+    "teamHistory": [
+      {
+        "team": "Newcastle United",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Newcastle striker",
+      "facts": [
+        "France international"
+      ],
+      "origin": "Signed from Queens Park Rangers"
+    }
+  },
+  {
+    "id": "epl-emmanuel-adebayor",
+    "sport": "epl",
+    "name": "Emmanuel Adebayor",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Tottenham Hotspur",
+        "stats": {
+          "goals": 11,
+          "assists": 4,
+          "apps": 21
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 75,
+    "birthCountry": "Togo",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Tottenham Hotspur",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Tottenham and City striker",
+      "facts": [
+        "Togo captain"
+      ],
+      "origin": "Signed from Manchester City"
+    }
+  },
+  {
+    "id": "epl-christian-benteke",
+    "sport": "epl",
+    "name": "Christian Benteke",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Aston Villa",
+        "stats": {
+          "goals": 10,
+          "assists": 2,
+          "apps": 26
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 75,
+    "birthCountry": "Belgium",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "Aston Villa",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Aston Villa striker",
+      "facts": [
+        "Belgium international"
+      ],
+      "origin": "Signed from Genk"
+    }
+  },
+  {
+    "id": "epl-alvaro-negredo",
+    "sport": "epl",
+    "name": "Alvaro Negredo",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Manchester City",
+        "stats": {
+          "goals": 9,
+          "assists": 3,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      9
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City striker",
+      "facts": [
+        "Spain international",
+        "Title winner"
+      ],
+      "origin": "Signed from Sevilla"
+    }
+  },
+  {
+    "id": "epl-oscar",
+    "sport": "epl",
+    "name": "Oscar",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 8,
+          "assists": 4,
+          "apps": 33
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 70,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      8
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Chelsea midfielder",
+      "facts": [
+        "Brazil international"
+      ],
+      "origin": "Signed from Internacional"
+    }
+  },
+  {
+    "id": "epl-lukas-podolski",
+    "sport": "epl",
+    "name": "Lukas Podolski",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Arsenal",
+        "stats": {
+          "goals": 8,
+          "assists": 3,
+          "apps": 20
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "Germany",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      10
+    ],
+    "teamHistory": [
+      {
+        "team": "Arsenal",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup winner",
+      "facts": [
+        "Arsenal winger"
+      ],
+      "origin": "Signed from Cologne"
+    }
+  },
+  {
+    "id": "epl-andre-schurrle",
+    "sport": "epl",
+    "name": "Andre Schurrle",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Chelsea",
+        "stats": {
+          "goals": 8,
+          "assists": 2,
+          "apps": 30
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 72,
+    "birthCountry": "Germany",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      14
+    ],
+    "teamHistory": [
+      {
+        "team": "Chelsea",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "World Cup winner",
+      "facts": [
+        "Chelsea winger"
+      ],
+      "origin": "Signed from Bayer Leverkusen"
+    }
+  },
+  {
+    "id": "epl-peter-crouch",
+    "sport": "epl",
+    "name": "Peter Crouch",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Stoke City",
+        "stats": {
+          "goals": 7,
+          "assists": 5,
+          "apps": 34
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 79,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      25
+    ],
+    "teamHistory": [
+      {
+        "team": "Stoke City",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Stoke target man",
+      "facts": [
+        "England international",
+        "6-foot-7 forward"
+      ],
+      "origin": "Signed from Tottenham Hotspur"
+    }
+  },
+  {
+    "id": "epl-charlie-adam",
+    "sport": "epl",
+    "name": "Charlie Adam",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Stoke City",
+        "stats": {
+          "goals": 8,
+          "assists": 4,
+          "apps": 31
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 73,
+    "birthCountry": "Scotland",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      26
+    ],
+    "teamHistory": [
+      {
+        "team": "Stoke City",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Stoke midfielder",
+      "facts": [
+        "Scotland international"
+      ],
+      "origin": "Signed from Liverpool"
+    }
+  },
+  {
+    "id": "epl-adam-johnson",
+    "sport": "epl",
+    "name": "Adam Johnson",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Sunderland",
+        "stats": {
+          "goals": 8,
+          "assists": 6,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 71,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Sunderland",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Sunderland winger",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Signed from Manchester City"
+    }
+  },
+  {
+    "id": "epl-kevin-mirallas",
+    "sport": "epl",
+    "name": "Kevin Mirallas",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Everton",
+        "stats": {
+          "goals": 9,
+          "assists": 7,
+          "apps": 32
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 71,
+    "birthCountry": "Belgium",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      11
+    ],
+    "teamHistory": [
+      {
+        "team": "Everton",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Everton winger",
+      "facts": [
+        "Belgium international"
+      ],
+      "origin": "Signed from Olympiacos"
+    }
+  },
+  {
+    "id": "epl-adam-lallana",
+    "sport": "epl",
+    "name": "Adam Lallana",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Southampton",
+        "stats": {
+          "goals": 9,
+          "assists": 7,
+          "apps": 38
+        }
+      }
+    ],
+    "position": "MF",
+    "heightInches": 69,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      20
+    ],
+    "teamHistory": [
+      {
+        "team": "Southampton",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "Southampton captain",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-danny-welbeck",
+    "sport": "epl",
+    "name": "Danny Welbeck",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2013-14",
+        "team": "Manchester United",
+        "stats": {
+          "goals": 9,
+          "assists": 2,
+          "apps": 25
+        }
+      }
+    ],
+    "position": "FW",
+    "heightInches": 73,
+    "birthCountry": "England",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      19
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2013-14"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "United and Arsenal forward",
+      "facts": [
+        "England international"
+      ],
+      "origin": "Academy graduate"
+    }
+  },
+  {
+    "id": "epl-alisson",
+    "sport": "epl",
+    "name": "Alisson Becker",
+    "aliases": [
+      "Alisson"
+    ],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Liverpool",
+        "stats": {
+          "cleanSheets": 21,
+          "saves": 76,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2021-22",
+        "team": "Liverpool",
+        "stats": {
+          "cleanSheets": 20,
+          "saves": 75,
+          "apps": 36
+        }
+      }
+    ],
+    "position": "GK",
+    "heightInches": 75,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      13
+    ],
+    "teamHistory": [
+      {
+        "team": "Liverpool",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2018-19 Golden Glove",
+      "facts": [
+        "21 clean sheets in 38 games",
+        "Liverpool champion"
+      ],
+      "origin": "Signed from Roma"
+    }
+  },
+  {
+    "id": "epl-ederson",
+    "sport": "epl",
+    "name": "Ederson",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2018-19",
+        "team": "Manchester City",
+        "stats": {
+          "cleanSheets": 20,
+          "saves": 58,
+          "apps": 38
+        }
+      },
+      {
+        "year": "2021-22",
+        "team": "Manchester City",
+        "stats": {
+          "cleanSheets": 20,
+          "saves": 60,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "GK",
+    "heightInches": 74,
+    "birthCountry": "Brazil",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      31
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester City",
+        "years": [
+          "2018-19"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "City goalkeeper",
+      "facts": [
+        "Premier League champion",
+        "Sweeper keeper"
+      ],
+      "origin": "Signed from Benfica"
+    }
+  },
+  {
+    "id": "epl-david-de-gea",
+    "sport": "epl",
+    "name": "David de Gea",
+    "aliases": [],
+    "verified": false,
+    "seasons": [
+      {
+        "year": "2017-18",
+        "team": "Manchester United",
+        "stats": {
+          "cleanSheets": 18,
+          "saves": 115,
+          "apps": 37
+        }
+      }
+    ],
+    "position": "GK",
+    "heightInches": 76,
+    "birthCountry": "Spain",
+    "college": null,
+    "draftYear": null,
+    "draftPick": null,
+    "jerseyNumbers": [
+      1
+    ],
+    "teamHistory": [
+      {
+        "team": "Manchester United",
+        "years": [
+          "2017-18"
+        ]
+      }
+    ],
+    "extra": {
+      "headline": "2017-18 Golden Glove",
+      "facts": [
+        "18 clean sheets",
+        "United shot-stopper"
+      ],
+      "origin": "Signed from Atletico Madrid"
+    }
+  }
+]

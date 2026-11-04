@@ -14,7 +14,8 @@ import {
   type StoredPlay,
 } from "@/lib/local-game";
 import type { StreakState } from "@/lib/streaks";
-import type { PublicPuzzle, PublicSport, PublicSponsor, Reveal, RosterEntry } from "@/sports/types";
+import type { PublicSponsor } from "@/lib/sponsors";
+import type { PublicPuzzle, PublicSport, Reveal, RosterEntry } from "@/sports/types";
 
 interface GuessResponse {
   status: "playing" | "won" | "lost";
@@ -40,7 +41,6 @@ export interface GameScreenProps {
   isPro: boolean;
   signedIn: boolean;
   initialStreak: StreakState;
-  launchDate: string;
   defaultSportId: string;
   nextSport: PublicSport | null;
   shareHost: string;
@@ -81,8 +81,9 @@ function CountUp({ value, display }: { value: number; display: string }) {
     frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
   }, [decimals, reduced, value]);
+  const done = reduced || Math.abs(shown - value) < 0.05;
   const text = decimals > 0 ? shown.toFixed(decimals) : String(Math.round(shown));
-  return <span className="tabular">{display.startsWith("+") && shown > 0 ? `+${text}` : text}</span>;
+  return <span className="tabular">{done ? display : text}</span>;
 }
 
 export function GameScreen(props: GameScreenProps) {
@@ -114,6 +115,10 @@ export function GameScreen(props: GameScreenProps) {
     const local = localStreak(props.sport.id);
     if (!props.signedIn) setStreak(local);
     if (saved) applyPlay(saved, false);
+    if (props.sports.length > 1) {
+      const solved = props.sports.filter((sport) => readStoredPlay(sport.id, props.puzzle.puzzleNumber)?.status === "won").length;
+      setSweep({ emojis: props.sports.map((sport) => sport.emoji), solved, total: props.sports.length });
+    }
     setHydrated(true);
     if (saved && saved.status === "playing" && saved.guesses.length > 0) {
       void postGuesses(saved.guesses, saved.token, true);
@@ -233,9 +238,15 @@ export function GameScreen(props: GameScreenProps) {
           <p className="text-xs uppercase tracking-[0.22em] text-[var(--muted)]">
             {props.sport.emoji} {props.sport.shortName}
           </p>
-          <h1 className="font-display text-4xl font-semibold leading-none sm:text-5xl">
-            BOXED <span className="text-[var(--accent)]">#{props.puzzle.puzzleNumber}</span>
-          </h1>
+          {props.variant === "hero" ? (
+            <p className="font-display text-4xl font-semibold leading-none sm:text-5xl">
+              BOXED <span className="text-[var(--accent)]">#{props.puzzle.puzzleNumber}</span>
+            </p>
+          ) : (
+            <h1 className="font-display text-4xl font-semibold leading-none sm:text-5xl">
+              BOXED <span className="text-[var(--accent)]">#{props.puzzle.puzzleNumber}</span>
+            </h1>
+          )}
         </div>
         <p className="text-right text-sm text-[var(--muted)]">
           <span className="block font-display text-2xl text-[var(--text)] tabular">{streak.current}</span>
@@ -304,14 +315,15 @@ export function GameScreen(props: GameScreenProps) {
 
       <ul className="mt-4 space-y-2" aria-label="Guesses">
         {guesses.map((guess, index) => (
-          <li
-            key={`${guess}-${index}`}
-            className={`rounded-2xl border px-4 py-3 ${results[index] ? "border-[var(--ok)] text-[var(--ok)]" : "border-[var(--bad)]/70"} ${
-              index === guesses.length - 1 && shake > 0 && results[index] === false ? "shake" : ""
-            }`}
-            key-shake={shake}
-          >
-            {guess}
+          <li key={`${guess}-${index}`}>
+            <div
+              key={index === guesses.length - 1 ? shake : 0}
+              className={`rounded-2xl border px-4 py-3 ${results[index] ? "border-[var(--ok)] text-[var(--ok)]" : "border-[var(--bad)]/70"} ${
+                index === guesses.length - 1 && shake > 0 && results[index] === false ? "shake" : ""
+              }`}
+            >
+              {guess}
+            </div>
           </li>
         ))}
       </ul>
