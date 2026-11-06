@@ -263,7 +263,7 @@ export function Board(props: {
         sports: props.filterIds,
         puzzleNumber: props.puzzle.puzzleNumber,
         guesses: nextGuesses,
-        token,
+        ...(token ? { token } : {}),
         anonId: readAnonId(),
       }),
     });
@@ -358,8 +358,8 @@ export function Board(props: {
       )}
 
       {props.showFilter && (
-        <div className="mb-3 flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Sports">
-          <button type="button" aria-pressed={allOn} onClick={selectAll} className={`shrink-0 rounded-full px-3 py-1.5 text-sm ${allOn ? "bg-white text-[#0A0A0F]" : "border border-white/15"}`}>
+        <div className="sport-scroll mb-3 flex gap-1.5 overflow-x-auto pb-1" role="group" aria-label="Sports">
+          <button type="button" aria-pressed={allOn} onClick={selectAll} className={`shrink-0 rounded-full px-2.5 py-1 text-xs ${allOn ? "bg-white text-[#0A0A0F]" : "border border-white/15"}`}>
             All
           </button>
           {props.sports.map((sport) => {
@@ -370,7 +370,7 @@ export function Board(props: {
                 type="button"
                 aria-pressed={on}
                 onClick={() => toggleSport(sport.id)}
-                className={`shrink-0 rounded-full px-3 py-1.5 text-sm ${on ? "bg-white text-[#0A0A0F]" : "border border-white/15"}`}
+                className={`shrink-0 rounded-full px-2.5 py-1 text-xs ${on ? "bg-white text-[#0A0A0F]" : "border border-white/15"}`}
               >
                 {sport.emoji} {sport.shortName}
               </button>
@@ -389,13 +389,13 @@ export function Board(props: {
         </p>
       </div>
 
-      <article className="ticket px-5 py-4" aria-label={`${props.sport.name} season ticket`}>
+      <article className="ticket px-6 py-4" aria-label={`${props.sport.name} season ticket`}>
         <div className="flex items-center justify-between text-sm">
           <span className="font-display text-xl tracking-wide">{props.puzzle.seasonYear}</span>
           <span className="rounded-full border border-white/15 px-2 py-1 text-xs">{props.sport.emoji} {props.sport.shortName}</span>
         </div>
         <div className="ticket-perf my-3" />
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid gap-2" style={{ gridTemplateColumns: `repeat(${Math.max(props.puzzle.chips.length, 1)}, minmax(0, 1fr))` }}>
           {props.puzzle.chips.map((chip) => (
             <div key={chip.label} className="min-w-0 text-center">
               <p className="truncate font-display text-2xl leading-none tabular">{chip.display}</p>
@@ -428,7 +428,7 @@ export function Board(props: {
               ) : (
                 <div className={`grid grid-cols-6 gap-1 ${waiting ? "opacity-100" : "opacity-50"}`} aria-hidden="true">
                   {props.puzzle.columns.map((column) => (
-                    <div key={column.id} className="aspect-square rounded-md border border-white/15" />
+                    <div key={column.id} className="aspect-square rounded-md border border-white/25" />
                   ))}
                 </div>
               )}

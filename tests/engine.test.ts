@@ -3,7 +3,7 @@ import { archiveAccess } from "@/lib/archive";
 import { fuzzySearch, namesMatch } from "@/lib/fuzzy";
 import { assessGuessList } from "@/lib/guess-policy";
 import { orderPool, poolVersion } from "@/lib/puzzle";
-import { buildShareText, buildSweepLine, isLegalPattern } from "@/lib/share";
+import { buildShareGrid, buildShareText, buildSweepLine, isGridPattern, isLegalPattern } from "@/lib/share";
 import { scoreGame } from "@/lib/scoring";
 import { pickSponsor, type SponsorRecord } from "@/lib/sponsors";
 import { nextStreak } from "@/lib/streaks";
@@ -61,6 +61,29 @@ describe("share text", () => {
 
   it("builds the daily sweep line", () => {
     expect(buildSweepLine(["🏀", "🏈", "⚾"], 3, 3)).toBe("BOXED Sweep 🏀🏈⚾ 3/3 today");
+  });
+
+  it("builds a wordle grid and keeps arrows out of the share text", () => {
+    const text = buildShareGrid({
+      puzzleNumber: 309,
+      emoji: "🏀",
+      modeLabel: "NBA",
+      rows: [
+        ["miss", "close", "miss", "miss", "close", "miss"],
+        ["close", "exact", "miss", "close", "close", "miss"],
+        ["exact", "exact", "miss", "close", "exact", "close"],
+        ["exact", "exact", "exact", "exact", "exact", "exact"],
+      ],
+      solved: true,
+      streak: 12,
+      host: "boxed.app",
+    });
+    expect(text).toBe(
+      "BOXED #309 🏀 NBA 4/6\n⬛🟨⬛⬛🟨⬛\n🟨🟩⬛🟨🟨⬛\n🟩🟩⬛🟨🟩🟨\n🟩🟩🟩🟩🟩🟩\n🔥 12-day streak · boxed.app",
+    );
+    expect(text).not.toContain("▲");
+    expect(isGridPattern("BBBYYB-YGBYYB-GGBYGY-GGGGGG")).toBe(true);
+    expect(isGridPattern("GGGGGG-BBBBBB")).toBe(false);
   });
 
   it("accepts a legal result pattern", () => {

@@ -20,7 +20,7 @@ const bodySchema = z.object({
   sports: z.array(z.string().min(2).max(12)).min(1).max(8).optional(),
   puzzleNumber: z.number().int().positive().max(100_000),
   guesses: z.array(z.string().trim().min(2).max(80)).min(1).max(6),
-  token: z.string().max(128).optional(),
+  token: z.string().max(128).nullish(),
   anonId: z.string().uuid().optional(),
 });
 

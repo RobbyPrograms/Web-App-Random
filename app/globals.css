@@ -56,18 +56,33 @@ summary:focus-visible {
 
 .ticket {
   position: relative;
-  border-radius: 28px;
+  overflow: visible;
+  border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 30%),
     var(--panel);
   box-shadow: 0 0 80px -28px var(--accent);
-  -webkit-mask:
-    radial-gradient(circle 12px at left 62%, transparent 11px, #000 12px) left center / 51% 100% no-repeat,
-    radial-gradient(circle 12px at right 62%, transparent 11px, #000 12px) right center / 51% 100% no-repeat;
-  mask:
-    radial-gradient(circle 12px at left 62%, transparent 11px, #000 12px) left center / 51% 100% no-repeat,
-    radial-gradient(circle 12px at right 62%, transparent 11px, #000 12px) right center / 51% 100% no-repeat;
+}
+
+.ticket::before,
+.ticket::after {
+  content: "";
+  position: absolute;
+  top: 46px;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #0a0a0f;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+.ticket::before { left: -9px; }
+.ticket::after { right: -9px; }
+
+.sport-scroll {
+  mask-image: linear-gradient(to right, #000 92%, transparent);
 }
 
 .ticket-perf {

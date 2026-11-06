@@ -9,8 +9,15 @@ afterEach(() => {
 });
 
 describe("getEnabledSports", () => {
-  it("defaults to nba when the variable is unset", () => {
+  it("defaults to every registered sport", () => {
     delete process.env.ENABLED_SPORTS;
+    expect(getEnabledSports().map((sport) => sport.id)).toEqual(["nba", "wnba", "nfl", "mlb", "nhl", "epl"]);
+  });
+
+  it("treats all as every sport and nba as a single-sport deploy", () => {
+    process.env.ENABLED_SPORTS = "all";
+    expect(getEnabledSports()).toHaveLength(6);
+    process.env.ENABLED_SPORTS = "nba";
     expect(getEnabledSports().map((sport) => sport.id)).toEqual(["nba"]);
   });
 
