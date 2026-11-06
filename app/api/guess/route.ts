@@ -4,7 +4,7 @@ import { archiveAccess } from "@/lib/archive";
 import { puzzleNumberFor } from "@/lib/dates";
 import { signGuesses } from "@/lib/game-token";
 import { assessGuessList } from "@/lib/guess-policy";
-import { buildPuzzle, evaluateRound } from "@/lib/puzzle";
+import { buildModePuzzle, evaluateBoard, hintsFor, modeKey } from "@/lib/puzzle";
 import { bumpStreak, readActorGuesses, savePlay, sweepProgress } from "@/lib/plays-store";
 import { rateLimit } from "@/lib/rate-limit";
 import { requireVerified, launchDate } from "@/lib/site";
@@ -17,6 +17,7 @@ export const runtime = "nodejs";
 
 const bodySchema = z.object({
   sport: z.string().min(2).max(12),
+  sports: z.array(z.string().min(2).max(12)).min(1).max(8).optional(),
   puzzleNumber: z.number().int().positive().max(100_000),
   guesses: z.array(z.string().trim().min(2).max(80)).min(1).max(6),
   token: z.string().max(128).optional(),
@@ -42,12 +43,9 @@ export async function POST(request: Request) {
   }
 
   const who = await viewer();
-  const access = archiveAccess(parsed.data.puzzleNumber, puzzleNumberFor(launchDate()), who.isPro);
+  const access = archiveAccess(parsed.data.puzzleNumber, puzzleNumberFor(launchDate()));
   if (access === "future") {
     return NextResponse.json({ error: "That puzzle hasn't started." }, { status: 403 });
-  }
-  if (access === "locked") {
-    return NextResponse.json({ error: "The archive is a Pro perk. The last 3 days are free." }, { status: 403 });
   }
 
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";
@@ -56,51 +54,66 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Too many guesses. Give it a minute." }, { status: 429 });
   }
 
+  const requested = (parsed.data.sports ?? [sport.id]).map((id) => id.toLowerCase());
+  const filter = enabled.filter((item) => requested.includes(item.id));
+  if (filter.length === 0) {
+    return NextResponse.json({ error: "That sport isn't on the board." }, { status: 404 });
+  }
+  const key = modeKey(filter.map((item) => item.id));
+
   let built;
   try {
-    built = buildPuzzle(sport, parsed.data.puzzleNumber, requireVerified());
+    built = buildModePuzzle(filter, parsed.data.puzzleNumber, requireVerified());
   } catch (error) {
     const message = error instanceof Error ? error.message : "Puzzle unavailable.";
     return NextResponse.json({ error: message }, { status: 409 });
+  }
+  if (built.sport.id !== sport.id) {
+    return NextResponse.json({ error: "That puzzle doesn't match this sport." }, { status: 409 });
   }
 
   const stored = await readActorGuesses(
     actorKey,
     who.userId,
     parsed.data.anonId ?? null,
-    sport.id,
+    key,
     parsed.data.puzzleNumber,
   );
   const decision = assessGuessList({
     stored: stored?.guesses ?? null,
     incoming: parsed.data.guesses,
     token: parsed.data.token ?? null,
-    sportId: sport.id,
+    sportId: key,
     puzzleNumber: parsed.data.puzzleNumber,
   });
   if (!decision.ok) {
     return NextResponse.json({ error: decision.error }, { status: decision.status });
   }
 
-  const round = evaluateRound(built, parsed.data.guesses);
+  const round = evaluateBoard(built, parsed.data.guesses);
+  if (round.unknown) {
+    return NextResponse.json({ error: "Not in the list.", code: "unknown" }, { status: 400 });
+  }
   const kept = round.results.map((result) => result.guess);
   const finished = round.status !== "playing";
   await savePlay(actorKey, {
     userId: who.userId,
     anonId: parsed.data.anonId ?? null,
-    sportId: sport.id,
+    sportId: built.sport.id,
+    modeKey: key,
     puzzleNumber: parsed.data.puzzleNumber,
     guesses: kept,
     solved: round.solved,
-    score: round.score,
+    score: round.solved ? round.guessesUsed : 0,
     finished,
   });
 
   let streak: { current: number; best: number } | null = null;
   let sweep: { solved: number; total: number; current: number } | null = null;
   if (finished && who.userId && !stored?.solved && createAdminSupabase()) {
-    const next = await bumpStreak(who.userId, sport.id, parsed.data.puzzleNumber, round.solved);
+    const next = await bumpStreak(who.userId, "daily", parsed.data.puzzleNumber, true);
     streak = { current: next.current, best: next.best };
+    await bumpStreak(who.userId, key, parsed.data.puzzleNumber, round.solved);
     if (round.solved) {
       const progress = await sweepProgress(
         who.userId,
@@ -111,19 +124,15 @@ export async function POST(request: Request) {
     }
   }
 
-  const clues = sport.clueLadder.slice(0, round.clues.length).map((clue, index) => ({
-    label: clue.label,
-    text: round.clues[index] ?? "",
-  }));
-
   return NextResponse.json({
     status: round.status,
-    score: round.score,
+    score: round.guessesUsed,
     guessesUsed: round.guessesUsed,
     solved: round.solved,
     results: round.results,
-    clues,
-    token: signGuesses(sport.id, parsed.data.puzzleNumber, kept),
+    rows: round.rows,
+    hints: hintsFor(built, kept.length),
+    token: signGuesses(key, parsed.data.puzzleNumber, kept),
     reveal: round.reveal ?? null,
     streak,
     sweep,

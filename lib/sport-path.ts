@@ -1,9 +1,8 @@
 import type { PublicSport } from "@/sports/types";
 
-export function playPath(sportId: string, sports: readonly { id: string }[], defaultId: string): string {
-  if (sports.length < 2) return "/play";
-  if (sportId === defaultId) return "/play";
-  return `/play/${sportId}`;
+export function playPath(sportId: string, sports: readonly { id: string }[], _defaultId?: string): string {
+  if (sports.length < 2) return "/";
+  return `/?sports=${encodeURIComponent(sportId)}`;
 }
 
 export function embedPath(sportId: string, defaultId: string): string {

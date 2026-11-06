@@ -26,7 +26,7 @@ export default async function EmbedSportPage({
   const accent = query.accent && /^#[0-9a-fA-F]{6}$/.test(query.accent) ? query.accent : known.accentColor;
   return (
     <div style={{ ["--accent" as string]: accent }}>
-      <PlayExperience sportId={known.id} isPro={who.isPro} signedIn={Boolean(who.userId)} initialStreak={streak} variant="embed" />
+      <PlayExperience sportId={known.id} signedIn={Boolean(who.userId)} initialStreak={streak} variant="embed" />
       <p className="mt-4 text-center text-xs text-[var(--muted)]">
         <Link href={playPath(known.id, enabled, defaultSportId(enabled.map((sport) => sport.id)))}>Play on BOXED</Link>
       </p>

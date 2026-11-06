@@ -63,6 +63,30 @@ export interface ClueDefinition {
   extract: (player: PuzzleAthlete) => string;
 }
 
+export type TileStatus = "exact" | "close" | "miss";
+export type TileDirection = "higher" | "lower";
+
+export interface CompareResult {
+  status: TileStatus;
+  /** Set on numeric columns. The arrow describes the answer, not the guess. */
+  direction?: TileDirection;
+}
+
+/**
+ * One comparison column on the guess board.
+ * `getValue` and `format` describe the guessed athlete only.
+ * `compare` may read the answer, but that result is status and direction, never the answer's value.
+ */
+export interface ColumnDef {
+  id: string;
+  label: string;
+  shortLabel: string;
+  type: "category" | "numeric";
+  getValue: (athlete: Athlete, seasonYear: string) => string | number | null;
+  compare: (guess: Athlete, answer: Athlete, answerSeason: Season) => CompareResult;
+  format: (value: string | number | null) => string;
+}
+
 export interface HeightRange {
   min: number;
   max: number;
@@ -85,8 +109,10 @@ export interface SportConfig {
    * Each profile supplies its own fields and a `matches` selector.
    */
   statProfiles: StatProfile[];
-  /** Exactly six ordered clues. */
+  /** Exactly six ordered clues. Kept for archive copy; the board uses `columns`. */
   clueLadder: ClueDefinition[];
+  /** At most six comparison columns. Order is the tile order. */
+  columns: ColumnDef[];
   /** Inclusive plausible height range, in inches. */
   heightRange: HeightRange;
   /** Stat keys that are allowed to be negative (for example plus-minus). */
@@ -122,11 +148,22 @@ export interface PublicPuzzle {
   statLine: string;
   chips: PublicStatChip[];
   maxGuesses: number;
+  modeKey: string;
+  modeLabel: string;
+  columns: PublicColumn[];
 }
 
 export interface RosterEntry {
   name: string;
   aliases: string[];
+  team: string;
+  position: string;
+}
+
+export interface PublicColumn {
+  id: string;
+  label: string;
+  shortLabel: string;
 }
 
 export interface Reveal {

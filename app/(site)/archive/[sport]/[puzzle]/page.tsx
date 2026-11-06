@@ -16,7 +16,6 @@ export default async function ArchivePuzzlePage({ params }: { params: Promise<{ 
       <PlayExperience
         sportId={sport}
         puzzleNumber={puzzleNumber}
-        isPro={who.isPro}
         signedIn={Boolean(who.userId)}
         initialStreak={streak}
         variant="full"

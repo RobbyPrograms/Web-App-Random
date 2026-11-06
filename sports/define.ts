@@ -1,6 +1,6 @@
 import type { ZodType } from "zod";
 import { createSportSchema } from "./schema";
-import type { Athlete, ClueDefinition, SportConfig, StatField, StatProfile } from "./types";
+import type { Athlete, ClueDefinition, ColumnDef, SportConfig, StatField, StatProfile } from "./types";
 
 export interface DefineSportInput {
   id: string;
@@ -11,6 +11,7 @@ export interface DefineSportInput {
   statFields: StatField[];
   statProfiles?: StatProfile[];
   clueLadder: ClueDefinition[];
+  columns: ColumnDef[];
   heightRange: { min: number; max: number };
   signedStatKeys?: string[];
   ranges: Record<string, { min: number; max: number }>;
@@ -36,6 +37,7 @@ export function defineSport(input: DefineSportInput): SportConfig {
     statFields: input.statFields,
     statProfiles: profiles,
     clueLadder: input.clueLadder,
+    columns: input.columns.slice(0, 6),
     heightRange: input.heightRange,
     signedStatKeys: input.signedStatKeys ?? [],
     schema,

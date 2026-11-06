@@ -1,6 +1,7 @@
 import type { Athlete } from "@/sports/types";
 import raw from "@/data/nfl-players.json";
 import { defaultClueLadder } from "../clues";
+import { footballColumns } from "../compare";
 import { defineSport, integer, oneDecimal } from "../define";
 
 const players = raw as unknown as Athlete[];
@@ -42,6 +43,7 @@ export const nfl = defineSport({
     },
   ],
   clueLadder: defaultClueLadder(),
+  columns: footballColumns(),
   heightRange: { min: 66, max: 82 },
   ranges: {
     passYds: { min: 0, max: 6000 },

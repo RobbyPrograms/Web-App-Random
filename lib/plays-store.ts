@@ -11,6 +11,7 @@ interface PlayWrite {
   userId: string | null;
   anonId: string | null;
   sportId: string;
+  modeKey: string;
   puzzleNumber: number;
   guesses: string[];
   solved: boolean;
@@ -36,7 +37,7 @@ export async function readActorGuesses(
   if (!admin || (!userId && !anonId)) {
     return memory ? { guesses: memory, solved: false } : null;
   }
-  let query = admin.from("plays").select("guesses, solved").eq("sport", sportId).eq("puzzle_number", puzzleNumber);
+  let query = admin.from("plays").select("guesses, solved").eq("mode_key", sportId).eq("puzzle_number", puzzleNumber);
   query = userId ? query.eq("user_id", userId) : query.eq("anon_id", anonId);
   const { data } = await query.maybeSingle();
   if (!data) return memory ? { guesses: memory, solved: false } : null;
@@ -46,17 +47,18 @@ export async function readActorGuesses(
 
 export async function savePlay(actorKey: string, play: PlayWrite): Promise<void> {
   const { writeMemoryGuesses, memoryPlayKey } = await import("@/lib/memory-plays");
-  writeMemoryGuesses(memoryPlayKey(actorKey, play.sportId, play.puzzleNumber), play.guesses);
+  writeMemoryGuesses(memoryPlayKey(actorKey, play.modeKey, play.puzzleNumber), play.guesses);
   const admin = createAdminSupabase();
   if (!admin || (!play.userId && !play.anonId)) return;
 
-  let query = admin.from("plays").select("id").eq("sport", play.sportId).eq("puzzle_number", play.puzzleNumber);
+  let query = admin.from("plays").select("id").eq("mode_key", play.modeKey).eq("puzzle_number", play.puzzleNumber);
   query = play.userId ? query.eq("user_id", play.userId) : query.eq("anon_id", play.anonId);
   const { data: existing } = await query.maybeSingle();
   const row = {
     user_id: play.userId,
     anon_id: play.userId ? null : play.anonId,
     sport: play.sportId,
+    mode_key: play.modeKey,
     puzzle_number: play.puzzleNumber,
     guesses: play.guesses,
     solved: play.solved,

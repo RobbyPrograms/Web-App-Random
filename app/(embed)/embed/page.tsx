@@ -16,7 +16,7 @@ export default async function EmbedPage({ searchParams }: { searchParams: Promis
   const streak = await readStreak(who.userId, activeId);
   return (
     <div style={{ ["--accent" as string]: accent }}>
-      <PlayExperience sportId={activeId} isPro={who.isPro} signedIn={Boolean(who.userId)} initialStreak={streak} variant="embed" />
+      <PlayExperience sportId={activeId} signedIn={Boolean(who.userId)} initialStreak={streak} variant="embed" />
       <p className="mt-4 text-center text-xs text-[var(--muted)]">
         <Link href="/play">Play on BOXED</Link>
       </p>

@@ -1,6 +1,7 @@
 import type { Athlete } from "@/sports/types";
 import raw from "@/data/nhl-players.json";
 import { defaultClueLadder } from "../clues";
+import { hockeyColumns } from "../compare";
 import { defineSport, era, integer, savePct, signed } from "../define";
 
 const players = raw as unknown as Athlete[];
@@ -31,6 +32,7 @@ export const nhl = defineSport({
     { id: "skater", label: "Skater", statFields: skater, matches: (player) => player.position !== "G" },
   ],
   clueLadder: defaultClueLadder(),
+  columns: hockeyColumns(),
   heightRange: { min: 66, max: 84 },
   signedStatKeys: ["plusMinus"],
   ranges: {

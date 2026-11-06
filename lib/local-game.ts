@@ -10,6 +10,19 @@ const ANON_KEY = "boxed-anon-id";
 const SOUND_KEY = "boxed-sound";
 const STREAK_KEY = "boxed-streaks";
 
+export interface StoredTile {
+  id: string;
+  label: string;
+  display: string;
+  status: "exact" | "close" | "miss";
+  direction?: "higher" | "lower";
+}
+
+export interface StoredRow {
+  name: string;
+  tiles: StoredTile[];
+}
+
 export interface StoredPlay {
   guesses: string[];
   results: boolean[];
@@ -18,6 +31,9 @@ export interface StoredPlay {
   status: "playing" | "won" | "lost";
   score: number;
   reveal: Reveal | null;
+  rows?: StoredRow[];
+  hints?: { team: string | null; letters: string | null };
+  puzzleSport?: string;
 }
 
 export function playStorageKey(sportId: string, puzzleNumber: number): string {
@@ -34,8 +50,57 @@ export function readAnonId(): string {
   return id;
 }
 
+const PREF_HAPTICS = "boxed-haptics";
+const PREF_CONTRAST = "boxed-contrast";
+const PREF_MOTION = "boxed-motion";
+const PREF_HELP = "boxed-help-seen";
+const PREF_SPORTS = "boxed-sports";
+
 export function soundEnabled(): boolean {
   return storage()?.getItem(SOUND_KEY) === "on";
+}
+
+export function hapticsEnabled(): boolean {
+  return storage()?.getItem(PREF_HAPTICS) === "on";
+}
+
+export function setHapticsEnabled(on: boolean): void {
+  storage()?.setItem(PREF_HAPTICS, on ? "on" : "off");
+}
+
+export function contrastMode(): "default" | "high" {
+  return storage()?.getItem(PREF_CONTRAST) === "high" ? "high" : "default";
+}
+
+export function setContrastMode(mode: "default" | "high"): void {
+  storage()?.setItem(PREF_CONTRAST, mode);
+}
+
+export function motionOverride(): "system" | "reduce" {
+  return storage()?.getItem(PREF_MOTION) === "reduce" ? "reduce" : "system";
+}
+
+export function setMotionOverride(mode: "system" | "reduce"): void {
+  storage()?.setItem(PREF_MOTION, mode);
+}
+
+export function helpSeen(): boolean {
+  return storage()?.getItem(PREF_HELP) === "1";
+}
+
+export function markHelpSeen(): void {
+  storage()?.setItem(PREF_HELP, "1");
+}
+
+export function readSportFilter(): string[] {
+  const raw = storage()?.getItem(PREF_SPORTS);
+  if (!raw) return [];
+  return raw.split(",").map((id) => id.trim().toLowerCase()).filter((id) => id.length > 0);
+}
+
+export function writeSportFilter(ids: readonly string[]): void {
+  storage()?.setItem(PREF_SPORTS, ids.join(","));
+  document.cookie = `boxed-sports=${encodeURIComponent(ids.join(","))}; path=/; max-age=31536000; samesite=lax`;
 }
 
 export function setSoundEnabled(on: boolean): void {

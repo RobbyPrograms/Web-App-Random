@@ -8,13 +8,16 @@ function readEnv(name: "ENABLED_SPORTS" | "DEFAULT_SPORT"): string | undefined {
   return process.env["DEFAULT_SPORT"] || process.env.DEFAULT_SPORT;
 }
 
+const REGISTERED_IDS = ["nba", "wnba", "nfl", "mlb", "nhl", "epl"];
+
 function enabledIds(): string[] {
   const raw = readEnv("ENABLED_SPORTS");
-  const value = raw == null || raw.trim() === "" ? "nba" : raw;
+  const value = raw == null || raw.trim() === "" || raw.trim().toLowerCase() === "all" ? "all" : raw;
+  if (value === "all") return [...REGISTERED_IDS];
   const ids: string[] = [];
   for (const part of value.split(",")) {
     const id = part.trim().toLowerCase();
-    if (id && !ids.includes(id)) ids.push(id);
+    if (id && REGISTERED_IDS.includes(id) && !ids.includes(id)) ids.push(id);
   }
   return ids.length > 0 ? ids : ["nba"];
 }
@@ -45,6 +48,17 @@ function friendlyMissing(): NextResponse {
 
 export async function middleware(request: NextRequest) {
   const session = await updateSession(request);
+  const vanity = request.nextUrl.pathname.match(/^\/(nba|wnba|nfl|mlb|nhl|epl)$/);
+  if (vanity) {
+    const sport = vanity[1] ?? "";
+    const enabled = enabledIds();
+    if (!enabled.includes(sport)) return withSessionCookies(session, friendlyMissing());
+    const url = request.nextUrl.clone();
+    url.pathname = "/";
+    url.searchParams.set("sports", sport);
+    return withSessionCookies(session, NextResponse.redirect(url));
+  }
+
   const match = request.nextUrl.pathname.match(SPORT_PATH);
   if (!match) return session;
 

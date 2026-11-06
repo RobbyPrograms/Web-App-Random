@@ -11,9 +11,9 @@ export default async function LeaguesPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
       <h1 className="font-display text-5xl">Leagues</h1>
-      <p className="mt-2 text-[var(--muted)]">Private boards by invite code. Pro creates them. Anyone with an account can join.</p>
+      <p className="mt-2 text-[var(--muted)]">Private boards by invite code. Sign in to create one or join with a code.</p>
       <div className="mt-6">
-        <LeaguesBoard sports={sports} isPro={who.isPro} signedIn={Boolean(who.userId)} />
+        <LeaguesBoard sports={sports} signedIn={Boolean(who.userId)} />
       </div>
     </div>
   );

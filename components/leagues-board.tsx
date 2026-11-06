@@ -12,7 +12,7 @@ interface LeagueCard {
   owner_id: string;
 }
 
-export function LeaguesBoard(props: { sports: PublicSport[]; isPro: boolean; signedIn: boolean }) {
+export function LeaguesBoard(props: { sports: PublicSport[]; signedIn: boolean }) {
   const router = useRouter();
   const [leagues, setLeagues] = useState<LeagueCard[]>([]);
   const [name, setName] = useState("");
@@ -64,7 +64,7 @@ export function LeaguesBoard(props: { sports: PublicSport[]; isPro: boolean; sig
 
   return (
     <div className="space-y-8">
-      {!props.signedIn && <p className="text-[var(--muted)]">Sign in to join a league. Creating one is a Pro perk.</p>}
+      {!props.signedIn && <p className="text-[var(--muted)]">Sign in to create a league or join one.</p>}
       <section className="rounded-3xl border border-white/10 p-5">
         <h2 className="font-display text-3xl">Join</h2>
         <form className="mt-3 flex flex-col gap-2 sm:flex-row" onSubmit={(event) => { event.preventDefault(); void joinLeague(); }}>
@@ -74,7 +74,7 @@ export function LeaguesBoard(props: { sports: PublicSport[]; isPro: boolean; sig
       </section>
       <section className="rounded-3xl border border-white/10 p-5">
         <h2 className="font-display text-3xl">Create</h2>
-        {props.isPro ? (
+        {props.signedIn ? (
           <form className="mt-3 space-y-3" onSubmit={(event) => { event.preventDefault(); void createLeague(); }}>
             <input value={name} onChange={(event) => setName(event.target.value)} placeholder="League name" aria-label="League name" className="w-full rounded-full border border-white/15 bg-transparent px-4 py-3 text-base" />
             <div className="flex flex-wrap gap-2">
@@ -96,7 +96,7 @@ export function LeaguesBoard(props: { sports: PublicSport[]; isPro: boolean; sig
             <button type="submit" className="press rounded-full bg-[var(--accent)] px-4 py-3 font-semibold text-[#0A0A0F]">Create league</button>
           </form>
         ) : (
-          <p className="mt-2 text-[var(--muted)]">Pro members create leagues. Everyone else can join with a code.</p>
+          <p className="mt-2 text-[var(--muted)]">Sign in to name a league and pick the sports on its board.</p>
         )}
       </section>
       {error && <p className="text-sm text-[var(--bad)]" role="alert">{error}</p>}

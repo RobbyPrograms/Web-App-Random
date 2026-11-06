@@ -1,6 +1,6 @@
 import "server-only";
 import type { SportConfig } from "@/sports/types";
-import type { Athlete, PublicPuzzle, PuzzleAthlete, Reveal, Season, StatProfile } from "@/sports/types";
+import type { Athlete, PublicColumn, PublicPuzzle, PuzzleAthlete, Reveal, Season, StatProfile, TileStatus } from "@/sports/types";
 import { hashString, seededShuffle } from "./hash";
 import { namesMatch } from "./fuzzy";
 import { scoreGame, type ScoreResult } from "./scoring";
@@ -98,7 +98,7 @@ export function renderPuzzle(puzzle: BuiltPuzzle): { statLine: string; chips: Pu
   return { statLine, chips };
 }
 
-export function toPublicPuzzle(puzzle: BuiltPuzzle): PublicPuzzle {
+export function toPublicPuzzle(puzzle: BuiltPuzzle, mode?: { key: string; label: string }): PublicPuzzle {
   const rendered = renderPuzzle(puzzle);
   return {
     sportId: puzzle.sport.id,
@@ -107,6 +107,9 @@ export function toPublicPuzzle(puzzle: BuiltPuzzle): PublicPuzzle {
     statLine: rendered.statLine,
     chips: rendered.chips,
     maxGuesses: 6,
+    modeKey: mode?.key ?? puzzle.sport.id,
+    modeLabel: mode?.label ?? puzzle.sport.shortName,
+    columns: publicColumns(puzzle.sport),
   };
 }
 
@@ -162,8 +165,116 @@ export function evaluateRound(puzzle: BuiltPuzzle, guesses: readonly string[]): 
   return { ...round, reveal: buildReveal(puzzle.athlete, puzzle.sport.name) };
 }
 
-export function alphabeticalRoster(sport: SportConfig): { name: string; aliases: string[] }[] {
+export function alphabeticalRoster(sport: SportConfig): { name: string; aliases: string[]; team: string; position: string }[] {
   return sport.players
-    .map((player) => ({ name: player.name, aliases: [...player.aliases] }))
+    .map((player) => ({
+      name: player.name,
+      aliases: [...player.aliases],
+      team: player.seasons.at(-1)?.team ?? "",
+      position: player.position,
+    }))
     .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export function modeKey(sportIds: readonly string[]): string {
+  return [...sportIds]
+    .map((id) => id.trim().toLowerCase())
+    .filter((id) => id.length > 0)
+    .sort()
+    .join(",");
+}
+
+export function orderModePool(sports: readonly SportConfig[], requireVerified: boolean): { sport: SportConfig; athlete: Athlete }[] {
+  const entries: { sport: SportConfig; athlete: Athlete }[] = [];
+  for (const sport of sports) {
+    for (const athlete of activePool(sport, requireVerified)) entries.push({ sport, athlete });
+  }
+  const version = poolVersion(entries.map((entry) => ({ id: entry.athlete.id })));
+  return seededShuffle(entries, `${modeKey(sports.map((sport) => sport.id))}:${version}`);
+}
+
+/** Same filter and puzzle number always resolve to the same athlete. The pool walks without repeats until it wraps. */
+export function buildModePuzzle(sports: readonly SportConfig[], puzzleNumber: number, requireVerified = false): BuiltPuzzle {
+  const pool = orderModePool(sports, requireVerified);
+  if (pool.length === 0) {
+    throw new Error("Puzzle pool is empty");
+  }
+  const pick = pool[(puzzleNumber - 1) % pool.length];
+  if (!pick) throw new Error("Puzzle index missing");
+  const version = poolVersion(pool.map((entry) => ({ id: entry.athlete.id })));
+  const seed = `${modeKey(sports.map((sport) => sport.id))}:${version}`;
+  return {
+    sport: pick.sport,
+    puzzleNumber,
+    athlete: pick.athlete,
+    season: selectSeason(pick.athlete, seed),
+    profile: selectProfile(pick.sport, pick.athlete, seed),
+    poolVersion: version,
+  };
+}
+
+export function findByName(sport: SportConfig, guess: string): Athlete | undefined {
+  return sport.players.find((player) => [player.name, ...player.aliases].some((label) => namesMatch(guess, label)));
+}
+
+export interface PublicTile {
+  id: string;
+  label: string;
+  display: string;
+  status: TileStatus;
+  direction?: "higher" | "lower";
+}
+
+export interface GuessRow {
+  name: string;
+  correct: boolean;
+  tiles: PublicTile[];
+}
+
+export function compareGuess(puzzle: BuiltPuzzle, player: Athlete): GuessRow {
+  const tiles = puzzle.sport.columns.map((column) => {
+    const value = column.getValue(player, puzzle.season.year);
+    const result = column.compare(player, puzzle.athlete, puzzle.season);
+    return {
+      id: column.id,
+      label: column.label,
+      display: column.format(value),
+      status: result.status,
+      ...(result.direction ? { direction: result.direction } : {}),
+    };
+  });
+  return { name: player.name, correct: player.id === puzzle.athlete.id, tiles };
+}
+
+export function lastNameHint(name: string): string {
+  const cleaned = name.replace(/\b(Jr\.?|Sr\.?|II|III|IV|V)\b/gi, "").trim();
+  const parts = cleaned.split(/\s+/).filter((part) => part.length > 0);
+  const first = parts[0] ?? "";
+  const last = parts.at(-1) ?? "";
+  return `${first.slice(0, 1).toUpperCase()} · ${last.length}`;
+}
+
+export function hintsFor(puzzle: BuiltPuzzle, guessCount: number): { team: string | null; letters: string | null } {
+  return {
+    team: guessCount >= 4 ? puzzle.season.team : null,
+    letters: guessCount >= 5 ? lastNameHint(puzzle.athlete.name) : null,
+  };
+}
+
+export function publicColumns(sport: SportConfig): PublicColumn[] {
+  return sport.columns.map((column) => ({ id: column.id, label: column.label, shortLabel: column.shortLabel }));
+}
+
+export function evaluateBoard(puzzle: BuiltPuzzle, guesses: readonly string[]): { rows: GuessRow[]; unknown: string | null } & RoundResult {
+  const rows: GuessRow[] = [];
+  for (const guess of guesses) {
+    const player = findByName(puzzle.sport, guess);
+    if (!player) return { rows, unknown: guess, results: [], clues: [], status: "playing", score: 6, guessesUsed: 0, solved: false };
+    rows.push(compareGuess(puzzle, player));
+    if (player.id === puzzle.athlete.id || rows.length >= 6) break;
+  }
+  const scored = scoreGame(rows.map((row) => ({ correct: row.correct })));
+  const round: RoundResult = { ...scored, results: rows.map((row) => ({ guess: row.name, correct: row.correct })), clues: [] };
+  if (scored.status === "playing") return { ...round, rows, unknown: null };
+  return { ...round, rows, unknown: null, reveal: buildReveal(puzzle.athlete, puzzle.sport.name) };
 }

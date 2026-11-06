@@ -12,9 +12,11 @@ export default async function SiteLayout({ children }: { children: React.ReactNo
   const who = await viewer();
   return (
     <div style={{ ["--accent" as string]: accent }}>
-      <SiteHeader sports={sports} email={who.email} isPro={who.isPro} />
+      <SiteHeader sports={sports} email={who.email} />
       <main id="content">{children}</main>
-      <SiteFooter />
+      <div className="mx-auto w-full max-w-[520px]">
+        <SiteFooter />
+      </div>
     </div>
   );
 }

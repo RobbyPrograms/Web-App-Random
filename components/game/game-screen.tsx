@@ -38,7 +38,6 @@ export interface GameScreenProps {
   roster: RosterEntry[];
   clueLabels: string[];
   sponsor: PublicSponsor | null;
-  isPro: boolean;
   signedIn: boolean;
   initialStreak: StreakState;
   defaultSportId: string;
@@ -309,10 +308,6 @@ export function GameScreen(props: GameScreenProps) {
           {props.sponsor.tagline ? ` · ${props.sponsor.tagline}` : ""}
         </p>
       )}
-      {props.isPro && props.variant === "full" && (
-        <p className="mt-3 text-xs uppercase tracking-[0.16em] text-[#FACC15]">Pro · no sponsor slot</p>
-      )}
-
       <div className="mt-5 flex items-end justify-between gap-3">
         <p className="text-sm text-[var(--muted)]">
           {finished

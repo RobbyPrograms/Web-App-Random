@@ -46,6 +46,38 @@ export function resultPattern(results: readonly boolean[], solved: boolean, maxG
   return squares.replaceAll("🟥", "R").replaceAll("🟩", "G").replaceAll("⬜", "W");
 }
 
+const TILE_EMOJI = { exact: "🟩", close: "🟨", miss: "⬛" } as const;
+
+/** Wordle-style grid. Arrows stay in the UI and never appear here. */
+export function buildShareGrid(input: {
+  puzzleNumber: number;
+  emoji: string;
+  modeLabel: string;
+  rows: readonly (readonly ("exact" | "close" | "miss")[])[];
+  solved: boolean;
+  streak: number;
+  host?: string;
+}): string {
+  const host = (input.host ?? "boxed.app").replace(/^https?:\/\//, "").replace(/\/$/, "");
+  const mark = input.solved ? `${input.rows.length}/6` : "X/6";
+  const grid = input.rows.map((row) => row.map((status) => TILE_EMOJI[status]).join("")).join("\n");
+  return `BOXED #${input.puzzleNumber} ${input.emoji} ${input.modeLabel} ${mark}\n${grid}\n🔥 ${input.streak}-day streak · ${host}`;
+}
+
+export function gridPattern(rows: readonly (readonly ("exact" | "close" | "miss")[])[]): string {
+  const letter = { exact: "G", close: "Y", miss: "B" } as const;
+  return rows.map((row) => row.map((status) => letter[status]).join("")).join("-");
+}
+
+export function isGridPattern(pattern: string): boolean {
+  const rows = pattern.toUpperCase().split("-").filter((row) => row.length > 0);
+  if (rows.length < 1 || rows.length > 6) return false;
+  if (!rows.every((row) => /^[GYB]{6}$/.test(row))) return false;
+  const win = rows.findIndex((row) => row === "GGGGGG");
+  if (win === -1) return rows.length === 6;
+  return win === rows.length - 1;
+}
+
 export function isLegalPattern(pattern: string, maxGuesses = 6): boolean {
   if (!new RegExp(`^[RGW]{${maxGuesses}}$`).test(pattern)) return false;
   const green = pattern.indexOf("G");

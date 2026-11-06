@@ -7,7 +7,6 @@ import { buildShareText, buildSweepLine, isLegalPattern } from "@/lib/share";
 import { scoreGame } from "@/lib/scoring";
 import { pickSponsor, type SponsorRecord } from "@/lib/sponsors";
 import { nextStreak } from "@/lib/streaks";
-import { proUpdateFromStripeEvent } from "@/lib/stripe-sync";
 import type { Athlete } from "@/sports/types";
 
 const ORIGINAL = process.env.ENABLED_SPORTS;
@@ -96,7 +95,7 @@ describe("puzzle pool", () => {
   });
 });
 
-describe("streaks, archive, sponsors, stripe", () => {
+describe("streaks, archive, and sponsors", () => {
   it("extends a streak only across consecutive puzzles", () => {
     const won = nextStreak({ current: 2, best: 4, lastPlayedPuzzle: 9 }, 10, true);
     expect(won.current).toBe(3);
@@ -107,12 +106,11 @@ describe("streaks, archive, sponsors, stripe", () => {
     expect(nextStreak(loss, 13, true)).toEqual(loss);
   });
 
-  it("locks the archive after the free window", () => {
-    expect(archiveAccess(10, 10, false)).toBe("ok");
-    expect(archiveAccess(8, 10, false)).toBe("ok");
-    expect(archiveAccess(7, 10, false)).toBe("locked");
-    expect(archiveAccess(1, 10, true)).toBe("ok");
-    expect(archiveAccess(11, 10, true)).toBe("future");
+  it("opens every past puzzle and keeps the future closed", () => {
+    expect(archiveAccess(10, 10)).toBe("ok");
+    expect(archiveAccess(1, 10)).toBe("ok");
+    expect(archiveAccess(11, 10)).toBe("future");
+    expect(archiveAccess(0, 10)).toBe("future");
   });
 
   it("picks the most specific active sponsor", () => {
@@ -123,27 +121,6 @@ describe("streaks, archive, sponsors, stripe", () => {
     ];
     expect(pickSponsor(sponsors, "nba", 4)?.name).toBe("Night");
     expect(pickSponsor(sponsors, "nfl", 4)?.name).toBe("Global");
-  });
-
-  it("maps Stripe subscription events onto Pro", () => {
-    expect(
-      proUpdateFromStripeEvent({
-        type: "checkout.session.completed",
-        data: { object: { mode: "subscription", customer: "cus_123", client_reference_id: "user-1" } },
-      }),
-    ).toEqual({ customerId: "cus_123", isPro: true, userId: "user-1" });
-    expect(
-      proUpdateFromStripeEvent({
-        type: "customer.subscription.deleted",
-        data: { object: { customer: "cus_123", status: "canceled" } },
-      })?.isPro,
-    ).toBe(false);
-    expect(
-      proUpdateFromStripeEvent({
-        type: "customer.subscription.updated",
-        data: { object: { customer: "cus_123", status: "trialing" } },
-      })?.isPro,
-    ).toBe(true);
   });
 
   it("rejects a guess list that skips ahead", () => {

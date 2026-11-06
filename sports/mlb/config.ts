@@ -1,6 +1,7 @@
 import type { Athlete } from "@/sports/types";
 import raw from "@/data/mlb-players.json";
 import { defaultClueLadder } from "../clues";
+import { baseballColumns } from "../compare";
 import { battingAverage, defineSport, era, integer } from "../define";
 
 const players = raw as unknown as Athlete[];
@@ -33,6 +34,7 @@ export const mlb = defineSport({
     { id: "hitter", label: "Hitter", statFields: hitter, matches: (player) => !isPitcher(player.position) },
   ],
   clueLadder: defaultClueLadder(),
+  columns: baseballColumns(),
   heightRange: { min: 66, max: 84 },
   ranges: {
     avg: { min: 0.15, max: 0.45 },

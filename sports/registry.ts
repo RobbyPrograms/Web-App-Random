@@ -26,7 +26,7 @@ export function getSportById(id: string): SportConfig | undefined {
 }
 
 /**
- * Reads ENABLED_SPORTS (comma-separated). Unset or blank defaults to nba.
+ * Reads ENABLED_SPORTS. Unset, blank, or `all` enables every registered sport.
  * Unknown ids are ignored with a console warning. Order follows the env string.
  */
 function envValue(name: string): string | undefined {
@@ -35,7 +35,8 @@ function envValue(name: string): string | undefined {
 
 export function getEnabledSports(): SportConfig[] {
   const raw = envValue("ENABLED_SPORTS");
-  const value = raw == null || raw.trim() === "" ? "nba" : raw;
+  const value = raw == null || raw.trim() === "" || raw.trim().toLowerCase() === "all" ? "all" : raw;
+  if (value === "all") return [...REGISTERED];
   const ids = value
     .split(",")
     .map((part) => part.trim().toLowerCase())

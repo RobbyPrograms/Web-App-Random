@@ -1,6 +1,7 @@
 import type { Athlete } from "@/sports/types";
 import raw from "@/data/wnba-players.json";
 import { defaultClueLadder } from "../clues";
+import { basketballColumns } from "../compare";
 import { defineSport, oneDecimal } from "../define";
 
 const players = raw as unknown as Athlete[];
@@ -18,6 +19,7 @@ export const wnba = defineSport({
     { key: "fg", label: "FG%", format: oneDecimal },
   ],
   clueLadder: defaultClueLadder(),
+  columns: basketballColumns(),
   heightRange: { min: 64, max: 90 },
   ranges: {
     ppg: { min: 0, max: 40 },

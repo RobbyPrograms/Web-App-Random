@@ -56,33 +56,18 @@ summary:focus-visible {
 
 .ticket {
   position: relative;
-  overflow: hidden;
   border-radius: 28px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 30%),
     var(--panel);
   box-shadow: 0 0 80px -28px var(--accent);
-}
-
-.ticket::before,
-.ticket::after {
-  content: "";
-  position: absolute;
-  top: 58%;
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  background: var(--bg);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.ticket::before {
-  left: -11px;
-}
-
-.ticket::after {
-  right: -11px;
+  -webkit-mask:
+    radial-gradient(circle 12px at left 62%, transparent 11px, #000 12px) left center / 51% 100% no-repeat,
+    radial-gradient(circle 12px at right 62%, transparent 11px, #000 12px) right center / 51% 100% no-repeat;
+  mask:
+    radial-gradient(circle 12px at left 62%, transparent 11px, #000 12px) left center / 51% 100% no-repeat,
+    radial-gradient(circle 12px at right 62%, transparent 11px, #000 12px) right center / 51% 100% no-repeat;
 }
 
 .ticket-perf {
@@ -125,6 +110,68 @@ summary:focus-visible {
 
 .press:active {
   transform: scale(0.97);
+}
+
+.tile {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #f4f4f5;
+  background: #2a2a33;
+}
+
+.tile-exact { background: #22c55e; color: #052e16; }
+.tile-close { background: #eab308; color: #1c1400; }
+.tile-miss { background: #2a2a33; color: #f4f4f5; }
+
+html[data-contrast="high"] .tile-exact {
+  background: #2563eb;
+  color: #eff6ff;
+  background-image: radial-gradient(circle at 50% 78%, transparent 34%, rgba(255, 255, 255, 0.45) 35%, rgba(255, 255, 255, 0.45) 44%, transparent 45%);
+}
+
+html[data-contrast="high"] .tile-close {
+  background: #ea580c;
+  color: #fff7ed;
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 3px, rgba(0, 0, 0, 0.22) 3px, rgba(0, 0, 0, 0.22) 4px);
+}
+
+.tile-flip {
+  animation: tile-flip 250ms ease-in-out both;
+  transform-origin: center;
+}
+
+.tile-fade {
+  animation: tile-fade 150ms ease both;
+}
+
+.win-bounce {
+  animation: win-bounce 420ms ease;
+}
+
+.guess-dock {
+  bottom: var(--kb, 0px);
+}
+
+@keyframes tile-flip {
+  0% { transform: rotateX(0); }
+  49% { transform: rotateX(-90deg); }
+  51% { transform: rotateX(-90deg); }
+  100% { transform: rotateX(0); }
+}
+
+@keyframes tile-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes win-bounce {
+  0%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-6px); }
+}
+
+html[data-motion="reduce"] .tile-flip,
+html[data-motion="reduce"] .win-bounce,
+html[data-motion="reduce"] .shake {
+  animation: tile-fade 150ms ease both;
 }
 
 @media (prefers-reduced-motion: reduce) {

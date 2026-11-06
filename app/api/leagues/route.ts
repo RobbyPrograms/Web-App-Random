@@ -30,7 +30,6 @@ export async function GET() {
 export async function POST(request: Request) {
   const who = await viewer();
   if (!who.userId) return NextResponse.json({ error: "Sign in first." }, { status: 401 });
-  if (!who.isPro) return NextResponse.json({ error: "Creating a league is a Pro perk. Joining is free." }, { status: 403 });
   const parsed = bodySchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "Name the league and pick at least one sport." }, { status: 400 });
   const enabled = new Set(getEnabledSports().map((sport) => sport.id));

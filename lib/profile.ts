@@ -3,8 +3,6 @@ import type { SupabaseClient, User } from "@supabase/supabase-js";
 export interface ProfileRow {
   id: string;
   username: string | null;
-  is_pro: boolean;
-  stripe_customer_id: string | null;
   created_at: string;
 }
 
@@ -30,7 +28,7 @@ export function isAdminConfigured(): boolean {
 export async function readProfile(client: SupabaseClient, userId: string): Promise<ProfileRow | null> {
   const { data, error } = await client
     .from("profiles")
-    .select("id, username, is_pro, stripe_customer_id, created_at")
+    .select("id, username, created_at")
     .eq("id", userId)
     .maybeSingle();
   if (error || !data) return null;

@@ -1,6 +1,7 @@
 import type { Athlete } from "@/sports/types";
 import raw from "@/data/epl-players.json";
 import { defaultClueLadder, nationalityClue, originClue } from "../clues";
+import { soccerColumns } from "../compare";
 import { defineSport, integer } from "../define";
 
 const players = raw as unknown as Athlete[];
@@ -32,6 +33,7 @@ export const epl = defineSport({
     draft: { label: "Path to the league", extract: originClue },
     background: { label: "Nationality", extract: nationalityClue },
   }),
+  columns: soccerColumns(),
   heightRange: { min: 64, max: 84 },
   ranges: {
     goals: { min: 0, max: 45 },

@@ -1,7 +1,7 @@
 import "server-only";
 import { archiveAccess } from "@/lib/archive";
 import { puzzleNumberFor } from "@/lib/dates";
-import { alphabeticalRoster, buildPuzzle, toPublicPuzzle } from "@/lib/puzzle";
+import { alphabeticalRoster, buildModePuzzle, toPublicPuzzle } from "@/lib/puzzle";
 import { createAdminSupabase } from "@/lib/supabase/admin";
 import { pickSponsor, type PublicSponsor, type SponsorRecord } from "@/lib/sponsors";
 import { defaultSportId, launchDate, requireVerified } from "@/lib/site";
@@ -14,7 +14,6 @@ export type PlayLoad =
   | { kind: "disabled" }
   | { kind: "empty"; sport: PublicSport; message: string }
   | { kind: "future"; sport: PublicSport; puzzleNumber: number }
-  | { kind: "locked"; sport: PublicSport; puzzleNumber: number }
   | {
       kind: "ready";
       sport: PublicSport;
@@ -28,8 +27,7 @@ export type PlayLoad =
       launchDate: string;
     };
 
-async function sponsorFor(sportId: string, puzzleNumber: number, isPro: boolean): Promise<PublicSponsor | null> {
-  if (isPro) return null;
+async function sponsorFor(sportId: string, puzzleNumber: number): Promise<PublicSponsor | null> {
   const admin = createAdminSupabase();
   if (!admin) return null;
   const { data, error } = await admin
@@ -53,7 +51,6 @@ async function sponsorFor(sportId: string, puzzleNumber: number, isPro: boolean)
 export async function loadPlay(options: {
   sportId?: string | null;
   puzzleNumber?: number | null;
-  isPro: boolean;
 }): Promise<PlayLoad> {
   const enabled = getEnabledSports();
   const sports = enabled.map(toPublicSport);
@@ -65,14 +62,13 @@ export async function loadPlay(options: {
 
   const today = puzzleNumberFor(launchDate());
   const puzzleNumber = options.puzzleNumber ?? today;
-  const access = archiveAccess(puzzleNumber, today, options.isPro);
+  const access = archiveAccess(puzzleNumber, today);
   const sport = toPublicSport(known);
   if (access === "future") return { kind: "future", sport, puzzleNumber };
-  if (access === "locked") return { kind: "locked", sport, puzzleNumber };
 
   try {
-    const built = buildPuzzle(known, puzzleNumber, requireVerified());
-    const puzzle = toPublicPuzzle(built);
+    const built = buildModePuzzle([known], puzzleNumber, requireVerified());
+    const puzzle = toPublicPuzzle(built, { key: known.id, label: known.shortName });
     return {
       kind: "ready",
       sport,
@@ -80,7 +76,7 @@ export async function loadPlay(options: {
       puzzle,
       roster: alphabeticalRoster(known),
       clueLabels: known.clueLadder.map((clue) => clue.label),
-      sponsor: await sponsorFor(known.id, puzzleNumber, options.isPro),
+      sponsor: await sponsorFor(known.id, puzzleNumber),
       nextSport: nextEnabledSport(known.id, sports),
       defaultSportId: fallback,
       launchDate: launchDate(),
