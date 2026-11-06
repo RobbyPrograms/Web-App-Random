@@ -62,6 +62,30 @@ function tone(kind: "wrong" | "win") {
   window.setTimeout(() => void context.close(), 400);
 }
 
+function HintLine({ clue }: { clue: { label: string; text: string } }) {
+  const letters = clue.label.toLowerCase() === "initials" ? clue.text.match(/[A-Za-z]/g) : null;
+  if (letters && letters.length > 1) {
+    return (
+      <p className="mt-2 flex gap-1" aria-label={`${clue.label}: ${clue.text}`}>
+        {letters.map((letter, index) => (
+          <span
+            key={`${letter}-${index}`}
+            className="grid h-8 w-8 place-items-center rounded-md border border-white/15 bg-[#0A0A0F] font-display text-lg"
+          >
+            {letter.toUpperCase()}
+          </span>
+        ))}
+      </p>
+    );
+  }
+  return (
+    <p className="mt-1 text-sm text-[var(--text)]">
+      <span className="sr-only">{clue.label}. </span>
+      {clue.text}
+    </p>
+  );
+}
+
 function CountUp({ value, display }: { value: number; display: string }) {
   const reduced = useReducedMotion();
   const decimals = display.includes(".") ? (display.split(".")[1]?.length ?? 0) : 0;
@@ -289,44 +313,63 @@ export function GameScreen(props: GameScreenProps) {
         <p className="mt-3 text-xs uppercase tracking-[0.16em] text-[#FACC15]">Pro · no sponsor slot</p>
       )}
 
-      <ol className="mt-5 grid gap-2" aria-label="Clues">
-        {props.clueLabels.map((label, index) => {
-          const clue = clues[index];
+      <div className="mt-5 flex items-end justify-between gap-3">
+        <p className="text-sm text-[var(--muted)]">
+          {finished
+            ? status === "won"
+              ? "That's the player."
+              : "Six guesses used."
+            : "Six guesses. A miss opens one hint."}
+        </p>
+        <p className="text-xs uppercase tracking-[0.16em] text-[var(--muted)]">
+          {Math.max(props.puzzle.maxGuesses - guesses.length, 0)} left
+        </p>
+      </div>
+      <div className="mt-3 flex gap-1.5" aria-hidden="true">
+        {Array.from({ length: props.puzzle.maxGuesses }, (_, index) => {
+          const result = results[index];
+          const pip = result === true ? "bg-[var(--ok)]" : result === false ? "bg-[var(--bad)]" : "bg-white/10";
+          return <span key={index} className={`h-2 flex-1 rounded-full ${pip}`} />;
+        })}
+      </div>
+      <ol className="mt-3 grid gap-2" aria-label="Guesses">
+        {Array.from({ length: props.puzzle.maxGuesses }, (_, index) => {
+          const guess = guesses[index];
+          const correct = results[index] === true;
+          const clue = guess && !correct ? clues[index] : undefined;
+          const waiting = !guess && index === guesses.length && !finished;
+          const missed = Boolean(guess) && !correct;
+          const shaking = index === guesses.length - 1 && shake > 0 && missed;
           return (
-            <li key={label} className="min-h-14 [perspective:800px]">
-              {clue ? (
-                <motion.div
-                  initial={reduced ? false : { rotateX: -80, opacity: 0 }}
-                  animate={{ rotateX: 0, opacity: 1 }}
-                  className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3"
-                >
-                  <p className="text-[10px] uppercase tracking-[0.16em] text-[var(--muted)]">{clue.label}</p>
-                  <p className="font-display text-xl">{clue.text}</p>
-                </motion.div>
-              ) : (
-                <div className="rounded-2xl border border-dashed border-white/10 px-4 py-3 text-sm text-[var(--muted)]">
-                  Clue {index + 1} · {label}
+            <li key={index} className="[perspective:800px]">
+              <motion.div
+                key={guess ?? `open-${index}`}
+                initial={guess && !reduced ? { rotateX: -70, opacity: 0 } : false}
+                animate={{ rotateX: 0, opacity: 1 }}
+                className={`min-h-14 rounded-2xl border px-4 py-3 [transform-style:preserve-3d] ${
+                  correct
+                    ? "border-[var(--ok)] bg-[var(--ok)]/10"
+                    : missed
+                      ? "border-[var(--bad)]/70 bg-white/5"
+                      : waiting
+                        ? "border-[var(--accent)] bg-[var(--accent)]/5"
+                        : "border-dashed border-white/10"
+                } ${shaking ? "shake" : ""}`}
+              >
+                <div className="flex items-baseline gap-3">
+                  <span className="w-4 font-display text-lg text-[var(--muted)] tabular">{index + 1}</span>
+                  <div className="min-w-0 flex-1">
+                    <p className={guess ? "truncate font-display text-xl" : "text-sm text-[var(--muted)]"}>
+                      {guess ?? (waiting ? "Your turn" : "—")}
+                    </p>
+                    {clue ? <HintLine clue={clue} /> : null}
+                  </div>
                 </div>
-              )}
+              </motion.div>
             </li>
           );
         })}
       </ol>
-
-      <ul className="mt-4 space-y-2" aria-label="Guesses">
-        {guesses.map((guess, index) => (
-          <li key={`${guess}-${index}`}>
-            <div
-              key={index === guesses.length - 1 ? shake : 0}
-              className={`rounded-2xl border px-4 py-3 ${results[index] ? "border-[var(--ok)] text-[var(--ok)]" : "border-[var(--bad)]/70"} ${
-                index === guesses.length - 1 && shake > 0 && results[index] === false ? "shake" : ""
-              }`}
-            >
-              {guess}
-            </div>
-          </li>
-        ))}
-      </ul>
 
       <div className="sticky bottom-0 z-20 mt-4 border-t border-white/10 bg-[#0A0A0F]/90 py-3 backdrop-blur md:static md:border-0 md:bg-transparent">
         <form
@@ -401,7 +444,9 @@ export function GameScreen(props: GameScreenProps) {
             {error}
           </p>
         )}
-        <p className="mt-2 text-xs text-[var(--muted)]">{Math.max(props.puzzle.maxGuesses - guesses.length, 0)} guesses left</p>
+        <p className="sr-only" aria-live="polite">
+          {Math.max(props.puzzle.maxGuesses - guesses.length, 0)} guesses left
+        </p>
       </div>
 
       {finished && (

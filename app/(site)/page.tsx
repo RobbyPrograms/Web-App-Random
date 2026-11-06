@@ -72,7 +72,7 @@ export default async function HomePage() {
       <section id="how" className="mx-auto grid max-w-6xl gap-4 px-4 py-8 md:grid-cols-3">
         {[
           ["01", "Read the ticket", "A season, four numbers, no name. The line is the same for every player of that sport."],
-          ["02", "Spend six guesses", "Each miss flips the next clue. Score is the guesses you have left, from 6 down to 0."],
+          ["02", "Spend six guesses", "Each miss fills the next row and opens one hint. You never see a hint before you earn it."],
           ["03", "Share the grid", "A spoiler-free result, a streak, and tomorrow's countdown. No account required."],
         ].map(([step, title, copy]) => (
           <article key={step} className="rounded-3xl border border-white/10 bg-white/5 p-5">
