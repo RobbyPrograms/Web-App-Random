@@ -417,7 +417,8 @@ export function Board(props: {
         ))}
       </div>
 
-      <div className="mt-1 space-y-2" aria-label="Guesses">
+      <section className="mt-1 space-y-2" aria-labelledby="guess-board-label">
+        <h2 id="guess-board-label" className="sr-only">Guesses</h2>
         {Array.from({ length: 6 }, (_, index) => {
           const row = rows[index];
           const waiting = !row && index === rows.length && !finished;
@@ -428,14 +429,14 @@ export function Board(props: {
               ) : (
                 <div className={`grid grid-cols-6 gap-1 ${waiting ? "opacity-100" : "opacity-50"}`} aria-hidden="true">
                   {props.puzzle.columns.map((column) => (
-                    <div key={column.id} className="aspect-square rounded-md border border-white/25" />
+                    <div key={column.id} className="mx-auto aspect-square w-full max-w-[54px] rounded-md border border-white/25" />
                   ))}
                 </div>
               )}
             </div>
           );
         })}
-      </div>
+      </section>
       <span className="sr-only">Row {activeIndex + 1} of 6</span>
 
       <p className="mt-3 text-center text-xs text-[var(--muted)]">
@@ -581,9 +582,9 @@ function GuessRowView(props: { row: StoredRow; animate: boolean; reduced: boolea
           <button
             key={`${tile.id}-${props.flipKey}`}
             type="button"
-            className={`tile tile-${tile.status} relative aspect-square min-w-0 rounded-md px-0.5 text-[13px] font-semibold leading-tight ${props.animate && !props.reduced ? "tile-flip" : ""} ${props.animate && props.reduced ? "tile-fade" : ""}`}
+            className={`tile tile-${tile.status} relative mx-auto aspect-square w-full max-w-[54px] min-w-0 rounded-md px-0.5 text-[13px] font-semibold leading-tight ${props.animate && !props.reduced ? "tile-flip" : ""} ${props.animate && props.reduced ? "tile-fade" : ""}`}
             style={{ animationDelay: props.animate ? `${index * 250}ms` : "0ms" }}
-            aria-label={describeTile(tile)}
+            aria-label={`${describeTile(tile)}. ${tile.display}`}
             onClick={() => setTip(tip === index ? null : index)}
           >
             <span className="block truncate">{tile.display}</span>
